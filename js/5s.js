@@ -2945,7 +2945,25 @@ Card.addAll([
      1380, 2040, 900, 1330, 1300, 1600,
      [Skill.fire3, Skill.wis10, Skill.slash2, Skill.fire4, Skill.sd, Skill.resistant],
      [Skill.wis10, Skill.fire4, Skill.sd],
-     [Skill.fire4, Skill.sd, Skill.resistant]]
+     [Skill.fire4, Skill.sd, Skill.resistant]],
+    ["40603", "Almighty Vouivre", "The piercing blue eyes of this draconic lady are said to be crystals of the divine spirit once swirling beneath the world.", 
+     Event.none, Border.almighty, 5, Place.coliseum, 105, "40561", Shape.female, Attribute.light,
+     1540, 1040, 1100, 1280, 1430, 1754,
+     [Skill.dwis20, Skill.light3, Skill.nervepinch, Skill.light4, Skill.ds],
+     [Skill.dwis20, Skill.nervepinch, Skill.light4],
+     [Skill.dwis20, Skill.nervepinch, Skill.light4]],
+    ["40604", "Mighty Vouivre", "The path to the mountain citadel that shelters this beauty and the treasure she guards is open but once a year.", 
+     Event.none, Border.mighty, 5, Place.coliseum, 105, "40561", Shape.female, Attribute.light,
+     1400, 1040, 1100, 1230, 1364, 1600,
+     [Skill.dwis20, Skill.light3, Skill.nervepinch, Skill.light4, Skill.ds],
+     [Skill.dwis20, Skill.nervepinch, Skill.light4],
+     [Skill.dwis20, Skill.nervepinch, Skill.light4]],
+    ["40605", "Great Vouivre", "This maiden transforms into a wyvern with breath of fire to wreak vengeance on mortals who betray her love.", 
+     Event.none, Border.great, 5, Place.coliseum, 105, "40561", Shape.female, Attribute.light,
+     1260, 1040, 1100, 1140, 1310, 1450,
+     [Skill.dwis20, Skill.light3, Skill.nervepinch, Skill.light4, Skill.ds],
+     [Skill.dwis20, Skill.nervepinch, Skill.light4],
+     [Skill.dwis20, Skill.nervepinch, Skill.light4]]
 ]);
 
 Card.addLimitedTypes({
@@ -3201,10 +3219,13 @@ Card.addNotes({
     "40595": "All data from Japanese version", // Almighty Asgard
     "40596": "All data from Japanese version", // Mighty Asgard
     "40597": "All data from Japanese version", // Great Asgard
+    "40599": "Profile missing", 
     "40600": "All data from Japanese version",
     "40601": "All data from Japanese version",
     "40602": "All data from Japanese version",
-    "40599": "Profile missing"
+    "40603": "All data from Japanese version", // Almighty Vouivre
+    "40604": "All data from Japanese version", // Mighty Vouivre
+    "40605": "All data from Japanese version" // Great Vouivre
 });
 
 ExCard.addAll([

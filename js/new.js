@@ -7,7 +7,8 @@ WhatIsNew.get = function() {
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
         '2014/8/3': [
-            "101st Coliseum Rewards: " + Card.mklnk(40595) + ", " + Card.mklnk(40596) + ", and " + Card.mklnk(40597) + "."
+            "101st Coliseum Rewards: " + Card.mklnk(40595) + ", " + Card.mklnk(40596) + ", and " + Card.mklnk(40597) + ".",
+            "102nd Coliseum Rewards: " + Card.mklnk(40603) + ", " + Card.mklnk(40604) + ", and " + Card.mklnk(40605) + "."
         ],   
         '2014/7/21': [
             "99th Coliseum Rewards: " + Card.mklnk(40589) + ", " + Card.mklnk(40590) + ", and " + Card.mklnk(40591) + ".",
