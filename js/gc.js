@@ -235,7 +235,7 @@ var Event = (function() {
         [48, ["lightdarkness"]],                // 白光極夜
         [49, ["juggernaut_hunting"]],           // 凍土の機神
         [50, ["doubled2"]],                     // Week #2 Spawn rates now doubled!
-        [51, ["desert_wind"]],                  // 砂海を彷徨う風精
+        [51, ["desert_wind"]],                  // 砂海を彷徨う風精/Sylphs in the Sand!
         [52, ["lightning_wind"]],               // 蒼雷黑風
         [53, ["dragon_sky"]],                   // 竜空を生きる者達
         [54, ["goldendawn"]],                   // Popular Guardians Gather The Goldendawn Hunt!

@@ -2963,7 +2963,19 @@ Card.addAll([
      1260, 1040, 1100, 1140, 1310, 1450,
      [Skill.dwis20, Skill.light3, Skill.nervepinch, Skill.light4, Skill.ds],
      [Skill.dwis20, Skill.nervepinch, Skill.light4],
-     [Skill.dwis20, Skill.nervepinch, Skill.light4]]
+     [Skill.dwis20, Skill.nervepinch, Skill.light4]],
+    ["40607", "Achilles", "Born of a goddess, this hero battled with ferocity unequaled in a war begun by immortals but fought by men.", 
+     Event.desert_wind, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.lightning,
+     1400, 955, 1200, 1300, 1140, 1150,
+     [Skill.lightning2, Skill.slash3, Skill.lightning3, Skill.defwis10, Skill.gs, Skill.ls],
+     [Skill.lightning3, Skill.defwis10, Skill.gs],
+     [Skill.defwis10, Skill.gs, Skill.ls]],
+    ["40608", "Whirlwind Jinn", "These beings born of smokeless flame fractured into factions of good and evil upon gaining freedom from the gods.",
+     Event.desert_wind, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
+     1365, 1230, 1250, 1180, 1320, 1610,
+     [Skill.qs, Skill.wind2, Skill.wis20, Skill.wind3, Skill.wind4, Skill.revival],
+     [Skill.qs, Skill.wis20, Skill.wind4],
+     [Skill.qs, Skill.wind4, Skill.revival]]
 ]);
 
 Card.addLimitedTypes({
@@ -3225,7 +3237,9 @@ Card.addNotes({
     "40602": "All data from Japanese version",
     "40603": "All data from Japanese version", // Almighty Vouivre
     "40604": "All data from Japanese version", // Mighty Vouivre
-    "40605": "All data from Japanese version" // Great Vouivre
+    "40605": "All data from Japanese version", // Great Vouivre
+    "40607": "All data from Japanese version", // Achilles
+    "40608": "All data from Japanese version" // Whirlwind Jinn
 });
 
 ExCard.addAll([

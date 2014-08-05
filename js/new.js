@@ -8,7 +8,8 @@ WhatIsNew.get = function() {
         ],
         '2014/8/3': [
             "101st Coliseum Rewards: " + Card.mklnk(40595) + ", " + Card.mklnk(40596) + ", and " + Card.mklnk(40597) + ".",
-            "102nd Coliseum Rewards: " + Card.mklnk(40603) + ", " + Card.mklnk(40604) + ", and " + Card.mklnk(40605) + "."
+            "102nd Coliseum Rewards: " + Card.mklnk(40603) + ", " + Card.mklnk(40604) + ", and " + Card.mklnk(40605) + ".",
+            "Sylphs in the Sand!: " + Card.mklnk(40607) + ", "+ Card.mklnk(40608) + "."
         ],   
         '2014/7/21': [
             "99th Coliseum Rewards: " + Card.mklnk(40589) + ", " + Card.mklnk(40590) + ", and " + Card.mklnk(40591) + ".",

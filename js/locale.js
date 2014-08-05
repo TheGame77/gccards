@@ -91,7 +91,7 @@ var Locale = function(l) {
                 "The Radiantshade Hunt",
                 "Forged in the Frost!",
                 "Week #2 Spawn rates now doubled!",
-                "砂海を彷徨う風精",
+                "Sylphs in the Sand!",
                 "蒼雷黑風",
                 "竜空を生きる者達",
                 "Popular Guardians Gather The Goldendawn Hunt!",
