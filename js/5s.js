@@ -2975,7 +2975,49 @@ Card.addAll([
      1365, 1230, 1250, 1180, 1320, 1610,
      [Skill.qs, Skill.wind2, Skill.wis20, Skill.wind3, Skill.wind4, Skill.revival],
      [Skill.qs, Skill.wis20, Skill.wind4],
-     [Skill.qs, Skill.wind4, Skill.revival]]
+     [Skill.qs, Skill.wind4, Skill.revival]],
+    ["40609", "Almighty Bloody Puca", "This fellest of the fay and lover of the sinistral wanders the land scattering a poison that sears the life from all flora.", 
+     Event.none, Border.almighty, 5, Place.coliseum, 106, "40468", Shape.zfemale, Attribute.poison,
+     1600, 1200, 1260, 1260, 1250, 1500,
+     [Skill.mr, Skill.datk20, Skill.def20, Skill.poison4, Skill.wis25],
+     [Skill.mr, Skill.poison4, Skill.wis25],
+     [Skill.mr, Skill.poison4, Skill.wis25]],
+    ["40610", "Mighty Bloody Puca", "This most fearsome of faerie folk's ire is appeased but by an offering of grain come harvest time in the winter isles.", 
+     Event.none, Border.mighty, 5, Place.coliseum, 106, "40468", Shape.zfemale, Attribute.poison,
+     1500, 1200, 1160, 1040, 1220, 1400,
+     [Skill.mr, Skill.datk20, Skill.def20, Skill.poison4, Skill.wis25],
+     [Skill.mr, Skill.poison4, Skill.wis25],
+     [Skill.mr, Skill.poison4, Skill.wis25]],
+    ["40611", "Great Bloody Puca", "This sprite dwells in enchanted springs on mountain peaks from whence it casts an aegis over woodland beasts.", 
+     Event.none, Border.great, 5, Place.coliseum, 106, "40468", Shape.zfemale, Attribute.poison,
+     1300, 1100, 1060, 1040, 1200, 1300,
+     [Skill.mr, Skill.datk20, Skill.def20, Skill.poison4, Skill.wis25],
+     [Skill.mr, Skill.poison4, Skill.wis25],
+     [Skill.mr, Skill.poison4, Skill.wis25]],
+     ["40612", "Cu Chulainn", "This hero wielded a spear hewn from sea monster's bone when mankind was young and walked beside myth.", 
+     Event.lightning_wind, Border.none, 5, Place.plains_night, 0, null, Shape.wolf, Attribute.lightning,
+     1445, 990, 1500, 1325, 1200, 1310,
+     [Skill.sap, Skill.slash3, Skill.lightning3, Skill.slash4, Skill.ls, Skill.bg],
+     [Skill.sap, Skill.slash4, Skill.ls],
+     [Skill.sap, Skill.ls, Skill.bg]],
+    ["40613", "Ziz", "Wings vast enough to blot out the sun, this mighty avian rules the skies as one of a trio dominating earth, sea, and air.", 
+     Event.lightning_wind, Border.none, 5, Place.plains, 0, null, Shape.bird, Attribute.wind,
+     1920, 840, 1560, 1420, 1295, 1340,
+     [Skill.dr, Skill.atk10, Skill.slash3, Skill.atkagi10, Skill.slash4, Skill.fb],
+     [Skill.dr, Skill.atkagi10, Skill.slash4],
+     [Skill.dr, Skill.atkagi10, Skill.fb]],
+    ["40626", "Tsukuyomi", "Since the dawn of man, mortals have gazed skywards seeking this god of moonlight an his waters of youth.", 
+     Event.anniversary2, Border.none, 5, Place.plains, 0, null, Shape.wolf, Attribute.water,
+     1920, 1221, 1580, 1400, 1290, 1380,
+     [Skill.qs, Skill.water3, Skill.slash3, Skill.water4, Skill.deathpredator, Skill.resistant],
+     [Skill.qs, Skill.water4, Skill.deathpredator],
+     [Skill.qs, Skill.deathpredator, Skill.resistant]],
+    ["40647", "Fellshade Valkyrie", "To slay the gods, this warrior maiden drives great heroes to their graves and forms a mighty army of crazed souls.", 
+     Event.blackwing, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.darkness,
+     1200, 650, 1420, 1000, 1250, 1100,
+     [Skill.sds, Skill.darkness3, Skill.slash3, Skill.slash4, Skill.atk20, Skill.sap],
+     [Skill.sds, Skill.slash4, Skill.atk20],
+     [Skill.sds, Skill.slash4, Skill.sap]]
 ]);
 
 Card.addLimitedTypes({
@@ -3239,7 +3281,14 @@ Card.addNotes({
     "40604": "All data from Japanese version", // Mighty Vouivre
     "40605": "All data from Japanese version", // Great Vouivre
     "40607": "All data from Japanese version", // Achilles
-    "40608": "All data from Japanese version" // Whirlwind Jinn
+    "40608": "All data from Japanese version", // Whirlwind Jinn
+    "40609": "Skills from Japanese version", // Almighty Bloody Puca
+    "40610": "All data from Japanese version", // Mighty Bloody Puca
+    "40611": "All data from Japanese version", // Great Bloody Puca
+    "40612": "All data from Japanese version", // Cu Chulainn
+    "40613": "All data from Japanese version", // Ziz
+    "40626": "All data from Japanese version", // Tsukuyomi
+    "40647": "All data from Japanese version" // Fellshade Valkyrie
 });
 
 ExCard.addAll([

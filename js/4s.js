@@ -559,7 +559,7 @@ Card.addAll([
     ["30116", "Y Ddraig Goch", "", 
      Event.none, Border.none, 4, Place.snowfield_night, 0, null, Shape.dragon, Attribute.fire,
      1001, 991, 1003, 994, 975, 901,
-     [],
+     [Skill.physical2],
      [],
      []],
     ["30118", "Dahut", "", 
@@ -574,7 +574,7 @@ Card.addAll([
      [Skill.atk10, Skill.slash2, Skill.poison1, Skill.slash3, Skill.poison2, Skill.atkwis10],
      [Skill.atk10, Skill.slash3, Skill.poison2],
      [Skill.atk10, Skill.slash3, Skill.atkwis10]],
-    ["30120", "Ullikummi", "The get of an exiled god and means of his revenge, this warrior of volcanic rock at once grew to reach the very heavens.", 
+    ["30120", "Ulikummi", "The get of an exiled god and means of his revenge, this warrior of volcanic rock at once grew to reach the very heavens.", 
      Event.none, Border.none, 4, Place.ocean_night, 0, null, Shape.orbs, Attribute.mecha,
      1020, 992, 999, 993, 969, 960,
      [Skill.physical1, Skill.atk10, Skill.physical2, Skill.atk20, Skill.ddef20],
@@ -612,12 +612,24 @@ Card.addAll([
      [Skill.darkness3, Skill.ep, Skill.nervepinch]],
     ["30126", "Gaia", "Mother of the ancient gods, this first being to exist emerged from a rift in nothingness to form sea, land, and sky.", 
      Event.none, Border.none, 4, Place.zeus, 0, null, Shape.zhumanoid, Attribute.mecha,
-     0, 0, 0, 0, 0, 0,
-     [],
+     1018, 1001, 980, 960, 999, 1020,
+     [Skill.def20],
      [],
      []],
     ["30127", "Astaroth", "Giving conjurers who revere him power over serpents, this arch duke of hell's might surges across the new world.", 
      Event.none, Border.none, 4, Place.zeus, 0, null, Shape.zdragon, Attribute.fire,
+     1022, 997, 1020, 999, 1002, 969,
+     [Skill.fire1],
+     [],
+     []],
+    ["30128", "Pallas", "Sparks fly when this immortal spars with the goddess of wisdom in friendly contest to gain mastery of the spear.", 
+     Event.lightning_wind, Border.none, 4, Place.plains_night, 0, null, Shape.orbs, Attribute.lightning,
+     0, 0, 0, 0, 0, 0,
+     [],
+     [],
+     []],
+    ["30129", "Barbatos", "Fluent in the tongues of beasts, this corporal of hell's hordes can banish any enchantment concealing treasure.", 
+     Event.lightning_wind, Border.none, 4, Place.plains, 0, null, Shape.orbs, Attribute.wind,
      0, 0, 0, 0, 0, 0,
      [],
      [],
@@ -671,8 +683,10 @@ Card.addNotes({
     "30123": "All data from Japanese version",
     "30124": "All data from Japanese version",
     "30125": "All data from Japanese version",
-    "30126": "All data missing",
-    "30127": "All data missing"
+    "30126": "All data missing", // Gaia
+    "30127": "All data missing", // Astaroth
+    "30128": "All data missing", // Pallas
+    "30129": "All data missing" // Barbatos
 });
 
 ExCard.addAll([

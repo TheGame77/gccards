@@ -6,22 +6,33 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/8/11': [
+            "Fright of the Valkyrie: " + Card.mklnk(40647) + ".",
+            "Sylphs in the Sand: " + Card.mklnk(40607) + ", "+ Card.mklnk(40608) + ".",
+            "The Thundergale Hunt: " + Card.mklnk(40612) + ", "+ Card.mklnk(40613) + ".",
+            "103rd Coliseum Rewards: " + Card.mklnk(40609) + ", " + Card.mklnk(40610) + ", and " + Card.mklnk(40611) + "."
+        ],
+        '2014/8/5': [
+            "The Greatest Hits Hunt: " + Card.mklnk(40626) + ".",
+            "Sylphs in the Sand: " + Card.mklnk(40607) + ", "+ Card.mklnk(40608) + ".",
+            "The Thundergale Hunt: " + Card.mklnk(40612) + ", "+ Card.mklnk(40613) + ".",
+            "103rd Coliseum Rewards: " + Card.mklnk(40609) + ", " + Card.mklnk(40610) + ", and " + Card.mklnk(40611) + "."
+        ],
         '2014/8/3': [
             "101st Coliseum Rewards: " + Card.mklnk(40595) + ", " + Card.mklnk(40596) + ", and " + Card.mklnk(40597) + ".",
-            "102nd Coliseum Rewards: " + Card.mklnk(40603) + ", " + Card.mklnk(40604) + ", and " + Card.mklnk(40605) + ".",
-            "Sylphs in the Sand!: " + Card.mklnk(40607) + ", "+ Card.mklnk(40608) + "."
-        ],   
+            "102nd Coliseum Rewards: " + Card.mklnk(40603) + ", " + Card.mklnk(40604) + ", and " + Card.mklnk(40605) + "."
+        ],
         '2014/7/21': [
             "99th Coliseum Rewards: " + Card.mklnk(40589) + ", " + Card.mklnk(40590) + ", and " + Card.mklnk(40591) + ".",
             "100th Coliseum Rewards: " + Card.mklnk(40592) + ", " + Card.mklnk(40593) + ", and " + Card.mklnk(40594) + ".",
             Place.zeus.name + " New Cards: " + Card.mklnk(40600) +  ", " + Card.mklnk(40601) + ", and " + Card.mklnk(40602) + "."
-        ],        
+        ],
         '2014/7/11': [
             "97th Coliseum Rewards: " + Card.mklnk(40578) + ", " + Card.mklnk(40579) + ", and " + Card.mklnk(40580) + ".",
             "98th Coliseum Rewards: " + Card.mklnk(40584) + ", " + Card.mklnk(40585) + ", and " + Card.mklnk(40586) + ".",
             "The Radiantshade Hunt: " + Card.mklnk(30124) + ", " + Card.mklnk(30125) + ", " + Card.mklnk(40587) + ", and " + Card.mklnk(40588) + ".",
             "Forged in the Frost!: " + Card.mklnk(40599) + "."
-        ],        
+        ],
         '2014/6/24': [
             "96th Coliseum Rewards: " + Card.mklnk(40564) + ", " + Card.mklnk(40565) + ", and " + Card.mklnk(40566) + ".",
             "Popular Guardians Gather The Goldendawn Hunt!: " + Card.mklnk(40570) + ".",
