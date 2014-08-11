@@ -96,15 +96,15 @@ function showAcknowledgements() {
     openDialog("acknowledgements");
 }
 
-function showHelpsNeeded() {
-    openDialog("helpsneeded");
+function showHelpNeeded() {
+    openDialog("helpneeded");
 }
 
 function showRelatedLinks() {
     openDialog("related_links");
 }
 
-function initHelpsNeeded() {
+function initHelpNeeded() {
     var gs = new Array();
     for (var gid in Card.notes)
         gs.push(Card.get(gid));
@@ -116,10 +116,10 @@ function initHelpsNeeded() {
         var note = Card.notes[gid];
         if (stars != g.stars) {
             stars = g.stars;
-            $("#helpsneeded").append("<h3>" + getStarsText(g.stars) + "</h3>");
-            $("#helpsneeded").append("<ul></ul>");
+            $("#helpneeded").append("<h3>" + getStarsText(g.stars) + "</h3>");
+            $("#helpneeded").append("<ul></ul>");
         }
-        $("#helpsneeded ul").last().append("<li>" + Card.mklnk(gid) + ": " + note + "</li>");
+        $("#helpneeded ul").last().append("<li>" + Card.mklnk(gid) + ": " + note + "</li>");
     }
 }
 
@@ -1144,8 +1144,8 @@ function loadCards() {
     insertSkillsTable(document.getElementById("faq_skills_table"));
     insertCardsSelection();
 
-    /* Initialize helps needed. */
-    initHelpsNeeded();
+    /* Initialize help needed. */
+    initHelpNeeded();
 
     var args = getURLVars();
     var gid = args['id'];
