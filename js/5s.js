@@ -3273,7 +3273,6 @@ Card.addNotes({
     "40595": "All data from Japanese version", // Almighty Asgard
     "40596": "All data from Japanese version", // Mighty Asgard
     "40597": "All data from Japanese version", // Great Asgard
-    "40599": "Profile missing", 
     "40600": "All data from Japanese version",
     "40601": "All data from Japanese version",
     "40602": "All data from Japanese version",
@@ -3286,22 +3285,20 @@ Card.addNotes({
     "40610": "All data from Japanese version", // Mighty Bloody Puca
     "40611": "All data from Japanese version", // Great Bloody Puca
     "40612": "All data from Japanese version", // Cu Chulainn
-    "40613": "All data from Japanese version", // Ziz
-    "40626": "All data from Japanese version", // Tsukuyomi
-    "40647": "All data from Japanese version" // Fellshade Valkyrie
+    "40613": "All data from Japanese version" // Ziz
 });
 
 ExCard.addAll([
     ["45001", "Kaneki", "In the name of revolution, the sorcerer who summoned this demon of metal sent it to battle the hosts of an empire.",
      Event.none, ExType.red, 5, Place.plains_night, 0, Shape.giant, Attribute.fire,
      [ExSkill.fire10, ExSkill.fire12, ExSkill.fire15]],
-    ["45002", "Belphegor", "",
+    ["45002", "Belphegor", "Counted among the seven monarchs of hell, this demoness tempts man with sloth and urges him to abandon life.",
      Event.none, ExType.red, 5, Place.plains_night, 0, Shape.humanoid, Attribute.poison,
      [ExSkill.poison10, ExSkill.poison12, ExSkill.poison15]],
     ["45003", "Ishtar", "",
      Event.none, ExType.red, 5, Place.plains_night, 0, Shape.female, Attribute.wind,
      [ExSkill.atk10, ExSkill.atk12, ExSkill.atk15]],
-    ["45004", "Asmodeus", "",
+    ["45004", "Asmodeus", "This most vile of the demon kings rules hell's gambling halls, urging the weak and damned to succumb to the vice.",
      Event.none, ExType.blue, 5, Place.plains_night, 0, Shape.wolf, Attribute.darkness,
      [ExSkill.pow_curse25, ExSkill.pow_curse40, ExSkill.pow_curse50]],
     ["45005", "Muse", "Residing by sacred mountain springs, this goddess of the arts sings in praise of the gods together with her sisters.",
@@ -3316,7 +3313,7 @@ ExCard.addAll([
     ["45008", "Vishap", "",
      Event.none, ExType.red, 5, Place.zeus, 0, Shape.zdragon, Attribute.lightning,
      [ExSkill.lightning10, ExSkill.lightning12, ExSkill.lightning15]],
-    ["45009", "Solar Barge", "",
+    ["45009", "Solar Barge", "As it navigates the umbral realm, this divine vessel of the sun god battles the forces of chaos with its deadly arsenal.",
      Event.none, ExType.blue, 5, Place.zeus, 0, Shape.zorbs, Attribute.mecha,
      [ExSkill.suc_sd10, ExSkill.suc_sd12, ExSkill.suc_sd15]],
     ["45010", "Silent Princess", "",

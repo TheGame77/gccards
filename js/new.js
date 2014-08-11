@@ -8,9 +8,8 @@ WhatIsNew.get = function() {
         ],
         '2014/8/11': [
             "Fright of the Valkyrie: " + Card.mklnk(40647) + ".",
-            "Sylphs in the Sand: " + Card.mklnk(40607) + ", "+ Card.mklnk(40608) + ".",
-            "The Thundergale Hunt: " + Card.mklnk(40612) + ", "+ Card.mklnk(40613) + ".",
-            "103rd Coliseum Rewards: " + Card.mklnk(40609) + ", " + Card.mklnk(40610) + ", and " + Card.mklnk(40611) + "."
+            Place.zeus.name + " New Cards: " + Card.mklnk(30126) + ", "+ Card.mklnk(30127) + ".",
+            "The Thundergale Hunt: " + Card.mklnk(30128) + ", "+ Card.mklnk(30129) + "."
         ],
         '2014/8/5': [
             "The Greatest Hits Hunt: " + Card.mklnk(40626) + ".",
