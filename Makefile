@@ -33,10 +33,10 @@ RANDOM=$(shell date +%s)
 all: $(JS_BIN) $(CSS_BIN)
 
 js/%.min.js: js/%.js
-	closure-compiler $(ARGS) $< > $@
+	java -jar closure-compiler.jar $(ARGS) $< > $@
 
 css/%.min.css: css/%.css
-	yuicompressor --type css $< -o $@
+	java -jar yuicompressor-2.4.8.jar --type css $< -o $@
 
 r: $(JS_BIN) $(CSS_BIN)
 	mkdir -p $(OUTPUT_DIR)

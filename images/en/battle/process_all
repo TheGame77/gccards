@@ -4,5 +4,5 @@ FORMAT=jpeg
 EXT=jpg
 
 for i in `ls *.png`; do
-  sips -s format ${FORMAT} ${i} --out ${i/png/${EXT}}
+  convert ${i} ${i/png/${EXT}}
 done

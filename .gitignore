@@ -8,3 +8,5 @@ images/jp/*/*.png
 images/jp/*/*.jpg
 release
 password
+yuicompressor-2.4.8.jar
+closure-compiler.jar
