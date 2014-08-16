@@ -240,7 +240,8 @@ var Event = (function() {
         [53, ["dragon_sky"]],                   // 竜空を生きる者達
         [54, ["goldendawn"]],                   // Popular Guardians Gather The Goldendawn Hunt!
         [55, ["anniversary2"]],                 // 2nd Anniversary - ゴールドハント
-        [56, ["blackwing"]]                     // 2nd Anniversary - 黑翼の墮天使
+        [56, ["blackwing"]],                    // 2nd Anniversary - 黑翼の墮天使
+        [57, ["enchantingsorcerer"]]            // Enchanting Sorcerer Quest
     ];
 
     var events = {

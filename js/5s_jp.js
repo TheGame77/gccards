@@ -3139,7 +3139,31 @@ Card.addAll([
      1500, 900, 1480, 1400, 1295, 1240,
      [Skill.slash3, Skill.ds, Skill.slash4, Skill.ddef20, Skill.bg, Skill.qs],
      [Skill.ds, Skill.ddef20, Skill.bg],
-     [Skill.ds, Skill.bg, Skill.qs]]
+     [Skill.ds, Skill.bg, Skill.qs]],
+    ["40659", "最強トリトン", "機海神の魁。三叉戟を振るいて水流を逆巻かせ、深潭より海上目掛けて、巨巌を飛ばす。", 
+     Event.none, Border.almighty, 5, Place.coliseum, 111, "40572", Shape.serpent, Attribute.mecha,
+     1600, 2000, 1550, 1420, 1320, 1300,
+     [Skill.slash4, Skill.atk20, Skill.bg, Skill.sd, Skill.atk25],
+     [Skill.bg, Skill.sd, Skill.atk25],
+     [Skill.bg, Skill.sd, Skill.atk25]],
+    ["40660", "トリトン ・強", "海螺の喇叭の奏者。その音は凶獣の咆哮と称され、神々に仇なす巨人族をも恐怖させた。", 
+     Event.none, Border.mighty, 5, Place.coliseum, 111, "40572", Shape.serpent, Attribute.mecha,
+     1440, 1840, 1500, 1360, 1315, 1200,
+     [Skill.slash4, Skill.atk20, Skill.bg, Skill.sd, Skill.atk25],
+     [Skill.bg, Skill.sd, Skill.atk25],
+     [Skill.bg, Skill.sd, Skill.atk25]],
+    ["40661", "トリトン ・中", "人類の救い主。神王が大水にて人間を滅ぼさんとした時、彼が水を操り、人祖を助けた。", 
+     Event.none, Border.great, 5, Place.coliseum, 111, "40572", Shape.serpent, Attribute.mecha,
+     1370, 1700, 1484, 1320, 1310, 1120,
+     [Skill.slash4, Skill.atk20, Skill.bg, Skill.sd, Skill.atk25],
+     [Skill.bg, Skill.sd, Skill.atk25],
+     [Skill.bg, Skill.sd, Skill.atk25]],
+    ["40662", "アガリアレプト", "地獄の三大魔王に仕える上級悪魔。天上・地上・地下の霊との交信を助ける水蛇を操る。", 
+     Event.enchantingsorcerer, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.water,
+     1320, 1060, 1060, 1040, 1050, 1400,
+     [Skill.tb, Skill.water2, Skill.water3, Skill.dwis20, Skill.water4, Skill.fb],
+     [Skill.tb, Skill.dwis20, Skill.water4],
+     [Skill.tb, Skill.water4, Skill.fb]]
 ]);
 
 /* 
