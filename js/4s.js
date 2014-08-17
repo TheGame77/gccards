@@ -633,7 +633,13 @@ Card.addAll([
      0, 0, 0, 0, 0, 0,
      [],
      [],
-     []]
+     []],
+    ["30130", "Nemean Lion", "Impervious to blade and arrow, this sly beast transforms into a wounded maid to disarm prey before devouring it.", 
+     Event.none, Border.none, 4, Place.quests, 0, null, Shape.none, Attribute.death,
+     1035, 900, 950, 1025, 1005, 1025,
+     [Skill.slash1, Skill.death2, Skill.Slash2, Skill.Death3, Skill.qs, Skill.ls],
+     [Skill.Slash2, Skill.Death3, Skill.qs],
+     [Skill.Death3, Skill.qs, Skill.ls]]
 ]);
 
 Card.addLimitedTypes({
@@ -646,14 +652,14 @@ Card.addLimitedTypes({
 });
 
 Card.addNotes({
-    "30039": "Skills from Jap version, profile missing",       // Thunder God Dongo
+    "30039": "Skills from Japanese version, profile missing",       // Thunder God Dongo
     "30052": "Skills from Japanese version",    // Echidna
     "30071": "Rebirth skill not confirmed",     // Gremory
     "30077": "Rebirth skill not confirmed",     // Guede
     "30079": "Rebirth skill not confirmed",     // Andras
     "30081": "Rebirth skill not confirmed",     // Marduk
     "30084": "Rebirth skill not confirmed",
-    "30085": "All data from Jap version",
+    "30085": "All data from Japanese version",
     "30086": "Rebirth skill not confirmed",          // Cybele
     "30087": "Rebirth skill not confirmed",          // Adad
     "30088": "Rebirth skill not confirmed",          // Mitra
@@ -683,8 +689,8 @@ Card.addNotes({
     "30123": "All data from Japanese version",
     "30124": "All data from Japanese version",
     "30125": "All data from Japanese version",
-    "30126": "All data missing", // Gaia
-    "30127": "All data missing", // Astaroth
+    "30126": "Skills missing", // Gaia
+    "30127": "Skills missing", // Astaroth
     "30128": "All data missing", // Pallas
     "30129": "All data missing" // Barbatos
 });
