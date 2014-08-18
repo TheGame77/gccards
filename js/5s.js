@@ -1455,7 +1455,7 @@ Card.addAll([
      1100, 1100, 990, 980, 1240, 1320,
      [Skill.ds, Skill.water3, Skill.dagi20, Skill.dwis20, Skill.water4, Skill.ep],
      [Skill.ds, Skill.dwis20, Skill.water4],
-     [Skill.ds, Skill.water4, Skill.ep]],
+     [Skill.ds, Skill.dwis20, Skill.water4]],
     ["40253", "Carmilla", "This sensual vampiress haughtily takes her victim's lifes, never losing her regal bearing. - Kingdom Conquest II", 
      Event.kingdom_conquest2, Border.none, 5, Place.plains_night, 0, null, Shape.bird, Attribute.darkness,
      1040, 1100, 1200, 1060, 1120, 1200,
@@ -1527,7 +1527,7 @@ Card.addAll([
      1200, 1090, 1350, 1030, 1220, 1020,
      [Skill.qs, Skill.slash3, Skill.agi20, Skill.slash4, Skill.wis20, Skill.fb],
      [Skill.qs, Skill.agi20, Skill.slash4],
-     [Skill.qs, Skill.slash4, Skill.fb]],
+     [Skill.qs, Skill.agi20, Skill.slash4]],
     ["40265", "Nike", "This goddess of victory grants honor to those who would brave the heat of battle and emerge triumphant.", 
      Event.none, Border.none, 5, Place.volcano_night, 0, null, Shape.orbs, Attribute.wind, 
      1060, 1120, 1110, 1000, 1162, 1240,
@@ -1905,7 +1905,7 @@ Card.addAll([
      1005, 1130, 984, 1046, 1230, 1333,
      [Skill.mana, Skill.darkness3, Skill.mr, Skill.dwis20, Skill.darkness4, Skill.curse],
      [Skill.mr, Skill.dwis20, Skill.darkness4],
-     [Skill.mr, Skill.dwis20, Skill.darkness4]],
+     [Skill.mr, Skill.darkness4, Skill.curse]],
     ["40398", "Nova Leviathan", "An ancient sea dragon and ruler of the oceans that stirs up great waves capable of swallowing creation.", 
      Event.none, Border.none, 5, Place.plains, 0, null, Shape.dragon, Attribute.water,
      1240, 1220, 1195, 1100, 1045, 900,
@@ -1970,14 +1970,14 @@ Card.addAll([
      Event.none, Border.almighty, 5, Place.coliseum, 73, "40264", Shape.dragon, Attribute.darkness,
      1560, 1144, 1350, 1030, 1400, 1020,
      [Skill.qs, Skill.agi25, Skill.wis25, Skill.slash4, Skill.fb],
-     [Skill.qs, Skill.slash4, Skill.fb],
-     [Skill.qs, Skill.slash4, Skill.fb]],
+     [Skill.qs, Skill.agi20, Skill.slash4],
+     [Skill.qs, Skill.agi20, Skill.slash4]],
     ["40414", "Mighty Gandring", "In terrible vengeance, this dragonform blade of fell metal slit the throats of a royal line, then cast itself into the sea.", 
      Event.none, Border.mighty, 5, Place.coliseum, 73, "40264", Shape.dragon, Attribute.darkness,
      1280, 1144, 1350, 1030, 1310, 1020,
      [Skill.qs, Skill.agi25, Skill.wis25, Skill.slash4, Skill.fb],
-     [Skill.qs, Skill.slash4, Skill.fb],
-     [Skill.qs, Skill.slash4, Skill.fb]],
+     [Skill.qs, Skill.agi20, Skill.slash4],
+     [Skill.qs, Skill.agi20, Skill.slash4]],
     ["40415", "Great Gandring", "Its mottled metal once intended for a sacred purpose, this dragonsword now leaves only grievous, weeping wounds.", 
      Event.none, Border.great, 5, Place.coliseum, 73, "40264", Shape.dragon, Attribute.darkness,
      1200, 1090, 1200, 1030, 1220, 1200,
@@ -3006,7 +3006,25 @@ Card.addAll([
      [Skill.dr, Skill.atk10, Skill.slash3, Skill.atkagi10, Skill.slash4, Skill.fb],
      [Skill.dr, Skill.atkagi10, Skill.slash4],
      [Skill.dr, Skill.atkagi10, Skill.fb]],
-    ["40626", "Tsukuyomi", "Since the dawn of man, mortals have gazed skywards seeking this god of moonlight an his waters of youth.", 
+    ["40620", "Almighty Hestia", "Once the godking's elder, this lady was reborn as his younger sister and so gained privilege above other deities.", 
+     Event.none, Border.almighty, 5, Place.coliseum, 108, "40188", Shape.none, Attribute.fire,
+     1680, 1248, 964, 1200, 1220, 1720,
+     [Skill.sap, Skill.fire3, Skill.dwis20, Skill.fire4, Skill.wis25],
+     [Skill.sap, Skill.fire4, Skill.wis25],
+     [Skill.sap, Skill.fire4, Skill.wis25]],
+    ["40621", "Mighty Hestia", "Mortals worship this keeper of the holy fire in temple flames that need be kept ablaze for every sacred ritual and rite.", 
+     Event.none, Border.mighty, 5, Place.coliseum, 108, "40188", Shape.none, Attribute.fire,
+     1400, 1248, 964, 1180, 1160, 1460,
+     [Skill.sap, Skill.fire3, Skill.dwis20, Skill.fire4, Skill.wis25],
+     [Skill.sap, Skill.fire4, Skill.wis25],
+     [Skill.sap, Skill.fire4, Skill.wis25]],
+    ["40622", "Great Hestia", "A tribute of wine is made at great feasts to this divinity who grants joy and fortune to every home's hearth.", 
+     Event.none, Border.great, 5, Place.coliseum, 108, "40188", Shape.none, Attribute.fire,
+     920, 1132, 964, 965, 1140, 1300,
+     [Skill.sap, Skill.fire3, Skill.dwis20, Skill.fire4, Skill.wis20],
+     [Skill.sap, Skill.fire4, Skill.wis20],
+     [Skill.sap, Skill.fire4, Skill.wis20]],
+     ["40626", "Tsukuyomi", "Since the dawn of man, mortals have gazed skywards seeking this god of moonlight an his waters of youth.", 
      Event.anniversary2, Border.none, 5, Place.plains, 0, null, Shape.wolf, Attribute.water,
      1920, 1221, 1580, 1400, 1290, 1380,
      [Skill.qs, Skill.water3, Skill.slash3, Skill.water4, Skill.deathpredator, Skill.resistant],
@@ -3017,7 +3035,25 @@ Card.addAll([
      1200, 650, 1420, 1000, 1250, 1100,
      [Skill.sds, Skill.darkness3, Skill.slash3, Skill.slash4, Skill.atk20, Skill.sap],
      [Skill.sds, Skill.slash4, Skill.atk20],
-     [Skill.sds, Skill.slash4, Skill.sap]]
+     [Skill.sds, Skill.slash4, Skill.sap]],
+    ["40656", "Samael", "Called god's spite, this demon once reigned over the fifth heaven before being exiled for failing its lord.", 
+     Event.none, Border.none, 5, Place.desert_night, 0, null, Shape.bird, Attribute.death,
+     1590, 2280, 1520, 1440, 1290, 1300,
+     [Skill.slash3, Skill.dagi20, Skill.slash4, Skill.atk20, Skill.sd, Skill.deathpredator],
+     [Skill.slash4, Skill.atk20, Skill.sd],
+     [Skill.slash4, Skill.sd, Skill.deathpredator]],
+    ["40657", "Tezcatlipoca", "Master of mankind's fate, this god has raised the world from nothingness and razed it back to dust time and again.", 
+     Event.none, Border.none, 5, Place.desert_night, 0, null, Shape.humanoid, Attribute.earth,
+     1600, 800, 1560, 1400, 1320, 1280,
+     [Skill.slash4, Skill.atk10, Skill.bg, Skill.sap, Skill.atk20, Skill.revival],
+     [Skill.bg, Skill.sap, Skill.atk20],
+     [Skill.bg, Skill.sap, Skill.revival]],
+    ["40658", "Lugh", "Born of divine and faerie blood, this hero of the ancient age was fated to slay his grandfather, the demon lord.", 
+     Event.none, Border.none, 5, Place.desert_night, 0, null, Shape.wolf, Attribute.light,
+     1500, 900, 1480, 1400, 1295, 1240,
+     [Skill.slash3, Skill.ds, Skill.slash4, Skill.ddef20, Skill.bg, Skill.qs],
+     [Skill.ds, Skill.ddef20, Skill.bg],
+     [Skill.ds, Skill.bg, Skill.qs]]
 ]);
 
 Card.addLimitedTypes({
@@ -3061,49 +3097,46 @@ Card.addNotes({
     "40204": "Skillset not confirmed",       // Palladium
     "40205": "Skillset not confirmed",       // Gandharva
     "40207": "Rebirth Skill not confirmed",  // Charybdis
-    "40212": "Rebirth skill not confirmed",       // Ladon
-    "40217": "All data from Jap version",    // Ragnarok
-    "40218": "All data from Jap version",    // Almighty Anubis
-    "40224": "All data from Jap version",    // Almighty Requiem Banshee
-    "40225": "All data from Jap version",    // Mighty Requiem Banshee
+    "40217": "All data from Japanese version",    // Ragnarok
+    "40218": "All data from Japanese version",    // Almighty Anubis
+    "40224": "All data from Japanese version",    // Almighty Requiem Banshee
+    "40225": "All data from Japanese version",    // Mighty Requiem Banshee
     "40227": "Stats not confirmed",         // Almighty Poseidon
     "40228": "Skillset not confirmed",       // Mighty Poseidon
     "40230": "Skills not confirmed",         // Sugaar
-    "40231": "All data from Jap version",    // Almighty Bugbear
-    "40234": "All data from Jap version",    // Almighty Gandharva
+    "40231": "All data from Japanese version",    // Almighty Bugbear
+    "40234": "All data from Japanese version",    // Almighty Gandharva
     "40235": "Skillset not confirmed",        // Mighty Gandharva
     "40237": "Skillset not confirmed",       // Almighty Rubicante
     "40244": "Skillset not confirmed",       // Mighty Scarmiglione
     "40247": "Skillset not confirmed",       // Mighty Barbariccia
     "40248": "Skillset not confirmed",
-    "40249": "All data from Jap version",    // Almighty Cthulhu
-    "40252": "Rebirth skill not confirmed",  // Ice Queen
-    "40253": "All data from Jap version",
+    "40249": "All data from Japanese version",    // Almighty Cthulhu
+    "40253": "All data from Japanese version",
     "40254": "Rebirth skill not confirmed",  // Dragon Zombie
     "40255": "Rebirth skill not confirmed",  // Minotaur Sergeant
-    "40256": "All data from Jap version",    // Almighty Charybdis
+    "40256": "All data from Japanese version",    // Almighty Charybdis
     "40257": "Skills not confirmed",         // Mighty Charybdis
     "40259": "All data from Japanese version",    // Almighty Ladon
     "40261": "Skills from Japanese version",      // Great Ladon
-    "40262": "Rebirth skill not confirmed",  // Iblis
     "40263": "Rebirth skill not confirmed",         // Cethlenn
-    "40264": "Rebirth skill from Jap version",      // Gandring
+    "40264": "Rebirth skill from Japanese version",      // Gandring
     "40266": "Skillset not confirmed",       // Apocalypse Beast
     "40274": "All data from Japanese version",  // Almighty Puca
     "40275": "All data from Japanese version",  // Mighty Puca
     "40276": "Skills from Japanese version",  // Great Puca
     "40318": "All data from Japanese version",  // Almighty Marchosias
-    "40321": "Skills from Jap version",
-    "40322": "Skills from Jap version",
-    "40323": "All from Jap version",
-    "40324": "All from Japanese version",         // Almighty Ryujin
-    "40325": "All from Japanese version",         // Mighty Ryujin
-    "40326": "All from Japanese version",         // Great Ryujin
-    "40329": "All from Japanese version",         // Almighty Selkie
+    "40321": "Skills from Japanese version",
+    "40322": "Skills from Japanese version",
+    "40323": "All data from Japanese version",
+    "40324": "All data from Japanese version",         // Almighty Ryujin
+    "40325": "All data from Japanese version",         // Mighty Ryujin
+    "40326": "All data from Japanese version",         // Great Ryujin
+    "40329": "All data from Japanese version",         // Almighty Selkie
     "40330": "Skills from Japanese version",      // Mighty Selkie
     "40331": "Skills from Japanese version",      // Great Selkie
     "40333": "WIS not confirmed",                              // Prometheus
-    "40334": "All from Jap version",
+    "40334": "All data from Japanese version",
     "40336": "Rebirth skill not confirmed",
     "40337": "Skillset not confirmed, profile missing",        // Primal Bahamut
     "40339": "All data from Japanese version",         // Almighty Apocalypse Beast
@@ -3120,14 +3153,13 @@ Card.addNotes({
     "40384": "Skills not confirmed",  // Mighty Primal Bahamut
     "40385": "Skills not confirmed",  // Great Primal Bahamut
     "40389": "All data from Japanese version",  // Almighty Cethlenn
-    "40390": "All data from Japanese version",  // Mighty Cethlenn
     "40391": "Skills from Japanese version",    // Great Cethlenn
     "40394": "All data from Japanese version",  // Impundulu
     "40395": "All data from Japanese version",  // Hephaestus
     "40396": "All data from Japanese version",  // Snegurochka
     "40397": "All data from Japanese version",  // Titania
     "40398": "Skills from Japanese version",    // Nova Leviathan
-    "40399": "All data from Japanese version",  // Nova Titan
+    "40399": "Skills from Japanese version",  // Nova Titan
     "40400": "All data from Japanese version",  // Nova Vampire Matron
     "40401": "All data from Japanese version",  // Nova Phoenix
     "40402": "All data from Japanese version",  // Nova Valkyrie
@@ -3267,25 +3299,29 @@ Card.addNotes({
     "40589": "All data from Japanese version",
     "40590": "All data from Japanese version",
     "40591": "All data from Japanese version",
-    "40592": "All data from Japanese version",
-    "40593": "Skills from Japanese version",
-    "40594": "All data from Japanese version",
+    "40592": "All data from Japanese version", // Almighty Thanatos
+    "40593": "Skills from Japanese version", // Mighty Thanatos
+    "40594": "All data from Japanese version", // Great Thanatos
     "40595": "All data from Japanese version", // Almighty Asgard
     "40596": "All data from Japanese version", // Mighty Asgard
     "40597": "All data from Japanese version", // Great Asgard
-    "40600": "All data from Japanese version",
-    "40601": "All data from Japanese version",
-    "40602": "All data from Japanese version",
+    "40600": "All data from Japanese version", // Aeolus
+    "40601": "All data from Japanese version", // Chronos
+    "40602": "All data from Japanese version", // Ophanim
     "40603": "All data from Japanese version", // Almighty Vouivre
     "40604": "All data from Japanese version", // Mighty Vouivre
     "40605": "All data from Japanese version", // Great Vouivre
     "40607": "All data from Japanese version", // Achilles
     "40608": "All data from Japanese version", // Whirlwind Jinn
-    "40609": "Skills from Japanese version", // Almighty Bloody Puca
-    "40610": "All data from Japanese version", // Mighty Bloody Puca
     "40611": "All data from Japanese version", // Great Bloody Puca
     "40612": "All data from Japanese version", // Cu Chulainn
-    "40613": "All data from Japanese version" // Ziz
+    "40613": "All data from Japanese version", // Ziz
+    "40620": "Skills from Japanese version", // Almighty Hestia
+    "40621": "All data from Japanese version", // Mighty Hestia
+    "40622": "All data from Japanese version", // Great Hestia
+    "40656": "Skills from Japanese version", // Samael
+    "40657": "Skills from Japanese version", // Tezcatlipoca
+    "40658": "Skills from Japanese version" // Lugh
 });
 
 ExCard.addAll([

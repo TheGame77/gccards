@@ -637,9 +637,21 @@ Card.addAll([
     ["30130", "Nemean Lion", "Impervious to blade and arrow, this sly beast transforms into a wounded maid to disarm prey before devouring it.", 
      Event.none, Border.none, 4, Place.quests, 0, null, Shape.none, Attribute.death,
      1035, 900, 950, 1025, 1005, 1025,
-     [Skill.slash1, Skill.death2, Skill.Slash2, Skill.Death3, Skill.qs, Skill.ls],
-     [Skill.Slash2, Skill.Death3, Skill.qs],
-     [Skill.Death3, Skill.qs, Skill.ls]]
+     [Skill.slash1, Skill.death2, Skill.slash2, Skill.death3, Skill.qs, Skill.ls],
+     [Skill.slash2, Skill.death3, Skill.qs],
+     [Skill.death3, Skill.qs, Skill.ls]],
+    ["30131", "Shuten-Doji", "After days spent ransacking, this chief of ogres passed the nights slaking a famed and peerless thirst for rice wine.", 
+     Event.none, Border.none, 4, Place.desert_night, 0, null, Shape.female, Attribute.poison,
+     0, 0, 0, 0, 0, 0,
+     [],
+     [],
+     []],
+    ["30132", "Osiris", "This merciful judge of the dead reigns in a paradise where silky reeds cradle souls whose deeds were pure in life.", 
+     Event.none, Border.none, 4, Place.desert_night, 0, null, Shape.humanoid, Attribute.death,
+     0, 0, 0, 0, 0, 0,
+     [],
+     [],
+     []]
 ]);
 
 Card.addLimitedTypes({
@@ -692,7 +704,9 @@ Card.addNotes({
     "30126": "Skills missing", // Gaia
     "30127": "Skills missing", // Astaroth
     "30128": "All data missing", // Pallas
-    "30129": "All data missing" // Barbatos
+    "30129": "All data missing", // Barbatos
+    "30131": "All data missing", // Shuten-Doji
+    "30132": "All data missing" // Osiris
 });
 
 ExCard.addAll([
