@@ -3053,7 +3053,13 @@ Card.addAll([
      1500, 900, 1480, 1400, 1295, 1240,
      [Skill.slash3, Skill.ds, Skill.slash4, Skill.ddef20, Skill.bg, Skill.qs],
      [Skill.ds, Skill.ddef20, Skill.bg],
-     [Skill.ds, Skill.bg, Skill.qs]]
+     [Skill.ds, Skill.bg, Skill.qs]],
+    ["40662", "Agaliarept", "This elder demon sends forth serpents born of water to commune with the dead's spirits, sleep they in soil or sky.", 
+     Event.serpenchanterscurse, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.water,
+     1320, 1060, 1060, 1040, 1050, 1400,
+     [Skill.tb, Skill.water2, Skill.water3, Skill.dwis20, Skill.water4, Skill.fb],
+     [Skill.tb, Skill.dwis20, Skill.water4],
+     [Skill.tb, Skill.water4, Skill.fb]]
 ]);
 
 Card.addLimitedTypes({
@@ -3321,7 +3327,8 @@ Card.addNotes({
     "40622": "All data from Japanese version", // Great Hestia
     "40656": "Skills from Japanese version", // Samael
     "40657": "Skills from Japanese version", // Tezcatlipoca
-    "40658": "Skills from Japanese version" // Lugh
+    "40658": "Skills from Japanese version", // Lugh
+    "40662": "Skills from Japanese version" // Agaliarept
 });
 
 ExCard.addAll([

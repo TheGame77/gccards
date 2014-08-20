@@ -241,7 +241,8 @@ var Event = (function() {
         [54, ["goldendawn"]],                   // Popular Guardians Gather The Goldendawn Hunt!
         [55, ["anniversary2"]],                 // 2nd Anniversary - ゴールドハント
         [56, ["blackwing"]],                    // 2nd Anniversary - 黑翼の墮天使
-        [57, ["serpenchanterscurse"]]           // The Serpenchanter's Curse
+        [57, ["serpenchanterscurse"]],          // The Serpenchanter's Curse
+        [58, ["deathfire"]]
     ];
 
     var events = {

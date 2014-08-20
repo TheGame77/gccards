@@ -3163,7 +3163,19 @@ Card.addAll([
      1320, 1060, 1060, 1040, 1050, 1400,
      [Skill.tb, Skill.water2, Skill.water3, Skill.dwis20, Skill.water4, Skill.fb],
      [Skill.tb, Skill.dwis20, Skill.water4],
-     [Skill.tb, Skill.water4, Skill.fb]]
+     [Skill.tb, Skill.water4, Skill.fb]],
+    ["40668", "アロケル", "", 
+     Event.deathfire, Border.none, 5, Place.plains, 0, null, Shape.none, Attribute.fire,
+     1520, 1600, 1560, 1330, 1300, 1290,
+     [Skill.sd, Skill.slash3, Skill.atk10, Skill.slash4, Skill.ds, Skill.bg],
+     [Skill.sd, Skill.slash4, Skill.ds],
+     [Skill.sd, Skill.ds, Skill.bg]],
+    ["40669", "ウィキッド・ザ・ウェスト", "翠玉の都の東方にある「西」の国を支配する魔女。強力な魔力を秘めた銀の靴を欲する。", 
+     Event.deathfire, Border.none, 5, Place.plains_night, 0, null, Shape.none, Attribute.death,
+     1550, 1130, 1135, 1440, 1330, 1600,
+     [Skill.sap, Skill.wis10, Skill.death3, Skill.wis20, Skill.death4, Skill.revival],
+     [Skill.sap, Skill.wis20, Skill.death4],
+     [Skill.sap, Skill.death4, Skill.revival]]
 ]);
 
 /* 

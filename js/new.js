@@ -6,6 +6,9 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/8/20': [
+            "The Serpenchanter's Curse: " + Card.mklnk(40662) + "."
+        ],
         '2014/8/18': [
             Place.desert_night.name + " 5*: " + Card.mklnk(40656) + ", " + Card.mklnk(40657) + ", and " + Card.mklnk(40658) + ".",
             Place.desert_night.name + " 4*: " + Card.mklnk(30131) + " and " + Card.mklnk(30132) + ".",
