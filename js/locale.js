@@ -97,7 +97,7 @@ var Locale = function(l) {
                 "Popular Guardians Gather The Goldendawn Hunt!",
                 "The Greatest Hits Hunt",
                 "Fright of the Valkyrie",
-                "Enchanting Sorcerer Quest"
+                "The Serpenchanter's Curse"
             ),
             borders: new Array(
                 "None",
@@ -448,7 +448,7 @@ var Locale = function(l) {
                 "Popular Guardians Gather The Goldendawn Hunt!",
                 "2nd Anniversary - ゴールドハント",
                 "黑翼の墮天使",
-                "Enchanting Sorcerer Quest"
+                "The Serpenchanter's Curse"
             ),
             borders: new Array(
                 "なし",

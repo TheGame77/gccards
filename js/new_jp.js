@@ -8,7 +8,7 @@ WhatIsNew.get = function() {
         ],
         '2014/8/16': [
             "コロ111: " + Card.mklnk(40659) + "、" + Card.mklnk(40660) + "、" + Card.mklnk(40661) + "。",
-            "Enchanting Sorcerer Quest: " + Card.mklnk(40662) + "。",
+            "The Serpenchanter's Curse: " + Card.mklnk(40662) + "。",
             "Add " + Card.mklnk(30130) + "。"
         ],
         '2014/7/11': [
