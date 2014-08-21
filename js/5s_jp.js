@@ -3175,7 +3175,25 @@ Card.addAll([
      1550, 1130, 1135, 1440, 1330, 1600,
      [Skill.sap, Skill.wis10, Skill.death3, Skill.wis20, Skill.death4, Skill.revival],
      [Skill.sap, Skill.wis20, Skill.death4],
-     [Skill.sap, Skill.death4, Skill.revival]]
+     [Skill.sap, Skill.death4, Skill.revival]],
+    ["40670", "最強グレートサンダーストーム", "雷騰雲奔たる魔鬼。只一人の魂を狩る為だけに聖堂を破壊し、数十人を巻き添えにする。 ", 
+     Event.none, Border.almighty, 5, Place.coliseum, 112, "40573", Shape.orbs, Attribute.lightning,
+     1740, 1280, 1460, 1500, 1320, 1420,
+     [Skill.qs, Skill.atk20, Skill.physical4, Skill.cd, Skill.powershift],
+     [Skill.qs, Skill.cd, Skill.powershift],
+     [Skill.qs, Skill.cd, Skill.powershift]],
+    ["40671", "グレートサンダーストーム ・強", "悪運尽きた契約者の息の根を止める魔人。電光閃き、雷鳴轟く荒野を疾霆の如く駆ける。", 
+     Event.none, Border.mighty, 5, Place.coliseum, 112, "40573", Shape.orbs, Attribute.lightning,
+     1630, 1280, 1400, 1450, 1280, 1360,
+     [Skill.qs, Skill.atk20, Skill.physical4, Skill.cd, Skill.powershift],
+     [Skill.qs, Skill.cd, Skill.powershift],
+     [Skill.qs, Skill.cd, Skill.powershift]],
+    ["40672", "グレートサンダーストーム ・中", "黒衣の怪人。禁断の取引に応じた者が失策する時を待ちつつ、酒場にて麦芽酒を楽しむ。", 
+     Event.none, Border.great, 5, Place.coliseum, 112, "40573", Shape.orbs, Attribute.lightning,
+     1580, 1224, 1340, 1400, 1240, 1240,
+     [Skill.qs, Skill.atk20, Skill.physical4, Skill.cd, Skill.powershift],
+     [Skill.qs, Skill.cd, Skill.powershift],
+     [Skill.qs, Skill.cd, Skill.powershift]]
 ]);
 
 /* 

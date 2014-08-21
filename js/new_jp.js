@@ -6,6 +6,10 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/8/21': [
+            "コロ112: " + Card.mklnk(40670) + "、" + Card.mklnk(40671) + "、" + Card.mklnk(40672) + "。",
+            "Added Japanese event names."
+        ],
         '2014/8/20': [
             "Undead and Fire Hunting: " + Card.mklnk(40668) + "、" + Card.mklnk(40669) + "。"
         ],

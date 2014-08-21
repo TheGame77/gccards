@@ -92,13 +92,14 @@ var Locale = function(l) {
                 "Forged in the Frost",
                 "Week #2 Spawn rates now doubled",
                 "Sylphs in the Sand",
-                "蒼雷黑風",
+                "The Thundergale Hunt",
                 "竜空を生きる者達",
                 "Popular Guardians Gather The Goldendawn Hunt!",
                 "The Greatest Hits Hunt",
                 "Fright of the Valkyrie",
                 "The Serpenchanter's Curse",
-                "Death Fire Hunt"
+                "Death Fire Hunt",
+                "Twin Angels"
             ),
             borders: new Array(
                 "None",
@@ -449,8 +450,9 @@ var Locale = function(l) {
                 "Popular Guardians Gather The Goldendawn Hunt!",
                 "2nd Anniversary - ゴールドハント",
                 "黑翼の墮天使",
-                "The Serpenchanter's Curse",
-                "Death Fire Hunt"
+                "妖誘の魔道師", // Serpenchanter's Curse
+                "死神焔舞", // Death Fire Hunt
+                "双翼天臨" // Twin Angels
             ),
             borders: new Array(
                 "なし",
