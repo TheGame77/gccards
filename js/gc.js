@@ -2562,7 +2562,7 @@ var MODE_QSKO = "mode-qsko";
 var Calculator = (function() {
     var hasSkill = function(skills, skill) {
         for (var i = 0; i < skills.length; i++) {
-            if (skills[i].id == skill.id)
+            if (typeof skills[i] != "undefined" && skills[i].id == skill.id)
                 return true;
         }
         return false;
@@ -2651,6 +2651,10 @@ var Calculator = (function() {
             }
             for (var i = 0; i < skills2.length; i++) {
                 var skill = skills2[i];
+
+                if(typeof skill == "undefined")
+                    alert("Invalid skill: " + g2.id + "," + i);
+
                 if (!skill.isBuff() || status2.mp < skill.cost.mp)
                     continue;
 

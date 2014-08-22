@@ -522,8 +522,13 @@ function insertGuardian(gid, tid, custom_skills) {
     var sorted_skills = new Array();
     sorted_skills.push.apply(sorted_skills, Skill.getLearnableSkills());
     for (var i = 0; i < Math.min(g.skills.length, g.getLearntSkillSize()); i++) {
-        if (g.skills[i].stone == 0)
-            sorted_skills.push(g.skills[i]);
+        var skill = g.skills[i];
+
+        if(typeof skill == "undefined")
+            alert("Invalid skill: " + g.id + "," + i);
+
+        if (skill.stone == 0)
+            sorted_skills.push(skill);
     }
     sorted_skills.sort(Sorting.compose(Sorting.skill, Sorting.name));
     $(left).append(
