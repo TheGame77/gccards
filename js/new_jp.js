@@ -6,16 +6,20 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/8/24': [
+            "双翼天臨: " + Card.mklnk(40674) + "、" + Card.mklnk(40675) + "。",
+            "コロ113: " + Card.mklnk(40676) + "、" + Card.mklnk(40677) + "、" + Card.mklnk(40678) + "。"
+        ],
         '2014/8/21': [
             "コロ112: " + Card.mklnk(40670) + "、" + Card.mklnk(40671) + "、" + Card.mklnk(40672) + "。",
             "Added Japanese event names."
         ],
         '2014/8/20': [
-            "Undead and Fire Hunting: " + Card.mklnk(40668) + "、" + Card.mklnk(40669) + "。"
+            "死神焔舞: " + Card.mklnk(40668) + "、" + Card.mklnk(40669) + "。"
         ],
         '2014/8/16': [
             "コロ111: " + Card.mklnk(40659) + "、" + Card.mklnk(40660) + "、" + Card.mklnk(40661) + "。",
-            "The Serpenchanter's Curse: " + Card.mklnk(40662) + "。",
+            "妖誘の魔道師: " + Card.mklnk(40662) + "。",
             "Add " + Card.mklnk(30130) + "。"
         ],
         '2014/7/11': [
