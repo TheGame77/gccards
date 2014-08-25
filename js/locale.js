@@ -37,7 +37,8 @@ var Locale = function(l) {
                 "All Hunting Grounds",
                 "Crimson Keep",
                 "The Guardians Who Stole Christmas",
-                "Zeus Nebula"
+                "Zeus Nebula",
+                "Floating Island Eden"
             ),
             events: new Array(
                 "None",
@@ -245,7 +246,9 @@ var Locale = function(l) {
                 new Array("Mind Reave",        "WIS +20%, foe WIS -20%"),
                 new Array("Impervious",        "Resists effects"),
                 new Array("Speed Reave",       "素+20%敵賢-20%"),
-                new Array("Shadow Deft Step",  "Physical Evasion")
+                new Array("Shadow Deft Step",  "Physical Evasion"),
+                new Array("Detonate",          ""),
+                new Array("Mirage Drive",      "")
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",
@@ -390,7 +393,8 @@ var Locale = function(l) {
                 "All Hunting Grounds",
                 "Crimson Keep",
                 "聖夜に舞い散る黒い雪",
-                "ゼウス星雲"
+                "ゼウス星雲",
+                "エデン"
             ),
             events: new Array(
                 "なし",
@@ -598,7 +602,9 @@ var Locale = function(l) {
                 new Array("マインドシフト",       "賢+20%敵賢-20％"),
                 new Array("レジスタント",        "耐性"),
                 new Array("ファストシフト",        "素+20%敵賢-20%"),
-                ["暗黒光速ターン", "絶対物理回避"]
+                new Array("暗黒光速ターン", "絶対物理回避"),
+                new Array("炸裂", ""), // Detonation
+                new Array("Mirage Drive", "") // Mirage Drive
             ),
             exskills: new Array(
                 "火属性ガーディアンの全ステータスを10%アップ",

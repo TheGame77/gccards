@@ -151,7 +151,8 @@ var Place = (function() {
         [20, 110, ["grounds"]],            // All Hunting Grounds
         [21, 111, ["crimson_keep"]],       // Crimson Keep
         [22, 112, ["black_snow"]],         // The Guardians Who Stole Christmas
-        [23, 10,  ["zeus"]]                // Zeus Nebula
+        [23, 10,  ["zeus"]],               // Zeus Nebula
+        [24, 11,  ["eden"]]                // Floating Island Eden
     ];
 
     var places = {
@@ -629,9 +630,9 @@ var Skill = (function() {
         [84, SKILL_OTHER, ["dr", "counter"],       new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Deadly Reflex (Counterattack)
         [85, SKILL_ATTACK, "mecha4",               new Cost(0, 1200), stone_no,  nbuff({}),                   Attribute.mecha, 4], // Phantom Gear (Mecha + 4)
         [86, SKILL_ATTACK, ["bg", "soulslash"],    new Cost(1000, 0), stone_no,  nbuff({}),                   Attribute.none, 4], // Blood Gambit
-        [87, SKILL_OTHER, "curse",                 new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Mana Martyr (Deals MP damage on death)
+        [87, SKILL_OTHER, ["curse", "mm"],         new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Mana Martyr (Deals MP damage on death)
         [88, SKILL_BUFF, "datk40",                 new Cost(0, 1000), stone_no,  nbuff({datk: -0.4}),         Attribute.none, 0], // Stifle (Enemy ATK -40%)
-        [89, SKILL_ATTACK, "cd",                   new Cost(0, 1400), stone_no,  nbuff({}),                   Attribute.none, 4], // Lifeleech (Absorbs enemy HP), Crash Drain
+        [89, SKILL_ATTACK, ["cd", "ll"],           new Cost(0, 1400), stone_no,  nbuff({}),                   Attribute.none, 4], // Lifeleech (Absorbs enemy HP), Crash Drain
         [90, SKILL_OTHER, ["tb", "poisonattack"],  new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Toxic Blast (Damage over time)
         [91, SKILL_OTHER, ["nervepinch", "np",
                                          "sleep"], new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Nerve Pinch (Inflicts paralysis)
@@ -647,12 +648,14 @@ var Skill = (function() {
                                                              return new BuffClass({atk: 0.1, def: 0.1, agi: 0.1, wis: 0.1});
                                                      } 
                                                    },                                                         Attribute.none, 4], // Reaper's Luck
-        [94, SKILL_OTHER, "transposition",         new Cost(0, 300), stone_no,   nbuff({}),                   Attribute.none, 0], // Manavita Shift
-        [95, SKILL_BUFF, ["powershift"],           new Cost(0, 600), stone_no, nbuff({atk: 0.2, ddef: -0.2}), Attribute.none, 0], // Might Reave
-        [96, SKILL_BUFF, ["mindshift"],            new Cost(0, 600), stone_no, nbuff({wis: 0.2, dwis: -0.2}), Attribute.none, 0], // Mind Reave
-        [97, SKILL_OTHER, ["resistant"],           new Cost(0, 600), stone_no, nbuff({}),                     Attribute.none, 0], // Resistant
-        [98, SKILL_BUFF, ["fastshift"],            new Cost(0, 600), stone_no, nbuff({agi: 0.2, dwis: -0.2}), Attribute.none, 0], // Fast Shift
-        [99, SKILL_OTHER, ["sds"],                 new Cost(0, COST_UNKNOWN), stone_no, nbuff({}),            Attribute.none, 0]  // Shadow Deft Step
+        [94, SKILL_OTHER, ["transposition", "mvs"],new Cost(0,  300), stone_no,   nbuff({}),                  Attribute.none, 0], // Manavita Shift
+        [95, SKILL_BUFF, ["powershift"],           new Cost(0,  600), stone_no, nbuff({atk: 0.2, ddef: -0.2}),Attribute.none, 0], // Might Reave
+        [96, SKILL_BUFF, ["mindshift"],            new Cost(0,  600), stone_no, nbuff({wis: 0.2, dwis: -0.2}),Attribute.none, 0], // Mind Reave
+        [97, SKILL_OTHER, ["resistant"],           new Cost(0,  600), stone_no, nbuff({}),                    Attribute.none, 0], // Resistant
+        [98, SKILL_BUFF, ["fastshift"],            new Cost(0,  600), stone_no, nbuff({agi: 0.2, dwis: -0.2}),Attribute.none, 0], // Fast Shift
+        [99, SKILL_OTHER, ["sds"],                 new Cost(0, COST_UNKNOWN), stone_no, nbuff({}),            Attribute.none, 0], // Shadow Deft Step
+        [100, SKILL_OTHER, "detonation",           new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Detonate
+        [101, SKILL_OTHER, ["md"],                 new Cost(0, COST_UNKNOWN), stone_no, nbuff({}),            Attribute.none, 0] // Mirage Drive
     ];
 
     var skills = {
