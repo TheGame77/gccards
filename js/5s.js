@@ -3036,6 +3036,24 @@ Card.addAll([
      [Skill.sds, Skill.darkness3, Skill.slash3, Skill.slash4, Skill.atk20, Skill.sap],
      [Skill.sds, Skill.slash4, Skill.atk20],
      [Skill.sds, Skill.slash4, Skill.sap]],
+    ["40652", "Almighty Aegir", "This sovereign of the oceans sired nine daughters, each bearing name and aspect of the ever tempestuous waves.", 
+     Event.none, Border.almighty, 5, Place.coliseum, 105, "40575", Shape.merman, Attribute.water,
+     2240, 1060, 1540, 1464, 1200, 1395,
+     [Skill.dr, Skill.atkdef10, Skill.slash4, Skill.gs, Skill.ls],
+     [Skill.dr, Skill.gs, Skill.ls],
+     [Skill.dr, Skill.gs, Skill.ls]],
+    ["40653", "Mighty Aegir", "This deity claims all cargo of ships sunk beneath the seas, and his palace gleams with ill-gotten gilded treasure.", 
+     Event.none, Border.mighty, 5, Place.coliseum, 105, "40575", Shape.merman, Attribute.water,
+     1840, 1060, 1480, 1464, 1180, 1295,
+     [Skill.dr, Skill.atkdef10, Skill.slash4, Skill.gs, Skill.ls],
+     [Skill.dr, Skill.gs, Skill.ls],
+     [Skill.dr, Skill.gs, Skill.ls]],
+    ["40654", "Great Aegir", "This host of the deities' feasts brews a mead in an immense cauldron so heady as to make the thundergod sing.", 
+     Event.none, Border.great, 5, Place.coliseum, 105, "40575", Shape.merman, Attribute.water,
+     1580, 1060, 1540, 1464, 1080, 1195,
+     [Skill.dr, Skill.atkdef10, Skill.slash4, Skill.gs, Skill.ls],
+     [Skill.dr, Skill.gs, Skill.ls],
+     [Skill.dr, Skill.gs, Skill.ls]],
     ["40656", "Samael", "Called god's spite, this demon once reigned over the fifth heaven before being exiled for failing its lord.", 
      Event.none, Border.none, 5, Place.desert_night, 0, null, Shape.bird, Attribute.death,
      1590, 2280, 1520, 1440, 1290, 1300,
@@ -3059,7 +3077,19 @@ Card.addAll([
      1320, 1060, 1060, 1040, 1050, 1400,
      [Skill.tb, Skill.water2, Skill.water3, Skill.dwis20, Skill.water4, Skill.fb],
      [Skill.tb, Skill.dwis20, Skill.water4],
-     [Skill.tb, Skill.water4, Skill.fb]]
+     [Skill.tb, Skill.water4, Skill.fb]],
+    ["40668", "Allocer", "This demon appears as a knight astride a stallion to sway men's hearts unto wickedness with honeyed words.", 
+     Event.deathfire, Border.none, 5, Place.plains, 0, null, Shape.wolf, Attribute.fire,
+     1520, 1600, 1560, 1330, 1300, 1290,
+     [Skill.sd, Skill.slash3, Skill.atk10, Skill.slash4, Skill.ds, Skill.bg],
+     [Skill.sd, Skill.slash4, Skill.ds],
+     [Skill.sd, Skill.ds, Skill.bg]],
+    ["40669", "Wicked Witch", "This sorceress dominates a land to the west of an emerald city, every hungry for silver shoes imbued with magic untold.", 
+     Event.deathfire, Border.none, 5, Place.plains_night, 0, null, Shape.orbs, Attribute.death,
+     1550, 1130, 1135, 1440, 1330, 1600,
+     [Skill.sap, Skill.wis10, Skill.death3, Skill.wis20, Skill.death4, Skill.revival],
+     [Skill.sap, Skill.wis20, Skill.death4],
+     [Skill.sap, Skill.death4, Skill.revival]]
 ]);
 
 Card.addLimitedTypes({
@@ -3325,10 +3355,15 @@ Card.addNotes({
     "40620": "Skills from Japanese version", // Almighty Hestia
     "40621": "All data from Japanese version", // Mighty Hestia
     "40622": "All data from Japanese version", // Great Hestia
+    "40652": "All data from Japanese version", // Almighty Aegir
+    "40653": "Skills from Japanese version", // Mighty Aegir
+    "40654": "All data from Japanese version", // Great Aegir
     "40656": "Skills from Japanese version", // Samael
     "40657": "Skills from Japanese version", // Tezcatlipoca
     "40658": "Skills from Japanese version", // Lugh
-    "40662": "Skills from Japanese version" // Agaliarept
+    "40662": "Skills from Japanese version", // Agaliarept
+    "40668": "Skills from Japanese version", // Allocer
+    "40669": "Skills from Japanese version" // Wicked Witch
 });
 
 ExCard.addAll([

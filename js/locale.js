@@ -99,7 +99,7 @@ var Locale = function(l) {
                 "The Greatest Hits Hunt",
                 "Fright of the Valkyrie",
                 "The Serpenchanter's Curse",
-                "Death Fire Hunt",
+                "Deathblaze Hunt",
                 "Twin Angels"
             ),
             borders: new Array(
