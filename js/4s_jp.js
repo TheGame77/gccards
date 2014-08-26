@@ -643,9 +643,9 @@ Card.addAll([
     ["30130", "ネメアンライオン", "", 
      Event.none, Border.none, 4, Place.quests, 0, null, Shape.none, Attribute.death,
      1035, 900, 950, 1025, 1005, 1025,
-     [Skill.slash1, Skill.death2, Skill.Slash2, Skill.Death3, Skill.qs, Skill.ls],
-     [Skill.Slash2, Skill.Death3, Skill.qs],
-     [Skill.Death3, Skill.qs, Skill.ls]],
+     [Skill.slash1, Skill.death2, Skill.slash2, Skill.death3, Skill.qs, Skill.ls],
+     [Skill.slash2, Skill.death3, Skill.qs],
+     [Skill.death3, Skill.qs, Skill.ls]],
     ["30131", "酒吞童子", "", 
      Event.none, Border.none, 4, Place.desert_night, 0, null, Shape.female, Attribute.poison,
      0, 0, 0, 0, 0, 0,
@@ -654,6 +654,18 @@ Card.addAll([
      []],
     ["30132", "オシリス", "", 
      Event.none, Border.none, 4, Place.desert_night, 0, null, Shape.humanoid, Attribute.death,
+     0, 0, 0, 0, 0, 0,
+     [],
+     [],
+     []],
+    ["30137", "ネビロス", "", 
+     Event.deathfire, Border.none, 4, Place.plains, 0, null, Shape.humanoid, Attribute.fire,
+     1020, 880, 1015, 1030, 1026, 1025,
+     [Skill.fire1, Skill.dwis20, Skill.fire2, Skill.mm, Skill.death2],
+     [Skill.dwis20, Skill.fire2, Skill.mm],
+     [Skill.dwis20, Skill.mm, Skill.death2]],
+    ["30138", "ハーデス", "", 
+     Event.deathfire, Border.none, 4, Place.plains_night, 0, null, Shape.humanoid, Attribute.death,
      0, 0, 0, 0, 0, 0,
      [],
      [],
@@ -683,7 +695,8 @@ Card.addNotes({
     "30129": "All data missing",
     "30129": "All data from international version", // Nemean Lion
     "30131": "All data missing",
-    "30132": "All data missing"
+    "30132": "All data missing",
+    "30138": "All data missing" // Hades
 });
 
 ExCard.addAll([

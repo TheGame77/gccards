@@ -602,9 +602,10 @@ var Locale = function(l) {
                 new Array("マインドシフト",       "賢+20%敵賢-20％"),
                 new Array("レジスタント",        "耐性"),
                 new Array("ファストシフト",        "素+20%敵賢-20%"),
-                new Array("暗黒光速ターン", "絶対物理回避"),
-                new Array("炸裂", ""), // Detonation
-                new Array("Mirage Drive", "") // Mirage Drive
+                new Array("暗黒光速ターン", "絶対物理回避"), // Shadow Deft Step
+                new Array("炸裂", "敵に必中ダメージ"), // Detonation
+                new Array("ミラージュドライヴ", "属性回避") // Mirage Drive
+// TODO:                new Array("ワイズスマイト", "先制魔攻") // Wise Smite
             ),
             exskills: new Array(
                 "火属性ガーディアンの全ステータスを10%アップ",

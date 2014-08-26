@@ -630,10 +630,10 @@ Card.addAll([
      []],
     ["30129", "Barbatos", "Fluent in the tongues of beasts, this corporal of hell's hordes can banish any enchantment concealing treasure.", 
      Event.lightning_wind, Border.none, 4, Place.plains, 0, null, Shape.orbs, Attribute.wind,
-     0, 0, 0, 0, 0, 0,
-     [],
-     [],
-     []],
+     1034, 995, 968, 975, 999, 1030,
+     [Skill.qs, Skill.wis10, Skill.wind2, Skill.dagi20, Skill.wind3],
+     [Skill.qs, Skill.wis10, Skill.wind2],
+     [Skill.qs, Skill.wis10, Skill.wind3]],
     ["30130", "Nemean Lion", "Impervious to blade and arrow, this sly beast transforms into a wounded maid to disarm prey before devouring it.", 
      Event.none, Border.none, 4, Place.quests, 0, null, Shape.none, Attribute.death,
      1035, 900, 950, 1025, 1005, 1025,
@@ -648,6 +648,18 @@ Card.addAll([
      []],
     ["30132", "Osiris", "This merciful judge of the dead reigns in a paradise where silky reeds cradle souls whose deeds were pure in life.", 
      Event.none, Border.none, 4, Place.desert_night, 0, null, Shape.humanoid, Attribute.death,
+     0, 0, 0, 0, 0, 0,
+     [],
+     [],
+     []],
+    ["30137", "Nebiros", "With a demon king in lands uncharted, this greatest of hell's necromancers works to end man from the shadows.", 
+     Event.deathfire, Border.none, 4, Place.plains, 0, null, Shape.humanoid, Attribute.fire,
+     1020, 880, 1015, 1030, 1026, 1025,
+     [Skill.fire1, Skill.dwis20, Skill.fire2, Skill.mm, Skill.death2],
+     [Skill.dwis20, Skill.fire2, Skill.mm],
+     [Skill.dwis20, Skill.mm, Skill.death2]],
+    ["30138", "Hades", "This divine ruler of the netherworld to the far west deals with any who seek to cheat natural death with an iron fist.", 
+     Event.deathfire, Border.none, 4, Place.plains_night, 0, null, Shape.humanoid, Attribute.death,
      0, 0, 0, 0, 0, 0,
      [],
      [],
@@ -704,9 +716,11 @@ Card.addNotes({
     "30126": "Skills missing", // Gaia
     "30127": "Skills missing", // Astaroth
     "30128": "All data missing", // Pallas
-    "30129": "All data missing", // Barbatos
+    "30129": "All data from Japanese version", // Barbatos
     "30131": "All data missing", // Shuten-Doji
-    "30132": "All data missing" // Osiris
+    "30132": "All data missing", // Osiris
+    "30137": "Skills from Japanese version", // Nebiros
+    "30138": "All data missing" // Hades
 });
 
 ExCard.addAll([
