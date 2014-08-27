@@ -630,16 +630,16 @@ Card.addAll([
      []],
     ["30128", "パラス", "", 
      Event.lightning_wind, Border.none, 4, Place.plains_night, 0, null, Shape.orbs, Attribute.lightning,
-     0, 0, 0, 0, 0, 0,
-     [],
-     [],
-     []],
+     1026, 960, 1025, 984, 1015, 977,
+     [Skill.lightning2, Skill.slash2, Skill.atk10, Skill.lightning3, Skill.atkdef10, Skill.slash3],
+     [Skill.slash2, Skill.atk10, Skill.atkdef10],
+     [Skill.atk10, Skill.atkdef10, Skill.slash3]],
     ["30129", "バルバトす", "", 
      Event.lightning_wind, Border.none, 4, Place.plains, 0, null, Shape.orbs, Attribute.wind,
-     0, 0, 0, 0, 0, 0,
-     [],
-     [],
-     []],
+     1034, 995, 968, 975, 999, 1030,
+     [Skill.qs, Skill.wis10, Skill.wind2, Skill.dagi20, Skill.wind3],
+     [Skill.qs, Skill.wis10, Skill.wind2],
+     [Skill.qs, Skill.wis10, Skill.wind3]],
     ["30130", "ネメアンライオン", "", 
      Event.none, Border.none, 4, Place.quests, 0, null, Shape.none, Attribute.death,
      1035, 900, 950, 1025, 1005, 1025,
@@ -661,15 +661,15 @@ Card.addAll([
     ["30137", "ネビロス", "", 
      Event.deathfire, Border.none, 4, Place.plains, 0, null, Shape.humanoid, Attribute.fire,
      1020, 880, 1015, 1030, 1026, 1025,
-     [Skill.fire1, Skill.dwis20, Skill.fire2, Skill.mm, Skill.death2],
-     [Skill.dwis20, Skill.fire2, Skill.mm],
-     [Skill.dwis20, Skill.mm, Skill.death2]],
+     [Skill.fire1, Skill.dwis20, Skill.fire2, Skill.mm, Skill.death2, Skill.death3],
+     [Skill.dwis20, Skill.mm, Skill.death2],
+     [Skill.dwis20, Skill.mm, Skill.death3]],
     ["30138", "ハーデス", "", 
      Event.deathfire, Border.none, 4, Place.plains_night, 0, null, Shape.humanoid, Attribute.death,
-     0, 0, 0, 0, 0, 0,
-     [],
-     [],
-     []]
+     1021, 1020, 990, 1025, 1022, 1033,
+     [Skill.darkness2, Skill.wis10, Skill.fb, Skill.darkness3, Skill.darkness4],
+     [Skill.wis10, Skill.fb, Skill.darkness4],
+     [Skill.wis10, Skill.fb, Skill.darkness4]]
 ]);
 
 Card.addLimitedTypes({
@@ -692,11 +692,11 @@ Card.addNotes({
     "30126": "Skills missing, stats from international version",
     "30127": "Skills missing, stats from international version",
     "30128": "All data missing",
-    "30129": "All data missing",
-    "30129": "All data from international version", // Nemean Lion
+    "30129": "Rebirth skill missing", // Barbatos
+    "30130": "All data from international version", // Nemean Lion
     "30131": "All data missing",
     "30132": "All data missing",
-    "30138": "All data missing" // Hades
+    "30138": "Rebirth skill missing" // Hades
 });
 
 ExCard.addAll([

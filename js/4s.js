@@ -624,10 +624,10 @@ Card.addAll([
      []],
     ["30128", "Pallas", "Sparks fly when this immortal spars with the goddess of wisdom in friendly contest to gain mastery of the spear.", 
      Event.lightning_wind, Border.none, 4, Place.plains_night, 0, null, Shape.orbs, Attribute.lightning,
-     0, 0, 0, 0, 0, 0,
-     [],
-     [],
-     []],
+     1026, 960, 1025, 984, 1015, 977,
+     [Skill.lightning2, Skill.slash2, Skill.atk10, Skill.lightning3, Skill.atkdef10, Skill.slash3],
+     [Skill.slash2, Skill.atk10, Skill.atkdef10],
+     [Skill.atk10, Skill.atkdef10, Skill.slash3]],
     ["30129", "Barbatos", "Fluent in the tongues of beasts, this corporal of hell's hordes can banish any enchantment concealing treasure.", 
      Event.lightning_wind, Border.none, 4, Place.plains, 0, null, Shape.orbs, Attribute.wind,
      1034, 995, 968, 975, 999, 1030,
@@ -655,15 +655,15 @@ Card.addAll([
     ["30137", "Nebiros", "With a demon king in lands uncharted, this greatest of hell's necromancers works to end man from the shadows.", 
      Event.deathfire, Border.none, 4, Place.plains, 0, null, Shape.humanoid, Attribute.fire,
      1020, 880, 1015, 1030, 1026, 1025,
-     [Skill.fire1, Skill.dwis20, Skill.fire2, Skill.mm, Skill.death2],
-     [Skill.dwis20, Skill.fire2, Skill.mm],
-     [Skill.dwis20, Skill.mm, Skill.death2]],
+     [Skill.fire1, Skill.dwis20, Skill.fire2, Skill.mm, Skill.death2, Skill.death3],
+     [Skill.dwis20, Skill.mm, Skill.death2],
+     [Skill.dwis20, Skill.mm, Skill.death3]],
     ["30138", "Hades", "This divine ruler of the netherworld to the far west deals with any who seek to cheat natural death with an iron fist.", 
      Event.deathfire, Border.none, 4, Place.plains_night, 0, null, Shape.humanoid, Attribute.death,
-     0, 0, 0, 0, 0, 0,
-     [],
-     [],
-     []]
+     1021, 1020, 990, 1025, 1022, 1033,
+     [Skill.darkness2, Skill.wis10, Skill.fb, Skill.darkness3, Skill.darkness4],
+     [Skill.wis10, Skill.fb, Skill.darkness4],
+     [Skill.wis10, Skill.fb, Skill.darkness4]]
 ]);
 
 Card.addLimitedTypes({
@@ -715,12 +715,12 @@ Card.addNotes({
     "30125": "All data from Japanese version",
     "30126": "Skills missing", // Gaia
     "30127": "Skills missing", // Astaroth
-    "30128": "All data missing", // Pallas
-    "30129": "All data from Japanese version", // Barbatos
+    "30128": "All data from Japanese version", // Pallas
+    "30129": "All data from Japanese version, rebirth skill missing", // Barbatos
     "30131": "All data missing", // Shuten-Doji
     "30132": "All data missing", // Osiris
     "30137": "Skills from Japanese version", // Nebiros
-    "30138": "All data missing" // Hades
+    "30138": "All data from Japanese version, rebirth skill missing" // Hades
 });
 
 ExCard.addAll([
