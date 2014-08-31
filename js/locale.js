@@ -248,7 +248,8 @@ var Locale = function(l) {
                 new Array("Speed Reave",       "素+20%敵賢-20%"),
                 new Array("Shadow Deft Step",  "Physical Evasion"),
                 new Array("Detonate",          ""),
-                new Array("Mirage Drive",      "")
+                new Array("Mirage Drive",      ""),
+                new Array("Shadow Mind Rift",  "")
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",
@@ -604,7 +605,8 @@ var Locale = function(l) {
                 new Array("ファストシフト",        "素+20%敵賢-20%"),
                 new Array("暗黒光速ターン", "絶対物理回避"), // Shadow Deft Step
                 new Array("炸裂", "敵に必中ダメージ"), // Detonation
-                new Array("ミラージュドライヴ", "属性回避") // Mirage Drive
+                new Array("ミラージュドライヴ", "属性回避"), // Mirage Drive
+                new Array("暗黒マインドブレイク",    "混乱") // Shadow Mind Rift
 // TODO:                new Array("ワイズスマイト", "先制魔攻") // Wise Smite
             ),
             exskills: new Array(

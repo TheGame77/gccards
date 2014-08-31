@@ -689,11 +689,11 @@ Card.addNotes({
     "30116": "Skills missing",
     "30120": "Rebirth skill missing",
     "30121": "Silhouette missing",
-    "30126": "Skills missing, stats from international version",
-    "30127": "Skills missing, stats from international version",
+    "30126": "Skills missing, stats from Int'l version",
+    "30127": "Skills missing, stats from Int'l version",
     "30128": "All data missing",
     "30129": "Rebirth skill missing", // Barbatos
-    "30130": "All data from international version", // Nemean Lion
+    "30130": "All data from Int'l version", // Nemean Lion
     "30131": "All data missing",
     "30132": "All data missing",
     "30138": "Rebirth skill missing" // Hades

@@ -649,14 +649,14 @@ var Skill = (function() {
                                                      } 
                                                    },                                                         Attribute.none, 4], // Reaper's Luck
         [94, SKILL_OTHER, ["transposition", "mvs"],new Cost(0,  300), stone_no,   nbuff({}),                  Attribute.none, 0], // Manavita Shift
-        [95, SKILL_BUFF, ["powershift"],           new Cost(0,  600), stone_no, nbuff({atk: 0.2, ddef: -0.2}),Attribute.none, 0], // Might Reave
-        [96, SKILL_BUFF, ["mindshift"],            new Cost(0,  600), stone_no, nbuff({wis: 0.2, dwis: -0.2}),Attribute.none, 0], // Mind Reave
-        [97, SKILL_OTHER, ["resistant"],           new Cost(0,  600), stone_no, nbuff({}),                    Attribute.none, 0], // Resistant
-        [98, SKILL_BUFF, ["fastshift"],            new Cost(0,  600), stone_no, nbuff({agi: 0.2, dwis: -0.2}),Attribute.none, 0], // Fast Shift
-        [99, SKILL_OTHER, ["sds"],                 new Cost(0,  300), stone_no, nbuff({}),                    Attribute.none, 0], // Shadow Deft Step
+        [95, SKILL_BUFF, "powershift",             new Cost(0,  600), stone_no, nbuff({atk: 0.2, ddef: -0.2}),Attribute.none, 0], // Might Reave
+        [96, SKILL_BUFF, "mindshift",              new Cost(0,  600), stone_no, nbuff({wis: 0.2, dwis: -0.2}),Attribute.none, 0], // Mind Reave
+        [97, SKILL_OTHER, "resistant",             new Cost(0,  600), stone_no, nbuff({}),                    Attribute.none, 0], // Resistant
+        [98, SKILL_BUFF, "fastshift",              new Cost(0,  600), stone_no, nbuff({agi: 0.2, dwis: -0.2}),Attribute.none, 0], // Fast Shift
+        [99, SKILL_OTHER, "sds",                   new Cost(0,  300), stone_no, nbuff({}),                    Attribute.none, 0], // Shadow Deft Step
         [100, SKILL_OTHER, "detonation",           new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Detonate
-        [101, SKILL_OTHER, ["md"],                 new Cost(0,  300), stone_no, nbuff({}),                    Attribute.none, 0] // Mirage Drive
-        // TODO: Shadow MR is same as MR
+        [101, SKILL_OTHER, "md",                   new Cost(0,  300), stone_no, nbuff({}),                    Attribute.none, 0], // Mirage Drive
+        [102, SKILL_OTHER, "smr",                  new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0] // Shadow Mind Rift (Confusion)
     ];
 
     var skills = {

@@ -3253,7 +3253,37 @@ Card.addAll([
      1480, 1560, 1560, 1100, 990, 940,
      [Skill.dr, Skill.physical3, Skill.earth3, Skill.qs, Skill.sd],
      [Skill.dr, Skill.physical3, Skill.qs],
-     [Skill.dr, Skill.qs, Skill.sd]]
+     [Skill.dr, Skill.qs, Skill.sd]],
+    ["40679", "風のバルバリシア", "ゴルベーザ四天王の紅一点。長い髪の毛で突風を巧みに操る艶かしい姿の美女。", 
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.wind,
+     1220, 1200, 1100, 1120, 1200, 1280,
+     [Skill.wind3, Skill.wis10, Skill.slash2, Skill.wind4, Skill.qs, Skill.mindshift],
+     [Skill.wis10, Skill.wind4, Skill.qs],
+     [Skill.wind4, Skill.qs, Skill.mindshift]],
+    ["40680", "土のスカルミリヨーネ", "ゴルベーザ四天王のひとり。アンデツド軍団を率いる死してなお恐ろしい死の案內人。", 
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.earth,
+     1190, 1150, 1190, 1250, 1150, 1130,
+     [Skill.earth2, Skill.physical4, Skill.earth3, Skill.wis20, Skill.earth4],
+     [Skill.physical4, Skill.wis20, Skill.earth4],
+     [Skill.physical4, Skill.wis20, Skill.earth4]],
+    ["40681", "水のカイナッツォ", "ゴルベーザ四天王のひとり。水を自在に操り、その津波で辺り一带すベてを飲み込む。", 
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.water,
+     1400, 1180, 1160, 1430, 1010, 1190,
+     [Skill.dr, Skill.physical3, Skill.water3, Skill.water4, Skill.def40],
+     [Skill.dr, Skill.water4, Skill.def40],
+     [Skill.dr, Skill.water4, Skill.def40]],
+    ["40682", "火のルビカンテ", "ゴルベーザ四天王のリーダー。炎を操り、弱点の氷すら防ぐ猛火のマントを纏う。", 
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.fire,
+     1330, 1220, 1200, 1200, 1230, 1330,
+     [Skill.fire3, Skill.physical3, Skill.physical4, Skill.mindshift, Skill.fire4, Skill.fastshift],
+     [Skill.physical4, Skill.mindshift, Skill.fire4],
+     [Skill.mindshift, Skill.fire4, Skill.fastshift]],
+    ["40683", "漆黒のゴルベーザ", "漆黒の甲冑に身を包んだ魔導士。四天王を率いて全てのクリスタル強奪をもくろむ。", 
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.darkness,
+     1500, 1100, 1000, 1600, 1000, 1500,
+     [Skill.smr, Skill.slash3, Skill.wis20, Skill.darkness3, Skill.darkness4, Skill.dr],
+     [Skill.smr, Skill.wis20, Skill.darkness4],
+     [Skill.smr, Skill.darkness4, Skill.dr]]
 ]);
 
 /* 
@@ -3290,19 +3320,25 @@ Card.addLimitedTypes({
     "40492": [Type.cool, Type.coolr],    // ベリト
     "40520": [Type.cool, Type.coolr],    // Deadman Titan
     "40541": [Type.cool, Type.coolr],    // ウラニア
-    "40570": Type.all,                   // リッチクイーン has Ace type
     "40577": [Type.cool, Type.coolr],    // ジャヒ
-    "40581": [Type.cool, Type.coolr]     // ベリアル
+    "40581": [Type.cool, Type.coolr],    // ベリアル
+    "40679": [Type.cool, Type.coolr],    // Barbariccia of the Wind
+    "40680": [Type.cool, Type.coolr],    // Scarmiglione of the Earth
+    "40681": [Type.cool, Type.coolr],    // Cagnazzo of the Water
+    "40682": [Type.cool, Type.coolr],    // Rubicante of the Flame
+    "40683": [Type.cool, Type.coolr]     // Golbez of the Darkness
 });
 
 Card.addNotes({
     "40332": "Skills from Int'l version",     // 火之迦具土神
-    "40475": "Last skill missing",
+    "40475": "Rebirth skill missing",
     "40481": "Skills not confirmed",
-    "40485": "Last skill missing",
+    "40485": "Rebirth skill missing",
     "40517": "The first skill is Nerve Pinch before rebirth",
     "40518": "The first skill is Nerve Pinch before rebirth",
-    "40519": "The first skill is Nerve Pinch before rebirth"
+    "40519": "The first skill is Nerve Pinch before rebirth",
+    "40680": "Rebirth skill missing", // Scarmiglione of the Earth,
+    "40681": "Rebirth skill missing" // Cagnazzo of the Water
 });
 
 ExCard.addAll([
