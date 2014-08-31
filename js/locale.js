@@ -460,8 +460,8 @@ var Locale = function(l) {
                 "妖誘の魔道師", // Serpenchanter's Curse
                 "死神焔舞", // Death Fire Hunt
                 "双翼天臨", // Twin Angels
-                "Goddess of Love",
-                "Dancing God"
+                "慈しみの女神", // Goddess of Love
+                "神代の踊り手" // Dancing God
             ),
             borders: new Array(
                 "なし",
