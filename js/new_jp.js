@@ -7,7 +7,9 @@ WhatIsNew.get = function() {
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
         '2014/8/31': [
-            "6th Invitation: " + Card.mklnk(40679) + "、" + Card.mklnk(40680) + "、" + Card.mklnk(40681) + "、" + Card.mklnk(40682) + "、" + Card.mklnk(40683) + "。"
+            "6th Invitation: " + Card.mklnk(40679) + "、" + Card.mklnk(40680) + "、" + Card.mklnk(40681) + "、" + Card.mklnk(40682) + "、" + Card.mklnk(40683) + "。",
+            "Goddess of Love: " + Card.mklnk(40685) + "。",
+            "Dancing God: " + Card.mklnk(40687) + "。"
         ],
         '2014/8/26': [
             "死神焔舞: " + Card.mklnk(30137) + "、" + Card.mklnk(30138) + "。"

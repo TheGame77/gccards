@@ -244,7 +244,9 @@ var Event = (function() {
         [56, ["blackwing"]],                    // 2nd Anniversary - 黑翼の墮天使
         [57, ["serpenchanterscurse"]],
         [58, ["deathfire"]],
-        [59, ["twinangels"]]
+        [59, ["twinangels"]],
+        [60, ["goddessoflove"]],
+        [61, ["dancinggod"]]
     ];
 
     var events = {
@@ -2370,6 +2372,10 @@ var Sorting = (function() {
                 return 0;
         },
         place: function(x, y) {
+            if(typeof x.place == "undefined")
+                alert("Invalid place: " + x.id);
+            if(typeof y.place == "undefined")
+                alert("Invalid place: " + y.id);
             if (x.place.sid < y.place.sid)
                 return -1;
             else if (x.place.sid > y.place.sid)

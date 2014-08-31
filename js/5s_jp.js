@@ -3283,7 +3283,19 @@ Card.addAll([
      1500, 1100, 1000, 1600, 1000, 1500,
      [Skill.smr, Skill.slash3, Skill.wis20, Skill.darkness3, Skill.darkness4, Skill.dr],
      [Skill.smr, Skill.wis20, Skill.darkness4],
-     [Skill.smr, Skill.darkness4, Skill.dr]]
+     [Skill.smr, Skill.darkness4, Skill.dr]],
+    ["40685", "ヘラ", "天堂山に住まう諸神の女王。乙女の守護女神であり、誕生・成育・婚姻・出産を見守る。", 
+     Event.goddessoflove, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.light,
+     1190, 1180, 1050, 1120, 1160, 1400,
+     [Skill.light2, Skill.wis10, Skill.light3, Skill.light4, Skill.mvs, Skill.np],
+     [Skill.wis10, Skill.light4, Skill.mvs],
+     [Skill.light4, Skill.mvs, Skill.np]],
+    ["40687", "アメノウズメ", "最初の舞姫である女神。熱烈な舞にて神々を沸かせ、光が失われた暗闇の世界を救った。", 
+     Event.dancinggod, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
+     1780, 1400, 1200, 1350, 1320, 1660,
+     [Skill.wind2, Skill.wis10, Skill.ds, Skill.wind3, Skill.wind4, Skill.mindshift],
+     [Skill.wis10, Skill.ds, Skill.wind4],
+     [Skill.ds, Skill.wind4, Skill.mindshift]]
 ]);
 
 /* 

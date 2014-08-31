@@ -100,7 +100,9 @@ var Locale = function(l) {
                 "Fright of the Valkyrie",
                 "The Serpenchanter's Curse",
                 "Deathblaze Hunt",
-                "Twin Angels"
+                "Twin Angels",
+                "Goddess of Love",
+                "Dancing God"
             ),
             borders: new Array(
                 "None",
@@ -457,7 +459,9 @@ var Locale = function(l) {
                 "黑翼の墮天使",
                 "妖誘の魔道師", // Serpenchanter's Curse
                 "死神焔舞", // Death Fire Hunt
-                "双翼天臨" // Twin Angels
+                "双翼天臨", // Twin Angels
+                "Goddess of Love",
+                "Dancing God"
             ),
             borders: new Array(
                 "なし",
