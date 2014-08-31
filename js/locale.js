@@ -610,7 +610,7 @@ var Locale = function(l) {
                 new Array("暗黒光速ターン", "絶対物理回避"), // Shadow Deft Step
                 new Array("炸裂", "敵に必中ダメージ"), // Detonation
                 new Array("ミラージュドライヴ", "属性回避"), // Mirage Drive
-                new Array("暗黒マインドブレイク",    "混乱") // Shadow Mind Rift
+                new Array("暗黒マインドブレイク",    "絶対混乱") // Shadow Mind Rift
 // TODO:                new Array("ワイズスマイト", "先制魔攻") // Wise Smite
             ),
             exskills: new Array(
