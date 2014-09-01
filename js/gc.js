@@ -246,7 +246,8 @@ var Event = (function() {
         [58, ["deathfire"]],
         [59, ["twinangels"]],
         [60, ["goddessoflove"]],
-        [61, ["dancinggod"]]
+        [61, ["dancinggod"]],
+        [62, ["skygarden"]]
     ];
 
     var events = {
@@ -658,7 +659,8 @@ var Skill = (function() {
         [99, SKILL_OTHER, "sds",                   new Cost(0,  300), stone_no, nbuff({}),                    Attribute.none, 0], // Shadow Deft Step
         [100, SKILL_OTHER, "detonation",           new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Detonate
         [101, SKILL_OTHER, "md",                   new Cost(0,  300), stone_no, nbuff({}),                    Attribute.none, 0], // Mirage Drive
-        [102, SKILL_OTHER, "smr",                  new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0] // Shadow Mind Rift (Confusion)
+        [102, SKILL_OTHER, "smr",                  new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Mind Rift (Confusion)
+        [103, SKILL_OTHER, "wisesmite",            new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0] // Wise Smite
     ];
 
     var skills = {

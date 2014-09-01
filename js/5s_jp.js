@@ -3284,6 +3284,12 @@ Card.addAll([
      [Skill.smr, Skill.slash3, Skill.wis20, Skill.darkness3, Skill.darkness4, Skill.dr],
      [Skill.smr, Skill.wis20, Skill.darkness4],
      [Skill.smr, Skill.darkness4, Skill.dr]],
+    ["40684", "メルカバ", "", 
+     Event.none, Border.none, 5, Place.coliseum, 0, null, Shape.none, Attribute.mecha,
+     1350, 1150, 1080, 1200, 1300, 1600,
+     [Skill.wisesmite, Skill.wis10, Skill.light2, Skill.light3, Skill.mecha4, Skill.mr],
+     [Skill.wisesmite, Skill.wis10, Skill.mecha4],
+     [Skill.wisesmite, Skill.mecha4, Skill.mr]],
     ["40685", "ヘラ", "天堂山に住まう諸神の女王。乙女の守護女神であり、誕生・成育・婚姻・出産を見守る。", 
      Event.goddessoflove, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.light,
      1190, 1180, 1050, 1120, 1160, 1400,
@@ -3295,7 +3301,19 @@ Card.addAll([
      1780, 1400, 1200, 1350, 1320, 1660,
      [Skill.wind2, Skill.wis10, Skill.ds, Skill.wind3, Skill.wind4, Skill.mindshift],
      [Skill.wis10, Skill.ds, Skill.wind4],
-     [Skill.ds, Skill.wind4, Skill.mindshift]]
+     [Skill.ds, Skill.wind4, Skill.mindshift]],
+    ["40688", "最強サマエル", "あらゆる罪を生み出す毒杯の悪魔。楽土に葡萄の木を植え、その酒で人祖を退廃させた。", 
+     Event.none, Border.almighty, 5, Place.coliseum, 2, "40656", Shape.none, Attribute.death,
+     1810, 2500, 1670, 1500, 1320, 1400,
+     [Skill.slash4, Skill.dagi20, Skill.atk20, Skill.sd, Skill.dp],
+     [Skill.atk20, Skill.sd, Skill.dp],
+     [Skill.atk20, Skill.sd, Skill.dp]],
+    ["40691", "ブライド", "一度は封印された生命創造術により、人造人間の伴侶として造られた第二の人工生命体。", 
+     Event.skygarden, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
+     2060, 2000, 1600, 1450, 1330, 1500,
+     [Skill.slash3, Skill.atk10, Skill.slash4, Skill.bg, Skill.powershift, Skill.detonation],
+     [Skill.atk10, Skill.bg, Skill.powershift],
+     [Skill.bg, Skill.powershift, Skill.detonation]]
 ]);
 
 /* 

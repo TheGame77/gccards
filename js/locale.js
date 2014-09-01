@@ -102,7 +102,8 @@ var Locale = function(l) {
                 "Deathblaze Hunt",
                 "Wings of Triumph",
                 "Goddess of Love",
-                "Dancing God"
+                "Dancing God",
+                "Garden in the Sky"
             ),
             borders: new Array(
                 "None",
@@ -249,9 +250,10 @@ var Locale = function(l) {
                 new Array("Impervious",        "Resists effects"),
                 new Array("Speed Reave",       "素+20%敵賢-20%"),
                 new Array("Shadow Deft Step",  "Physical Evasion"),
-                new Array("Detonate",          ""),
-                new Array("Mirage Drive",      ""),
-                new Array("Shadow Mind Rift",  "")
+                new Array("Detonate",          "Damage on death"),
+                new Array("Mirage Drive",      "Elemental Evasion"),
+                new Array("Shadow Mind Rift",  "Confusion"),
+                new Array("Wise Smite",        "First attack")
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",
@@ -461,7 +463,8 @@ var Locale = function(l) {
                 "死神焔舞", // Death Fire Hunt
                 "双翼天臨", // Twin Angels
                 "慈しみの女神", // Goddess of Love
-                "神代の踊り手" // Dancing God
+                "神代の踊り手", // Dancing God
+                "天空の花園" // Garden in the Sky
             ),
             borders: new Array(
                 "なし",
@@ -610,8 +613,8 @@ var Locale = function(l) {
                 new Array("暗黒光速ターン", "絶対物理回避"), // Shadow Deft Step
                 new Array("炸裂", "敵に必中ダメージ"), // Detonation
                 new Array("ミラージュドライヴ", "属性回避"), // Mirage Drive
-                new Array("暗黒マインドブレイク",    "絶対混乱") // Shadow Mind Rift
-// TODO:                new Array("ワイズスマイト", "先制魔攻") // Wise Smite
+                new Array("暗黒マインドブレイク",    "絶対混乱"), // Shadow Mind Rift
+                new Array("ワイズスマイト", "先制魔攻") // Wise Smite
             ),
             exskills: new Array(
                 "火属性ガーディアンの全ステータスを10%アップ",
