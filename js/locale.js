@@ -100,7 +100,7 @@ var Locale = function(l) {
                 "Fright of the Valkyrie",
                 "The Serpenchanter's Curse",
                 "Deathblaze Hunt",
-                "Twin Angels",
+                "Wings of Triumph",
                 "Goddess of Love",
                 "Dancing God"
             ),

@@ -3072,6 +3072,24 @@ Card.addAll([
      [Skill.slash3, Skill.ds, Skill.slash4, Skill.ddef20, Skill.bg, Skill.qs],
      [Skill.ds, Skill.ddef20, Skill.bg],
      [Skill.ds, Skill.bg, Skill.qs]],
+    ["40659", "Almighty Triton", "This harbinger of the gods wields his trident to stir up maelstroms, and hurls to the land boulders from the deep.", 
+     Event.none, Border.almighty, 5, Place.coliseum, 106, "40572", Shape.serpent, Attribute.mecha,
+     1600, 2000, 1550, 1420, 1320, 1300,
+     [Skill.slash4, Skill.atk20, Skill.bg, Skill.sd, Skill.atk25],
+     [Skill.bg, Skill.sd, Skill.atk25],
+     [Skill.bg, Skill.sd, Skill.atk25]],
+    ["40660", "Mighty Triton", "This being's conch shell horn sounds with howls of beasts so terrible as to cow even the gods' foes, the giants.", 
+     Event.none, Border.mighty, 5, Place.coliseum, 106, "40572", Shape.serpent, Attribute.mecha,
+     1440, 1840, 1500, 1360, 1315, 1200,
+     [Skill.slash4, Skill.atk20, Skill.bg, Skill.sd, Skill.atk25],
+     [Skill.bg, Skill.sd, Skill.atk25],
+     [Skill.bg, Skill.sd, Skill.atk25]],
+    ["40661", "Great Triton", "When the godking called a deluge to drown all, this savior parted the waters so the first of mankind might live.", 
+     Event.none, Border.great, 5, Place.coliseum, 106, "40572", Shape.serpent, Attribute.mecha,
+     1370, 1700, 1484, 1320, 1310, 1120,
+     [Skill.slash4, Skill.atk20, Skill.bg, Skill.sd, Skill.atk25],
+     [Skill.bg, Skill.sd, Skill.atk25],
+     [Skill.bg, Skill.sd, Skill.atk25]],
     ["40662", "Agaliarept", "This elder demon sends forth serpents born of water to commune with the dead's spirits, sleep they in soil or sky.", 
      Event.serpenchanterscurse, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.water,
      1320, 1060, 1060, 1040, 1050, 1400,
@@ -3089,7 +3107,19 @@ Card.addAll([
      1550, 1130, 1135, 1440, 1330, 1600,
      [Skill.sap, Skill.wis10, Skill.death3, Skill.wis20, Skill.death4, Skill.revival],
      [Skill.sap, Skill.wis20, Skill.death4],
-     [Skill.sap, Skill.death4, Skill.revival]]
+     [Skill.sap, Skill.death4, Skill.revival]],
+    ["40674", "Rashnu", "This god guards over the bridge of judgement, weighing deeds of the newly dead on a set of gilded scales.", 
+     Event.twinangels, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
+     1310, 1800, 900, 1290, 1280, 1400,
+     [Skill.sd, Skill.darkness2, Skill.dagi20, Skill.darkness3, Skill.darkness4, Skill.dwis40],
+     [Skill.sd, Skill.dagi20, Skill.darkness4],
+     [Skill.sd, Skill.darkness4, Skill.dwis40]],
+    ["40675", "Gabriel", "Patron of clerics and emissaries, this angel made the gods' will known to man and gently guided sacred ladies.", 
+     Event.twinangels, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
+     1740, 1180, 1600, 1360, 1320, 1440,
+     [Skill.revival, Skill.slash3, Skill.ddef20, Skill.slash4, Skill.cd, Skill.resistant],
+     [Skill.revival, Skill.ddef20, Skill.cd],
+     [Skill.revival, Skill.cd, Skill.resistant]]
 ]);
 
 Card.addLimitedTypes({
@@ -3361,9 +3391,14 @@ Card.addNotes({
     "40656": "Skills from Japanese version", // Samael
     "40657": "Skills from Japanese version", // Tezcatlipoca
     "40658": "Skills from Japanese version", // Lugh
+    "40659": "All data from Japanese version", // Almighty Triton
+    "40660": "Skills from Japanese version", // Mighty Triton
+    "40661": "All data from Japanese version", // Great Triton
     "40662": "Skills from Japanese version", // Agaliarept
     "40668": "Skills from Japanese version", // Allocer
-    "40669": "Skills from Japanese version" // Wicked Witch
+    "40669": "Skills from Japanese version", // Wicked Witch
+    "40674": "Skills from Japanese version", // Rashnu
+    "40675": "Skills from Japanese version" // Gabriel
 });
 
 ExCard.addAll([
