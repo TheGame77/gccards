@@ -3138,6 +3138,24 @@ Card.addAll([
      [Skill.sap, Skill.wis10, Skill.death3, Skill.wis20, Skill.death4, Skill.revival],
      [Skill.sap, Skill.wis20, Skill.death4],
      [Skill.sap, Skill.death4, Skill.revival]],
+    ["40670", "Almighty Lightning Incarnate", "", 
+     Event.none, Border.almighty, 5, Place.coliseum, 112, "40573", Shape.orbs, Attribute.lightning,
+     1740, 1280, 1460, 1500, 1320, 1420,
+     [Skill.qs, Skill.atk20, Skill.physical4, Skill.cd, Skill.powershift],
+     [Skill.qs, Skill.cd, Skill.powershift],
+     [Skill.qs, Skill.cd, Skill.powershift]],
+    ["40671", "Mighty Lightning Incarnate", "", 
+     Event.none, Border.mighty, 5, Place.coliseum, 112, "40573", Shape.orbs, Attribute.lightning,
+     1630, 1280, 1400, 1450, 1280, 1360,
+     [Skill.qs, Skill.atk20, Skill.physical4, Skill.cd, Skill.powershift],
+     [Skill.qs, Skill.cd, Skill.powershift],
+     [Skill.qs, Skill.cd, Skill.powershift]],
+    ["40672", "Great Lightning Incarnate", "", 
+     Event.none, Border.great, 5, Place.coliseum, 112, "40573", Shape.orbs, Attribute.lightning,
+     1580, 1224, 1340, 1400, 1240, 1240,
+     [Skill.qs, Skill.atk20, Skill.physical4, Skill.cd, Skill.powershift],
+     [Skill.qs, Skill.cd, Skill.powershift],
+     [Skill.qs, Skill.cd, Skill.powershift]],
     ["40674", "Rashnu", "This god guards over the bridge of judgement, weighing deeds of the newly dead on a set of gilded scales.", 
      Event.twinangels, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
      1310, 1800, 900, 1290, 1280, 1400,
@@ -3149,7 +3167,25 @@ Card.addAll([
      1740, 1180, 1600, 1360, 1320, 1440,
      [Skill.revival, Skill.slash3, Skill.ddef20, Skill.slash4, Skill.cd, Skill.resistant],
      [Skill.revival, Skill.ddef20, Skill.cd],
-     [Skill.revival, Skill.cd, Skill.resistant]]
+     [Skill.revival, Skill.cd, Skill.resistant]],
+    ["40676", "Almighty Legendary Titan", "This race of deities descended to the mortal realm after a triumph in the heavens to usher in an age of bliss.", 
+     Event.none, Border.almighty, 5, Place.coliseum, 113, "40507", Shape.none, Attribute.earth,
+     2689, 1800, 2600, 600, 990, 600,
+     [Skill.dr, Skill.physical3, Skill.earth3, Skill.qs, Skill.sd],
+     [Skill.dr, Skill.physical3, Skill.qs],
+     [Skill.dr, Skill.qs, Skill.sd]],
+    ["40677", "Mighty Legendary Titan", "These primordial gods crawled forth from the soil to sculpt a world of nature as beauteous as it was vicious.", 
+     Event.none, Border.mighty, 5, Place.coliseum, 113, "40507", Shape.none, Attribute.earth,
+     2050, 1640, 2200, 400, 990, 400,
+     [Skill.dr, Skill.physical3, Skill.earth3, Skill.qs, Skill.sd],
+     [Skill.dr, Skill.physical3, Skill.qs],
+     [Skill.dr, Skill.qs, Skill.sd]],
+    ["40678", "Great Legendary Titan", "Though this divine forebearer vanished long ago, prophecy says it will return as a god to rule over the world of men.", 
+     Event.none, Border.great, 5, Place.coliseum, 113, "40507", Shape.none, Attribute.earth,
+     1480, 1560, 1560, 1100, 990, 940,
+     [Skill.dr, Skill.physical3, Skill.earth3, Skill.qs, Skill.sd],
+     [Skill.dr, Skill.physical3, Skill.qs],
+     [Skill.dr, Skill.qs, Skill.sd]]
 ]);
 
 Card.addLimitedTypes({
@@ -3432,8 +3468,14 @@ Card.addNotes({
     "40667": "Skills from Japanese version", // Minerva
     "40668": "Skills from Japanese version", // Allocer
     "40669": "Skills from Japanese version", // Wicked Witch
+    "40670": "All data from Japanese version", // Almighty Lightning Incarnate
+    "40671": "Skills from Japanese version", // Mighty Lightning Incarnate
+    "40672": "All data from Japanese version", // Great Lightning Incarnate
     "40674": "Skills from Japanese version", // Rashnu
-    "40675": "Skills from Japanese version" // Gabriel
+    "40675": "Skills from Japanese version", // Gabriel
+    "40676": "All data from Japanese version", // Almighty Legendary Titan
+    "40677": "All data from Japanese version", // Mighty Legendary Titan
+    "40678": "Skills from Japanese version" // Great Legendary Titan
 });
 
 ExCard.addAll([

@@ -7,9 +7,9 @@ WhatIsNew.get = function() {
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
         '2014/9/13': [
-            "Aedengard: " + Card.mklnk(40663) + ", " + Card.mklnk(40664) + ", " + Card.mklnk(40665) + ", " + Card.mklnk(40666) + ", and " + Card.mklnk(40667) + "."/*,
-            "108th Coliseum Rewards: " + Card.mklnk(40659) + ", " + Card.mklnk(40660) + ", and " + Card.mklnk(40661) + ".",
-            "107th Coliseum Rewards: " + Card.mklnk(40659) + ", " + Card.mklnk(40660) + ", and " + Card.mklnk(40661) + "."*/
+            "Aedengard: " + Card.mklnk(40663) + ", " + Card.mklnk(40664) + ", " + Card.mklnk(40665) + ", " + Card.mklnk(40666) + ", and " + Card.mklnk(40667) + ".",
+            "108th Coliseum Rewards: " + Card.mklnk(40676) + ", " + Card.mklnk(40677) + ", and " + Card.mklnk(40678) + ".",
+            "107th Coliseum Rewards: " + Card.mklnk(40670) + ", " + Card.mklnk(40671) + ", and " + Card.mklnk(40672) + "."
         ],
         '2014/9/1': [
             "Wings of Triumph: " + Card.mklnk(40674) + ", and " + Card.mklnk(40675) + ".",
