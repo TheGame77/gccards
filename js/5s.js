@@ -586,7 +586,7 @@ Card.addAll([
      [Skill.fire3, Skill.atk20, Skill.physical3, Skill.wis20, Skill.fire4, Skill.atk25],
      [Skill.atk20, Skill.physical3, Skill.wis20],
      [Skill.atk20, Skill.physical3, Skill.atk25]],
-    ["40102", "Cagnazzo", "With power over the world's waters, this Elemental Archfiend summons tidal waves and floods to brin ruin at his will.",
+    ["40102", "Cagnazzo", "With power over the world's waters, this Elemental Archfiend summons tidal waves and floods to bring ruin at his will.",
      Event.ff4, Border.none, 5, Place.plains, 0, null, Shape.giant, Attribute.water,
      1200, 1092, 1138, 1220, 910, 1100,
      [Skill.water2, Skill.physical3, Skill.water3, Skill.ls, Skill.water4, Skill.wis25],
@@ -598,7 +598,7 @@ Card.addAll([
      [Skill.death2, Skill.darkness3, Skill.physical3, Skill.death3, Skill.wis20, Skill.revival],
      [Skill.physical3, Skill.death3, Skill.wis20],
      [Skill.death3, Skill.wis20, Skill.revival]],
-    ["40104", "Barbariccia", "With exquisite beauty and gold tresses, this lone femal among the Elemental Archfiends wields wind as her weapons.", 
+    ["40104", "Barbariccia", "With exquisite beauty and gold tresses, this lone female among the Elemental Archfiends wields wind as her weapons.", 
      Event.ff4, Border.none, 5, Place.desert, 0, null, Shape.female, Attribute.wind,
      1070, 1220, 1010, 977, 1200, 1040,
      [Skill.wind2, Skill.wind3, Skill.wis20, Skill.wind4, Skill.qs, Skill.agi25],
@@ -3024,6 +3024,12 @@ Card.addAll([
      [Skill.sap, Skill.fire3, Skill.dwis20, Skill.fire4, Skill.wis20],
      [Skill.sap, Skill.fire4, Skill.wis20],
      [Skill.sap, Skill.fire4, Skill.wis20]],
+    ["40623", "Almighty Nocturne Banshee", "This dark prophetess foresees the tragic fall of heroes, and eternally memorializes their bravery through song.", 
+     Event.none, Border.almighty, 5, Place.coliseum, 1, "40327", Shape.jellyfish, Attribute.death,
+     1630, 1246, 1070, 1180, 1320, 1620,
+     [Skill.mindshift, Skill.wis10, Skill.death4, Skill.wis25, Skill.fb],
+     [Skill.mindshift, Skill.death4, Skill.fb],
+     [Skill.mindshift, Skill.death4, Skill.fb]],
      ["40626", "Tsukuyomi", "Since the dawn of man, mortals have gazed skywards seeking this god of moonlight an his waters of youth.", 
      Event.anniversary2, Border.none, 5, Place.plains, 0, null, Shape.wolf, Attribute.water,
      1920, 1221, 1580, 1400, 1290, 1380,
@@ -3139,19 +3145,19 @@ Card.addAll([
      [Skill.sap, Skill.wis20, Skill.death4],
      [Skill.sap, Skill.death4, Skill.revival]],
     ["40670", "Almighty Lightning Incarnate", "", 
-     Event.none, Border.almighty, 5, Place.coliseum, 112, "40573", Shape.orbs, Attribute.lightning,
+     Event.none, Border.almighty, 5, Place.coliseum, 107, "40573", Shape.orbs, Attribute.lightning,
      1740, 1280, 1460, 1500, 1320, 1420,
      [Skill.qs, Skill.atk20, Skill.physical4, Skill.cd, Skill.powershift],
      [Skill.qs, Skill.cd, Skill.powershift],
      [Skill.qs, Skill.cd, Skill.powershift]],
     ["40671", "Mighty Lightning Incarnate", "", 
-     Event.none, Border.mighty, 5, Place.coliseum, 112, "40573", Shape.orbs, Attribute.lightning,
+     Event.none, Border.mighty, 5, Place.coliseum, 107, "40573", Shape.orbs, Attribute.lightning,
      1630, 1280, 1400, 1450, 1280, 1360,
      [Skill.qs, Skill.atk20, Skill.physical4, Skill.cd, Skill.powershift],
      [Skill.qs, Skill.cd, Skill.powershift],
      [Skill.qs, Skill.cd, Skill.powershift]],
     ["40672", "Great Lightning Incarnate", "", 
-     Event.none, Border.great, 5, Place.coliseum, 112, "40573", Shape.orbs, Attribute.lightning,
+     Event.none, Border.great, 5, Place.coliseum, 107, "40573", Shape.orbs, Attribute.lightning,
      1580, 1224, 1340, 1400, 1240, 1240,
      [Skill.qs, Skill.atk20, Skill.physical4, Skill.cd, Skill.powershift],
      [Skill.qs, Skill.cd, Skill.powershift],
@@ -3169,23 +3175,59 @@ Card.addAll([
      [Skill.revival, Skill.ddef20, Skill.cd],
      [Skill.revival, Skill.cd, Skill.resistant]],
     ["40676", "Almighty Legendary Titan", "This race of deities descended to the mortal realm after a triumph in the heavens to usher in an age of bliss.", 
-     Event.none, Border.almighty, 5, Place.coliseum, 113, "40507", Shape.none, Attribute.earth,
+     Event.none, Border.almighty, 5, Place.coliseum, 108, "40507", Shape.none, Attribute.earth,
      2689, 1800, 2600, 600, 990, 600,
      [Skill.dr, Skill.physical3, Skill.earth3, Skill.qs, Skill.sd],
      [Skill.dr, Skill.physical3, Skill.qs],
      [Skill.dr, Skill.qs, Skill.sd]],
     ["40677", "Mighty Legendary Titan", "These primordial gods crawled forth from the soil to sculpt a world of nature as beauteous as it was vicious.", 
-     Event.none, Border.mighty, 5, Place.coliseum, 113, "40507", Shape.none, Attribute.earth,
+     Event.none, Border.mighty, 5, Place.coliseum, 108, "40507", Shape.none, Attribute.earth,
      2050, 1640, 2200, 400, 990, 400,
      [Skill.dr, Skill.physical3, Skill.earth3, Skill.qs, Skill.sd],
      [Skill.dr, Skill.physical3, Skill.qs],
      [Skill.dr, Skill.qs, Skill.sd]],
     ["40678", "Great Legendary Titan", "Though this divine forebearer vanished long ago, prophecy says it will return as a god to rule over the world of men.", 
-     Event.none, Border.great, 5, Place.coliseum, 113, "40507", Shape.none, Attribute.earth,
+     Event.none, Border.great, 5, Place.coliseum, 108, "40507", Shape.none, Attribute.earth,
      1480, 1560, 1560, 1100, 990, 940,
      [Skill.dr, Skill.physical3, Skill.earth3, Skill.qs, Skill.sd],
      [Skill.dr, Skill.physical3, Skill.qs],
-     [Skill.dr, Skill.qs, Skill.sd]]
+     [Skill.dr, Skill.qs, Skill.sd]],
+    ["40679", "Gale Barbariccia", "With exquisite beauty and gold tresses, this lone female among the Elemental Archfiends wields wind as her weapon.", 
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.wind,
+     1220, 1200, 1100, 1120, 1200, 1280,
+     [Skill.wind3, Skill.wis10, Skill.slash2, Skill.wind4, Skill.qs, Skill.mindshift],
+     [Skill.wis10, Skill.wind4, Skill.qs],
+     [Skill.wind4, Skill.qs, Skill.mindshift]],
+    ["40680", "Seism Scarmiglione", "This Elemental Archfiend rules over death and darkness, and commands his undead legions to end the living.", 
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.earth,
+     1190, 1150, 1190, 1250, 1150, 1130,
+     [Skill.earth2, Skill.physical4, Skill.earth3, Skill.wis20, Skill.earth4],
+     [Skill.physical4, Skill.wis20, Skill.earth4],
+     [Skill.physical4, Skill.wis20, Skill.earth4]],
+    ["40681", "Maelstrom Cagnazzo", "Commanding the world's waters, this Elemental Archfiend brings ruin at will in the form of tidal waves and floods.", 
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.water,
+     1400, 1180, 1160, 1430, 1010, 1190,
+     [Skill.dr, Skill.physical3, Skill.water3, Skill.water4, Skill.def40],
+     [Skill.dr, Skill.water4, Skill.def40],
+     [Skill.dr, Skill.water4, Skill.def40]],
+    ["40682", "Wildfire Rubicante", "This leader of the Elemental Archfiends bends fire to his will and dons a cape which wards against ice, his sole bane.", 
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.fire,
+     1330, 1220, 1200, 1200, 1230, 1330,
+     [Skill.fire3, Skill.physical3, Skill.physical4, Skill.mindshift, Skill.fire4, Skill.fastshift],
+     [Skill.physical4, Skill.mindshift, Skill.fire4],
+     [Skill.mindshift, Skill.fire4, Skill.fastshift]],
+    ["40683", "Cimmerian Golbez", "This evil mage wears armor black as pitch, and commands the Elemental Archfiends in his bid to win the Crystals.", 
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.darkness,
+     1500, 1100, 1000, 1600, 1000, 1500,
+     [Skill.smr, Skill.slash3, Skill.wis20, Skill.darkness3, Skill.darkness4, Skill.dr],
+     [Skill.smr, Skill.wis20, Skill.darkness4],
+     [Skill.smr, Skill.darkness4, Skill.dr]],
+    ["40685", "Hera", "Ruling from high atop a holy mountain, this queen of the gods ever protects womankind in birth, life, and marriage.", 
+     Event.goddessoflove, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.light,
+     1190, 1180, 1050, 1120, 1160, 1400,
+     [Skill.light2, Skill.wis10, Skill.light3, Skill.light4, Skill.mvs, Skill.np],
+     [Skill.wis10, Skill.light4, Skill.mvs],
+     [Skill.light4, Skill.mvs, Skill.np]]
 ]);
 
 Card.addLimitedTypes({
@@ -3451,6 +3493,7 @@ Card.addNotes({
     "40620": "Skills from Japanese version", // Almighty Hestia
     "40621": "All data from Japanese version", // Mighty Hestia
     "40622": "All data from Japanese version", // Great Hestia
+    "40623": "All data from Japanese version", // Almighty Nocturne Banshee
     "40652": "All data from Japanese version", // Almighty Aegir
     "40653": "Skills from Japanese version", // Mighty Aegir
     "40654": "All data from Japanese version", // Great Aegir
@@ -3475,7 +3518,13 @@ Card.addNotes({
     "40675": "Skills from Japanese version", // Gabriel
     "40676": "All data from Japanese version", // Almighty Legendary Titan
     "40677": "All data from Japanese version", // Mighty Legendary Titan
-    "40678": "Skills from Japanese version" // Great Legendary Titan
+    "40678": "Skills from Japanese version", // Great Legendary Titan
+    "40679": "Skills from Japanese version", // Gale Barbariccia
+    "40680": "Skills from Japanese version", // Seism Scarmiglione
+    "40681": "Skills from Japanese version", // Maelstrom Cagnazzo
+    "40682": "Skills from Japanese version", // Wildfire Rubicante
+    "40683": "Skills from Japanese version", // Cimmerian Golbez
+    "40685": "Skills from Japanese version" // Hera
 });
 
 ExCard.addAll([
@@ -3485,7 +3534,7 @@ ExCard.addAll([
     ["45002", "Belphegor", "Counted among the seven monarchs of hell, this demoness tempts man with sloth and urges him to abandon life.",
      Event.none, ExType.red, 5, Place.plains_night, 0, Shape.humanoid, Attribute.poison,
      [ExSkill.poison10, ExSkill.poison12, ExSkill.poison15]],
-    ["45003", "Ishtar", "",
+    ["45003", "Ishtar", "Favoring the brave and loving only with great fervor, this fiery goddess led a mighty king to countless triumphs.",
      Event.none, ExType.red, 5, Place.plains_night, 0, Shape.female, Attribute.wind,
      [ExSkill.atk10, ExSkill.atk12, ExSkill.atk15]],
     ["45004", "Asmodeus", "This most vile of the demon kings rules hell's gambling halls, urging the weak and damned to succumb to the vice.",

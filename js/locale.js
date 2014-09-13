@@ -101,7 +101,7 @@ var Locale = function(l) {
                 "The Serpenchanter's Curse",
                 "Deathblaze Hunt",
                 "Wings of Triumph",
-                "Goddess of Love",
+                "Two Ladies Adored",
                 "Dancing God",
                 "Garden in the Sky"
             ),
@@ -248,7 +248,7 @@ var Locale = function(l) {
                 new Array("Might Reave",       "ATK +20%, foe DEF -20%"),
                 new Array("Mind Reave",        "WIS +20%, foe WIS -20%"),
                 new Array("Impervious",        "Resists effects"),
-                new Array("Speed Reave",       "素+20%敵賢-20%"),
+                new Array("Speed Reave",       "AGI +20%, foe WIS -20%"),
                 new Array("Shadow Deft Step",  "Physical Evasion"),
                 new Array("Rendburst",         "Unavoidable Damage"),
                 new Array("Veil of Deadening", "Attribute Evasion"),
