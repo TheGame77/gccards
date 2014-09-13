@@ -38,7 +38,7 @@ var Locale = function(l) {
                 "Crimson Keep",
                 "The Guardians Who Stole Christmas",
                 "Zeus Nebula",
-                "Floating Island Eden"
+                "Aedengard"
             ),
             events: new Array(
                 "None",
@@ -250,8 +250,8 @@ var Locale = function(l) {
                 new Array("Impervious",        "Resists effects"),
                 new Array("Speed Reave",       "素+20%敵賢-20%"),
                 new Array("Shadow Deft Step",  "Physical Evasion"),
-                new Array("Detonate",          "Damage on death"),
-                new Array("Mirage Drive",      "Elemental Evasion"),
+                new Array("Rendburst",         "Unavoidable Damage"),
+                new Array("Veil of Deadening", "Attribute Evasion"),
                 new Array("Shadow Mind Rift",  "Confusion"),
                 new Array("Wise Smite",        "First attack")
             ),

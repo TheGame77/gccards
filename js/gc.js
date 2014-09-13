@@ -152,7 +152,7 @@ var Place = (function() {
         [21, 111, ["crimson_keep"]],       // Crimson Keep
         [22, 112, ["black_snow"]],         // The Guardians Who Stole Christmas
         [23, 10,  ["zeus"]],               // Zeus Nebula
-        [24, 11,  ["eden"]]                // Floating Island Eden
+        [24, 11,  ["aedengard"]]           // Aedengard
     ];
 
     var places = {
@@ -657,8 +657,8 @@ var Skill = (function() {
         [97, SKILL_OTHER, "resistant",             new Cost(0,  600), stone_no, nbuff({}),                    Attribute.none, 0], // Resistant
         [98, SKILL_BUFF, "fastshift",              new Cost(0,  600), stone_no, nbuff({agi: 0.2, dwis: -0.2}),Attribute.none, 0], // Fast Shift
         [99, SKILL_OTHER, "sds",                   new Cost(0,  300), stone_no, nbuff({}),                    Attribute.none, 0], // Shadow Deft Step
-        [100, SKILL_OTHER, "detonation",           new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Detonate
-        [101, SKILL_OTHER, "md",                   new Cost(0,  300), stone_no, nbuff({}),                    Attribute.none, 0], // Mirage Drive
+        [100, SKILL_OTHER, "rendburst",            new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Rendburst
+        [101, SKILL_OTHER, "vd",                   new Cost(0,  300), stone_no, nbuff({}),                    Attribute.none, 0], // Veil of Deadening
         [102, SKILL_OTHER, "smr",                  new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Mind Rift (Confusion)
         [103, SKILL_OTHER, "wisesmite",            new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0] // Wise Smite
     ];

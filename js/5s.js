@@ -3096,6 +3096,36 @@ Card.addAll([
      [Skill.tb, Skill.water2, Skill.water3, Skill.dwis20, Skill.water4, Skill.fb],
      [Skill.tb, Skill.dwis20, Skill.water4],
      [Skill.tb, Skill.water4, Skill.fb]],
+    ["40663", "King Arthur", "Birth foretold by a blazing comet, this just king ruled his lands from a round table where gathered his trusty knights.", 
+     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.humanoid, Attribute.earth,
+     2010, 1075, 1635, 1440, 1320, 1440,
+     [Skill.revival, Skill.slash3, Skill.atk10, Skill.slash4, Skill.cd, Skill.dr],
+     [Skill.revival, Skill.atk10, Skill.cd],
+     [Skill.revival, Skill.cd, Skill.dr]],
+    ["40664", "Sargantas", "Leader of hellspawn brigades, this demon officer lays bare all shadowy secrets bound by lock or seal.", 
+     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.orbs, Attribute.death,
+     2060, 2440, 1660, 1470, 1340, 1440,
+     [Skill.rendburst, Skill.dagi20, Skill.ddef20, Skill.qs, Skill.slash4, Skill.resistant],
+     [Skill.rendburst, Skill.qs, Skill.slash4],
+     [Skill.rendburst, Skill.qs, Skill.resistant]],
+    ["40665", "Sleeping Beauty", "A faerie magically defended this princess cursed to sleep one hundred years by shrouding her castle in thorns.", 
+     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.female, Attribute.darkness,
+     2220, 600, 1500, 1600, 1240, 1500,
+     [Skill.dr, Skill.darkness3, Skill.dagi20, Skill.dwis20, Skill.np, Skill.tb],
+     [Skill.dr, Skill.dagi20, Skill.np],
+     [Skill.dr, Skill.np, Skill.tb]],
+    ["40666", "Freyr", "This deity of the harvest and love sends forth sprites to make ailing crops grow and so bless mankind with plenty.", 
+     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.beast, Attribute.earth,
+     1800, 1180, 1625, 1410, 1320, 1450,
+     [Skill.slash3, Skill.atkdef10, Skill.slash4, Skill.resistant, Skill.dp, Skill.revival],
+     [Skill.atkdef10, Skill.resistant, Skill.dp],
+     [Skill.resistant, Skill.dp, Skill.revival]],
+    ["40667", "Minerva", "This goddess of art, music, medicine and sorcery stands watch over an eternal city alongside two of her kin.", 
+     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.female, Attribute.wind,
+     1920, 1600, 1200, 1390, 1360, 1750,
+     [Skill.vd, Skill.agi10, Skill.wind3, Skill.dwis20, Skill.wind4, Skill.sap],
+     [Skill.vd, Skill.dwis20, Skill.wind4],
+     [Skill.vd, Skill.wind4, Skill.sap]],
     ["40668", "Allocer", "This demon appears as a knight astride a stallion to sway men's hearts unto wickedness with honeyed words.", 
      Event.deathfire, Border.none, 5, Place.plains, 0, null, Shape.wolf, Attribute.fire,
      1520, 1600, 1560, 1330, 1300, 1290,
@@ -3395,6 +3425,11 @@ Card.addNotes({
     "40660": "Skills from Japanese version", // Mighty Triton
     "40661": "All data from Japanese version", // Great Triton
     "40662": "Skills from Japanese version", // Agaliarept
+    "40663": "Skills from Japanese version", // King Arthur
+    "40664": "Skills from Japanese version", // Sargantas
+    "40665": "Skills from Japanese version", // Sleeping Beauty
+    "40666": "Skills from Japanese version", // Freyr
+    "40667": "Skills from Japanese version", // Minerva
     "40668": "Skills from Japanese version", // Allocer
     "40669": "Skills from Japanese version", // Wicked Witch
     "40674": "Skills from Japanese version", // Rashnu
