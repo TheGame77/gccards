@@ -3026,10 +3026,10 @@ Card.addAll([
      [Skill.sap, Skill.fire4, Skill.wis20]],
     ["40623", "Almighty Nocturne Banshee", "This dark prophetess foresees the tragic fall of heroes, and eternally memorializes their bravery through song.", 
      Event.none, Border.almighty, 5, Place.coliseum, 1, "40327", Shape.jellyfish, Attribute.death,
-     1630, 1246, 1070, 1180, 1320, 1620,
-     [Skill.mindshift, Skill.wis10, Skill.death4, Skill.wis25, Skill.fb],
-     [Skill.mindshift, Skill.death4, Skill.fb],
-     [Skill.mindshift, Skill.death4, Skill.fb]],
+     1800, 1050, 1380, 1480, 1360, 1830,
+     [Skill.nj, Skill.darkness4, Skill.np],
+     [Skill.nj, Skill.darkness4, Skill.np],
+     [Skill.nj, Skill.darkness4, Skill.np]],
      ["40626", "Tsukuyomi", "Since the dawn of man, mortals have gazed skywards seeking this god of moonlight an his waters of youth.", 
      Event.anniversary2, Border.none, 5, Place.plains, 0, null, Shape.wolf, Attribute.water,
      1920, 1221, 1580, 1400, 1290, 1380,
@@ -3234,7 +3234,7 @@ Card.addLimitedTypes({
     "40014": [Type.cool, Type.coolr], // Phantasmal Midgardsormr
     "40037": [Type.cool, Type.coolr], // Iron Maiden
     "40038": [Type.cool, Type.coolr], // Requiem Banshee
-    "40085": [Type.cool],         // Godvessel Vimana
+    "40085": [Type.cool],             // Godvessel Vimana
     "40157": [Type.cool, Type.coolr], // Almighty Fortuna
     "40159": [Type.cool, Type.coolr], // Artemis
     "40160": [Type.cool, Type.coolr], // Idun
@@ -3244,11 +3244,11 @@ Card.addLimitedTypes({
     "40221": [Type.cool, Type.chaotic, Type.sexy, Type.powerful, Type.brave, Type.fast, Type.intelligent, Type.ace],  // Mighty Silver Slime
     "40222": [Type.cool, Type.chaotic, Type.sexy, Type.powerful, Type.brave, Type.fast, Type.intelligent, Type.ace],  // Great Red Slime
     "40223": [Type.cool, Type.chaotic, Type.sexy, Type.powerful, Type.brave, Type.fast, Type.intelligent, Type.ace],  // Lesser Slime
-    "40233": [Type.cool],         // Prismatic Slime
-    "40231": [Type.cool, Type.coolr], // Almighty Golden Bugbear
-    "40232": [Type.cool, Type.coolr], // Mighty Silver Bugbear
-    "40271": [Type.cool],         // Black Slime
-    "40272": [Type.cool, Type.coolr],  // Almighty Dagon
+    "40233": [Type.cool],               // Prismatic Slime
+    "40231": [Type.cool, Type.coolr],   // Almighty Golden Bugbear
+    "40232": [Type.cool, Type.coolr],   // Mighty Silver Bugbear
+    "40271": [Type.cool],               // Black Slime
+    "40272": [Type.cool, Type.coolr],   // Almighty Dagon
     "40273": [Type.cool, Type.coolr],   // Mighty Dagon
     "40435": [Type.cool, Type.coolr],   // Izanami
     "40442": [Type.cool, Type.coolr],   // Beira
@@ -3260,7 +3260,8 @@ Card.addLimitedTypes({
     "40520": [Type.cool, Type.coolr],   // Deadman Titan
     "40541": [Type.cool, Type.coolr],   // Urania
     "40577": [Type.cool, Type.coolr],   // Jahi
-    "40581": [Type.cool, Type.coolr]    // Belial
+    "40581": [Type.cool, Type.coolr],   // Belial
+    "40623": [Type.cool, Type.coolr]    // Almighty Nocturne Banshee
 });
 
 Card.addNotes({
@@ -3493,7 +3494,7 @@ Card.addNotes({
     "40620": "Skills from Japanese version", // Almighty Hestia
     "40621": "All data from Japanese version", // Mighty Hestia
     "40622": "All data from Japanese version", // Great Hestia
-    "40623": "All data from Japanese version", // Almighty Nocturne Banshee
+    "40623": "Skills not confirmed", // Almighty Nocturne Banshee
     "40652": "All data from Japanese version", // Almighty Aegir
     "40653": "Skills from Japanese version", // Mighty Aegir
     "40654": "All data from Japanese version", // Great Aegir

@@ -253,7 +253,7 @@ var Locale = function(l) {
                 new Array("Rendburst",         "Unavoidable Damage"),
                 new Array("Veil of Deadening", "Attribute Evasion"),
                 new Array("Shadow Mind Rift",  "Confusion"),
-                new Array("Wise Smite",        "First attack")
+                new Array("Nimble Jinx",       "Attrbute first attack")
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",

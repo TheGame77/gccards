@@ -660,7 +660,7 @@ var Skill = (function() {
         [100, SKILL_OTHER, "rendburst",            new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Rendburst
         [101, SKILL_OTHER, "vd",                   new Cost(0,  300), stone_no, nbuff({}),                    Attribute.none, 0], // Veil of Deadening
         [102, SKILL_OTHER, "smr",                  new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Mind Rift (Confusion)
-        [103, SKILL_OTHER, "wisesmite",            new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0] // Wise Smite
+        [103, SKILL_OTHER, "nj",                   new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0]  // Nimble Jinx
     ];
 
     var skills = {
