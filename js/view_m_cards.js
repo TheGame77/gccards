@@ -2,14 +2,14 @@ var cur_options = clone(Calculator.default_options);
 
 var Mobile = {
     ids: {
-        ignore_qs: "options_ignore_qs",
+        ignore_qsnj: "options_ignore_qsnj",
         ignore_sap: "options_ignore_sap",
         ignore_nonrecommended: "options_ignore_nonrecommended",
         plus_normal: "options_plus_normal",
         merge_results: "options_merge_results"
     },
     getOptions: function() {
-        cur_options.qs = !$("#" + Mobile.ids.ignore_qs).is(':checked');
+        cur_options.qsnj = !$("#" + Mobile.ids.ignore_qsnj).is(':checked');
         cur_options.sap = !$("#" + Mobile.ids.ignore_sap).is(':checked');
         cur_options.nonrecommended = !$("#" + Mobile.ids.ignore_nonrecommended).is(':checked')
         cur_options.merge_oneshotby = $("#" + Mobile.ids.merge_results).is(':checked');
@@ -202,10 +202,10 @@ function navCalculatorOfType(cid, tid, mode) {
         oneshots = Calculator.getUOHKO(card, oppos, options);
     else if (mode == MODE_OHKOBY)
         oneshots = Calculator.getOHKOBy(card, oppos, options);
-    else if (mode == MODE_UQSKO)
-        oneshots = Calculator.getUQSKO(card, oppos, options);
-    else if (mode == MODE_QSKO)
-        oneshots = Calculator.getQSKO(card, oppos, options);
+    else if (mode == MODE_UQSNJKO)
+        oneshots = Calculator.getUQSNJKO(card, oppos, options);
+    else if (mode == MODE_QSNJKO)
+        oneshots = Calculator.getQSNJKO(card, oppos, options);
 
     for (var i = 0; i < oneshots.length; i++) {
         var unable = oneshots[i];
@@ -323,12 +323,12 @@ function navOptions(cid) {
             .append(nListview(lid))
         );
         $("#" + lid)
-            .append("<label><input type='checkbox' id='" + Mobile.ids.ignore_qs + "'>Ignore QS</label>")
+            .append("<label><input type='checkbox' id='" + Mobile.ids.ignore_qsnj + "'>Ignore QS/NJ</label>")
             .append("<label><input type='checkbox' id='" + Mobile.ids.ignore_sap + "'>Ignore Sap</label>")
             .append("<label><input type='checkbox' id='" + Mobile.ids.ignore_nonrecommended + "'>Ignore Non-Recommended Buff/Debuff (Opponent)</label>")
             .append("<label><input type='checkbox' id='" + Mobile.ids.plus_normal + "'>Plus Normal Attack (Self)</label>")
             .append("<label><input type='checkbox' id='" + Mobile.ids.merge_results + "'>Merge Results of OHKO By</label>");
-        $("#" + Mobile.ids.ignore_qs).prop("checked", !cur_options.qs);
+        $("#" + Mobile.ids.ignore_qsnj).prop("checked", !cur_options.qsnj);
         $("#" + Mobile.ids.ignore_sap).prop("checked", !cur_options.sap);
         $("#" + Mobile.ids.nonrecommended).prop("checked", !cur_options.nonrecommended);
         $("#" + Mobile.ids.plus_normal).prop("checked", cur_options.plus_normal);
@@ -436,8 +436,8 @@ function navCard(cid, bid) {
             .append("<li><a href='javascript:navOptions(\"" + cid + "\");'>Options</a></li>")
             .append("<li><a href='javascript:navCalculator(\"" + card.id + "\", \"" + MODE_UOHKO + "\");'>Unable to OHKO</a></li>")
             .append("<li><a href='javascript:navCalculator(\"" + card.id + "\", \"" + MODE_OHKOBY + "\");'>OHKO By</a></li>")
-            .append("<li><a href='javascript:navCalculator(\"" + card.id + "\", \"" + MODE_UQSKO + "\");'>Unable to QS-KO</a></li>")
-            .append("<li><a href='javascript:navCalculator(\"" + card.id + "\", \"" + MODE_QSKO + "\");'>QS-KO</a></li>")
+            .append("<li><a href='javascript:navCalculator(\"" + card.id + "\", \"" + MODE_UQSNJKO + "\");'>Unable to QS/NJ-KO</a></li>")
+            .append("<li><a href='javascript:navCalculator(\"" + card.id + "\", \"" + MODE_QSNJKO + "\");'>QS/NJ-KO</a></li>")
             ;
         updateSkillCost(pid, card.getMaxStonedMP());
     }

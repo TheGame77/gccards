@@ -674,8 +674,8 @@ function insertGuardian(gid, tid, custom_skills) {
         .append("<br/>")        
         .append(
           $("<label></label>")
-            .append($("<input type='checkbox' id='ignore-qs'/>").attr('checked', !cur_options.qs))
-            .append("&nbsp;Ignore QS")
+            .append($("<input type='checkbox' id='ignore-qsnj'/>").attr('checked', !cur_options.qsnj))
+            .append("&nbsp;Ignore QS/NJ")
         )
         .append("<br/>")
         .append(
@@ -701,8 +701,8 @@ function insertGuardian(gid, tid, custom_skills) {
                 .addClass("selector").each(function() {
                     $(this).append($("<option>Compute Unable to OHKO</option>").val(MODE_UOHKO));
                     $(this).append($("<option>Compute OHKO By</option>").val(MODE_OHKOBY));
-                    $(this).append($("<option>Compute Unable to QS-KO</option>").val(MODE_UQSKO));
-                    $(this).append($("<option>Compute QS-KO</option>").val(MODE_QSKO));
+                    $(this).append($("<option>Compute Unable to QS/NJ-KO</option>").val(MODE_UQSNJKO));
+                    $(this).append($("<option>Compute QS/NJ-KO</option>").val(MODE_QSNJKO));
                 }).val(cur_options.mode)
         )
         .append("<br/>")
@@ -776,7 +776,7 @@ function insertGuardian(gid, tid, custom_skills) {
       .append($("<button>Calculate</button>").click((function(gid, tid) {
           return function() {
               var custom_skills = getCustomSkills();
-              cur_options.qs = !$("#ignore-qs").is(':checked');
+              cur_options.qsnj = !$("#ignore-qsnj").is(':checked');
               cur_options.sap = !$("#ignore-sap").is(':checked');
               cur_options.nonrecommended = !$("#ignore-nonrecommended").is(':checked')
               cur_options.mode = $("#opt-mode").val();
@@ -857,10 +857,10 @@ function insertGuardian(gid, tid, custom_skills) {
         oneshots = Calculator.getUOHKO(g, gs, cur_options);
     } else if (cur_options.mode == MODE_OHKOBY)
         oneshots = Calculator.getOHKOBy(g, gs, cur_options);
-    else if (cur_options.mode == MODE_UQSKO)
-        oneshots = Calculator.getUQSKO(g, gs, cur_options);
-    else if (cur_options.mode == MODE_QSKO)
-        oneshots = Calculator.getQSKO(g, gs, cur_options);
+    else if (cur_options.mode == MODE_UQSNJKO)
+        oneshots = Calculator.getUQSNJKO(g, gs, cur_options);
+    else if (cur_options.mode == MODE_QSNJKO)
+        oneshots = Calculator.getQSNJKO(g, gs, cur_options);
 
     for (var k = 0; k < oneshots.length; k++) {
         var unable = oneshots[k];

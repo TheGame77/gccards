@@ -2569,8 +2569,8 @@ var Comparison = (function() {
 /** ======================================== Damage Calculator ======================================== */
 var MODE_UOHKO = "mode-uohko";
 var MODE_OHKOBY = "mode-ohkoby";
-var MODE_UQSKO = "mode-uqsko";
-var MODE_QSKO = "mode-qsko";
+var MODE_UQSNJKO = "mode-uqsnjko";
+var MODE_QSNJKO = "mode-qsnjko";
 var Calculator = (function() {
     var hasSkill = function(skills, skill) {
         for (var i = 0; i < skills.length; i++) {
@@ -2585,10 +2585,10 @@ var Calculator = (function() {
     var calculator = {
         MODE_UOHKO: MODE_UOHKO,
         MODE_OHKOBY: MODE_OHKOBY,
-        MODE_UQSKO: MODE_UQSKO,
-        MODE_QSKO: MODE_QSKO,
+        MODE_UQSNJKO: MODE_UQSNJKO,
+        MODE_QSNJKO: MODE_QSNJKO,
         default_options: {
-            qs: false,
+            qsnj: false,
             sap: false,
             nonrecommended: true,
             mode: MODE_UOHKO,
@@ -2630,20 +2630,25 @@ var Calculator = (function() {
             var def2 = 0;
             var wis2 = 0;
 
-            /* QS. */
-            var qs = 0;
-            if (options.mode == MODE_QSKO || options.qs) {
+            /* QS/NJ. */
+            var qsnj = 0;
+            if (options.mode == MODE_QSNJKO || options.qsnj) {
                 if (hasSkill(skills1, Skill.qs) && status1.mp >= Skill.qs.cost.mp) {
                     var buff1 = atk1 + (options.ex1s.ex2 == null ? 0 : options.ex1s.ex2.getPowUp(Skill.qs));
                     var dmg = this.getDamage(status1.atk, -0.15, buff1, 1, status2.def, def2);
-                    qs = Math.max(dmg, 1);
+                    qsnj += Math.max(dmg, 1);
                     status1.mp -= Skill.qs.cost.mp;
-                } else
-                    qs = 0;
+                }
+                if(hasSkill(skills1, Skill.nj) && status1.mp >= Skill.nj.cost.mp) {
+                    var buff1 = wis1;
+                    var dmg = this.getDamage(status1.wis, -0.15, buff1, 1, status2.wis, wis2);
+                    qsnj += Math.max(dmg, 1);
+                    status1.mp -= Skill.nj.cost.mp;
+                }
             }
 
-            if (options.mode == MODE_QSKO)
-                return qs >= g2.getHP();
+            if (options.mode == MODE_QSNJKO)
+                return qsnj >= g2.getHP();
 
             /* Apply buff and debuff. */
             for (var i = 0; i < skills1.length; i++) {
@@ -2738,7 +2743,7 @@ var Calculator = (function() {
                 }
             }
 
-            damage += qs;
+            damage += qsnj;
 
             if (options.plus_normal && g1.hasSkill(Skill.ls))
                 damage += normal;
@@ -2771,10 +2776,10 @@ var Calculator = (function() {
             return [res];
         },
 
-        getUQSKO: function(g, opponents, options) {
-            options.mode = MODE_QSKO;
+        getUQSNJKO: function(g, opponents, options) {
+            options.mode = MODE_QSNJKO;
             var unable = [];
-            var res = {title: "Unable To QS-KO", id: "uqsko", cards: unable, ccount: 0, tcount: 0};
+            var res = {title: "Unable To QS/NJ-KO", id: "uqsnjko", cards: unable, ccount: 0, tcount: 0};
             for (var i = 0; i < opponents.length; i++) {
                 var opponent = clone(opponents[i]);
                 opponent.setStoned(true);
@@ -2797,10 +2802,10 @@ var Calculator = (function() {
             return [res];
         },
 
-        getQSKO: function(g, opponents, options) {
-            options.mode = MODE_QSKO;
+        getQSNJKO: function(g, opponents, options) {
+            options.mode = MODE_QSNJKO;
             var unable = [];
-            var res = {title: "QS-KO", id: "qsko", cards: unable, ccount: 0, tcount: 0};
+            var res = {title: "QS/NJ-KO", id: "qsnjko", cards: unable, ccount: 0, tcount: 0};
             for (var i = 0; i < opponents.length; i++) {
                 var opponent = clone(opponents[i]);
                 opponent.setStoned(true);
@@ -2825,7 +2830,7 @@ var Calculator = (function() {
 
         isOHKOBy: function(g1, g2, options) {
             var res = {
-                qs: false,
+                qsnj: false,
                 normal: false,
                 physical: false,
                 elemental: false,
@@ -2855,20 +2860,26 @@ var Calculator = (function() {
             var atk2 = 0;
             var wis2 = 0;
 
-            /* QS. */
-            var qs = 0;
+            /* QS/NJ. */
+            var qsnj = 0;
             if (hasSkill(skills2, Skill.qs) && status2.mp >= Skill.qs.cost.mp) {
                 var dmg = this.getDamage(status2.atk, -0.15, atk2, 1, status1.def, def1);
-                qs = Math.max(dmg, 1);
+                qsnj += Math.max(dmg, 1);
                 status2.mp -= Skill.qs.cost.mp;
-            } else
-                qs = 0;
-            res['qs'] = qs >= g1.getHP();
+            }
 
-            /* Reset the damage by QS if QS should be ignored. */
-            if (!options.qs)
-                qs = 0;
-            
+            if (hasSkill(skills2, Skill.nj) && status2.mp >= Skill.nj.cost.mp) {
+                var dmg = this.getDamage(status2.wis, -0.15, wis2, 1, status1.wis, wis1);
+                qsnj += Math.max(dmg, 1);
+                status2.mp -= Skill.qs.cost.mp;
+            }
+
+            res['qsnj'] = qsnj >= g1.getHP();
+
+            /* Reset the damage by QS/NJ if it should be ignored. */
+            if (!options.qsnj)
+                qsnj = 0;
+
             /* Apply buff and debuff. */
             for (var i = 0; i < skills1.length; i++) {
                 var skill = skills1[i];
@@ -2912,18 +2923,18 @@ var Calculator = (function() {
                 wis2 = Math.min(0, wis2);
                 status1.mp -= Skill.ep.cost.mp;
             }
-            
+
             /* Normal attack. */
             var damage = this.getDamage(status2.atk, 0, atk2, 1, status1.def, def1);
-            damage = Math.max(damage, 1) + qs;
+            damage = Math.max(damage, 1) + qsnj;
             res['normal'] = damage >= g1.getHP();
-            
+
             if (!(options.sap && hasSkill(skills1, Skill.sap) && !hasSkill(skills2, Skill.resistant))) {
                 if (hasSkill(skills2, Skill.gs) && status2.mp >= Skill.gs.cost.mp) {
                     /* Attack by Gigant Smash. */
                     var sk = options.gs_critical ? 1 : -0.5;
                     damage = this.getDamage(status2.atk, sk, atk2, 1, status1.def, -1);
-                    damage = Math.max(damage, 1) + qs;
+                    damage = Math.max(damage, 1) + qsnj;
                     res['gs'] = damage >= g1.getHP();
                 }
 
@@ -2932,24 +2943,24 @@ var Calculator = (function() {
 
                 /* Physical attack. */
                 damage = this.getDamage(status2.atk, this.skill_mult[max_skill_level], atk2, 1, status1.def, def1);
-                damage = Math.max(damage, 1) + qs;
+                damage = Math.max(damage, 1) + qsnj;
                 res['physical'] = damage >= g1.getHP();
-                
+
                 if (!hasSkill(skills1, Skill.fb)) {
                     /* Normal elemental+4 attack. */
                     damage = this.getDamage(status2.wis, this.skill_mult[max_skill_level], wis2, this.normal_mult, status1.wis, wis1);
-                    damage = Math.max(damage, 1) + qs;
+                    damage = Math.max(damage, 1) + qsnj;
                     res['elemental'] = damage >= g1.getHP();
-                    
+
                     /* Critical elemental+4 attack. */
                     damage = this.getDamage(status2.wis, this.skill_mult[max_skill_level], wis2, this.critical_mult, status1.wis, wis1);
-                    damage = Math.max(damage, 1) + qs;
+                    damage = Math.max(damage, 1) + qsnj;
                     res['critical'] = damage >= g1.getHP();
                 }
-                
+
                 /* Blocked elemental+4 attack. */
                 damage = this.getDamage(status2.wis, this.skill_mult[max_skill_level], wis2, this.blocked_mult, status1.wis, wis1);
-                damage = Math.max(damage, 1) + qs;
+                damage = Math.max(damage, 1) + qsnj;
                 res['blocked'] = damage >= g1.getHP();
 
                 var elem4xs = [Skill.fire4x, Skill.lightning4x];
@@ -2959,14 +2970,14 @@ var Calculator = (function() {
                     /* Normal Element+4x attack. */
                     if (List.exists(function(elem4x) { return !elem4x.attribute.isBlockedBy(g1.attribute) && !elem4x.attribute.isCriticalTo(g1.attribute); }, elem4xs)) {
                         damage = this.getDamage(status2.wis, this.skill4x_mult, wis2, this.normal_mult, status1.wis, wis1);
-                        damage = Math.max(damage, 1) + qs;
+                        damage = Math.max(damage, 1) + qsnj;
                         res['element4x'] = damage >= g1.getHP();
                     }
 
                     /* Critical+4x attack. */
                     if (List.exists(function(elem4x) { return elem4x.attribute.isCriticalTo(g1.attribute); }, elem4xs)) {
                         damage = this.getDamage(status2.wis, this.skill4x_mult, wis2, this.critical_mult, status1.wis, wis1);
-                        damage = Math.max(damage, 1) + qs;
+                        damage = Math.max(damage, 1) + qsnj;
                         res['critical4x'] = damage >= g1.getHP();
                     }
                 }
@@ -2974,7 +2985,7 @@ var Calculator = (function() {
                 /* Blocked Element+4x attack. */
                 if (hasSkill(skills1, Skill.fb) || List.exists(function(elem4x) { return elem4x.attribute.isBlockedBy(g1.attribute); }, elem4xs)) {
                     damage = this.getDamage(status2.wis, this.skill4x_mult, wis2, this.blocked_mult, status1.wis, wis1);
-                    damage = Math.max(damage, 1) + qs;
+                    damage = Math.max(damage, 1) + qsnj;
                     res['blocked4x'] = damage >= g1.getHP();
                 }
 
@@ -3000,7 +3011,7 @@ var Calculator = (function() {
 
         getOHKOBy: function(g, opponents, options) {
             var res = {
-                qs: [],
+                qsnj: [],
                 normal: [],
                 physical: [],
                 elemental: [],
@@ -3014,7 +3025,7 @@ var Calculator = (function() {
                 cd: []
             };
             var ccounts = {
-                qs: 0,
+                qsnj: 0,
                 normal: 0,
                 physical: 0,
                 elemental: 0,
@@ -3028,7 +3039,7 @@ var Calculator = (function() {
                 cd: 0
             };
             var tcounts = {
-                qs: 0,
+                qsnj: 0,
                 normal: 0,
                 physical: 0,
                 elemental: 0,
@@ -3046,7 +3057,7 @@ var Calculator = (function() {
                 var opponent = clone(opponents[i]);
                 opponent.setStoned(true);
                 var ts = {
-                    qs: [],
+                    qsnj: [],
                     normal: [],
                     physical: [],
                     elemental: [],
@@ -3100,11 +3111,11 @@ var Calculator = (function() {
                 ];
             } else {
                 return [
-                    { title: "OHKO By QS", 
-                      id: "ohko_by_qs", 
-                      cards: res.qs,
-                      ccount: ccounts.qs,
-                      tcount: tcounts.qs
+                    { title: "OHKO By QS/NJ", 
+                      id: "ohko_by_qsnj", 
+                      cards: res.qsnj,
+                      ccount: ccounts.qsnj,
+                      tcount: tcounts.qsnj
                     },
                     { title: "OHKO By Normal Attack", 
                       id: "ohko_by_normal", 

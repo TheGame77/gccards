@@ -22,7 +22,7 @@ var COOKIE_OPPO_NP = "battle.oppo.np";
 var COOKIE_ANIMATION = "battle.animation";
 var COOKIE_BATTLE_MESSAGE = "battle.message";
 var COOKIE_AGIBUFF = "battle.agibuff";
-var COOKIE_QS_RESET = "battle.qs.reset";
+var COOKIE_QSNJ_RESET = "battle.qsnj.reset";
 var COOKIE_DR_RESET = "battle.dr.reset";
 
 var targets = [
@@ -63,7 +63,7 @@ var options = {
     },
     meter: parseFloat(getCookie(COOKIE_METER, 10000)),
     agibuff: parseInt(getCookie(COOKIE_AGIBUFF, 0)),
-    qs_reset: parseInt(getCookie(COOKIE_QS_RESET, RESET_ZERO)),
+    qsnj_reset: parseInt(getCookie(COOKIE_QSNJ_RESET, RESET_ZERO)),
     dr_reset: parseInt(getCookie(COOKIE_DR_RESET, RESET_ZERO))
 };
 
@@ -1062,7 +1062,7 @@ function output(messages) {
             effects.push({target: defender, effect: "shake", method: "effect"});
         } else if (d.t == MSG_SD) {
             effects.push({target: attacker, effect: "explode", method: "toggle"});
-        } else if (d.t == MSG_QS) {
+        } else if (d.t == MSG_QS || d.t == MSG_NJ) {
             effects.push({target: attacker, effect: "slide", method: "effect"});
             effects.push({target: defender, effect: "shake", method: "effect"});
         }
@@ -1110,7 +1110,7 @@ function loadOptions() {
     });
     options.animation = $("#option-dialog input[name=animation]:checked").val() == "true";
     options.agibuff = parseInt($("#options-agibuff").val());
-    options.qs_reset = parseInt($("#options-qs-reset").val());
+    options.qsnj_reset = parseInt($("#options-qsnj-reset").val());
     options.dr_reset = parseInt($("#options-dr-reset").val());
     options.transposition_reset = parseInt($("#options-transposition-reset").val());
 }
@@ -1184,7 +1184,7 @@ function battle_init() {
             $(this).attr("checked", true);
     });
     $("#options-agibuff").val(options.agibuff);
-    $("#options-qs-reset").val(options.qs_reset);
+    $("#options-qsnj-reset").val(options.qsnj_reset);
     $("#options-dr-reset").val(options.dr_reset);
     $("#battle-button")
         .button()

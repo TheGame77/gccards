@@ -104,21 +104,19 @@ function loadComparisonCard(g, options, prog, callback) {
             return Calculator.getOHKOBy(g, opponents, options);
         },
         function() {
-            var has_qs = g.hasSkill(Skill.qs);
-            if (has_qs) {
-                options.mode = MODE_UQSKO;
-                return Calculator.getUQSKO(g, opponents, options);
+            if (g.hasSkill(Skill.qs) || g.hasSkill(Skill.nj)) {
+                options.mode = MODE_UQSNJKO;
+                return Calculator.getUQSNJKO(g, opponents, options);
             } else {
-                return "uqsko"
+                return "uqsnjko"
             }
         },
         function() {
-            var has_qs = g.hasSkill(Skill.qs);
-            if (has_qs) {
-                options.mode = MODE_QSKO;
-                return Calculator.getQSKO(g, opponents, options);
+            if (g.hasSkill(Skill.qs) || g.hasSkill(Skill.nj)) {
+                options.mode = MODE_QSNJKO;
+                return Calculator.getQSNJKO(g, opponents, options);
             } else {
-                return "qsko";
+                return "qsnjko";
             }
         }
     );
@@ -160,7 +158,7 @@ function loadComparisonHeaders(callback) {
         .append($("<tr id='comparison_cast2'></tr>").append("<th>Double Cast</th>"))
         .append($("<tr id='comparison_cast3'></tr>").append("<th>Triple Cast</th>"))
         .append($("<tr id='comparison_uohko'></tr>").append("<th>Unable to OHKO</th>"))
-        .append($("<tr id='comparison_ohko_by_qs'></tr>").append("<th>OHKO By QS</th>"))
+        .append($("<tr id='comparison_ohko_by_qsnj'></tr>").append("<th>OHKO By QS/NJ</th>"))
         .append($("<tr id='comparison_ohko_by_normal'></tr>").append("<th>OHKO By<br/>Normal Attack</th>"))
         .append($("<tr id='comparison_ohko_by_physical'></tr>").append("<th>OHKO By<br/>Physical+4</th>"))
         .append($("<tr id='comparison_ohko_by_critical'></tr>").append("<th>OHKO By<br/>Critical Elemental+4</th>"))
@@ -168,10 +166,10 @@ function loadComparisonHeaders(callback) {
         .append($("<tr id='comparison_ohko_by_blocked'></tr>").append("<th>OHKO By<br/>Blocked Elemental+4</th>"))
         .append($("<tr id='comparison_ohko_by_smash'></tr>").append("<th>OHKO By<br/>Gigant Smash</th>"))
         .append($("<tr id='comparison_ohko_by_soulslash'></tr>").append("<th>OHKO By<br/>Soul Slash</th>"))
-        .append($("<tr id='comparison_uqsko'></tr>").append("<th>Unable to QS-KO</th>"))
-        .append($("<tr id='comparison_qsko'></tr>").append("<th>QS-KO</th>"))
+        .append($("<tr id='comparison_uqsnjko'></tr>").append("<th>Unable to QS/NJ-KO</th>"))
+        .append($("<tr id='comparison_qsnjko'></tr>").append("<th>QS/NJ-KO</th>"))
         .append($("<tr id='comparison_uohko_details'></tr>").append("<th>Unable to OHKO<br/>(Details)</th>"))
-        .append($("<tr id='comparison_ohko_by_qs_details'></tr>").append("<th>OHKO By QS<br/>(Details)</th>"))
+        .append($("<tr id='comparison_ohko_by_qsnj_details'></tr>").append("<th>OHKO By QS/NJ<br/>(Details)</th>"))
         .append($("<tr id='comparison_ohko_by_normal_details'></tr>").append("<th>OHKO By<br/>Normal Attack<br/>(Details)</th>"))
         .append($("<tr id='comparison_ohko_by_physical_details'></tr>").append("<th>OHKO By<br/>Physical+4<br/>(Details)</th>"))
         .append($("<tr id='comparison_ohko_by_critical_details'></tr>").append("<th>OHKO By<br/>Critical Elemental+4<br/>(Details)</th>"))
@@ -179,8 +177,8 @@ function loadComparisonHeaders(callback) {
         .append($("<tr id='comparison_ohko_by_blocked_details'></tr>").append("<th>OHKO By<br/>Blocked Elemental+4<br/>(Details)</th>"))
         .append($("<tr id='comparison_ohko_by_smash_details'></tr>").append("<th>OHKO By<br/>Gigant Smash<br/>(Details)</th>"))
         .append($("<tr id='comparison_ohko_by_soulslash_details'></tr>").append("<th>OHKO By<br/>Soul Slash<br/>(Details)</th>"))
-        .append($("<tr id='comparison_uqsko_details'></tr>").append("<th>Unable to QS-KO<br/>(Details)</th>"))
-        .append($("<tr id='comparison_qsko_details'></tr>").append("<th>QS-KO<br/>(Details)</th>"))
+        .append($("<tr id='comparison_uqsnjko_details'></tr>").append("<th>Unable to QS/NJ-KO<br/>(Details)</th>"))
+        .append($("<tr id='comparison_qsnjko_details'></tr>").append("<th>QS/NJ-KO<br/>(Details)</th>"))
     ;
 
     if (typeof callback == 'function')

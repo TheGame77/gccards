@@ -22,6 +22,7 @@ var MSG_EP = 8;
 var MSG_SAP = 9;
 var MSG_REVIVAL = 10;
 var MSG_DEFEATED = 11;
+var MSG_NJ = 12;
 var MSG_OTHER = 999;
 var SIMULATOR_DEBUG = false;
 
@@ -442,7 +443,6 @@ function Simulator(my_party, oppo_party, options) {
         /* Only apply QS at the first appearance. */
         if (g1.battle.appeared)
             return false;
-        g1.battle.appeared = true;
 
         if (!g1.hasSkill(Skill.qs))
             return false;
@@ -450,8 +450,26 @@ function Simulator(my_party, oppo_party, options) {
         var qskill = doAttack(r, d, g1, g2, Skill.qs);
 
         if (qskill) {
-            /* Reset ATB bars after a QS-kill. */
-            d.resetMeters(options.qs_reset);
+            /* Reset ATB bars after a QS/NJ-kill. */
+            d.resetMeters(options.qsnj_reset);
+        }
+
+        return qskill;
+    };
+
+    var applyNJ = function(r, d, g1, g2) {
+        /* Only apply NJ at the first appearance. */
+        if (g1.battle.appeared)
+            return false;
+
+        if (!g1.hasSkill(Skill.nj))
+            return false;
+
+        var qskill = doAttack(r, d, g1, g2, Skill.nj);
+
+        if (qskill) {
+            /* Reset ATB bars after a QS/NJ-kill. */
+            d.resetMeters(options.qsnj_reset);
         }
 
         return qskill;
@@ -753,18 +771,18 @@ function Simulator(my_party, oppo_party, options) {
             def = g2.battle.status.def;
             buff2 = g2.battle.def;
             damage = Math.max(1, Calculator.getDamage(atk, sk, buff1, attr, def, buff2));
-        } else if (skill == Skill.qs && mpcost <= g1.battle.status.mp) {
-            atk = g1.battle.status.atk;
+        } else if ((skill == Skill.qs || skill == Skill.nj) && mpcost <= g1.battle.status.mp) {
+            atk = (skill == Skill.qs ? g1.battle.status.atk : g1.battle.status.wis);
             sk = -0.15;
             buff1 = 0;
 
             /* Apply EX2 buff. */
-            if (ex2 != null && ex2.getSkill().pcs(Skill.qs))
+            if (ex2 != null && ex2.getSkill().pcs(skill))
                 buff1 += ex2.getSkill().powup;
 
             attr = 1;
-            def = g2.battle.status.def;
-            buff2 = g2.battle.def;
+            def = (skill == Skill.qs ? g2.battle.status.def : g2.battle.status.wis);
+            buff2 = (skill == Skill.qs ? g2.battle.def : g2.battle.wis);
             damage = Math.max(1, Calculator.getDamage(atk, sk, buff1, attr, def, buff2));
         } else if (skill == Skill.gs && mpcost <= g1.battle.status.mp) {
             atk = g1.battle.status.atk;
@@ -833,8 +851,8 @@ function Simulator(my_party, oppo_party, options) {
 
         var sks = g1.getSkills();
         for (var i = 0; i < sks.length; i++) {
-            /* Ignore QS in attacking phase. */
-            if (sks[i] == Skill.qs)
+            /* Ignore QS/NJ in attacking phase. */
+            if (sks[i] == Skill.qs || sks[i] == Skill.nj)
                 continue;
             var dmg = getSkillDamage(d, g1, g2, sks[i]);
             if (dmg >= g2.battle.status.hp) {
@@ -901,7 +919,15 @@ function Simulator(my_party, oppo_party, options) {
                 g1.battle.status.hp -= hpcost;
             }
 
-            r.append(d, g1, g2, g1.name + "'s " + name, skill == Skill.qs ? MSG_QS : MSG_ATTACK);
+            var msg;
+            if(skill == Skill.qs)
+                msg = MSG_QS;
+            else if(skill == Skill.nj)
+                msg = MSG_NJ;
+            else
+                msg = MSG_ATTACK;
+
+            r.append(d, g1, g2, g1.name + "'s " + name, msg);
 
             /* A physical attack is evaded. */
             if ((skill == null || skill.isPhysical() && skill != Skill.gs && skill != Skill.bg && skill != Skill.cd) && 
@@ -997,8 +1023,10 @@ function Simulator(my_party, oppo_party, options) {
             }
 
             /* The attacker may be defeated by the defender with Deadly Reflex. */
-            if (applyQS(r, d, attacker, defender) || attacker.battle.status.hp <= 0) continue;
+            if (applyQS(r, d, attacker, defender) || applyNJ(r, d, attacker, defender) || attacker.battle.status.hp <= 0) continue;
             if (d.swap(function() { return applyQS(r, d, defender, attacker); }) || defender.battle.status.hp <= 0) continue;
+            if (d.swap(function() { return applyNJ(r, d, defender, attacker); }) || defender.battle.status.hp <= 0) continue;
+            attacker.battle.appeared = true;
 
             applyResistant(r, d, attacker, defender);
             if (defender.battle.paralyzed == 0)

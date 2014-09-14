@@ -6,6 +6,10 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/9/14': [
+            "Nimble Jinx is now supported in Calculator and Battle Simulator.",
+            "Corrections to Almighty Nocturne Banshee skills/stats."
+        ],
         '2014/9/13': [
             "Invitation Bonus: " + Card.mklnk(40679) + ", " + Card.mklnk(40680) + ", " + Card.mklnk(40681) + ", " + Card.mklnk(40682) + " and, " + Card.mklnk(40683) + ".",
             "1st Skyborne Coliseum Reward: " + Card.mklnk(40623) + "。",
