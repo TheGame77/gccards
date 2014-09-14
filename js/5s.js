@@ -3027,7 +3027,7 @@ Card.addAll([
     ["40623", "Almighty Nocturne Banshee", "This dark prophetess foresees the tragic fall of heroes, and eternally memorializes their bravery through song.", 
      Event.none, Border.almighty, 5, Place.coliseum, 1, "40327", Shape.jellyfish, Attribute.death,
      1800, 1050, 1380, 1480, 1360, 1830,
-     [Skill.nj, Skill.darkness4, Skill.np],
+     [Skill.nj, Skill.darkness3, Skill.dagi20, Skill.darkness4, Skill.np],
      [Skill.nj, Skill.darkness4, Skill.np],
      [Skill.nj, Skill.darkness4, Skill.np]],
      ["40626", "Tsukuyomi", "Since the dawn of man, mortals have gazed skywards seeking this god of moonlight an his waters of youth.", 
@@ -3260,8 +3260,7 @@ Card.addLimitedTypes({
     "40520": [Type.cool, Type.coolr],   // Deadman Titan
     "40541": [Type.cool, Type.coolr],   // Urania
     "40577": [Type.cool, Type.coolr],   // Jahi
-    "40581": [Type.cool, Type.coolr],   // Belial
-    "40623": [Type.cool, Type.coolr]    // Almighty Nocturne Banshee
+    "40581": [Type.cool, Type.coolr]   // Belial
 });
 
 Card.addNotes({
@@ -3494,7 +3493,6 @@ Card.addNotes({
     "40620": "Skills from Japanese version", // Almighty Hestia
     "40621": "All data from Japanese version", // Mighty Hestia
     "40622": "All data from Japanese version", // Great Hestia
-    "40623": "Skills not confirmed", // Almighty Nocturne Banshee
     "40652": "All data from Japanese version", // Almighty Aegir
     "40653": "Skills from Japanese version", // Mighty Aegir
     "40654": "All data from Japanese version", // Great Aegir
