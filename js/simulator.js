@@ -120,7 +120,8 @@ function Simulator(my_party, oppo_party, options) {
                 g.battle.agi = 0;                      /* The AGI buff of this card */
                 g.battle.wis = 0;                      /* The WIS buff of this card */
                 g.battle.first = true;                 /* Indicate in the messages the first appearance of this card. */
-                g.battle.appeared = false;             /* Indicate if this card has appeared. */
+                g.battle.qsused = false;               /* Indicate if this card has used QS. */
+                g.battle.njused = false;               /* Indicate if this card has used NJ. */
                 g.battle.attacked = false;             /* Indicate if this card has been attacked. */
                 g.battle.buffed = false;               /* Indicate if buff/debuff skills has been applied. */
                 g.battle.confused = false;             /* Indicate if a card has been confused by Mind Rift. */
@@ -440,9 +441,11 @@ function Simulator(my_party, oppo_party, options) {
     };
 
     var applyQS = function(r, d, g1, g2) {
-        /* Only apply QS at the first appearance. */
-        if (g1.battle.appeared)
+        /* Only use QS once. */
+        if (g1.battle.qsused)
             return false;
+
+        g1.battle.qsused = true;
 
         if (!g1.hasSkill(Skill.qs))
             return false;
@@ -458,9 +461,11 @@ function Simulator(my_party, oppo_party, options) {
     };
 
     var applyNJ = function(r, d, g1, g2) {
-        /* Only apply NJ at the first appearance. */
-        if (g1.battle.appeared)
+        /* Only use NJ once. */
+        if (g1.battle.njused)
             return false;
+
+        g1.battle.njused = true;
 
         if (!g1.hasSkill(Skill.nj))
             return false;
@@ -809,15 +814,7 @@ function Simulator(my_party, oppo_party, options) {
             def = g2.battle.status.def;
             buff2 = g2.battle.def;
             damage = Math.max(1, Calculator.getDamage(atk, sk, buff1, attr, def, buff2));
-        } else if (skill == Skill.cd && mpcost <= g1.battle.status.mp) {
-            atk = g1.battle.status.atk;
-            sk = Calculator.skill_mult[skill.level - 1];
-            buff1 = g1.battle.atk;
-            attr = 1;
-            def = g2.battle.status.def;
-            buff2 = g2.battle.def;
-            damage = Math.max(1, Calculator.getDamage(atk, sk, buff1, attr, def, buff2));
-        } else if (skill.isPhysical() && skill != Skill.gs && skill != Skill.bg && skill != Skill.cd && mpcost <= g1.battle.status.mp) {
+        } else if (skill.isPhysical() && skill != Skill.gs && skill != Skill.bg && mpcost <= g1.battle.status.mp) {
             atk = g1.battle.status.atk;
             sk = Calculator.skill_mult[skill.level - 1];
             buff1 = g1.battle.atk;
@@ -839,6 +836,10 @@ function Simulator(my_party, oppo_party, options) {
     };
 
     var getBestSkill = function(d, g1, g2) {
+        /* Always use LL first even during LS. */
+        if (g1.hasSkill(Skill.ll) && g1.battle.status.mp >= Skill.ll.cost.mp)
+            return Skill.ll;
+
         /* Always use normal attack if the opponent casted LS. */
         if (g2.battle.status.hp == 1)
             return null;
@@ -959,7 +960,7 @@ function Simulator(my_party, oppo_party, options) {
 
             /* Apply the additional effect caused by Lifeleech. */
             if (skill == Skill.cd) {
-                var absorbed = Math.floor(damage * 0.9);
+                var absorbed = Math.floor(Math.min(damage, g2.battle.status.hp + damage) * 0.9);
                 g1.battle.status.hp += absorbed;
                 g1.battle.status.hp = Math.min(g1.status.hp, g1.battle.status.hp);
                 r.append(d, g1, g2, absorbed + " HP absorbed", MSG_BUFF);
@@ -1026,7 +1027,6 @@ function Simulator(my_party, oppo_party, options) {
             if (applyQS(r, d, attacker, defender) || applyNJ(r, d, attacker, defender) || attacker.battle.status.hp <= 0) continue;
             if (d.swap(function() { return applyQS(r, d, defender, attacker); }) || defender.battle.status.hp <= 0) continue;
             if (d.swap(function() { return applyNJ(r, d, defender, attacker); }) || defender.battle.status.hp <= 0) continue;
-            attacker.battle.appeared = true;
 
             applyResistant(r, d, attacker, defender);
             if (defender.battle.paralyzed == 0)
