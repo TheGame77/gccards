@@ -3065,7 +3065,7 @@ Card.addAll([
      1590, 2280, 1520, 1440, 1290, 1300,
      [Skill.slash3, Skill.dagi20, Skill.slash4, Skill.atk20, Skill.sd, Skill.deathpredator],
      [Skill.slash4, Skill.atk20, Skill.sd],
-     [Skill.slash4, Skill.sd, Skill.deathpredator]],
+     [Skill.atk20, Skill.sd, Skill.deathpredator]],
     ["40657", "Tezcatlipoca", "Master of mankind's fate, this god has raised the world from nothingness and razed it back to dust time and again.", 
      Event.none, Border.none, 5, Place.desert_night, 0, null, Shape.humanoid, Attribute.earth,
      1600, 800, 1560, 1400, 1320, 1280,

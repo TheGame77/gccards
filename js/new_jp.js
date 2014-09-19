@@ -9,7 +9,6 @@ WhatIsNew.get = function() {
         '2014/9/19': [
             "Battle Simulator Fixes:",
             "Fixed bug where NJ/QS would occur twice if it KOed an opponent that then revived.",
-            "NJ now takes element into consideration.",
             "LL absorbs based on enemy HP, not potential damage.",
             "LL is now used during enemy LS."
         ],
