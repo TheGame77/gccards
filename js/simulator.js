@@ -785,9 +785,15 @@ function Simulator(my_party, oppo_party, options) {
             if (ex2 != null && ex2.getSkill().pcs(skill))
                 buff1 += ex2.getSkill().powup;
 
+            if(skill == Skill.qs)
+                attr = 1;
+            else
+                attr = g2.battle.protect ? 0.85 : (g1.attribute.isCriticalTo(g2.attribute) ? 1.15 : (g1.attribute.isBlockedBy(g2.attribute) ? 0.85 : 1));
+
             attr = 1;
             def = (skill == Skill.qs ? g2.battle.status.def : g2.battle.status.wis);
             buff2 = (skill == Skill.qs ? g2.battle.def : g2.battle.wis);
+
             damage = Math.max(1, Calculator.getDamage(atk, sk, buff1, attr, def, buff2));
         } else if (skill == Skill.gs && mpcost <= g1.battle.status.mp) {
             atk = g1.battle.status.atk;
@@ -951,7 +957,7 @@ function Simulator(my_party, oppo_party, options) {
                 g2.battle.agi -= 0.1;
                 r.append(d, g1, g2, "AGI reduced by " + Math.floor(g2.battle.status.agi * 0.1), MSG_BUFF);
             }
-            
+
             /* Apply the additional effect caused by Heavy Blow. */
             if (skill != null && skill.id == Skill.physical2.id) {
                 g2.battle.def -= 0.1;
@@ -972,22 +978,26 @@ function Simulator(my_party, oppo_party, options) {
             }
         }
 
-        if (g2.battle.status.hp > 0 && skill != Skill.dr) {
+        if (g2.battle.status.hp > 0 && skill != Skill.dr && skill != Skill.cd) {
             d.swap(function() { applyDR(r, d, g2, g1, damage); });
         } else if (g2.battle.status.hp <= 0 && !d.swap(function() { return applyLS(r, d, g2, g1); })) {
             killed = true;
             d.nextDefenderCard();
 
-            /* Perform SD if the attacker is different from the defender. */
-            if (g1 != g2 && d.swap(function() { return applySD(r, d, g2, g1); })) {
-                if (g1.battle.status.hp <= 0)
-                    d.nextAttackerCard();
+            if(skill == Skill.dp) {
+                r.append(d, g1, g2, "Defeated " + g2.name, MSG_DEFEATED);
             } else {
-                if (d.swap(function() { return applyRevival(r, d, g2, g1); }))
-                    d.prevDefenderCard();
-                else if (!d.swap(function() { return applyCurse(r, d, g2, g1); }) &&
-                         !d.swap(function() { return applyNervePinch(r, d, g2, g1); }))
-                    r.append(d, g1, g2, "Defeated " + g2.name, MSG_DEFEATED);
+                /* Perform SD if the attacker is different from the defender. */
+                if (g1 != g2 && d.swap(function() { return applySD(r, d, g2, g1); })) {
+                    if (g1.battle.status.hp <= 0)
+                        d.nextAttackerCard();
+                } else {
+                    if (d.swap(function() { return applyRevival(r, d, g2, g1); }))
+                        d.prevDefenderCard();
+                    else if (!d.swap(function() { return applyCurse(r, d, g2, g1); }) &&
+                             !d.swap(function() { return applyNervePinch(r, d, g2, g1); }))
+                        r.append(d, g1, g2, "Defeated " + g2.name, MSG_DEFEATED);
+                }
             }
         }
 

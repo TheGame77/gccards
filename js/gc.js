@@ -2641,7 +2641,8 @@ var Calculator = (function() {
                 }
                 if(hasSkill(skills1, Skill.nj) && status1.mp >= Skill.nj.cost.mp) {
                     var buff1 = wis1;
-                    var dmg = this.getDamage(status1.wis, -0.15, buff1, 1, status2.wis, wis2);
+                    var attr = hasSkill(skills2, Skill.fb) ? 0.85 : (g1.attribute.isCriticalTo(g2.attribute) ? 1.15 : (g1.attribute.isBlockedBy(g2.attribute) ? 0.85 : 1));
+                    var dmg = this.getDamage(status1.wis, -0.15, buff1, attr, status2.wis, wis2);
                     qsnj += Math.max(dmg, 1);
                     status1.mp -= Skill.nj.cost.mp;
                 }

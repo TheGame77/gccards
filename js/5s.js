@@ -2083,9 +2083,9 @@ Card.addAll([
     ["40433", "Nightgaunt", "", 
      Event.doubled2, Border.none, 5, Place.desert, 0, null, Shape.bird, Attribute.darkness,
      1440, 1140, 1140, 1200, 1290, 1400,
-     [Skill.wis20, Skill.darkness1, Skill.darkness2, Skill.darkness3, Skill.death4, Skill.dwis40],
+     [Skill.wis20, Skill.darkness1, Skill.darkness2, Skill.darkness3, Skill.death4, Skill.fb],
      [Skill.wis20, Skill.darkness3, Skill.death4],
-     [Skill.wis20, Skill.death4, Skill.dwis40]],
+     [Skill.wis20, Skill.death4, Skill.fb]],
     ["40435", "Izanami", "Angered by her sibling's betrayal, this goddess of death has vowed to claim innocent lives with each passing day.", 
      Event.none, Border.none, 5, Place.login, 0, null, Shape.none, Attribute.poison, 
      1010, 1100, 1040, 1040, 1120, 1260,
@@ -3260,7 +3260,12 @@ Card.addLimitedTypes({
     "40520": [Type.cool, Type.coolr],   // Deadman Titan
     "40541": [Type.cool, Type.coolr],   // Urania
     "40577": [Type.cool, Type.coolr],   // Jahi
-    "40581": [Type.cool, Type.coolr]   // Belial
+    "40581": [Type.cool, Type.coolr],   // Belial
+    "40679": [Type.cool, Type.coolr],    // Barbariccia of the Wind
+    "40680": [Type.cool, Type.coolr],    // Scarmiglione of the Earth
+    "40681": [Type.cool, Type.coolr],    // Cagnazzo of the Water
+    "40682": [Type.cool, Type.coolr],    // Rubicante of the Flame
+    "40683": [Type.cool, Type.coolr]     // Golbez of the Darkness
 });
 
 Card.addNotes({
@@ -3356,7 +3361,6 @@ Card.addNotes({
     "40430": "All data from Japanese version",
     "40431": "All data from Japanese version",
     "40432": "Skills from Japanese version",
-    "40433": "Skills from Japanese version, profile missing",
     "40436": "All data from Japanese version",
     "40437": "All data from Japanese version",
     "40438": "Skills from Japanese version",

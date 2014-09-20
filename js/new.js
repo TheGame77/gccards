@@ -6,6 +6,14 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/9/20': [
+            "FFIV invitation cards now limited to cool type.",
+            "Fixed rebirth skill for " + Card.mklnk(40433),
+            "More Battle Simulator Fixes:",
+            "DR is no longer triggered on LL.",
+            "RL no longer triggers SD, MM, Revive, NP.",
+            "NJ now takes element into consideration."
+        ],
         '2014/9/19': [
             "Battle Simulator Fixes:",
             "Fixed bug where NJ/QS would occur twice if it KOed an opponent that then revived.",
@@ -18,8 +26,8 @@ WhatIsNew.get = function() {
         ],
         '2014/9/13': [
             "Invitation Bonus: " + Card.mklnk(40679) + ", " + Card.mklnk(40680) + ", " + Card.mklnk(40681) + ", " + Card.mklnk(40682) + " and, " + Card.mklnk(40683) + ".",
-            "1st Skyborne Coliseum Reward: " + Card.mklnk(40623) + "。",
-            "Two Ladies Adored: " + Card.mklnk(40685) + "。",
+            "1st Skyborne Coliseum Reward: " + Card.mklnk(40623) + ".",
+            "Two Ladies Adored: " + Card.mklnk(40685) + ".",
             "Aedengard: " + Card.mklnk(40663) + ", " + Card.mklnk(40664) + ", " + Card.mklnk(40665) + ", " + Card.mklnk(40666) + ", and " + Card.mklnk(40667) + ".",
             "108th Coliseum Rewards: " + Card.mklnk(40676) + ", " + Card.mklnk(40677) + ", and " + Card.mklnk(40678) + ".",
             "107th Coliseum Rewards: " + Card.mklnk(40670) + ", " + Card.mklnk(40671) + ", and " + Card.mklnk(40672) + "."
