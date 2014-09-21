@@ -136,7 +136,7 @@ function Simulator(my_party, oppo_party, options) {
                 g.battle.sap = g.hasSkill(Skill.sap);               /* Can cast Sap? */
                 g.battle.dr = g.hasSkill(Skill.dr);                 /* Can cast Deadly Reflex? */
                 g.battle.sd = g.hasSkill(Skill.sd) || g.hasSkill(Skill.rendburst); /* Can cast SD/Rendburst? */
-                g.battle.mr = g.hasSkill(Skill.mr);                 /* Can cast Mind Rift? */
+                g.battle.mr = g.hasSkill(Skill.mr) || g.hasSkill(Skill.smr); /* Can cast MR/SMR? */
                 g.battle.fb = g.hasSkill(Skill.fb);                 /* Can cast Full Barrier? */
                 g.battle.curse = g.hasSkill(Skill.curse);           /* Can cast Curse? */
                 g.battle.np = g.hasSkill(Skill.np);                 /* Can cast Nerve Pinch? */
@@ -493,18 +493,20 @@ function Simulator(my_party, oppo_party, options) {
 
     var applyMR = function(r, d, g1, g2) {
         var res = false;
-        if (g1.battle.mr && g1.battle.status.mp >= Skill.mr.cost.mp) {
+        var skill = g1.hasSkill(Skill.smr) ? Skill.smr : Skill.mr;
+        if (g1.battle.mr && g1.battle.status.mp >= skill.cost.mp) {
             g1.battle.mr = false;
-            g1.battle.status.mp -= Skill.mr.cost.mp;
-            r.append(d, g1, g2, g1.name + "'s " + Skill.mr.name, MSG_OTHER);
-            if (Math.random() < options[d.attacker].mr && !g2.battle.resistant_effective) {
+            g1.battle.status.mp -= skill.cost.mp;
+            r.append(d, g1, g2, g1.name + "'s " + skill.name, MSG_OTHER);
+            if ((skill == Skill.smr || Math.random() < options[d.attacker].mr) && !g2.battle.resistant_effective) {
                 r.append(d, g1, g2, g2.name + " is confused", MSG_OTHER);
                 g2.battle.confused = true;
                 res = true;
 
-                /* Disable SD, DS, MR, and DR if g2 is confused. */
+                /* Disable SD, DS, VD, MR, and DR if g2 is confused. */
                 g2.battle.sd = false;
                 g2.battle.ds = false;
+                g2.battle.vd = false;
                 g2.battle.mr = false;
                 g2.battle.dr = false;
             } else

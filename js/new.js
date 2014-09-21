@@ -9,7 +9,7 @@ WhatIsNew.get = function() {
         '2014/9/21': [
             "Ongoing Battle Simulator Fixes:",
             "Death skills now consume MP on failure.",
-            "Implemented rendburst, veil of deadening."
+            "Implemented rendburst, veil of deadening, shadow mind rift."
         ],
         '2014/9/20': [
             "FFIV invitation cards now limited to cool type.",
