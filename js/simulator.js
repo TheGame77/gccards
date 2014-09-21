@@ -42,7 +42,7 @@ DEACTIVATE[Skill.sd.name] = [Skill.revival, Skill.ls, Skill.sd, Skill.curse, Ski
 DEACTIVATE[Skill.mr.name] = [Skill.mr, Skill.ds, Skill.dr, Skill.life, Skill.cd];
 DEACTIVATE[Skill.tb.name] = [Skill.revival, Skill.ls, Skill.sd];
 DEACTIVATE[Skill.nervepinch.name] = [Skill.ds, Skill.dr, Skill.ls, Skill.revival, Skill.sd, Skill.nervepinch];
-DEACTIVATE[Skill.deathpredator.name] = [Skill.ls, Skill.revival, Skill.sd];
+DEACTIVATE[Skill.deathpredator.name] = [Skill.ls, Skill.revival, Skill.sd, Skill.nervepinch];
 
 function Simulator(my_party, oppo_party, options) {
     // ========== Start of mkRes ==========
@@ -130,12 +130,12 @@ function Simulator(my_party, oppo_party, options) {
                 g.battle.resistant_effective = false;  /* Indicate if a card is protected by Resistant. */
                 g.battle.ls = g.hasSkill(Skill.ls);                 /* Can cast LS? */
                 g.battle.revival = g.hasSkill(Skill.revival);       /* Can cast Revival? */
-                g.battle.ds = g.hasSkill(Skill.ds);                 /* Can cast DS? */
-                g.battle.sds = g.hasSkill(Skill.sds);               /* Can cast Shadow DS? */
+                g.battle.ds = g.hasSkill(Skill.ds) || g.hasSkill(Skill.sds); /* Can cast DS/SDS? */
+                g.battle.vd = g.hasSkill(Skill.vd);                 /* Can cast VD? */
                 g.battle.ep = g.hasSkill(Skill.ep);                 /* Can cast EP? */
                 g.battle.sap = g.hasSkill(Skill.sap);               /* Can cast Sap? */
                 g.battle.dr = g.hasSkill(Skill.dr);                 /* Can cast Deadly Reflex? */
-                g.battle.sd = g.hasSkill(Skill.sd);                 /* Can cast SD? */
+                g.battle.sd = g.hasSkill(Skill.sd) || g.hasSkill(Skill.rendburst); /* Can cast SD/Rendburst? */
                 g.battle.mr = g.hasSkill(Skill.mr);                 /* Can cast Mind Rift? */
                 g.battle.fb = g.hasSkill(Skill.fb);                 /* Can cast Full Barrier? */
                 g.battle.curse = g.hasSkill(Skill.curse);           /* Can cast Curse? */
@@ -164,7 +164,7 @@ function Simulator(my_party, oppo_party, options) {
             oppo_current: 0,
             oppo_meter: 0,
             oppo_prev_meter: 0,
-            
+
             /* Sets the attacker. The defender will be set accordingly. */
             setAttacker: function(x) {
                 this.attacker = x;
@@ -431,8 +431,9 @@ function Simulator(my_party, oppo_party, options) {
         if (exskill != null && exskill.scs(skill))
             rate += exskill.sucup;
 
+        g1.battle.status.mp -= skill.cost.mp;
+
         if (Math.random() < rate) {
-            g1.battle.status.mp -= skill.cost.mp;
             g2.battle.status.hp = 0;
             r.append(d, g1, g2, g2.name + " dies instantly", MSG_OTHER);
         } else {
@@ -539,29 +540,36 @@ function Simulator(my_party, oppo_party, options) {
         return res;
     };
 
+    // Handles both SD and rendburst
     var applySD = function(r, d, g1, g2) {
         var res = false;
 
         if (g1.battle.sd && g1.battle.status.mp > 0) {
             g1.battle.sd = false;
-            r.append(d, g1, g2, g1.name + "'s " + Skill.sd.name, MSG_SD);
 
-            var rate = options[d.attacker].sd;
-            /* Apply EX2 buff. */
-            var ex2 = d.getAttackerEx2();
-            var exskill = ex2 == null ? null : ex2.getSkill();
-            if (exskill != null && exskill.scs(Skill.sd))
-                rate += exskill.sucup;
+            var skill = (g1.hasSkill(Skill.sd) ? Skill.sd : Skill.rendburst);
+            r.append(d, g1, g2, g1.name + "'s " + skill.name, MSG_SD);
 
-            if (Math.random() < rate) {
+            if(skill == Skill.sd)
+            {
+                var rate = options[d.attacker].sd;
+                /* Apply EX2 buff. */
+                var ex2 = d.getAttackerEx2();
+                var exskill = ex2 == null ? null : ex2.getSkill();
+                if (exskill != null && exskill.scs(Skill.sd))
+                    rate += exskill.sucup;
+            }
+
+            if (skill == Skill.rendburst || Math.random() < rate) {
                 var damage = g1.battle.status.mp;
+                if(skill == Skill.rendburst) damage = Math.floor(damage * 0.7);
                 g2.battle.status.hp -= damage;
                 g1.battle.status.hp = 0;
                 g1.battle.status.mp = 0;
                 r.append(d, g1, g2, damage + " damage to " + g2.name, MSG_DAMAGE);
                 res = true;
             } else {
-                r.append(d, g1, g2, g1.name + "'s " + Skill.sd.name + " fails", MSG_OTHER);
+                r.append(d, g1, g2, g1.name + "'s " + skill.name + " fails", MSG_OTHER);
             }
         }
 
@@ -608,14 +616,19 @@ function Simulator(my_party, oppo_party, options) {
         if (g1.battle.paralyzed > 0)
             return false;
 
-        var rate = options[d.attacker].ds;
-        /* Apply EX2 buff. */
-        var ex2 = d.getAttackerEx2();
-        var exskill = ex2 == null ? null : ex2.getSkill();
-        if (exskill != null && exskill.scs(Skill.ds))
-            rate += exskill.sucup;
+        var rate;
 
-        if (g1.battle.ds && Skill.ds.cost.mp <= g1.battle.status.mp && Math.random() < rate) {
+        if(g1.hasSkill(Skill.ds)) {
+            rate = options[d.attacker].ds;
+            /* Apply EX2 buff. */
+            var ex2 = d.getAttackerEx2();
+            var exskill = ex2 == null ? null : ex2.getSkill();
+            if (exskill != null && exskill.scs(Skill.ds))
+                rate += exskill.sucup;
+        }
+
+        // Code will need adjusting if ds/sds had different mp costs
+        if (g1.battle.ds && Skill.ds.cost.mp <= g1.battle.status.mp && (g1.hasSkill(Skill.sds) || Math.random() < rate)) {
             g1.battle.status.mp -= Skill.ds.cost.mp;
             r.append(d, g1, g2, g1.name + " evades the attack.", MSG_DS);
             return true;
@@ -623,12 +636,19 @@ function Simulator(my_party, oppo_party, options) {
             return false;
     };
 
-    var applySDS = function(r, d, g1, g2) {
+    var applyVD = function(r, d, g1, g2) {
         if (g1.battle.paralyzed > 0)
             return false;
 
-        if (g1.battle.sds && Skill.sds.cost.mp <= g1.battle.status.mp) {
-            g1.battle.status.mp -= Skill.sds.cost.mp;
+        var rate = options[d.attacker].ds;
+        /* Apply EX2 buff. */
+        var ex2 = d.getAttackerEx2();
+        var exskill = ex2 == null ? null : ex2.getSkill();
+        if (exskill != null && exskill.scs(Skill.vd))
+            rate += exskill.sucup;
+
+        if (g1.battle.vd && Skill.vd.cost.mp <= g1.battle.status.mp && Math.random() < rate) {
+            g1.battle.status.mp -= Skill.vd.cost.mp;
             r.append(d, g1, g2, g1.name + " evades the attack.", MSG_DS);
             return true;
         } else
@@ -938,7 +958,12 @@ function Simulator(my_party, oppo_party, options) {
 
             /* A physical attack is evaded. */
             if ((skill == null || skill.isPhysical() && skill != Skill.gs && skill != Skill.bg && skill != Skill.cd) && 
-                (d.swap(function() { return applyDS(r, d, g2, g1); }) || d.swap(function() { return applySDS(r, d, g2, g1); })))
+                (d.swap(function() { return applyDS(r, d, g2, g1); })))
+                return;
+
+            /* An elemental attack is evaded. */
+            if ((skill != null && skill.isElemental()) && 
+                (d.swap(function() { return applyVD(r, d, g2, g1); })))
                 return;
 
             g2.battle.status.hp -= damage;
