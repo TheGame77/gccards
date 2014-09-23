@@ -3227,7 +3227,13 @@ Card.addAll([
      1190, 1180, 1050, 1120, 1160, 1400,
      [Skill.light2, Skill.wis10, Skill.light3, Skill.light4, Skill.mvs, Skill.np],
      [Skill.wis10, Skill.light4, Skill.mvs],
-     [Skill.light4, Skill.mvs, Skill.np]]
+     [Skill.light4, Skill.mvs, Skill.np]],
+    ["40687", "Ame-no-Uzume", "This deity's fervent dance is said to have given rise to the gods, and saved the world from darkness.", 
+     Event.dancinggod, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
+     1780, 1400, 1200, 1350, 1320, 1660,
+     [Skill.wind2, Skill.wis10, Skill.ds, Skill.wind3, Skill.wind4, Skill.mindshift],
+     [Skill.wis10, Skill.ds, Skill.wind4],
+     [Skill.ds, Skill.wind4, Skill.mindshift]]
 ]);
 
 Card.addLimitedTypes({
@@ -3527,7 +3533,8 @@ Card.addNotes({
     "40681": "Skills from Japanese version", // Maelstrom Cagnazzo
     "40682": "Skills from Japanese version", // Wildfire Rubicante
     "40683": "Skills from Japanese version", // Cimmerian Golbez
-    "40685": "Skills from Japanese version" // Hera
+    "40685": "Skills from Japanese version", // Hera
+    "40687": "Skills from Japanese version" // Ame-no-Uzume
 });
 
 ExCard.addAll([

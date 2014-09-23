@@ -102,7 +102,7 @@ var Locale = function(l) {
                 "Deathblaze Hunt",
                 "Wings of Triumph",
                 "Two Ladies Adored",
-                "Dancing God",
+                "Divine Dancer",
                 "Garden in the Sky"
             ),
             borders: new Array(

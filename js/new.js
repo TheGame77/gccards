@@ -6,6 +6,10 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/9/23': [
+            "Divine Dancer: " + Card.mklnk(40687) + ".",
+            "Added MVS to the battle simulator."
+        ],
         '2014/9/21': [
             "Ongoing Battle Simulator Fixes:",
             "Death skills now consume MP on failure.",
@@ -24,7 +28,7 @@ WhatIsNew.get = function() {
             "Fixed bug where NJ/QS would occur twice if it KOed an opponent that then revived.",
             "LL absorbs based on enemy HP, not potential damage.",
             "LL is now used during enemy LS."
-        ], // TODO: DR should not reflect LL, NJ needs to take elements into consideration.
+        ],
         '2014/9/14': [
             "Nimble Jinx is now supported in Calculator and Battle Simulator.",
             "Corrections to Almighty Nocturne Banshee skills/stats."
