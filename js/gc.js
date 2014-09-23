@@ -651,7 +651,7 @@ var Skill = (function() {
                                                              return new BuffClass({atk: 0.1, def: 0.1, agi: 0.1, wis: 0.1});
                                                      } 
                                                    },                                                         Attribute.none, 4], // Reaper's Luck
-        [94, SKILL_OTHER, ["transposition", "mvs"],new Cost(0,  300), stone_no,   nbuff({}),                  Attribute.none, 0], // Manavita Shift
+        [94, SKILL_OTHER, "mvs",                   new Cost(0,  300), stone_no, nbuff({}),                    Attribute.none, 0], // Manavita Shift
         [95, SKILL_BUFF, "powershift",             new Cost(0,  600), stone_no, nbuff({atk: 0.2, ddef: -0.2}),Attribute.none, 0], // Might Reave
         [96, SKILL_BUFF, "mindshift",              new Cost(0,  600), stone_no, nbuff({wis: 0.2, dwis: -0.2}),Attribute.none, 0], // Mind Reave
         [97, SKILL_OTHER, "resistant",             new Cost(0,  600), stone_no, nbuff({}),                    Attribute.none, 0], // Resistant

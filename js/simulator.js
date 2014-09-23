@@ -140,6 +140,7 @@ function Simulator(my_party, oppo_party, options) {
                 g.battle.fb = g.hasSkill(Skill.fb);                 /* Can cast Full Barrier? */
                 g.battle.curse = g.hasSkill(Skill.curse);           /* Can cast Curse? */
                 g.battle.np = g.hasSkill(Skill.np);                 /* Can cast Nerve Pinch? */
+                g.battle.mvs = g.hasSkill(Skill.mvs);
                 g.battle.resistant = g.hasSkill(Skill.resistant);   /* Can cast Resistant? */
             }
         }, new Array(
@@ -1080,21 +1081,33 @@ function Simulator(my_party, oppo_party, options) {
             applySap(r, d, attacker, defender);
             applyEP(r, d, attacker, defender);;
 
-            if (attacker.hasSkill(Skill.transposition) && defender.battle.status.mp == 0) {
-                r.append(d, attacker, defender, attacker.name + "'s " + Skill.transposition.name, MSG_OTHER);
-                /* TODO: Messages missing */
-                r.append(d, attacker, defender, "Defeated " + defender.name, MSG_DEFEATED);
-                d.nextDefenderCard();
-                d.resetMeters(options.transposition_reset);
-                continue;
+            if (attacker.battle.mvs) {
+                attacker.battle.mvs = false;
+                r.append(d, attacker, defender, attacker.name + "'s " + Skill.mvs.name, MSG_OTHER);
+                var oldHp = defender.battle.status.hp;
+                defender.battle.status.hp = Math.min(defender.status.hp, defender.battle.status.mp);
+                defender.battle.status.mp = Math.min(defender.status.mp, oldHp);
+                if(defender.battle.status.hp == 0) {
+                    /* TODO: Messages missing */
+                    r.append(d, attacker, defender, "Defeated " + defender.name, MSG_DEFEATED);
+                    d.nextDefenderCard();
+                    d.resetMeters(options.mvs_reset);
+                    continue;
+                }
             }
-            if (defender.battle.paralyzed == 0 && defender.hasSkill(Skill.transposition) && attacker.battle.status.mp == 0) {
-                r.append(d, defender, attacker, defender.name + "'s " + Skill.transposition.name, MSG_OTHER);
-                /* TODO: Messages missing */
-                r.append(d, defender, attacker, "Defeated " + attacker.name, MSG_DEFEATED);
-                d.nextAttackerCard();
-                d.resetMeters(options.transposition_reset);
-                continue;
+            if (defender.battle.paralyzed == 0 && defender.battle.mvs) {
+                defender.battle.mvs = false;
+                r.append(d, defender, attacker, defender.name + "'s " + Skill.mvs.name, MSG_OTHER);
+                var oldHp = attacker.battle.status.hp;
+                attacker.battle.status.hp = Math.min(attacker.status.hp, attacker.battle.status.mp);
+                attacker.battle.status.mp = Math.min(attacker.status.mp, oldHp);
+                if(attacker.battle.status.hp == 0) {
+                    /* TODO: Messages missing */
+                    r.append(d, defender, attacker, "Defeated " + attacker.name, MSG_DEFEATED);
+                    d.nextAttackerCard();
+                    d.resetMeters(options.mvs_reset);
+                    continue;
+                }
             }
 
             if (defender.battle.paralyzed == 0) {

@@ -1112,7 +1112,7 @@ function loadOptions() {
     options.agibuff = parseInt($("#options-agibuff").val());
     options.qsnj_reset = parseInt($("#options-qsnj-reset").val());
     options.dr_reset = parseInt($("#options-dr-reset").val());
-    options.transposition_reset = parseInt($("#options-transposition-reset").val());
+    options.mvs_reset = parseInt($("#options-mvs-reset").val());
 }
 
 function reset() {
