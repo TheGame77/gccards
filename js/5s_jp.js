@@ -3122,6 +3122,12 @@ Card.addAll([
      [Skill.dr, Skill.atkdef10, Skill.slash4, Skill.gs, Skill.ls],
      [Skill.dr, Skill.gs, Skill.ls],
      [Skill.dr, Skill.gs, Skill.ls]],
+    ["40655", "パールヴァティーV", "雪山の神の娘。純粋・力・闇・獰猛・神妃等の百八の名と、それぞれに応じた姿を持つ。", 
+     Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.earth,
+     1390, 1100, 1050, 1300, 1270, 1370,
+     [Skill.ds, Skill.earth2, Skill.def20, Skill.earth3, Skill.earth4, Skill.wis25],
+     [Skill.ds, Skill.def20, Skill.earth4],
+     [Skill.ds, Skill.earth4, Skill.wis25]],
     ["40656", "サマエル", "", 
      Event.none, Border.none, 5, Place.desert_night, 0, null, Shape.bird, Attribute.death,
      1590, 2280, 1520, 1440, 1290, 1300,
@@ -3316,15 +3322,6 @@ Card.addAll([
      [Skill.bg, Skill.powershift, Skill.rendburst]]
 ]);
 
-/* 
-   ["", "プロメテウス", "", 
-   Event.???, Border.none, 5, place_others, 0, null, Shape.none, Attribute.earth,
-   1100, 1090, 1160, 1042, 948, 950,
-   [Skill.def40, Skill.physical2, Skill.physical3, Skill.atk20, Skill.physical4, Skill.atkdef10],
-   [Skill.def40, Skill.atk20, Skill.physical4],
-   [Skill.def40, Skill.physical4, Skill.atkdef10]]
-*/
-
 Card.addLimitedTypes({
     "40037": [Type.cool, Type.coolr], // Iron Maiden
     "40038": [Type.cool, Type.coolr], // Requiem Banshee
@@ -3352,6 +3349,7 @@ Card.addLimitedTypes({
     "40541": [Type.cool, Type.coolr],    // ウラニア
     "40577": [Type.cool, Type.coolr],    // ジャヒ
     "40581": [Type.cool, Type.coolr],    // ベリアル
+    "40655": [Type.cool, Type.coolr],    // Parvati V
     "40679": [Type.cool, Type.coolr],    // Barbariccia of the Wind
     "40680": [Type.cool, Type.coolr],    // Scarmiglione of the Earth
     "40681": [Type.cool, Type.coolr],    // Cagnazzo of the Water
@@ -3410,7 +3408,10 @@ ExCard.addAll([
      [ExSkill.suc_gs10, ExSkill.suc_gs12, ExSkill.suc_gs15]],
     ["45013", "ヘラクレス", "",
      Event.none, ExType.red, 5, Place.ocean_night, 0, Shape.merman, Attribute.lightning,
-     [ExSkill.hp10, ExSkill.hp12, ExSkill.hp15]]
+     [ExSkill.hp10, ExSkill.hp12, ExSkill.hp15]],
+    ["45014", "パック", "",
+     Event.none, ExType.red, 5, Place.fp, 0, Shape.none, Attribute.wind,
+     [ExSkill.wis10, ExSkill.wis12, ExSkill.wis15]]
 ]);
 
 ExCard.addNotes({

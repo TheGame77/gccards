@@ -7,6 +7,7 @@ WhatIsNew.get = function() {
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
         '2014/9/29': [
+            "Added: " + ExCard.mklnk(45014) + ", " + Card.mklnk(40655) + ".",
             "Added skills for: " + Card.mklnk(30116) + ", " + Card.mklnk(30127) + "."
         ],
         '2014/9/23': [
