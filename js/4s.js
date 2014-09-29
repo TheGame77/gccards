@@ -559,9 +559,9 @@ Card.addAll([
     ["30116", "Y Ddraig Goch", "", 
      Event.none, Border.none, 4, Place.snowfield_night, 0, null, Shape.dragon, Attribute.fire,
      1001, 991, 1003, 994, 975, 901,
-     [Skill.physical2],
-     [],
-     []],
+     [Skill.slash2, Skill.fire2, Skill.atk20, Skill.fire3, Skill.slash3, Skill.ls],
+     [Skill.atk20, Skill.fire3, Skill.slash3],
+     [Skill.atk20, Skill.slash3, Skill.ls]],
     ["30118", "Dahut", "", 
      Event.none, Border.none, 4, Place.ocean_night, 0, null, Shape.mermaid, Attribute.darkness,
      999, 980, 992, 974, 989, 999,
@@ -619,9 +619,9 @@ Card.addAll([
     ["30127", "Astaroth", "Giving conjurers who revere him power over serpents, this arch duke of hell's might surges across the new world.", 
      Event.none, Border.none, 4, Place.zeus, 0, null, Shape.zdragon, Attribute.fire,
      1022, 997, 1020, 999, 1002, 969,
-     [Skill.fire1],
-     [],
-     []],
+     [Skill.fire1, Skill.physical2, Skill.ddef20, Skill.physical3, Skill.ls, Skill.physical4],
+     [Skill.ddef20, Skill.physical3, Skill.ls],
+     [Skill.ddef20, Skill.ls, Skill.physical4]],
     ["30128", "Pallas", "Sparks fly when this immortal spars with the goddess of wisdom in friendly contest to gain mastery of the spear.", 
      Event.lightning_wind, Border.none, 4, Place.plains_night, 0, null, Shape.orbs, Attribute.lightning,
      1026, 960, 1025, 984, 1015, 977,
@@ -652,6 +652,19 @@ Card.addAll([
      [],
      [],
      []],
+     /* More info Needed
+    ["30133", "Strigoi", "", 
+     Event.none, Border.none, 4, Place.aedengard, 0, null, Shape.???, Attribute.???,
+     0, 0, 0, 0, 0, 0,
+     [Skill.death2],
+     [],
+     []],
+     ["30134", "Ouroboros ", "", 
+     Event.none, Border.none, 4, Place.aedengard, 0, null, Shape.???, Attribute.???,
+     1020, 1000, 1033, 1030, 1020, 1010,
+     [Skill.wind2],
+     [],
+     []],*/
     ["30137", "Nebiros", "With a demon king in lands uncharted, this greatest of hell's necromancers works to end man from the shadows.", 
      Event.deathfire, Border.none, 4, Place.plains, 0, null, Shape.humanoid, Attribute.fire,
      1020, 880, 1015, 1030, 1026, 1025,
@@ -714,7 +727,6 @@ Card.addNotes({
     "30124": "All data from Japanese version",
     "30125": "All data from Japanese version",
     "30126": "Skills missing", // Gaia
-    "30127": "Skills missing", // Astaroth
     "30128": "All data from Japanese version", // Pallas
     "30129": "All data from Japanese version, rebirth skill missing", // Barbatos
     "30131": "All data missing", // Shuten-Doji

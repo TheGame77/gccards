@@ -103,7 +103,7 @@ var Locale = function(l) {
                 "Wings of Triumph",
                 "Two Ladies Adored",
                 "Divine Dancer",
-                "Garden in the Sky"
+                "Celestial Garden"
             ),
             borders: new Array(
                 "None",

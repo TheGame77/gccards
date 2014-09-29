@@ -559,7 +559,7 @@ function insertGuardian(gid, tid, custom_skills) {
                             .append($("<span></span>").addClass("skill-name").html(skill.name))
                             .append($("<span></span>").addClass("skill-description").html(" (" + skill.description + ")" + (g.canLearnSkill(skill) ? "" : "*")))
                             .each(function () {
-                                if (typeof gskills[i] == "undefined")
+                                if (i < gskills.length && typeof gskills[i] == "undefined")
                                     alert("Invalid recommended skill: " + g.id + "," + i);
                                 if (i < gskills.length && skill.id == gskills[i].id)
                                     $(this).attr("selected", true);

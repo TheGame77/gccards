@@ -6,6 +6,9 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/9/29': [
+            "Added skills for: " + Card.mklnk(30116) + ", " + Card.mklnk(30127) + "."
+        ],
         '2014/9/23': [
             "Added MVS to the battle simulator."
         ],

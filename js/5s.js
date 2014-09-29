@@ -3233,7 +3233,19 @@ Card.addAll([
      1780, 1400, 1200, 1350, 1320, 1660,
      [Skill.wind2, Skill.wis10, Skill.ds, Skill.wind3, Skill.wind4, Skill.mindshift],
      [Skill.wis10, Skill.ds, Skill.wind4],
-     [Skill.ds, Skill.wind4, Skill.mindshift]]
+     [Skill.ds, Skill.wind4, Skill.mindshift]],
+    ["40688", "Almighty Samael", "An architect of sin, it is said Samael Planted grape vines in paradise to lead the first men astray.", 
+     Event.none, Border.almighty, 5, Place.coliseum, 2, "40656", Shape.none, Attribute.death,
+     1810, 2500, 1670, 1500, 1320, 1400,
+     [Skill.slash4, Skill.dagi20, Skill.atk20, Skill.sd, Skill.dp],
+     [Skill.atk20, Skill.sd, Skill.dp],
+     [Skill.atk20, Skill.sd, Skill.dp]],
+    ["40691", "The Bride", "Man has foolishly played god once again by crafting a bride for the first abomination they created.", 
+     Event.skygarden, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
+     2060, 2000, 1600, 1450, 1330, 1500,
+     [Skill.slash3, Skill.atk10, Skill.slash4, Skill.bg, Skill.powershift, Skill.rendburst],
+     [Skill.atk10, Skill.bg, Skill.powershift],
+     [Skill.bg, Skill.powershift, Skill.rendburst]]
 ]);
 
 Card.addLimitedTypes({
@@ -3534,7 +3546,9 @@ Card.addNotes({
     "40682": "Skills from Japanese version", // Wildfire Rubicante
     "40683": "Skills from Japanese version", // Cimmerian Golbez
     "40685": "Skills from Japanese version", // Hera
-    "40687": "Skills from Japanese version" // Ame-no-Uzume
+    "40687": "Skills from Japanese version", // Ame-no-Uzume
+    "40688": "All data from Japanese version", // Almighty Samael
+    "40691": "Skills from Japanese version" // Bride
 });
 
 ExCard.addAll([
