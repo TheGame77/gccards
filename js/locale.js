@@ -103,7 +103,11 @@ var Locale = function(l) {
                 "Wings of Triumph",
                 "Two Ladies Adored",
                 "Divine Dancer",
-                "Celestial Garden"
+                "Celestial Garden",
+                "聖杯の守護騎士", // Corbenic Knight
+                "復讐の悪魔", // Arioch
+                "天界の神娘", // Shandian Niangniang
+                "拮抗する者達" // Maeve & Varuna
             ),
             borders: new Array(
                 "None",
@@ -464,7 +468,11 @@ var Locale = function(l) {
                 "双翼天臨", // Twin Angels
                 "慈しみの女神", // Goddess of Love
                 "神代の踊り手", // Dancing God
-                "天空の花園" // Garden in the Sky
+                "天空の花園", // Garden in the Sky
+                "聖杯の守護騎士", // Corbenic Knight
+                "復讐の悪魔", // Arioch
+                "天界の神娘", // Shandian Niangniang
+                "拮抗する者達" // Maeve & Varuna
             ),
             borders: new Array(
                 "なし",

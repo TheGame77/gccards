@@ -3123,7 +3123,7 @@ Card.addAll([
      [Skill.dr, Skill.gs, Skill.ls],
      [Skill.dr, Skill.gs, Skill.ls]],
     ["40655", "パールヴァティーV", "雪山の神の娘。純粋・力・闇・獰猛・神妃等の百八の名と、それぞれに応じた姿を持つ。", 
-     Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.earth,
+     Event.none, Border.none, 5, Place.login, 0, null, Shape.none, Attribute.earth,
      1390, 1100, 1050, 1300, 1270, 1370,
      [Skill.ds, Skill.earth2, Skill.def20, Skill.earth3, Skill.earth4, Skill.wis25],
      [Skill.ds, Skill.def20, Skill.earth4],
@@ -3269,13 +3269,13 @@ Card.addAll([
     ["40680", "土のスカルミリヨーネ", "ゴルベーザ四天王のひとり。アンデツド軍団を率いる死してなお恐ろしい死の案內人。", 
      Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.earth,
      1190, 1150, 1190, 1250, 1150, 1130,
-     [Skill.earth2, Skill.physical4, Skill.earth3, Skill.wis20, Skill.earth4],
+     [Skill.earth2, Skill.physical4, Skill.earth3, Skill.wis20, Skill.earth4, Skill.revival],
      [Skill.physical4, Skill.wis20, Skill.earth4],
      [Skill.physical4, Skill.wis20, Skill.earth4]],
     ["40681", "水のカイナッツォ", "ゴルベーザ四天王のひとり。水を自在に操り、その津波で辺り一带すベてを飲み込む。", 
      Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.water,
      1400, 1180, 1160, 1430, 1010, 1190,
-     [Skill.dr, Skill.physical3, Skill.water3, Skill.water4, Skill.def40],
+     [Skill.dr, Skill.physical3, Skill.water3, Skill.water4, Skill.def40, Skill.majorheal],
      [Skill.dr, Skill.water4, Skill.def40],
      [Skill.dr, Skill.water4, Skill.def40]],
     ["40682", "火のルビカンテ", "ゴルベーザ四天王のリーダー。炎を操り、弱点の氷すら防ぐ猛火のマントを纏う。", 
@@ -3319,7 +3319,13 @@ Card.addAll([
      2060, 2000, 1600, 1450, 1330, 1500,
      [Skill.slash3, Skill.atk10, Skill.slash4, Skill.bg, Skill.powershift, Skill.rendburst],
      [Skill.atk10, Skill.bg, Skill.powershift],
-     [Skill.bg, Skill.powershift, Skill.rendburst]]
+     [Skill.bg, Skill.powershift, Skill.rendburst]],
+    ["40692", "カーボニク・ナイト", "選ばれし者のみが訪ねる事のできる城にて聖杯を守る。不治の傷を負わせる魔槍を持つ。", 
+     Event.corbenicknight, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.poison,
+     1200, 1000, 1380, 1300, 1160, 1120,
+     [Skill.revival, Skill.def10, Skill.slash2, Skill.slash3, Skill.slash4, Skill.qs],
+     [Skill.revival, Skill.def10, Skill.slash4],
+     [Skill.revival, Skill.slash4, Skill.qs]]
 ]);
 
 Card.addLimitedTypes({

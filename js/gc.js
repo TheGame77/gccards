@@ -247,7 +247,11 @@ var Event = (function() {
         [59, ["twinangels"]],
         [60, ["goddessoflove"]],
         [61, ["dancinggod"]],
-        [62, ["skygarden"]]
+        [62, ["skygarden"]],
+        [63, ["corbenicknight"]],
+        [64, ["arioch"]],
+        [65, ["shandianniangniang"]],
+        [66, ["maevevaruna"]]
     ];
 
     var events = {

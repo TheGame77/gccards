@@ -6,6 +6,9 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/9/30': [
+            "Added: " + Card.mklnk(40692) + "."
+        ],
         '2014/9/29': [
             "Added: " + ExCard.mklnk(45014) + ", " + Card.mklnk(40655) + ".",
             "Added skills for: " + Card.mklnk(30116) + ", " + Card.mklnk(30127) + "."

@@ -3234,7 +3234,7 @@ Card.addAll([
      [Skill.wind2, Skill.wis10, Skill.ds, Skill.wind3, Skill.wind4, Skill.mindshift],
      [Skill.wis10, Skill.ds, Skill.wind4],
      [Skill.ds, Skill.wind4, Skill.mindshift]],
-    ["40688", "Almighty Samael", "An architect of sin, it is said Samael Planted grape vines in paradise to lead the first men astray.", 
+    ["40688", "Almighty Samael", "An architect of sin, it is said Samael planted grape vines in paradise to lead the first men astray.", 
      Event.none, Border.almighty, 5, Place.coliseum, 2, "40656", Shape.none, Attribute.death,
      1810, 2500, 1670, 1500, 1320, 1400,
      [Skill.slash4, Skill.dagi20, Skill.atk20, Skill.sd, Skill.dp],
