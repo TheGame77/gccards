@@ -257,7 +257,8 @@ var Locale = function(l) {
                 new Array("Rendburst",         "Unavoidable Damage"),
                 new Array("Veil of Deadening", "Attribute Evasion"),
                 new Array("Shadow Mind Rift",  "Confusion"),
-                new Array("Nimble Jinx",       "Attrbute first attack")
+                new Array("Nimble Jinx",       "Attrbute first attack"),
+                new Array("Darkness +4x",       "Darkness +4x")
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",
@@ -622,7 +623,8 @@ var Locale = function(l) {
                 new Array("炸裂", "敵に必中ダメージ"), // Detonation
                 new Array("ミラージュドライヴ", "属性回避"), // Mirage Drive
                 new Array("暗黒マインドブレイク",    "絶対混乱"), // Shadow Mind Rift
-                new Array("ワイズスマイト", "先制魔攻") // Wise Smite
+                new Array("ワイズスマイト", "先制魔攻"), // Wise Smite
+                new Array("ナイトメア改 ", "闇+4改") // Darkness +4x
             ),
             exskills: new Array(
                 "火属性ガーディアンの全ステータスを10%アップ",

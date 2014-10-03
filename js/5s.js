@@ -2080,10 +2080,10 @@ Card.addAll([
      [Skill.def40, Skill.water3, Skill.atk25, Skill.water4, Skill.bg],
      [Skill.def40, Skill.atk25, Skill.bg],
      [Skill.def40, Skill.atk25, Skill.bg]],
-    ["40433", "Nightgaunt", "", 
+    ["40433", "Nightgaunt", "Through the medium of twisted dreams, those faceless minions of an ancient god safeguard the secrets of the land.", 
      Event.doubled2, Border.none, 5, Place.desert, 0, null, Shape.bird, Attribute.darkness,
      1440, 1140, 1140, 1200, 1290, 1400,
-     [Skill.wis20, Skill.darkness1, Skill.darkness2, Skill.darkness3, Skill.death4, Skill.fb],
+     [Skill.wis20, Skill.darkness2, Skill.darkness3, Skill.death3, Skill.death4, Skill.fb],
      [Skill.wis20, Skill.darkness3, Skill.death4],
      [Skill.wis20, Skill.death4, Skill.fb]],
     ["40435", "Izanami", "Angered by her sibling's betrayal, this goddess of death has vowed to claim innocent lives with each passing day.", 
@@ -2658,13 +2658,13 @@ Card.addAll([
      [Skill.def40, Skill.physical3, Skill.atk20, Skill.physical4, Skill.atk25],
      [Skill.atk20, Skill.physical4, Skill.atk25],
      [Skill.atk20, Skill.physical4, Skill.atk25]],
-    ["40545", "Scorpius", "", 
+    ["40545", "Scorpius", "Sent as retribution against a braggart hero, this scorpion's victory earned him a place shining in the eventide sky.", 
      Event.moondust, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.poison,
      1480, 846, 1260, 1400, 1020, 1120,
      [Skill.slash3, Skill.ddef20, Skill.datk20, Skill.slash4, Skill.tb, Skill.ls],
      [Skill.ddef20, Skill.slash4, Skill.tb],
      [Skill.slash4, Skill.tb, Skill.ls]],
-    ["40546", "Ichikishimahime", "", 
+    ["40546", "Ichikishimahime", "This princess descended from the heavens to lead all souls who ply their trade on the seas from storm to safety.", 
      Event.moondust, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.water,
      1320, 1280, 1040, 980, 1240, 1587,
      [Skill.water1, Skill.water2, Skill.water3, Skill.wis25, Skill.wind3, Skill.revival],
@@ -2778,7 +2778,7 @@ Card.addAll([
      [Skill.slash3, Skill.atkagi10, Skill.qs, Skill.slash4, Skill.ds, Skill.ls],
      [Skill.qs, Skill.slash4, Skill.ds],
      [Skill.qs, Skill.ds, Skill.ls]],
-    ["40572", "Triton", "", 
+    ["40572", "Triton", "Progeny of a sea god and goddess, this monstrosity commands the waves and attends the many deities of the deep.", 
      Event.none, Border.none, 5, Place.ocean_night, 0, null, Shape.serpent, Attribute.mecha,
      1370, 1760, 1424, 1320, 1310, 1120,
      [Skill.slash3, Skill.atk20, Skill.slash4, Skill.sd, Skill.bg, Skill.atk25],
@@ -2790,7 +2790,7 @@ Card.addAll([
      [Skill.qs, Skill.physical3, Skill.atk20, Skill.physical4, Skill.cd, Skill.powershift],
      [Skill.qs, Skill.atk20, Skill.cd],
      [Skill.qs, Skill.cd, Skill.powershift]],
-    ["40574", " Cthulhu Risen", "Chants of this ancient's devotees woke it from a slumber of aeons at the ocean bottom, calling for it to return and rule.", 
+    ["40574", "Cthulhu Risen", "Chants of this ancient's devotees woke it from a slumber of aeons at the ocean bottom, calling for it to return and rule.", 
      Event.none, Border.none, 5, Place.ocean_night, 0, null, Shape.shark, Attribute.poison,
      1420, 1240, 1450, 1320, 1290, 1520,
      [Skill.physical3, Skill.poison3, Skill.fb, Skill.physical4, Skill.poison4, Skill.resistant],
@@ -2856,13 +2856,13 @@ Card.addAll([
      [Skill.fire3, Skill.physical4, Skill.ls, Skill.def40, Skill.cd],
      [Skill.ls, Skill.def40, Skill.cd],
      [Skill.ls, Skill.def40, Skill.cd]],
-    ["40587", "Solomon", "", 
+    ["40587", "Solomon", "Wielding a seal given of the heavens, this wise king gained dominion over demonkind to raise the first temple.", 
      Event.lightdarkness, Border.none, 5, Place.plains, 0, null, Shape.humanoid, Attribute.light,
      1400, 1180, 1480, 1280, 1230, 1600,
      [Skill.light2, Skill.defwis10, Skill.light3, Skill.ls, Skill.light4, Skill.mr],
      [Skill.defwis10, Skill.ls, Skill.light4],
      [Skill.ls, Skill.light4, Skill.mr]],
-    ["40588", "Gaap", "", 
+    ["40588", "Gaap", "This prince of hell stirs chaos in the mortal realm by stealing men's wits and changing their love to hatred.", 
      Event.lightdarkness, Border.none, 5, Place.plains_night, 0, null, Shape.wolf, Attribute.darkness,
      1680, 810, 1332, 1490, 1260, 1220,
      [Skill.dp, Skill.dagi20, Skill.darkness3, Skill.darkness4, Skill.atk25, Skill.dr],
@@ -3201,9 +3201,9 @@ Card.addAll([
     ["40680", "Seism Scarmiglione", "This Elemental Archfiend rules over death and darkness, and commands his undead legions to end the living.", 
      Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.earth,
      1190, 1150, 1190, 1250, 1150, 1130,
-     [Skill.earth2, Skill.physical4, Skill.earth3, Skill.wis20, Skill.earth4],
+     [Skill.earth2, Skill.physical4, Skill.earth3, Skill.wis20, Skill.earth4, Skill.revival],
      [Skill.physical4, Skill.wis20, Skill.earth4],
-     [Skill.physical4, Skill.wis20, Skill.earth4]],
+     [Skill.wis20, Skill.earth4, Skill.revival]],
     ["40681", "Maelstrom Cagnazzo", "Commanding the world's waters, this Elemental Archfiend brings ruin at will in the form of tidal waves and floods.", 
      Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.water,
      1400, 1180, 1160, 1430, 1010, 1190,
@@ -3262,9 +3262,9 @@ Card.addLimitedTypes({
     "40221": [Type.cool, Type.chaotic, Type.sexy, Type.powerful, Type.brave, Type.fast, Type.intelligent, Type.ace],  // Mighty Silver Slime
     "40222": [Type.cool, Type.chaotic, Type.sexy, Type.powerful, Type.brave, Type.fast, Type.intelligent, Type.ace],  // Great Red Slime
     "40223": [Type.cool, Type.chaotic, Type.sexy, Type.powerful, Type.brave, Type.fast, Type.intelligent, Type.ace],  // Lesser Slime
-    "40233": [Type.cool],               // Prismatic Slime
     "40231": [Type.cool, Type.coolr],   // Almighty Golden Bugbear
     "40232": [Type.cool, Type.coolr],   // Mighty Silver Bugbear
+    "40233": [Type.cool, Type.chaotic, Type.sexy, Type.powerful, Type.brave, Type.fast, Type.intelligent, Type.ace],  // Prismatic Slime
     "40271": [Type.cool],               // Black Slime
     "40272": [Type.cool, Type.coolr],   // Almighty Dagon
     "40273": [Type.cool, Type.coolr],   // Mighty Dagon
@@ -3459,8 +3459,7 @@ Card.addNotes({
     "40542": "All data from Japanese version",
     "40543": "All data from Japanese version",
     "40544": "Skills from Japanese version",
-    "40545": "All data from Japanese version",
-    "40546": "All data from Japanese version",
+    "40546": "Stats from Japanese version", // Ichikishimahime
     "40547": "All data from Japanese version",
     "40548": "All data from Japanese version",
     "40549": "All data from Japanese version",
@@ -3469,86 +3468,67 @@ Card.addNotes({
     "40561": "All data from Japanese version",
     "40562": "All data from Japanese version",
     "40563": "All data from Japanese version",
-    "40564": "All data from Japanese version",
+    "40564": "Stats from Japanese version", // Almighty Legendary Sphinx
     "40565": "All data from Japanese version",
     "40566": "Skills from Japanese version",
     "40567": "All data from Japanese version",
     "40568": "All data from Japanese version",
     "40569": "All data from Japanese version",
-    "40570": "All data from Japanese version",
-    "40571": "Skills from Japanese version",
-    "40572": "All data from Japanese version",
-    "40573": "All data from Japanese version",
-    "40574": "Skills from Japanese version",
-    "40575": "All data from Japanese version",
-    "40576": "Skills from Japanese version, profile missing",
+    "40570": "Stats from Japanese version", // Lich Queen
+    "40572": "Stats from Japanese version", // Triton
+    "40573": "Stats from Japanese version", // Lightning Incarnate
+    "40575": "Stats from Japanese version", // Aegir
+    "40576": "Stats from Japanese version", // Maiden Lilith
     "40577": "All data from Japanese version",
-    "40578": "All data from Japanese version",
+    "40578": "Stats from Japanese version", // Almighty Godvessel
     "40579": "All data from Japanese version",
     "40580": "All data from Japanese version",
     "40581": "All data from Japanese version",
-    "40584": "All data from Japanese version",
+    "40584": "Stats from Japanese version", // Almighty Metatron
     "40585": "All data from Japanese version",
     "40586": "All data from Japanese version",
-    "40587": "All data from Japanese version",
-    "40588": "All data from Japanese version",
-    "40589": "All data from Japanese version",
+    "40587": "Stats from Japanese version", // Solomon
+    "40588": "Stats from Japanese version", // Gaap
+    "40589": "Stats from Japanese version",
     "40590": "All data from Japanese version",
     "40591": "All data from Japanese version",
-    "40592": "All data from Japanese version", // Almighty Thanatos
+    "40592": "Stats from Japanese version", // Almighty Thanatos
     "40593": "Skills from Japanese version", // Mighty Thanatos
     "40594": "All data from Japanese version", // Great Thanatos
-    "40595": "All data from Japanese version", // Almighty Asgard
+    "40595": "Stats from Japanese version", // Almighty Asgard
     "40596": "All data from Japanese version", // Mighty Asgard
     "40597": "All data from Japanese version", // Great Asgard
-    "40600": "All data from Japanese version", // Aeolus
-    "40601": "All data from Japanese version", // Chronos
-    "40602": "All data from Japanese version", // Ophanim
-    "40603": "All data from Japanese version", // Almighty Vouivre
+    "40600": "Stats from Japanese version", // Aeolus
+    "40601": "Stats from Japanese version", // Chronos
+    "40602": "Stats from Japanese version", // Ophanim
+    "40603": "Stats from Japanese version", // Almighty Vouivre
     "40604": "All data from Japanese version", // Mighty Vouivre
     "40605": "All data from Japanese version", // Great Vouivre
-    "40607": "All data from Japanese version", // Achilles
-    "40608": "All data from Japanese version", // Whirlwind Jinn
+    "40607": "Stats from Japanese version", // Achilles
+    "40608": "Stats from Japanese version", // Whirlwind Jinn
     "40611": "All data from Japanese version", // Great Bloody Puca
     "40612": "All data from Japanese version", // Cu Chulainn
     "40613": "All data from Japanese version", // Ziz
-    "40620": "Skills from Japanese version", // Almighty Hestia
     "40621": "All data from Japanese version", // Mighty Hestia
     "40622": "All data from Japanese version", // Great Hestia
-    "40652": "All data from Japanese version", // Almighty Aegir
+    "40652": "Stats from Japanese version", // Almighty Aegir
     "40653": "Skills from Japanese version", // Mighty Aegir
     "40654": "All data from Japanese version", // Great Aegir
-    "40656": "Skills from Japanese version", // Samael
-    "40657": "Skills from Japanese version", // Tezcatlipoca
-    "40658": "Skills from Japanese version", // Lugh
-    "40659": "All data from Japanese version", // Almighty Triton
+    "40659": "Stats from Japanese version", // Almighty Triton
     "40660": "Skills from Japanese version", // Mighty Triton
     "40661": "All data from Japanese version", // Great Triton
-    "40662": "Skills from Japanese version", // Agaliarept
-    "40663": "Skills from Japanese version", // King Arthur
-    "40664": "Skills from Japanese version", // Sargantas
-    "40665": "Skills from Japanese version", // Sleeping Beauty
-    "40666": "Skills from Japanese version", // Freyr
-    "40667": "Skills from Japanese version", // Minerva
-    "40668": "Skills from Japanese version", // Allocer
-    "40669": "Skills from Japanese version", // Wicked Witch
     "40670": "All data from Japanese version", // Almighty Lightning Incarnate
     "40671": "Skills from Japanese version", // Mighty Lightning Incarnate
     "40672": "All data from Japanese version", // Great Lightning Incarnate
-    "40674": "Skills from Japanese version", // Rashnu
-    "40675": "Skills from Japanese version", // Gabriel
-    "40676": "All data from Japanese version", // Almighty Legendary Titan
+    "40676": "Stats from Japanese version", // Almighty Legendary Titan
     "40677": "All data from Japanese version", // Mighty Legendary Titan
     "40678": "Skills from Japanese version", // Great Legendary Titan
     "40679": "Skills from Japanese version", // Gale Barbariccia
-    "40680": "Skills from Japanese version", // Seism Scarmiglione
     "40681": "Skills from Japanese version", // Maelstrom Cagnazzo
     "40682": "Skills from Japanese version", // Wildfire Rubicante
     "40683": "Skills from Japanese version", // Cimmerian Golbez
-    "40685": "Skills from Japanese version", // Hera
     "40687": "Skills from Japanese version", // Ame-no-Uzume
-    "40688": "All data from Japanese version", // Almighty Samael
-    "40691": "Skills from Japanese version" // Bride
+    "40688": "All data from Japanese version" // Almighty Samael
 });
 
 ExCard.addAll([

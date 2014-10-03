@@ -635,7 +635,7 @@ var Skill = (function() {
         [82, SKILL_OTHER, ["fb", "multiblock"],    new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Full Barrier (Attribute resistance)
         [83, SKILL_OTHER, ["mr", "mindbreak"],     new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Mind Rift (Confusion)
         [84, SKILL_OTHER, ["dr", "counter"],       new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Deadly Reflex (Counterattack)
-        [85, SKILL_ATTACK, "mecha4",               new Cost(0, 1200), stone_no,  nbuff({}),                   Attribute.mecha, 4], // Phantom Gear (Mecha + 4)
+        [85, SKILL_ATTACK, "mecha4",               new Cost(0, 1200), stone_yes, nbuff({}),                   Attribute.mecha, 4], // Phantom Gear (Mecha + 4)
         [86, SKILL_ATTACK, ["bg", "soulslash"],    new Cost(1000, 0), stone_no,  nbuff({}),                   Attribute.none, 4], // Blood Gambit
         [87, SKILL_OTHER, ["curse", "mm"],         new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Mana Martyr (Deals MP damage on death)
         [88, SKILL_BUFF, "datk40",                 new Cost(0, 1000), stone_no,  nbuff({datk: -0.4}),         Attribute.none, 0], // Stifle (Enemy ATK -40%)
@@ -664,7 +664,8 @@ var Skill = (function() {
         [100, SKILL_OTHER, "rendburst",            new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Rendburst
         [101, SKILL_OTHER, "vd",                   new Cost(0,  300), stone_no, nbuff({}),                    Attribute.none, 0], // Veil of Deadening
         [102, SKILL_OTHER, "smr",                  new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Mind Rift (Confusion)
-        [103, SKILL_OTHER, "nj",                   new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0]  // Nimble Jinx
+        [103, SKILL_OTHER, "nj",                   new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0],  // Nimble Jinx
+        [104, SKILL_ATTACK, "darkness4x",          new Cost(0, 1300), stone_yes, nbuff({}),                   Attribute.darkness, 5] // (Darkness +4x)
     ];
 
     var skills = {

@@ -1294,20 +1294,12 @@ Card.addAll([
      [Skill.physical3, Skill.earth3, Skill.physical4, Skill.atkdef10, Skill.revival],
      [Skill.physical4, Skill.atkdef10, Skill.revival],
      [Skill.physical4, Skill.atkdef10, Skill.revival]],
-    /*
-      ["40233", "Prismatic Slime", "", 
-      Event.none, Border.none, 5, Place.login, 0, null, Shape.slime, Attribute.none,
-      77, 77, 7, 7, 7, 7,
-      [Skill.heal],
-      [Skill.heal],
-      [heal]],
-      ["40271", "ブラゥクスライム", "", 
-      Event.none, Border.none, 5, Place.login, 0, null, Shape.slime, Attribute.none,
-      60, 60, 6, 6, 6, 6,
-      [Skill.heal],
-      [Skill.heal],
-      [heal]],
-    */
+    ["40233", "レインボースライム", "", 
+     Event.none, Border.none, 5, Place.login, 0, null, Shape.slime, Attribute.none,
+     77, 77, 7, 7, 7, 7,
+     [Skill.heal],
+     [Skill.heal],
+     [Skill.heal]],
     ["40234", "最強ガンダルヴァ", "", 
      Event.none, Border.almighty, 5, Place.coliseum, 51, "40205", Shape.merman, Attribute.wind,
      1400, 1125, 1120, 1080, 1200, 1420,
@@ -1524,6 +1516,12 @@ Card.addAll([
      [Skill.sap, Skill.poison4, Skill.sd, Skill.slash4, Skill.defwis10],
      [Skill.sap, Skill.poison4, Skill.sd],
      [Skill.sap, Skill.poison4, Skill.sd]],
+    ["40271", "ブラゥクスライム", "", 
+     Event.none, Border.none, 5, Place.login, 0, null, Shape.slime, Attribute.none,
+     60, 60, 6, 6, 6, 6,
+     [Skill.heal],
+     [Skill.heal],
+    [Skill.heal]],
     ["40272", "最侠ダゴン", "", 
      Event.fisherman, Border.almighty, 5, Place.quests, 0, null, Shape.none, Attribute.water,
      100, 100, 100, 100, 2400, 2400,
@@ -3123,7 +3121,7 @@ Card.addAll([
      [Skill.dr, Skill.gs, Skill.ls],
      [Skill.dr, Skill.gs, Skill.ls]],
     ["40655", "パールヴァティーV", "雪山の神の娘。純粋・力・闇・獰猛・神妃等の百八の名と、それぞれに応じた姿を持つ。", 
-     Event.none, Border.none, 5, Place.login, 0, null, Shape.none, Attribute.earth,
+     Event.none, Border.none, 5, Place.others, 0, null, Shape.none, Attribute.earth,
      1390, 1100, 1050, 1300, 1270, 1370,
      [Skill.ds, Skill.earth2, Skill.def20, Skill.earth3, Skill.earth4, Skill.wis25],
      [Skill.ds, Skill.def20, Skill.earth4],
@@ -3271,7 +3269,7 @@ Card.addAll([
      1190, 1150, 1190, 1250, 1150, 1130,
      [Skill.earth2, Skill.physical4, Skill.earth3, Skill.wis20, Skill.earth4, Skill.revival],
      [Skill.physical4, Skill.wis20, Skill.earth4],
-     [Skill.physical4, Skill.wis20, Skill.earth4]],
+     [Skill.wis20, Skill.earth4, Skill.revival]],
     ["40681", "水のカイナッツォ", "ゴルベーザ四天王のひとり。水を自在に操り、その津波で辺り一带すベてを飲み込む。", 
      Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.water,
      1400, 1180, 1160, 1430, 1010, 1190,
@@ -3341,7 +3339,8 @@ Card.addLimitedTypes({
     "40221": [Type.cool, Type.chaotic, Type.sexy, Type.powerful, Type.brave, Type.fast, Type.intelligent, Type.ace],  // Mighty Silver Slime
     "40222": [Type.cool, Type.chaotic, Type.sexy, Type.powerful, Type.brave, Type.fast, Type.intelligent, Type.ace],  // Great Red Slime
     "40223": [Type.cool, Type.chaotic, Type.sexy, Type.powerful, Type.brave, Type.fast, Type.intelligent, Type.ace],  // Lesser Slime
-    /*    "40233": [Type.cool],         // Prismatic Slime */
+    "40233": [Type.cool, Type.chaotic, Type.sexy, Type.powerful, Type.brave, Type.fast, Type.intelligent, Type.ace],  // Prismatic Slime
+    "40271": [Type.cool],               // Black Slime
     "40272": [Type.cool, Type.coolr],   // Almighty Dagon
     "40273": [Type.cool, Type.coolr],   // Mighty Dagon
     "40370": [Type.cool, Type.coolr],   // Aphrodite
@@ -3370,9 +3369,7 @@ Card.addNotes({
     "40485": "Rebirth skill missing",
     "40517": "The first skill is Nerve Pinch before rebirth",
     "40518": "The first skill is Nerve Pinch before rebirth",
-    "40519": "The first skill is Nerve Pinch before rebirth",
-    "40680": "Rebirth skill missing", // Scarmiglione of the Earth,
-    "40681": "Rebirth skill missing" // Cagnazzo of the Water
+    "40519": "The first skill is Nerve Pinch before rebirth"
 });
 
 ExCard.addAll([
