@@ -178,7 +178,7 @@ Card.addAll([
      [Skill.light2, Skill.slash2, Skill.light3, Skill.darkness3, Skill.slash3, Skill.atkwis10],
      [Skill.light3, Skill.darkness3, Skill.slash3],
      [Skill.darkness3, Skill.physical3, Skill.atkwis10]],
-    ["30039", "Thunder God Dongo", "", 
+    ["30039", "Thunder God Dongo", "This fearsome elemental wields an axe imbued with thunder, the edge of which kills any its cuts.", 
      Event.none, Border.none, 4, Place.snowfield_night, 0, null, Shape.humanoid, Attribute.lightning,
      961, 990, 962, 843, 934, 906,
      [Skill.atk10, Skill.lightning3, Skill.agi20, Skill.atk20, Skill.lightning4, Skill.agiwis10],
@@ -484,13 +484,13 @@ Card.addAll([
      [Skill.lightning1, Skill.slash2, Skill.atk20, Skill.sd, Skill.lightning3, Skill.dagi20],
      [Skill.atk20, Skill.sd, Skill.lightning3],
      [Skill.atk20, Skill.sd, Skill.lightning3]],
-    ["30098", "Gandaberunda", "", 
+    ["30098", "Gandaberunda", "This avian incarnation of the Great Protector wields unbridled powers of destruction which few can withstand.", 
      Event.none, Border.none, 4, Place.volcano_night, 0, null, Shape.bird, Attribute.wind, 
      982, 920, 942, 963, 913, 928,
      [Skill.physical2, Skill.wind2, Skill.atk10, Skill.physical3, Skill.atkdef10],
      [Skill.atk10, Skill.physical3, Skill.atkdef10],
      [Skill.atk10, Skill.physical3, Skill.atkdef10]],
-    ["30099", "Sekhmet", "", 
+    ["30099", "Sekhmet", "Sprung forth from the center of the sun god's eye, this divine lioness brings harm to all who profane the heavens.", 
      Event.none, Border.none, 4, Place.volcano_night, 0, null, Shape.female, Attribute.earth, 
      915, 1008, 899, 929, 888, 909,
      [Skill.curse, Skill.physical2, Skill.earth2, Skill.earth3, Skill.physical3, Skill.dagi40],
@@ -502,7 +502,7 @@ Card.addAll([
      [Skill.poison2, Skill.wis10, Skill.poison3, Skill.dwis20, Skill.poison4, Skill.agiwis10],
      [Skill.wis10, Skill.dwis20, Skill.poison4],
      [Skill.wis10, Skill.dwis20, Skill.poison4]],
-    ["30101", "Canhel", "", 
+    ["30101", "Canhel", "In garb black as pitch, ths half-dragon serves Cerpinus by fighting to stay evil in the farthest reaches of the north.", 
      Event.none, Border.none, 4, Place.zeus, 0, null, Shape.zhumanoid, Attribute.light,
      890, 943, 1007, 946, 980, 974,
      [Skill.slash1, Skill.slash2, Skill.light3, Skill.qs, Skill.slash3, Skill.atkdef10],
@@ -526,43 +526,43 @@ Card.addAll([
      [Skill.slash1, Skill.slash2, Skill.darkness3, Skill.ds, Skill.slash3, Skill.mr],
      [Skill.darkness3, Skill.ds, Skill.slash3],
      [Skill.darkness3, Skill.ds, Skill.mr]],
-    ["30111", "Gayomart", "", 
+    ["30111", "Gayomart", "This metallic precursor of humankind died at the hands of a fell god, yet his body still furnishes man with minerals.", 
      Event.none, Border.none, 4, Place.desert_night, 0, null, Shape.orbs, Attribute.mecha,
      962, 1013, 904, 923, 929, 1023,
      [Skill.qs, Skill.atk20, Skill.datk20, Skill.physical2, Skill.physical3, Skill.sd],
      [Skill.qs, Skill.atk20, Skill.physical3],
      [Skill.qs, Skill.atk20, Skill.sd]],
-    ["30112", "Hastur", "", 
+    ["30112", "Hastur", "At times, this being known but as king of the void aids mankind to stay the return of an ancient malevolence.", 
      Event.none, Border.none, 4, Place.desert_night, 0, null, Shape.giant, Attribute.darkness,
      1033, 991, 952, 950, 932, 950,
      [Skill.slash2, Skill.atkdef10, Skill.darkness2, Skill.atkwis10, Skill.slash3],
      [Skill.atkdef10, Skill.atkwis10, Skill.slash3],
      [Skill.atkdef10, Skill.atkwis10, Skill.slash3]],
-    ["30113", "Zaria", "", 
+    ["30113", "Zaria", "This ravishing goddess of the dawn lends her grace to warriors and exorcists from atop a flaming boulder.", 
      Event.none, Border.none, 4, Place.desert_night, 0, null, Shape.female, Attribute.light,
      963, 963, 935, 931, 950, 976,
      [Skill.wis10, Skill.light2, Skill.slash1, Skill.wis20, Skill.slash2, Skill.light3],
      [Skill.wis10, Skill.light2, Skill.wis20],
      [Skill.wis10, Skill.wis20, Skill.light3]],
-    ["30114", "Parvati", "", 
+    ["30114", "Parvati", "This capricious deity changes her form to match each of the hundred names by which men fear or revere her.", 
      Event.none, Border.none, 4, Place.snowfield_night, 0, null, Shape.female, Attribute.earth,
      975, 979, 961, 992, 991, 990,
      [Skill.earth1, Skill.def20, Skill.ds, Skill.earth2, Skill.ep],
      [Skill.ds, Skill.earth2, Skill.ep],
      []],
-    ["30115", "Zennyo Ryuo", "", 
+    ["30115", "Zennyo Ryuo", "This daughter of the ocean lord summons the rains to ease the plight of realms suffering from drought.", 
      Event.none, Border.none, 4, Place.snowfield_night, 0, null, Shape.orbs, Attribute.water,
      981, 960, 983, 982, 980, 983,
      [Skill.water2, Skill.wis10, Skill.physical2, Skill.water3, Skill.wis20],
      [Skill.wis10, Skill.water3, Skill.wis20],
      []],
-    ["30116", "Y Ddraig Goch", "", 
+    ["30116", "Y Ddraig Goch", "Knights carry arms emblazoned with this crimson wyrm's visage in the realm where prophecy says it will arise.", 
      Event.none, Border.none, 4, Place.snowfield_night, 0, null, Shape.dragon, Attribute.fire,
      1001, 991, 1003, 994, 975, 901,
      [Skill.slash2, Skill.fire2, Skill.atk20, Skill.fire3, Skill.slash3, Skill.ls],
      [Skill.atk20, Skill.fire3, Skill.slash3],
      [Skill.atk20, Skill.slash3, Skill.ls]],
-    ["30118", "Dahut", "", 
+    ["30118", "Dahut", "This princess led many to sin, for which the gods sent the sea to swallow her city, and damner her to morgen form.", 
      Event.none, Border.none, 4, Place.ocean_night, 0, null, Shape.mermaid, Attribute.darkness,
      999, 980, 992, 974, 989, 999,
      [Skill.darkness2, Skill.wis10, Skill.dagi20, Skill.dwis20, Skill.darkness3, Skill.ep],
@@ -580,7 +580,7 @@ Card.addAll([
      [Skill.physical1, Skill.atk10, Skill.physical2, Skill.atk20, Skill.ddef20],
      [Skill.physical2, Skill.atk20, Skill.ddef20],
      []],
-    ["30121", "Levin Serpent", "", 
+    ["30121", "Levin Serpent", "Nesting in the skies, this celestial snake rides upon stormy clouds of black and descends to earth below as lightning.", 
      Event.none, Border.none, 4, Place.ocean_night, 0, null, Shape.none, Attribute.lightning,
      1001, 997, 981, 966, 1001, 992,
      [Skill.lightning2, Skill.slash1, Skill.atk20, Skill.slash2, Skill.lightning3, Skill.qs],
@@ -613,9 +613,9 @@ Card.addAll([
     ["30126", "Gaia", "Mother of the ancient gods, this first being to exist emerged from a rift in nothingness to form sea, land, and sky.", 
      Event.none, Border.none, 4, Place.zeus, 0, null, Shape.zhumanoid, Attribute.mecha,
      1018, 1001, 980, 960, 999, 1020,
-     [Skill.def20],
-     [],
-     []],
+     [Skill.def10, Skill.earth1, Skill.datk20, Skill.earth2, Skill.defwis10],
+     [Skill.def10, Skill.earth2, Skill.defwis10],
+     [Skill.def10, Skill.earth2, Skill.defwis10]],
     ["30127", "Astaroth", "Giving conjurers who revere him power over serpents, this arch duke of hell's might surges across the new world.", 
      Event.none, Border.none, 4, Place.zeus, 0, null, Shape.zdragon, Attribute.fire,
      1022, 997, 1020, 999, 1002, 969,
@@ -648,23 +648,28 @@ Card.addAll([
      []],
     ["30132", "Osiris", "This merciful judge of the dead reigns in a paradise where silky reeds cradle souls whose deeds were pure in life.", 
      Event.none, Border.none, 4, Place.desert_night, 0, null, Shape.humanoid, Attribute.death,
-     0, 0, 0, 0, 0, 0,
-     [],
-     [],
-     []],
-     /* More info Needed
-    ["30133", "Strigoi", "", 
-     Event.none, Border.none, 4, Place.aedengard, 0, null, Shape.???, Attribute.???,
-     0, 0, 0, 0, 0, 0,
-     [Skill.death2],
+     1031, 1001, 988, 1005, 1025, 1035,
+     [Skill.darkness2],
      [],
      []],
-     ["30134", "Ouroboros ", "", 
-     Event.none, Border.none, 4, Place.aedengard, 0, null, Shape.???, Attribute.???,
+    ["30133", "Strigoi", "History remembers this shade for breaking forth from its grave sixteen years after death to attack its kinsfolk.", 
+     Event.none, Border.none, 4, Place.aedengard, 0, null, Shape.none, Attribute.death,
+     1035, 913, 1020, 1035, 1015, 1020,
+     [Skill.death2, Skill.dwis20, Skill.dagi20, Skill.death3, Skill.agi20],
+     [Skill.dwis20, Skill.death3, Skill.agi20],
+     [Skill.dwis20, Skill.death3, Skill.agi20]],
+    ["30134", "Ouroboros ", "", 
+     Event.none, Border.none, 4, Place.aedengard, 0, null, Shape.serpent, Attribute.wind,
      1020, 1000, 1033, 1030, 1020, 1010,
      [Skill.wind2],
      [],
-     []],*/
+     []],
+    ["30136", "Baphomet", "This elder demon serves its lords by hosting banquets for witches who act as hell's vanguard in the mortal realm.", 
+     Event.none, Border.none, 4, Place.aedengard, 0, null, Shape.none, Attribute.darkness,
+     1019, 1030, 995, 1015, 1028, 1036,
+     [Skill.darkness2],
+     [],
+     []],
     ["30137", "Nebiros", "With a demon king in lands uncharted, this greatest of hell's necromancers works to end man from the shadows.", 
      Event.deathfire, Border.none, 4, Place.plains, 0, null, Shape.humanoid, Attribute.fire,
      1020, 880, 1015, 1030, 1026, 1025,
@@ -689,8 +694,7 @@ Card.addLimitedTypes({
 });
 
 Card.addNotes({
-    "30039": "Skills from Japanese version, profile missing",       // Thunder God Dongo
-    "30052": "Skills from Japanese version",    // Echidna
+    "30039": "Skills from Japanese version",       // Thunder God Dongo
     "30071": "Rebirth skill not confirmed",     // Gremory
     "30077": "Rebirth skill not confirmed",     // Guede
     "30079": "Rebirth skill not confirmed",     // Andras
@@ -700,17 +704,16 @@ Card.addNotes({
     "30086": "Rebirth skill not confirmed",          // Cybele
     "30087": "Rebirth skill not confirmed",          // Adad
     "30088": "Rebirth skill not confirmed",          // Mitra
-    "30089": "Skills not confirmed",                 // Pemphredo
     "30090": "Skills from Japanese version",         // General Frost
     "30091": "Skills from Japanese version",         // Malthus
     "30093": "Rebirth skill from Japanese version",  // Hantu Raya
     "30094": "Rebirth skill from Japanese version",  // Pantera
     "30095": "Rebirth skill from Japanese version",  // Sharabha
     "30097": "Skills from Japanese version",         // Amalthea
-    "30098": "All data from Japanese version",       // 
-    "30099": "All data from Japanese version",       // 
+    "30098": "Skills from Japanese version",         // Gandaberunda
+    "30099": "Skills from Japanese version",         // Sekhmet
     "30100": "Skills from Japanese version",         // Mother of Abominations
-    "30101": "All data from Japanese version",
+    "30101": "Skills from Japanese version",         // Canhel
     "30102": "Skills from Japanese version",
     "30111": "All data from Japanese version",
     "30112": "All data from Japanese version",
@@ -726,11 +729,14 @@ Card.addNotes({
     "30123": "All data from Japanese version",
     "30124": "All data from Japanese version",
     "30125": "All data from Japanese version",
-    "30126": "Skills missing", // Gaia
+    "30126": "Rebirth skill missing", // Gaia
     "30128": "All data from Japanese version", // Pallas
     "30129": "All data from Japanese version, rebirth skill missing", // Barbatos
     "30131": "All data missing", // Shuten-Doji
     "30132": "All data missing", // Osiris
+    "30133": "Rebirth skill missing", // Strigoi
+    "30134": "Skills missing", // Ouroboros
+    "30136": "Skills missing", // Baphomet
     "30137": "Skills from Japanese version", // Nebiros
     "30138": "All data from Japanese version, rebirth skill missing" // Hades
 });
