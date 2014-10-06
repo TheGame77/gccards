@@ -3245,7 +3245,13 @@ Card.addAll([
      2060, 2000, 1600, 1450, 1330, 1500,
      [Skill.slash3, Skill.atk10, Skill.slash4, Skill.bg, Skill.powershift, Skill.rendburst],
      [Skill.atk10, Skill.bg, Skill.powershift],
-     [Skill.bg, Skill.powershift, Skill.rendburst]]
+     [Skill.bg, Skill.powershift, Skill.rendburst]],
+    ["40692", "Obsidian Knight", "This ominous sentinel guards the sacred chalice with a spear said to cause grievous, untreatable wounds.", 
+     Event.corbenicknight, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.poison,
+     1200, 1000, 1380, 1300, 1160, 1120,
+     [Skill.revival, Skill.def10, Skill.slash2, Skill.slash3, Skill.slash4, Skill.qs],
+     [Skill.revival, Skill.def10, Skill.slash4],
+     [Skill.revival, Skill.slash4, Skill.qs]]
 ]);
 
 Card.addLimitedTypes({
@@ -3528,7 +3534,8 @@ Card.addNotes({
     "40682": "Skills from Japanese version", // Wildfire Rubicante
     "40683": "Skills from Japanese version", // Cimmerian Golbez
     "40687": "Skills from Japanese version", // Ame-no-Uzume
-    "40688": "All data from Japanese version" // Almighty Samael
+    "40688": "Skills from Japanese version", // Almighty Samael
+    "40692": "Skills from Japanese version" // Obsidian Knight
 });
 
 ExCard.addAll([

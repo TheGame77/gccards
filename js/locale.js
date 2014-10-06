@@ -104,7 +104,7 @@ var Locale = function(l) {
                 "Two Ladies Adored",
                 "Divine Dancer",
                 "Celestial Garden",
-                "聖杯の守護騎士", // Corbenic Knight
+                "Protector of the Chalice",
                 "復讐の悪魔", // Arioch
                 "天界の神娘", // Shandian Niangniang
                 "拮抗する者達" // Maeve & Varuna
