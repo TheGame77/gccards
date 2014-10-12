@@ -6,6 +6,12 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/10/11': [
+            "Damage Calculator Changes/Fixes:",
+            "Added toxic blast to the damage calculator.",
+            "Normal attack will no longer be added to OHKO calculations for guardians with LS.",
+            "QS/NJ was erroneously left out of LL, BG damage calculations for OHKO by."
+        ],
         '2014/10/5': [
             "Added: " + Card.mklnk(30133) + ", " + Card.mklnk(30134) + ", " + Card.mklnk(30136) + ".",
             "Added skills for: " + Card.mklnk(30126) + "."

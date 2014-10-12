@@ -671,11 +671,17 @@ function insertGuardian(gid, tid, custom_skills) {
                 openDialog("cards_selection");
           })
         )
-        .append("<br/>")        
+        .append("<br/>")
         .append(
           $("<label></label>")
             .append($("<input type='checkbox' id='ignore-qsnj'/>").attr('checked', !cur_options.qsnj))
             .append("&nbsp;Ignore QS/NJ")
+        )
+        .append("<br/>")
+        .append(
+          $("<label></label>")
+            .append($("<input type='checkbox' id='ignore-tb'/>").attr('checked', !cur_options.tb))
+            .append("&nbsp;Ignore Toxic Blast")
         )
         .append("<br/>")
         .append(
@@ -777,6 +783,7 @@ function insertGuardian(gid, tid, custom_skills) {
           return function() {
               var custom_skills = getCustomSkills();
               cur_options.qsnj = !$("#ignore-qsnj").is(':checked');
+              cur_options.tb = !$("#ignore-tb").is(':checked');
               cur_options.sap = !$("#ignore-sap").is(':checked');
               cur_options.nonrecommended = !$("#ignore-nonrecommended").is(':checked')
               cur_options.mode = $("#opt-mode").val();

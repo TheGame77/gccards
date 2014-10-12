@@ -6,6 +6,12 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/10/11': [
+            "Damage Calculator Changes/Fixes:",
+            "Added toxic blast to the damage calculator.",
+            "Normal attack will no longer be added to OHKO calculations for guardians with LS.",
+            "QS/NJ was erroneously left out of LL, BG damage calculations for OHKO by."
+        ],
         '2014/10/6': [
             "Protector of the Chalice: " + Card.mklnk(40692) + "."
         ],
@@ -206,65 +212,6 @@ WhatIsNew.get = function() {
         ],
         '2014/3/19': [
             "Fix a bug that always uses ATK as the base in getting top 100."
-        ],
-        '2014/3/18': [
-            "Add " + Card.mklnk(40482) + ", " + Card.mklnk(40483) + ", and " + Card.mklnk(40484) + ".",
-            "Add " + Card.mklnk(40486) + ", " + Card.mklnk(40497) + ", " + Card.mklnk(40498) + ", and " + Card.mklnk(40499) + "."
-        ],
-        '2014/3/10': [
-            "Add " + Card.mklnk(40167) + ".",
-            "Add " + Card.mklnk(40461) + ", " + Card.mklnk(40462) + ", and " + Card.mklnk(40463) + "."
-        ],
-        '2014/3/6': [
-            "Fix a bug in Simulator II for cards with healing skills."
-        ],
-        '2014/3/3': [
-            "Add " + Card.mklnk(40453) + ", " + Card.mklnk(40454) + ", and " + Card.mklnk(40455) + "."
-        ],
-        '2014/2/24': [
-            "Add " + Card.mklnk(40426) + ", " + Card.mklnk(40427) + ", and " + Card.mklnk(40428) + "."
-        ],
-        '2014/2/21': [
-            "Add " + ExCard.mklnk(45006) + " and " + ExCard.mklnk(45007) + ".",
-            "Add " + Card.mklnk(20133) + ", " + Card.mklnk(40459) + ", and " + Card.mklnk(40460) + "."
-        ],
-        '2014/2/20': [
-            "Take EX cards into account in Calculator."
-        ],
-        '2014/2/19': [
-            "Collapse unmerged OHKO-By lists by default. Use <img src='images/expand.png'/> and <img src='images/collapse.png'/> respectively to expand and collapse a list.",
-            "No more cache option. The version number of Javascript files will be updated automatically. (Updated a few days ago.)"
-        ],
-        '2014/2/17': [
-            "Add " + Card.mklnk(40517) + ", " + Card.mklnk(40518) + ", and " + Card.mklnk(40519) + "."
-        ],
-        '2014/2/14': [
-            "Add " + Card.mklnk(40520) + "."
-        ],
-        '2014/2/13': [
-            "Add " + Card.mklnk(40429) + ", " + Card.mklnk(40444) + ", and " + Card.mklnk(40445) + ".",
-            "Add " + Card.mklnk(40446) + ", " + Card.mklnk(40447) + ", and " + Card.mklnk(40448) + ".",
-            "Add " + Card.mklnk(40514) + ", " + Card.mklnk(40515) + ", and " + Card.mklnk(40516) + ".",
-            "Add " + Card.mklnk(20128) + ", " + Card.mklnk(20129) + ", " + Card.mklnk(20130) + ", " + Card.mklnk(20131) + ", and " + Card.mklnk(20132) + "."
-        ],
-        '2014/2/11': [
-            "Add " + Card.mklnk(40449) + ", " + Card.mklnk(40450) + ", and " + Card.mklnk(40451) + ".",
-            "Add " + Card.mklnk(20144) + "."
-        ],
-        '2014/2/5': [
-            "Add " + Card.mklnk(40436) + ", " + Card.mklnk(40437) + ", and " + Card.mklnk(40438) + ".",
-            "Add " + Card.mklnk(40467) + ", " + Card.mklnk(40468) + ", " + Card.mklnk(40469) + ", and " + Card.mklnk(40470) + ".",
-            "Add " + Card.mklnk(30101) + ", " + Card.mklnk(30102) + ", and " + Card.mklnk(30103) + ".",
-            "Add " + ExCard.mklnk(35014) + ", " + ExCard.mklnk(35015) + ", " + ExCard.mklnk(45008) + ", and " + ExCard.mklnk(45009) + ".",
-            "Add " + ExCard.mklnk(25004) + ", " + ExCard.mklnk(25005) + ", and " + ExCard.mklnk(25006) + ".",
-            "Add " + Card.mklnk(20134) + ", " + Card.mklnk(20135) + ", " + Card.mklnk(20136) + ", " + Card.mklnk(20137) + 
-                ", " + Card.mklnk(20138) + ", " + Card.mklnk(20139) + ", and " + Card.mklnk(20140) + ".",
-            "Add " + Card.mklnk(10118) + ", " + Card.mklnk(10119) + ", " + Card.mklnk(10120) + ", " + Card.mklnk(10121) + 
-                ", " + Card.mklnk(10122) + ", " + Card.mklnk(10123) + ", " + Card.mklnk(10124) + ", " + Card.mklnk(10125) +
-                ", " + Card.mklnk(10126) + ", and " + Card.mklnk(10127) + ".",
-            "Add " + Card.mklnk("00105") + ", " + Card.mklnk("00106") + ", " + Card.mklnk("00107") + ", " + Card.mklnk("00108") + 
-                ", " + Card.mklnk("00109") + ", " + Card.mklnk("00110") + ", " + Card.mklnk("00111") + ", " + Card.mklnk("00112") +
-                ", and " + Card.mklnk("00113") + "."
         ]
     };
 };
