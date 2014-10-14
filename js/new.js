@@ -6,6 +6,10 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/10/14': [
+            "Added: " + Card.mklnk(40693) + ", " + Card.mklnk(40695) + ", " + Card.mklnk(40696) + ", " + Card.mklnk(40697) + "."/*,
+            "Added 4*: " + Card.mklnk(30139) + ", " + Card.mklnk(30140) + "."*/
+        ],
         '2014/10/11': [
             "Damage Calculator Changes/Fixes:",
             "Added toxic blast to the damage calculator.",

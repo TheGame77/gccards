@@ -3251,7 +3251,31 @@ Card.addAll([
      1200, 1000, 1380, 1300, 1160, 1120,
      [Skill.revival, Skill.def10, Skill.slash2, Skill.slash3, Skill.slash4, Skill.qs],
      [Skill.revival, Skill.def10, Skill.slash4],
-     [Skill.revival, Skill.slash4, Skill.qs]]
+     [Skill.revival, Skill.slash4, Skill.qs]],
+    ["40693", "Almighty Aeolus", "The Master of the Four Winds and Four Storms is said to send favorable winds to the ships of heroes.",
+     Event.none, Border.almighty, 5, Place.coliseum, 3, "40507", Shape.none, Attribute.wind,
+     2160, 1400, 1750, 1500, 1360, 1460,
+     [Skill.slash2, Skill.wind4, Skill.bg, Skill.np, Skill.qs],
+     [Skill.bg, Skill.np, Skill.qs],
+     [Skill.bg, Skill.np, Skill.qs]],
+    ["40695", "Angitia", "The healing powers of this water goddess is said to wash away the venom of the deadliest serpents.",
+     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.none, Attribute.water,
+     1600, 1200, 1660, 1400, 1330, 1480,
+     [Skill.ds, Skill.def10, Skill.physical3, Skill.vd, Skill.physical4, Skill.dp],
+     [Skill.ds, Skill.vd, Skill.physical4],
+     [Skill.ds, Skill.vd, Skill.dp]],
+    ["40696", "Viviane", "Known as the Lady of the Lake, this spirit grants the Sword of Destiny to the one who would be king.",
+     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.none, Attribute.darkness,
+     2020, 1160, 1640, 1400, 1340, 1300,
+     [Skill.qs, Skill.atk10, Skill.slash3, Skill.slash4, Skill.bg, Skill.revival],
+     [Skill.qs, Skill.atk10, Skill.bg],
+     [Skill.qs, Skill.bg, Skill.revival]],
+    ["40697", "Gaasyendietha", "A fiery dragon that appears amidst a flurry of meteors, and scorches the earth with a swing of its tail.",
+     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.none, Attribute.fire,
+     1890, 2500, 1380, 1400, 1320, 1680,
+     [Skill.nj, Skill.fire2, Skill.dwis20, Skill.fire3, Skill.fire4, Skill.rendburst],
+     [Skill.nj, Skill.dwis20, Skill.fire4],
+     [Skill.nj, Skill.fire4, Skill.rendburst]]
 ]);
 
 Card.addLimitedTypes({
@@ -3534,8 +3558,10 @@ Card.addNotes({
     "40682": "Skills from Japanese version", // Wildfire Rubicante
     "40683": "Skills from Japanese version", // Cimmerian Golbez
     "40687": "Skills from Japanese version", // Ame-no-Uzume
-    "40688": "Skills from Japanese version", // Almighty Samael
-    "40692": "Skills from Japanese version" // Obsidian Knight
+    "40693": "All data from Japanese version", // Almighty Aeolus
+    "40695": "Skills from Japanese version", // Angitia
+    "40696": "Skills from Japanese version", // Viviane
+    "40697": "Skills from Japanese version" // Gaasyendietha
 });
 
 ExCard.addAll([
