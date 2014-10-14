@@ -661,8 +661,8 @@ var Skill = (function() {
         [97, SKILL_OTHER, "resistant",             new Cost(0,  600), stone_no, nbuff({}),                    Attribute.none, 0], // Resistant
         [98, SKILL_BUFF, "fastshift",              new Cost(0,  600), stone_no, nbuff({agi: 0.2, dwis: -0.2}),Attribute.none, 0], // Fast Shift
         [99, SKILL_OTHER, "sds",                   new Cost(0,  300), stone_no, nbuff({}),                    Attribute.none, 0], // Shadow Deft Step
-        [100, SKILL_OTHER, "rendburst",            new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Rendburst
-        [101, SKILL_OTHER, "vd",                   new Cost(0,  300), stone_no, nbuff({}),                    Attribute.none, 0], // Veil of Deadening
+        [100, SKILL_OTHER, "rendburst",            new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Rendburst/Detonation
+        [101, SKILL_OTHER, "vd",                   new Cost(0,  300), stone_no, nbuff({}),                    Attribute.none, 0], // Veil of Deadening/Mirage Drive
         [102, SKILL_OTHER, "smr",                  new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Mind Rift (Confusion)
         [103, SKILL_OTHER, "nj",                   new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0],  // Nimble Jinx
         [104, SKILL_ATTACK, "darkness4x",          new Cost(0, 1300), stone_yes, nbuff({}),                   Attribute.darkness, 5] // (Darkness +4x)
