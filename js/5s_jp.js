@@ -3348,7 +3348,19 @@ Card.addAll([
      1890, 2500, 1380, 1400, 1320, 1680,
      [Skill.nj, Skill.fire2, Skill.dwis20, Skill.fire3, Skill.fire4, Skill.rendburst],
      [Skill.nj, Skill.dwis20, Skill.fire4],
-     [Skill.nj, Skill.fire4, Skill.rendburst]]
+     [Skill.nj, Skill.fire4, Skill.rendburst]],
+    ["40698", "アリオーシュ", "神を黙殺し、冒涜した堕天使の一人。召喚者の求めに応じて、個人的な復讐を助力する。",
+     Event.arioch, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.mecha,
+     1210, 1050, 1240, 1360, 1250, 1440,
+     [Skill.fire3, Skill.datk20, Skill.fire4, Skill.dwis40, Skill.mecha4, Skill.ls],
+     [Skill.fire4, Skill.dwis40, Skill.mecha4],
+     [Skill.dwis40, Skill.mecha4, Skill.ls]],
+    ["40700", "閃電娘娘", "鏡より雷光を閃かす女神。天庭にて雷神との喧嘩が始まると、下界は豪雷に見舞われる。",
+     Event.shandianniangniang, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.lightning,
+     1800, 1200, 1030, 1380, 1300, 1660,
+     [Skill.sap, Skill.lightning2, Skill.dagi20, Skill.lightning3, Skill.lightning4, Skill.np],
+     [Skill.sap, Skill.dagi20, Skill.lightning4],
+     [Skill.sap, Skill.lightning4, Skill.np]]
 ]);
 
 Card.addLimitedTypes({
