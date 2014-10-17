@@ -2655,7 +2655,7 @@ var Calculator = (function() {
             }
 
             if (options.mode == MODE_QSNJKO)
-                return qsnj >= g2.getHP();
+                return qsnj >= status2.hp;
 
             /* Apply buff and debuff. */
             for (var i = 0; i < skills1.length; i++) {
@@ -2754,9 +2754,9 @@ var Calculator = (function() {
 
             /* Toxic Blast */
             if (options.tb && hasSkill(skills1, Skill.tb) && !hasSkill(skills2, Skill.resistant))
-                damage += Math.floor(0.4 * g2.getHP());
+                damage += Math.floor(0.4 * status2.hp);
 
-            return damage >= g2.getHP();
+            return damage >= status2.hp;
         },
 
         getUOHKO: function(g, opponents, options) {
@@ -2858,6 +2858,12 @@ var Calculator = (function() {
             var status1 = g1.getStats();
             var status2 = g2.getStats();
 
+            /* Apply EX1 effects. */
+            if (options.ex1s.ex1 != null && options.ex1s.ex1.acs(g1))
+                options.ex1s.ex1.applyStats(status1);
+            if (options.ex2s.ex1 != null && options.ex2s.ex1.acs(g2))
+                options.ex2s.ex1.applyStats(status2);
+
             /* For the opponent, consider only recommended skills. */
             var skills1 = g1.getSkills();
             var skills2 = options.nonrecommended ? g2.skills : g2.getRecommends();
@@ -2869,7 +2875,7 @@ var Calculator = (function() {
             var wis2 = 0;
 
             /* Actual HP */
-            var hp1 = g1.getHP();
+            var hp1 = status1.hp;
 
             /* QS/NJ. */
             var qsnj = 0;

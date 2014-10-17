@@ -6,6 +6,11 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/10/17': [
+            "Damage calculator aura fixes:",
+            "Red auras that increased HP were not being used on \"Unable to OHKO\" calculations.",
+            "Red auras were not being used on \"OHKO by\" calculations."
+        ],
         '2014/10/16': [
             "Added 4*: " + Card.mklnk(30139) + ", " + Card.mklnk(30140) + "."
         ],

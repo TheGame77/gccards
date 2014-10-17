@@ -3108,7 +3108,7 @@ Card.addAll([
      [Skill.revival, Skill.slash3, Skill.atk10, Skill.slash4, Skill.cd, Skill.dr],
      [Skill.revival, Skill.atk10, Skill.cd],
      [Skill.revival, Skill.cd, Skill.dr]],
-    ["40664", "Sargantas", "Leader of hellspawn brigades, this demon officer lays bare all shadowy secrets bound by lock or seal.", 
+    ["40664", "Sargatanas", "Leader of hellspawn brigades, this demon officer lays bare all shadowy secrets bound by lock or seal.", 
      Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.orbs, Attribute.death,
      2060, 2440, 1660, 1470, 1340, 1440,
      [Skill.rendburst, Skill.dagi20, Skill.ddef20, Skill.qs, Skill.slash4, Skill.resistant],
