@@ -3275,7 +3275,19 @@ Card.addAll([
      1890, 2500, 1380, 1400, 1320, 1680,
      [Skill.nj, Skill.fire2, Skill.dwis20, Skill.fire3, Skill.fire4, Skill.rendburst],
      [Skill.nj, Skill.dwis20, Skill.fire4],
-     [Skill.nj, Skill.fire4, Skill.rendburst]]
+     [Skill.nj, Skill.fire4, Skill.rendburst]],
+    ["40698", "Arioch", "Having turned his back on heaven, this fallen angel now aids those who summon him in carrying out acts of vengeance.",
+     Event.arioch, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.mecha,
+     1210, 1050, 1240, 1360, 1250, 1440,
+     [Skill.fire3, Skill.datk20, Skill.fire4, Skill.dwis40, Skill.mecha4, Skill.ls],
+     [Skill.fire4, Skill.dwis40, Skill.mecha4],
+     [Skill.dwis40, Skill.mecha4, Skill.ls]],
+    ["40700", "Shandian Niang-niang", "A young goddess of thunder and mirrors. It is said that her quarrels with other gods are the cause of thunderstorms.",
+     Event.shandianniangniang, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.lightning,
+     1800, 1200, 1030, 1380, 1300, 1660,
+     [Skill.sap, Skill.lightning2, Skill.dagi20, Skill.lightning3, Skill.lightning4, Skill.np],
+     [Skill.sap, Skill.dagi20, Skill.lightning4],
+     [Skill.sap, Skill.lightning4, Skill.np]]
 ]);
 
 Card.addLimitedTypes({
@@ -3561,7 +3573,8 @@ Card.addNotes({
     "40693": "All data from Japanese version", // Almighty Aeolus
     "40695": "Skills from Japanese version", // Angitia
     "40696": "Skills from Japanese version", // Viviane
-    "40697": "Skills from Japanese version" // Gaasyendietha
+    "40697": "Skills from Japanese version", // Gaasyendietha
+    "40698": "Skills from Japanese version" // Arioch
 });
 
 ExCard.addAll([

@@ -105,8 +105,8 @@ var Locale = function(l) {
                 "Divine Dancer",
                 "Celestial Garden",
                 "Protector of the Chalice",
-                "復讐の悪魔", // Arioch
-                "天界の神娘", // Shandian Niangniang
+                "Demon of Vengeance", // Arioch
+                "Tempestuous Goddess", // Shandian Niangniang
                 "拮抗する者達" // Maeve & Varuna
             ),
             borders: new Array(
