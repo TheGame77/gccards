@@ -665,7 +665,8 @@ var Skill = (function() {
         [101, SKILL_OTHER, "vd",                   new Cost(0,  300), stone_no, nbuff({}),                    Attribute.none, 0], // Veil of Deadening/Mirage Drive
         [102, SKILL_OTHER, "smr",                  new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Mind Rift (Confusion)
         [103, SKILL_OTHER, "nj",                   new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0],  // Nimble Jinx
-        [104, SKILL_ATTACK, "darkness4x",          new Cost(0, 1300), stone_yes, nbuff({}),                   Attribute.darkness, 5] // (Darkness +4x)
+        [104, SKILL_ATTACK, "darkness4x",          new Cost(0, 1300), stone_yes, nbuff({}),                   Attribute.darkness, 5], // (Darkness +4x)
+        [105, SKILL_ATTACK, "earth4x",             new Cost(0, 1300), stone_yes, nbuff({}),                   Attribute.earth, 5] // (Earth +4x)
     ];
 
     var skills = {

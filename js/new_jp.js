@@ -6,6 +6,9 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/10/20': [
+            "Added: Earth+4↑ skill stone."
+        ],
         '2014/10/17': [
             "Damage calculator red ex card fixes:",
             "Red ex cards that increased HP were not being used on \"Unable to OHKO\" calculations.",

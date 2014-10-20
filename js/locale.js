@@ -166,7 +166,7 @@ var Locale = function(l) {
                 new Array("Burning Strike",    "Fire +2"),
                 new Array("Explosion",         "Fire +3"),
                 new Array("Meteor Storm",      "Fire +4"),
-                new Array("Meteor Swarm",      "Fire +4.x"),
+                new Array("Meteor Swarm",      "Fire +4↑"),
                 new Array("Aqua Splash",       "Water +1"),
                 new Array("Aqua Shot",         "Water +2"),
                 new Array("Aqua Burst",        "Water +3"),
@@ -246,7 +246,7 @@ var Locale = function(l) {
                 new Array("Lifeleech",         "Absorbs enemy HP"),
                 new Array("Toxic Blast"   ,    "Damage over time"),
                 new Array("Nerve Pinch",       "Inflicts paralysis"),
-                new Array("Ball Lightning",    "Lightning +4x"),
+                new Array("Ball Lightning",    "Lightning +4↑"),
                 new Array("Reaper's Luck",     "+10%/20%/-10% to stats"),
                 new Array("Manavita Shift",    "Switches HP for MP"),
                 new Array("Might Reave",       "ATK +20%, foe DEF -20%"),
@@ -258,7 +258,8 @@ var Locale = function(l) {
                 new Array("Veil of Deadening", "Attribute Evasion"),
                 new Array("Shadow Mind Rift",  "Confusion"),
                 new Array("Nimble Jinx",       "Attrbute first attack"),
-                new Array("Darkness +4x",       "Darkness +4x")
+                new Array("Darkness +4↑",      "Darkness +4↑"),
+                new Array("Earth +4↑",         "Earth +4↑")
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",
@@ -624,7 +625,8 @@ var Locale = function(l) {
                 new Array("ミラージュドライヴ", "属性回避"), // Mirage Drive
                 new Array("暗黒マインドブレイク",    "絶対混乱"), // Shadow Mind Rift
                 new Array("ワイズスマイト", "先制魔攻"), // Wise Smite
-                new Array("ナイトメア改 ", "闇+4改") // Darkness +4x
+                new Array("ナイトメア改 ", "闇+4改"), // Darkness +4x
+                new Array("アースクェイク改", "土+4改") // Earth +4x
             ),
             exskills: new Array(
                 "火属性ガーディアンの全ステータスを10%アップ",
