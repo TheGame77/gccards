@@ -6,6 +6,10 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/10/23': [
+            "拮抗する者達: " + Card.mklnk(40701) + "、" + Card.mklnk(30141) + "。",
+            "天空コロシアム4: " + Card.mklnk(40702) + "。"
+        ],
         '2014/10/20': [
             "Added: Earth+4↑ skill stone."
         ],
@@ -15,11 +19,13 @@ WhatIsNew.get = function() {
             "Red ex cards were not being used on \"OHKO by\" calculations."
         ],
         '2014/10/16': [
-            "Added: " + Card.mklnk(40698) + ", " + Card.mklnk(40700) + "."
+            "復讐の悪魔: " + Card.mklnk(40698) + "。",
+            "天界の神娘: " + Card.mklnk(40700) + "。"
         ],
         '2014/10/14': [
-            "Added: " + Card.mklnk(40693) + ", " + Card.mklnk(40695) + ", " + Card.mklnk(40696) + ", " + Card.mklnk(40697) + ".",
-            "Added 4*: " + Card.mklnk(30139) + ", " + Card.mklnk(30140) + "."
+            "エデン: " + Card.mklnk(40695) + "、" + Card.mklnk(40696) + "、" + Card.mklnk(40697) + "。",
+            "Added 4*: " + Card.mklnk(30139) + "、" + Card.mklnk(30140) + "。",
+            "天空コロシアム3: " + Card.mklnk(40693) + "。"
         ],
         '2014/10/11': [
             "Damage Calculator Changes/Fixes:",
@@ -28,19 +34,19 @@ WhatIsNew.get = function() {
             "QS/NJ was erroneously left out of LL, BG damage calculations for OHKO by."
         ],
         '2014/10/5': [
-            "Added: " + Card.mklnk(30133) + ", " + Card.mklnk(30134) + ", " + Card.mklnk(30136) + ".",
+            "Added: " + Card.mklnk(30133) + "、" + Card.mklnk(30134) + "、" + Card.mklnk(30136) + "。",
             "Added skills for: " + Card.mklnk(30126) + "."
         ],
         '2014/10/3': [
-            "Added: " + Card.mklnk(40233) + ", " + Card.mklnk(40271) + ".",
+            "Added: " + Card.mklnk(40233) + ", " + Card.mklnk(40271) + "。",
             "Added: Mecha+4, Darkness+4x skill stones."
         ],
         '2014/9/30': [
             "Added: " + Card.mklnk(40692) + "."
         ],
         '2014/9/29': [
-            "Added: " + ExCard.mklnk(45014) + ", " + Card.mklnk(40655) + ".",
-            "Added skills for: " + Card.mklnk(30116) + ", " + Card.mklnk(30127) + "."
+            "Added: " + ExCard.mklnk(45014) + "、" + Card.mklnk(40655) + "。",
+            "Added skills for: " + Card.mklnk(30116) + "、" + Card.mklnk(30127) + "。"
         ],
         '2014/9/23': [
             "Added MVS to the battle simulator."

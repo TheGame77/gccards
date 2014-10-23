@@ -3255,7 +3255,7 @@ Card.addAll([
     ["40693", "Almighty Aeolus", "The Master of the Four Winds and Four Storms is said to send favorable winds to the ships of heroes.",
      Event.none, Border.almighty, 5, Place.coliseum, 3, "40507", Shape.none, Attribute.wind,
      2160, 1400, 1750, 1500, 1360, 1460,
-     [Skill.slash2, Skill.wind4, Skill.bg, Skill.np, Skill.qs],
+     [Skill.slash3, Skill.wind4, Skill.bg, Skill.np, Skill.qs],
      [Skill.bg, Skill.np, Skill.qs],
      [Skill.bg, Skill.np, Skill.qs]],
     ["40695", "Angitia", "The healing powers of this water goddess is said to wash away the venom of the deadliest serpents.",
@@ -3570,7 +3570,6 @@ Card.addNotes({
     "40682": "Skills from Japanese version", // Wildfire Rubicante
     "40683": "Skills from Japanese version", // Cimmerian Golbez
     "40687": "Skills from Japanese version", // Ame-no-Uzume
-    "40693": "All data from Japanese version", // Almighty Aeolus
     "40695": "Skills from Japanese version", // Angitia
     "40696": "Skills from Japanese version", // Viviane
     "40697": "Skills from Japanese version", // Gaasyendietha

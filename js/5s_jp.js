@@ -3327,7 +3327,7 @@ Card.addAll([
     ["40693", "最強アイオロス", "四風神を統率し、四嵐怪を手懐ける風王。海へ出る英雄の船に風を送り、冒険を助ける。",
      Event.none, Border.almighty, 5, Place.coliseum, 3, "40507", Shape.none, Attribute.wind,
      2160, 1400, 1750, 1500, 1360, 1460,
-     [Skill.slash2, Skill.wind4, Skill.bg, Skill.np, Skill.qs],
+     [Skill.slash3, Skill.wind4, Skill.bg, Skill.np, Skill.qs],
      [Skill.bg, Skill.np, Skill.qs],
      [Skill.bg, Skill.np, Skill.qs]],
      // Seraph? 40694
@@ -3360,7 +3360,19 @@ Card.addAll([
      1800, 1200, 1030, 1380, 1300, 1660,
      [Skill.sap, Skill.lightning2, Skill.dagi20, Skill.lightning3, Skill.lightning4, Skill.np],
      [Skill.sap, Skill.dagi20, Skill.lightning4],
-     [Skill.sap, Skill.lightning4, Skill.np]]
+     [Skill.sap, Skill.lightning4, Skill.np]],
+    ["40701", "メイヴ", "沃野の島を統べる女神の末裔。王をつくる者と呼ばれる彼女を巡り、多くの血が流れた。",
+     Event.maevevaruna, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.darkness,
+     1910, 1500, 1220, 1390, 1340, 1740,
+     [Skill.resistant, Skill.physical2, Skill.darkness3, Skill.datk20, Skill.death4, Skill.sap],
+     [Skill.resistant, Skill.datk20, Skill.death4],
+     [Skill.resistant, Skill.death4, Skill.sap]],
+    ["40702", "最強水神クトゥルフ", "沈睡から目覚めた螺湮城の主。再臨を果たした来るべきものは、人の世の全てを滅ぼす。",
+     Event.none, Border.almighty, 5, Place.coliseum, 2, "40574", Shape.none, Attribute.poison,
+     2060, 1360, 1560, 1390, 1350, 1610,
+     [Skill.physical3, Skill.fb, Skill.physical4, Skill.poison4, Skill.resistant],
+     [Skill.fb, Skill.poison4, Skill.resistant],
+     [Skill.fb, Skill.poison4, Skill.resistant]]
 ]);
 
 Card.addLimitedTypes({

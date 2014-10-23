@@ -699,7 +699,13 @@ Card.addAll([
      1020, 600, 992, 1020, 1030, 1030,
      [Skill.death2, Skill.slash2, Skill.darkness3, Skill.datk20, Skill.death3, Skill.revival],
      [Skill.darkness3, Skill.datk20, Skill.death3],
-     [Skill.datk20, Skill.death3, Skill.revival]]
+     [Skill.datk20, Skill.death3, Skill.revival]],
+    ["30141", "ヴァルナ", "", 
+     Event.maevevaruna, Border.none, 5, Place.aedengard, 0, null, Shape.none, Attribute.darkness,
+     1050, 880, 1000, 1060, 1040, 1080,
+     [Skill.resistant, Skill.ep, Skill.water3, Skill.def10, Skill.water4, Skill.ls],
+     [Skill.resistant, Skill.ep, Skill.water4],
+     [Skill.resistant, Skill.water4, Skill.ls]]
 ]);
 
 Card.addLimitedTypes({
