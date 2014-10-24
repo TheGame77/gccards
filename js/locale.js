@@ -38,7 +38,8 @@ var Locale = function(l) {
                 "Crimson Keep",
                 "The Guardians Who Stole Christmas",
                 "Zeus Nebula",
-                "Aedengard"
+                "Aedengard",
+                "Babylon"
             ),
             events: new Array(
                 "None",
@@ -107,7 +108,8 @@ var Locale = function(l) {
                 "Protector of the Chalice",
                 "Demon of Vengeance", // Arioch
                 "Tempestuous Goddess", // Shandian Niangniang
-                "拮抗する者達" // Maeve & Varuna
+                "拮抗する者達", // Maeve & Varuna
+                "Tokyo Game Show 2014"
             ),
             borders: new Array(
                 "None",
@@ -405,7 +407,8 @@ var Locale = function(l) {
                 "Crimson Keep",
                 "聖夜に舞い散る黒い雪",
                 "ゼウス星雲",
-                "エデン"
+                "エデン",
+                "バビロン"
             ),
             events: new Array(
                 "なし",
@@ -474,7 +477,8 @@ var Locale = function(l) {
                 "聖杯の守護騎士", // Corbenic Knight
                 "復讐の悪魔", // Arioch
                 "天界の神娘", // Shandian Niangniang
-                "拮抗する者達" // Maeve & Varuna
+                "拮抗する者達", // Maeve & Varuna
+                "東京ゲームショウ2014" // TGS 2014
             ),
             borders: new Array(
                 "なし",

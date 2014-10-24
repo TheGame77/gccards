@@ -6,6 +6,10 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/10/24': [
+            "東京ゲームショウ2014: " + Card.mklnk(40694) + "。",
+            "バビロン: " + Card.mklnk(40704) + "、" + Card.mklnk(40705) + "、" + Card.mklnk(40706) + "、" + Card.mklnk(40707) + "、" + Card.mklnk(40708) + "。"
+        ],
         '2014/10/23': [
             "拮抗する者達: " + Card.mklnk(40701) + "、" + Card.mklnk(30141) + "。",
             "天空コロシアム4: " + Card.mklnk(40702) + "。"
@@ -42,7 +46,7 @@ WhatIsNew.get = function() {
             "Added: Mecha+4, Darkness+4x skill stones."
         ],
         '2014/9/30': [
-            "Added: " + Card.mklnk(40692) + "."
+            "聖杯の守護騎士: " + Card.mklnk(40692) + "。"
         ],
         '2014/9/29': [
             "Added: " + ExCard.mklnk(45014) + "、" + Card.mklnk(40655) + "。",

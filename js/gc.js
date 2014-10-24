@@ -152,7 +152,8 @@ var Place = (function() {
         [21, 111, ["crimson_keep"]],       // Crimson Keep
         [22, 112, ["black_snow"]],         // The Guardians Who Stole Christmas
         [23, 10,  ["zeus"]],               // Zeus Nebula
-        [24, 11,  ["aedengard"]]           // Aedengard
+        [24, 11,  ["aedengard"]],          // Aedengard
+        [25, 12,  ["babylon"]]             // Babylon
     ];
 
     var places = {
@@ -251,7 +252,8 @@ var Event = (function() {
         [63, ["corbenicknight"]],
         [64, ["arioch"]],
         [65, ["shandianniangniang"]],
-        [66, ["maevevaruna"]]
+        [66, ["maevevaruna"]],
+        [67, ["tgs2014"]]                       // Tokyo Game Show 2014
     ];
 
     var events = {
