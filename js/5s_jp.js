@@ -3367,7 +3367,7 @@ Card.addAll([
      [Skill.sap, Skill.dagi20, Skill.lightning4],
      [Skill.sap, Skill.lightning4, Skill.np]],
     ["40701", "メイヴ", "沃野の島を統べる女神の末裔。王をつくる者と呼ばれる彼女を巡り、多くの血が流れた。",
-     Event.maevevaruna, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.darkness,
+     Event.maevevaruna, Border.none, 5, Place.aedengard, 0, null, Shape.none, Attribute.darkness,
      1910, 1500, 1220, 1390, 1340, 1740,
      [Skill.resistant, Skill.physical2, Skill.darkness3, Skill.datk20, Skill.death4, Skill.sap],
      [Skill.resistant, Skill.datk20, Skill.death4],
@@ -3443,7 +3443,8 @@ Card.addLimitedTypes({
     "40680": [Type.cool, Type.coolr],    // Scarmiglione of the Earth
     "40681": [Type.cool, Type.coolr],    // Cagnazzo of the Water
     "40682": [Type.cool, Type.coolr],    // Rubicante of the Flame
-    "40683": [Type.cool, Type.coolr]     // Golbez of the Darkness
+    "40683": [Type.cool, Type.coolr],    // Golbez of the Darkness
+    "40694": [Type.cool, Type.coolr]     // Seraph
 });
 
 Card.addNotes({
