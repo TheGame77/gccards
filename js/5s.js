@@ -3287,7 +3287,31 @@ Card.addAll([
      1800, 1200, 1030, 1380, 1300, 1660,
      [Skill.sap, Skill.lightning2, Skill.dagi20, Skill.lightning3, Skill.lightning4, Skill.np],
      [Skill.sap, Skill.dagi20, Skill.lightning4],
-     [Skill.sap, Skill.lightning4, Skill.np]]
+     [Skill.sap, Skill.lightning4, Skill.np]],
+    ["40717", "Arthur the Dark", "A conquering king, returned from the Black isle, now stakes his claim on the mainland with his order of dark knights.",
+     Event.seepingdarkness, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
+     1580, 600, 1530, 1440, 1200, 1320,
+     [Skill.sgs, Skill.physical3, Skill.ddef20, Skill.physical4, Skill.atk20, Skill.revival],
+     [Skill.sgs, Skill.ddef20, Skill.atk20],
+     [Skill.sgs, Skill.atk20, Skill.revival]],
+    ["40718", "Fallen Gabriel", "An angel fallen from the grace of heaven, Gabriel now sows the seeds of strife and injustice across the land.",
+     Event.witchesbrew, Border.none, 5, Place.aedengard, 0, null, Shape.pumpkinhead, Attribute.darkness,
+     1740, 1200, 1670, 1480, 1340, 1440,
+     [Skill.srevival, Skill.darkness2, Skill.dwis20, Skill.darkness3, Skill.cd, Skill.resistant],
+     [Skill.srevival, Skill.dwis20, Skill.cd],
+     [Skill.srevival, Skill.cd, Skill.resistant]],
+    ["40719", "Minerva Arcanus", "Corrupted by dark magics, this once-pristine goddess now protects the city of the wicked with her sinister guile and sorcery.",
+     Event.witchesbrew, Border.none, 5, Place.aedengard, 0, null, Shape.pumpkin, Attribute.darkness,
+     1920, 1400, 1320, 1420, 1360, 1765,
+     [Skill.ssap, Skill.agi10, Skill.darkness3, Skill.dwis20, Skill.darkness4x, Skill.ds],
+     [Skill.ssap, Skill.dwis20, Skill.darkness4x],
+     [Skill.ssap, Skill.darkness4x, Skill.ds]],
+     ["40720", "Phantom Iblis", "The demon lord returns, more powerful and malevolent than ever.",
+     Event.seepingdarkness, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
+     1380, 1100, 1620, 1260, 1300, 1280,
+     [Skill.sap, Skill.darkness3, Skill.slash4, Skill.ls, Skill.darkness4, Skill.smr],
+     [Skill.sap, Skill.slash4, Skill.ls],
+     [Skill.sap, Skill.ls, Skill.smr]]
 ]);
 
 Card.addLimitedTypes({
@@ -3325,7 +3349,8 @@ Card.addLimitedTypes({
     "40680": [Type.cool, Type.coolr],    // Scarmiglione of the Earth
     "40681": [Type.cool, Type.coolr],    // Cagnazzo of the Water
     "40682": [Type.cool, Type.coolr],    // Rubicante of the Flame
-    "40683": [Type.cool, Type.coolr]     // Golbez of the Darkness
+    "40683": [Type.cool, Type.coolr],    // Golbez of the Darkness
+    "40720": [Type.cool, Type.coolr]     // Phantom Iblis
 });
 
 Card.addNotes({
@@ -3573,7 +3598,11 @@ Card.addNotes({
     "40695": "Skills from Japanese version", // Angitia
     "40696": "Skills from Japanese version", // Viviane
     "40697": "Skills from Japanese version", // Gaasyendietha
-    "40698": "Skills from Japanese version" // Arioch
+    "40698": "Skills from Japanese version", // Arioch
+    "40717": "Skills from Japanese version", // Arthur the Dark
+    "40718": "Skills from Japanese version", // Fallen Gabriel
+    "40719": "Skills from Japanese version", // Minerva Arcanus
+    "40720": "Skills from Japanese version" // Phantom Iblis
 });
 
 ExCard.addAll([
