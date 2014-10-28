@@ -109,7 +109,9 @@ var Locale = function(l) {
                 "Demon of Vengeance", // Arioch
                 "Tempestuous Goddess", // Shandian Niangniang
                 "拮抗する者達", // Maeve & Varuna
-                "Tokyo Game Show 2014"
+                "Tokyo Game Show 2014",
+                "The Seeping Darkness",
+                "Witches' Brew"
             ),
             borders: new Array(
                 "None",
@@ -261,7 +263,10 @@ var Locale = function(l) {
                 new Array("Shadow Mind Rift",  "Confusion"),
                 new Array("Nimble Jinx",       "Attrbute first attack"),
                 new Array("Darkness +4↑",      "Darkness +4↑"),
-                new Array("Earth +4↑",         "Earth +4↑")
+                new Array("Earth +4↑",         "Earth +4↑"),
+                new Array("Shadow Gigant Smash","High Damage Attack"),
+                new Array("Shadow Revival",    "Shadow Revive"),
+                new Array("Shadow Sap",        "MP Wipe")
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",
@@ -478,7 +483,9 @@ var Locale = function(l) {
                 "復讐の悪魔", // Arioch
                 "天界の神娘", // Shandian Niangniang
                 "拮抗する者達", // Maeve & Varuna
-                "東京ゲームショウ2014" // TGS 2014
+                "東京ゲームショウ2014", // TGS 2014
+                "闇に染まる祝祭", // Seeping Darkness
+                "魔女達の狂宴" // Witches' Brew
             ),
             borders: new Array(
                 "なし",
@@ -630,7 +637,10 @@ var Locale = function(l) {
                 new Array("暗黒マインドブレイク",    "絶対混乱"), // Shadow Mind Rift
                 new Array("ワイズスマイト", "先制魔攻"), // Wise Smite
                 new Array("ナイトメア改 ", "闇+4改"), // Darkness +4x
-                new Array("アースクェイク改", "土+4改") // Earth +4x
+                new Array("アースクェイク改", "土+4改"), // Earth +4x
+                new Array("暗黒ギガントスラッシュ", "一撃大ダメージ"), // Shadow Gigant Smash
+                new Array("暗黒リバイバル", "暗黒復活"), // Shadow Revival
+                new Array("暗黒アビリティロック", "MP 無効") // Shadow Sap
             ),
             exskills: new Array(
                 "火属性ガーディアンの全ステータスを10%アップ",

@@ -3407,7 +3407,31 @@ Card.addAll([
      2100, 2480, 1660, 1480, 1340, 1440,
      [Skill.resistant, Skill.slash3, Skill.datk20, Skill.slash4, Skill.bg, Skill.rendburst],
      [Skill.resistant, Skill.datk20, Skill.bg],
-     [Skill.resistant, Skill.bg, Skill.rendburst]]
+     [Skill.resistant, Skill.bg, Skill.rendburst]],
+    ["40717", "ダークキング・アーサー", "",
+     Event.seepingdarkness, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
+     1580, 600, 1530, 1440, 1200, 1320,
+     [Skill.sgs, Skill.physical3, Skill.ddef20, Skill.physical4, Skill.atk20, Skill.revival],
+     [Skill.sgs, Skill.ddef20, Skill.atk20],
+     [Skill.sgs, Skill.atk20, Skill.revival]],
+    ["40718", "ガブリエル・デーモン", "天に叛いた背徳の使徒。神の定めた運命に逆らい、あらゆる咎と不義の種を世に散撒く。",
+     Event.witchesbrew, Border.none, 5, Place.babylon, 0, null, Shape.pumpkinhead, Attribute.darkness,
+     1740, 1200, 1670, 1480, 1340, 1440,
+     [Skill.srevival, Skill.darkness2, Skill.dwis20, Skill.darkness3, Skill.cd, Skill.resistant],
+     [Skill.srevival, Skill.dwis20, Skill.cd],
+     [Skill.srevival, Skill.cd, Skill.resistant]],
+    ["40719", "ミネルヴァ・ウィッチ", "魔道へと堕ちた昏き女神。悪徳の街を守り、罪深き者達に邪智と妖術の加護をもたらす。",
+     Event.witchesbrew, Border.none, 5, Place.babylon, 0, null, Shape.pumpkin, Attribute.darkness,
+     1920, 1400, 1320, 1420, 1360, 1765,
+     [Skill.ssap, Skill.agi10, Skill.darkness3, Skill.dwis20, Skill.darkness4x, Skill.ds],
+     [Skill.ssap, Skill.dwis20, Skill.darkness4x],
+     [Skill.ssap, Skill.darkness4x, Skill.ds]],
+     ["40720", "亡霊のイブリース", "さらなるパワーアップを果たした魔王。戦闘力は勿論の事、悪戯の感性も磨がれている。",
+     Event.seepingdarkness, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
+     1380, 1100, 1620, 1260, 1300, 1280,
+     [Skill.sap, Skill.darkness3, Skill.slash4, Skill.ls, Skill.darkness4, Skill.smr],
+     [Skill.sap, Skill.slash4, Skill.ls],
+     [Skill.sap, Skill.ls, Skill.smr]]
 ]);
 
 Card.addLimitedTypes({
@@ -3444,7 +3468,8 @@ Card.addLimitedTypes({
     "40681": [Type.cool, Type.coolr],    // Cagnazzo of the Water
     "40682": [Type.cool, Type.coolr],    // Rubicante of the Flame
     "40683": [Type.cool, Type.coolr],    // Golbez of the Darkness
-    "40694": [Type.cool, Type.coolr]     // Seraph
+    "40694": [Type.cool, Type.coolr],    // Seraph
+    "40720": [Type.cool, Type.coolr]     // Phantom Iblis
 });
 
 Card.addNotes({

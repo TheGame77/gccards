@@ -6,6 +6,10 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/10/28': [
+            "闇に染まる祝祭: " + Card.mklnk(40717) + "、" + Card.mklnk(40720) + "。",
+            "魔女達の狂宴: " + Card.mklnk(40718) + "、" + Card.mklnk(40719) + "。"
+        ],
         '2014/10/24': [
             "東京ゲームショウ2014: " + Card.mklnk(40694) + "。",
             "バビロン: " + Card.mklnk(40704) + "、" + Card.mklnk(40705) + "、" + Card.mklnk(40706) + "、" + Card.mklnk(40707) + "、" + Card.mklnk(40708) + "。"

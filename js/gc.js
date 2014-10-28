@@ -253,7 +253,9 @@ var Event = (function() {
         [64, ["arioch"]],
         [65, ["shandianniangniang"]],
         [66, ["maevevaruna"]],
-        [67, ["tgs2014"]]                       // Tokyo Game Show 2014
+        [67, ["tgs2014"]],                      // Tokyo Game Show 2014
+        [68, ["seepingdarkness"]],
+        [69, ["witchesbrew"]]
     ];
 
     var events = {
@@ -666,9 +668,12 @@ var Skill = (function() {
         [100, SKILL_OTHER, "rendburst",            new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Rendburst/Detonation
         [101, SKILL_OTHER, "vd",                   new Cost(0,  300), stone_no, nbuff({}),                    Attribute.none, 0], // Veil of Deadening/Mirage Drive
         [102, SKILL_OTHER, "smr",                  new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Mind Rift (Confusion)
-        [103, SKILL_OTHER, "nj",                   new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0],  // Nimble Jinx
+        [103, SKILL_OTHER, "nj",                   new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Nimble Jinx
         [104, SKILL_ATTACK, "darkness4x",          new Cost(0, 1300), stone_yes, nbuff({}),                   Attribute.darkness, 5], // (Darkness +4x)
-        [105, SKILL_ATTACK, "earth4x",             new Cost(0, 1300), stone_yes, nbuff({}),                   Attribute.earth, 5] // (Earth +4x)
+        [105, SKILL_ATTACK, "earth4x",             new Cost(0, 1300), stone_yes, nbuff({}),                   Attribute.earth, 5], // (Earth +4x)
+        [106, SKILL_ATTACK, "sgs",                 new Cost(0, 1200), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Gigant Smash
+        [107, SKILL_OTHER, "srevival",             new Cost(0,    1), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Revival
+        [108, SKILL_OTHER, "ssap",                 new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0] // Shadow Sap
     ];
 
     var skills = {
