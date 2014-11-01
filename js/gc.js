@@ -2719,12 +2719,15 @@ var Calculator = (function() {
             damage = Math.max(damage, 1);
             var normal = damage;
 
-            if (!(options.sap && hasSkill(skills2, Skill.sap) && !hasSkill(skills1, Skill.resistant) && status2.mp >= Skill.sap.cost.mp)) {
+            if (!(options.sap && (
+                    (hasSkill(skills2, Skill.sap) && status2.mp >= Skill.sap.cost.mp) ||
+                    (hasSkill(skills2, Skill.ssap) && status2.mp >= Skill.ssap.cost.mp)
+                ) && !hasSkill(skills1, Skill.resistant) )) {
                 for (var i = 0; i < skills1.length; i++) {
                     var skill = skills1[i];
-                    if (skill == Skill.gs && status1.mp >= skill.cost.mp) {
+                    if ((skill == Skill.gs || skill == Skill.sgs) && status1.mp >= skill.cost.mp) {
                         /* Attack by Gigant Smash. */
-                        var sk = options.gs_critical ? 1 : -0.5;
+                        var sk = (options.gs_critical || skill == Skill.sgs) ? 1 : -0.5;
                         var dmg = this.getDamage(status1.atk, sk, atk1, 1, status2.def, -1);
                         damage = Math.max(damage, dmg);
                     } else if (skill == Skill.cd && status1.mp >= skill.cost.mp) {
@@ -2961,10 +2964,11 @@ var Calculator = (function() {
             damage = Math.max(damage, 1);
             res['normal'] = damage >= hp1;
 
-            if (!(options.sap && hasSkill(skills1, Skill.sap) && !hasSkill(skills2, Skill.resistant))) {
-                if (hasSkill(skills2, Skill.gs) && status2.mp >= Skill.gs.cost.mp) {
+            if (!(options.sap && (hasSkill(skills1, Skill.sap) || hasSkill(skills1, Skill.ssap)) && !hasSkill(skills2, Skill.resistant))) {
+                if ((hasSkill(skills2, Skill.gs) && status2.mp >= Skill.gs.cost.mp) ||
+                    (hasSkill(skills2, Skill.sgs) && status2.mp >= Skill.sgs.cost.mp)) {
                     /* Attack by Gigant Smash. */
-                    var sk = options.gs_critical ? 1 : -0.5;
+                    var sk = (hasSkill(skills2, Skill.sgs) || options.gs_critical) ? 1 : -0.5;
                     damage = this.getDamage(status2.atk, sk, atk2, 1, status1.def, -1);
                     damage = Math.max(damage, 1);
                     res['gs'] = damage >= hp1;
