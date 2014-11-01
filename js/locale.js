@@ -111,7 +111,8 @@ var Locale = function(l) {
                 "拮抗する者達", // Maeve & Varuna
                 "Tokyo Game Show 2014",
                 "The Seeping Darkness",
-                "Witches' Brew"
+                "Witches' Brew",
+                "Neverland Fairy"
             ),
             borders: new Array(
                 "None",
@@ -485,7 +486,8 @@ var Locale = function(l) {
                 "拮抗する者達", // Maeve & Varuna
                 "東京ゲームショウ2014", // TGS 2014
                 "闇に染まる祝祭", // Seeping Darkness
-                "魔女達の狂宴" // Witches' Brew
+                "魔女達の狂宴", // Witches' Brew
+                "夢幻の妖精" // Neverland Fairy
             ),
             borders: new Array(
                 "なし",

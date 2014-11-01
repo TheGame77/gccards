@@ -3288,6 +3288,12 @@ Card.addAll([
      [Skill.sap, Skill.lightning2, Skill.dagi20, Skill.lightning3, Skill.lightning4, Skill.np],
      [Skill.sap, Skill.dagi20, Skill.lightning4],
      [Skill.sap, Skill.lightning4, Skill.np]],
+    ["40702", "Almighty Cthulhu Risen", "Awoken from its deep slumber in R'lyeh, this ancient horror now seeks to destroy the world of man.",
+     Event.none, Border.almighty, 5, Place.coliseum, 2, "40574", Shape.none, Attribute.poison,
+     2060, 1360, 1560, 1390, 1350, 1610,
+     [Skill.physical3, Skill.fb, Skill.physical4, Skill.poison4, Skill.resistant],
+     [Skill.fb, Skill.poison4, Skill.resistant],
+     [Skill.fb, Skill.poison4, Skill.resistant]],
     ["40717", "Arthur the Dark", "A conquering king, returned from the Black isle, now stakes his claim on the mainland with his order of dark knights.",
      Event.seepingdarkness, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
      1580, 600, 1530, 1440, 1200, 1320,
@@ -3599,6 +3605,7 @@ Card.addNotes({
     "40696": "Skills from Japanese version", // Viviane
     "40697": "Skills from Japanese version", // Gaasyendietha
     "40698": "Skills from Japanese version", // Arioch
+    "40702": "Skills from Japanese version", // Almighty Ctulhu Risen
     "40717": "Skills from Japanese version", // Arthur the Dark
     "40718": "Skills from Japanese version", // Fallen Gabriel
     "40719": "Skills from Japanese version", // Minerva Arcanus
