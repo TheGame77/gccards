@@ -112,7 +112,9 @@ var Locale = function(l) {
                 "Tokyo Game Show 2014",
                 "The Seeping Darkness",
                 "Witches' Brew",
-                "Neverland Fairy"
+                "Neverland Fairy",
+                "Twilight Predator",
+                "Gods of the bountiful earth"
             ),
             borders: new Array(
                 "None",
@@ -487,7 +489,9 @@ var Locale = function(l) {
                 "東京ゲームショウ2014", // TGS 2014
                 "闇に染まる祝祭", // Seeping Darkness
                 "魔女達の狂宴", // Witches' Brew
-                "夢幻の妖精" // Neverland Fairy
+                "夢幻の妖精", // Neverland Fairy
+                "闇夜の捕食者", // Twilight Predator
+                "豊穣なる大地の神々" // Gods of the bountiful earth
             ),
             borders: new Array(
                 "なし",

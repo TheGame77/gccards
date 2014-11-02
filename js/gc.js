@@ -256,7 +256,9 @@ var Event = (function() {
         [67, ["tgs2014"]],                      // Tokyo Game Show 2014
         [68, ["seepingdarkness"]],
         [69, ["witchesbrew"]],
-        [70, ["neverlandfairy"]]
+        [70, ["neverlandfairy"]],
+        [71, ["twilightpredator"]],
+        [72, ["godsofthebountifulearth"]]
     ];
 
     var events = {

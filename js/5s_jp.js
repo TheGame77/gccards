@@ -3408,12 +3408,42 @@ Card.addAll([
      [Skill.resistant, Skill.slash3, Skill.datk20, Skill.slash4, Skill.bg, Skill.rendburst],
      [Skill.resistant, Skill.datk20, Skill.bg],
      [Skill.resistant, Skill.bg, Skill.rendburst]],
+    ["40710", "タケミカヅチ", "混乱の下界を平定する為、天より遣わされた剣の神。荒ぶる神の剛力で屈服させる。",
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.lightning,
+     1370, 1000, 1290, 1320, 1285, 1250,
+     [Skill.slash2, Skill.lightning3, Skill.slash3, Skill.datk40, Skill.bg, Skill.revival],
+     [Skill.datk40, Skill.bg, Skill.slash3],
+     [Skill.datk40, Skill.bg, Skill.revival]],
+    ["40711", "伏姫", "怨霊の呪詛から一族を救わんとする女神。仁義八行の珠を持つ若者達を加護・指導する。",
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.water,
+     1300, 900, 1460, 1420, 1315, 1400,
+     [Skill.qs, Skill.ddef20, Skill.slash3, Skill.dagi20, Skill.slash4, Skill.dp],
+     [Skill.qs, Skill.ddef20, Skill.slash4],
+     [Skill.qs, Skill.ddef20, Skill.dp]],
+    ["40712", "最強スリーピングビューティー", "百年間、時が止まっていた城で目覚めた暁姫。邪悪の精がかけた死の魔呪に打ち勝った。", 
+     Event.none, Border.almighty, 5, Place.coliseum, 5, "40665", Shape.none, Attribute.darkness,
+     2400, 600, 1660, 1600, 1260, 1600,
+     [Skill.dr, Skill.darkness3, Skill.dagi20, Skill.np, Skill.tb],
+     [Skill.dr, Skill.np, Skill.tb],
+     [Skill.dr, Skill.np, Skill.tb]],
+    ["40713", "ヨーウィー", "",
+     Event.twilightpredator, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.poison,
+     1400, 1005, 1400, 1330, 1260, 1120,
+     [Skill.def40, Skill.slash2, Skill.dagi20, Skill.slash4, Skill.dp, Skill.ls],
+     [Skill.def40, Skill.dagi20, Skill.dp],
+     [Skill.def40, Skill.dp, Skill.ls]],
     ["40715", "ティンカー・ベル", "夢幻島の妖精。相棒である永遠の少年から逃げ去った影を追って、遥々、霧都に赴いた。", 
      Event.neverlandfairy, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
      1800, 1370, 1220, 1280, 1320, 1740,
      [Skill.revival, Skill.wind2, Skill.dwis20, Skill.wind3, Skill.wind4, Skill.tb],
      [Skill.revival, Skill.dwis20, Skill.wind4],
      [Skill.revival, Skill.wind4, Skill.tb]],
+    ["40716", "デメテル", "天堂十二神の一柱。食を司る女神であり、豊かな実りと満たされぬ飢えを人間に与える。", 
+     Event.godsofthebountifulearth, Border.none, 5, Place.aedengard, 0, null, Shape.female, Attribute.earth,
+     2100, 1384, 1620, 1480, 1340, 1440,
+     [Skill.fb, Skill.physical3, Skill.datk20, Skill.physical4, Skill.atk25, Skill.ll],
+     [Skill.fb, Skill.atk25, Skill.physical4],
+     [Skill.fb, Skill.atk25, Skill.ll]],
     ["40717", "ダークキング・アーサー", "",
      Event.seepingdarkness, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
      1580, 600, 1530, 1440, 1200, 1320,
@@ -3437,7 +3467,22 @@ Card.addAll([
      1380, 1100, 1620, 1260, 1300, 1280,
      [Skill.sap, Skill.darkness3, Skill.slash4, Skill.ls, Skill.darkness4, Skill.smr],
      [Skill.sap, Skill.slash4, Skill.ls],
-     [Skill.sap, Skill.ls, Skill.smr]]
+     [Skill.sap, Skill.ls, Skill.smr]],
+    ["40721", "最強ロキ", "神を滅ぼす巨狼・大蛇・死女神の父。閉ざす者という名の通り、一度世界を終わらせる", 
+     Event.none, Border.almighty, 5, Place.coliseum, 6, "40521", Shape.none, Attribute.darkness,
+     1880, 1480, 1620, 1580, 1310, 1580,
+     [Skill.physical3, Skill.darkness4, Skill.dp, Skill.powershift, Skill.mm],
+     [Skill.dp, Skill.powershift, Skill.mm],
+     [Skill.dp, Skill.powershift, Skill.mm]]
+/*
+Vジャンプ12月特大号特典！- dont know description and 6th skill, cool only, need to add event
+Code:
+"<ID>", "ケールV", "<Description>", 
+     Event.decembervjumpspecialpresent, Border.none, 5, Place.none, 0, null, Shape.none, Attribute.death,
+     1400, 1080, 1070, 1300, 1275, 1380,
+     [darkness2, death3, darkness3, datk20, dwis40, skill6],
+     [datk20, dwis40, death3],
+     [datk20, dwis40, death3]*/
 ]);
 
 Card.addLimitedTypes({
@@ -3475,6 +3520,8 @@ Card.addLimitedTypes({
     "40682": [Type.cool, Type.coolr],    // Rubicante of the Flame
     "40683": [Type.cool, Type.coolr],    // Golbez of the Darkness
     "40694": [Type.cool, Type.coolr],    // Seraph
+    "40710": [Type.cool, Type.coolr],    // Takemikazuchi
+    "40711": [Type.cool, Type.coolr],    // Fusehime
     "40720": [Type.cool, Type.coolr]     // Phantom Iblis
 });
 

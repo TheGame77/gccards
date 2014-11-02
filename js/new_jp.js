@@ -6,6 +6,14 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/11/2': [
+            "7th Invitation: " + Card.mklnk(40710) + "、" + Card.mklnk(40711) + "。",
+            "第5回天空コロシアム: " + Card.mklnk(40712) + "。",
+            "第6回天空コロシアム: " + Card.mklnk(40721) + "。",
+            "闇夜の捕食者: " + Card.mklnk(40713) + "。",
+            "豊穣なる大地の神々: " + Card.mklnk(40716) + "。",
+            "Added shadow GS, shadow sap and shadow revive to the damage calculator/battle simulator."
+        ],
         '2014/11/1': [
             "夢幻の妖精: " + Card.mklnk(40715) + "。"
         ],
@@ -19,7 +27,7 @@ WhatIsNew.get = function() {
         ],
         '2014/10/23': [
             "拮抗する者達: " + Card.mklnk(40701) + "、" + Card.mklnk(30141) + "。",
-            "天空コロシアム4: " + Card.mklnk(40702) + "。"
+            "第4回天空コロシアム: " + Card.mklnk(40702) + "。"
         ],
         '2014/10/20': [
             "Added: Earth+4↑ skill stone."
@@ -36,7 +44,7 @@ WhatIsNew.get = function() {
         '2014/10/14': [
             "エデン: " + Card.mklnk(40695) + "、" + Card.mklnk(40696) + "、" + Card.mklnk(40697) + "。",
             "Added 4*: " + Card.mklnk(30139) + "、" + Card.mklnk(30140) + "。",
-            "天空コロシアム3: " + Card.mklnk(40693) + "。"
+            "第3回天空コロシアム: " + Card.mklnk(40693) + "。"
         ],
         '2014/10/11': [
             "Damage Calculator Changes/Fixes:",
@@ -84,8 +92,8 @@ WhatIsNew.get = function() {
         ],
         '2014/9/1': [
             "天空の花園: " + Card.mklnk(40691) + "。",
-            "天空コロシアム1: " + Card.mklnk(40684) + "。",
-            "天空コロシアム2: " + Card.mklnk(40688) + "。"
+            "第1回天空コロシアム: " + Card.mklnk(40684) + "。",
+            "第2回天空コロシアム: " + Card.mklnk(40688) + "。"
         ],
         '2014/8/31': [
             "6th Invitation: " + Card.mklnk(40679) + "、" + Card.mklnk(40680) + "、" + Card.mklnk(40681) + "、" + Card.mklnk(40682) + "、" + Card.mklnk(40683) + "。",
