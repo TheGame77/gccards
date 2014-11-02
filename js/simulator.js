@@ -129,11 +129,11 @@ function Simulator(my_party, oppo_party, options) {
                 g.battle.paralyzed = false;            /* Indicate if a card is paralyzed. */
                 g.battle.resistant_effective = false;  /* Indicate if a card is protected by Resistant. */
                 g.battle.ls = g.hasSkill(Skill.ls);                 /* Can cast LS? */
-                g.battle.revival = g.hasSkill(Skill.revival);       /* Can cast Revival? */
+                g.battle.revival = g.hasSkill(Skill.revival) || g.hasSkill(Skill.srevival); /* Can cast Revival? */
                 g.battle.ds = g.hasSkill(Skill.ds) || g.hasSkill(Skill.sds); /* Can cast DS/SDS? */
                 g.battle.vd = g.hasSkill(Skill.vd);                 /* Can cast VD? */
                 g.battle.ep = g.hasSkill(Skill.ep);                 /* Can cast EP? */
-                g.battle.sap = g.hasSkill(Skill.sap);               /* Can cast Sap? */
+                g.battle.sap = g.hasSkill(Skill.sap) || g.hasSkill(Skill.ssap); /* Can cast Sap? */
                 g.battle.dr = g.hasSkill(Skill.dr);                 /* Can cast Deadly Reflex? */
                 g.battle.sd = g.hasSkill(Skill.sd) || g.hasSkill(Skill.rendburst); /* Can cast SD/Rendburst? */
                 g.battle.mr = g.hasSkill(Skill.mr) || g.hasSkill(Skill.smr); /* Can cast MR/SMR? */
@@ -581,11 +581,12 @@ function Simulator(my_party, oppo_party, options) {
 
     var applySap = function(r, d, g1, g2) {
         var res = false;
-        if (g1.battle.sap && Skill.sap.cost.mp <= g1.battle.status.mp) {
+        var skill = g1.hasSkill(Skill.ssap) ? Skill.ssap : Skill.sap;
+        if (g1.battle.sap && skill.cost.mp <= g1.battle.status.mp) {
             g1.battle.sap = false;
-            r.append(d, g1, g2, g1.name + "'s " + Skill.sap.name, MSG_BUFF);
-            if (Math.random() < options[d.attacker].sap && !g2.battle.resistant_effective) {
-                g1.battle.status.mp -= Skill.sap.cost.mp;
+            r.append(d, g1, g2, g1.name + "'s " + skill.name, MSG_BUFF);
+            if ((skill == Skill.ssap || Math.random() < options[d.attacker].sap) && !g2.battle.resistant_effective) {
+                g1.battle.status.mp -= skill.cost.mp;
                 g2.battle.status.mp = 0;
                 r.append(d, g1, g2, g2.name + " is sapped", MSG_BUFF);
                 res = true;
@@ -662,26 +663,31 @@ function Simulator(my_party, oppo_party, options) {
         if (g1.battle.paralyzed > 0)
             return false;
 
-        var res = false
-        
+        var res = false;
         if (g1.battle.revival) {
             g1.battle.revival = false;
 
-            var rate = options[d.attacker].revival;
-            /* Apply EX2 buff. */
-            var ex2 = d.getAttackerEx2();
-            var exskill = ex2 == null ? null : ex2.getSkill();
-            if (exskill != null && exskill.scs(Skill.revival))
-                rate += exskill.sucup;
+            var skill = g1.hasSkill(Skill.srevival) ? Skill.srevival : Skill.revival;
+            var rate;
 
-            if (Skill.revival.cost.mp <= g1.battle.status.mp && Math.random() < rate) {
-                g1.battle.status.mp -= Skill.revival.cost.mp;
+            if(skill == Skill.srevival) {
+                rate = 1;
+            } else {
+                rate = options[d.attacker].revival;
+                /* Apply EX2 buff. */
+                var ex2 = d.getAttackerEx2();
+                var exskill = ex2 == null ? null : ex2.getSkill();
+                if (exskill != null && exskill.scs(Skill.revival))
+                    rate += exskill.sucup;
+            }
+
+            r.append(d, g1, g2, g1.name + "'s " + skill.name, MSG_OTHER);
+            if (skill.cost.mp <= g1.battle.status.mp && Math.random() < rate) {
+                g1.battle.status.mp -= skill.cost.mp;
                 g1.battle.status.hp = g1.status.hp;
 
                 /* Make this card appear next time as the first appearance. */
                 g1.battle.first = true;
-                
-                r.append(d, g1, g2, g1.name + "'s " + Skill.revival.name, MSG_OTHER);
                 r.append(d, g1, g2, g1.name + " came back to life", MSG_REVIVAL);
                 res = true;
             } else
@@ -818,13 +824,19 @@ function Simulator(my_party, oppo_party, options) {
             buff2 = (skill == Skill.qs ? g2.battle.def : g2.battle.wis);
 
             damage = Math.max(1, Calculator.getDamage(atk, sk, buff1, attr, def, buff2));
-        } else if (skill == Skill.gs && mpcost <= g1.battle.status.mp) {
+        } else if ((skill == Skill.gs || skill == Skill.sgs) && mpcost <= g1.battle.status.mp) {
             atk = g1.battle.status.atk;
 
-            var rate = options[d.attacker].gs;
-            /* Apply EX2 buff. */
-            if (ex2 != null && ex2.getSkill().scs(skill))
-                rate += ex2.getSkill().sucup;
+            var rate;
+
+            if(skill == Skill.sgs) {
+                rate = 1;
+            } else {
+                rate = options[d.attacker].gs;
+                /* Apply EX2 buff. */
+                if (ex2 != null && ex2.getSkill().scs(skill))
+                    rate += ex2.getSkill().sucup;
+            }
 
             if (Math.random() < rate)
                 sk = 1;
@@ -843,7 +855,7 @@ function Simulator(my_party, oppo_party, options) {
             def = g2.battle.status.def;
             buff2 = g2.battle.def;
             damage = Math.max(1, Calculator.getDamage(atk, sk, buff1, attr, def, buff2));
-        } else if (skill.isPhysical() && skill != Skill.gs && skill != Skill.bg && mpcost <= g1.battle.status.mp) {
+        } else if (skill.isPhysical() && skill != Skill.gs && skill != Skill.sgs && skill != Skill.bg && mpcost <= g1.battle.status.mp) {
             atk = g1.battle.status.atk;
             sk = Calculator.skill_mult[skill.level - 1];
             buff1 = g1.battle.atk;
@@ -875,6 +887,9 @@ function Simulator(my_party, oppo_party, options) {
 
         if (g1.hasSkill(Skill.gs) && g1.battle.status.mp >= Skill.gs.cost.mp)
             return Skill.gs;
+
+        if (g1.hasSkill(Skill.sgs) && g1.battle.status.mp >= Skill.sgs.cost.mp)
+            return Skill.sgs;
 
         var res = null;
         var damage = getSkillDamage(d, g1, g2, null);
@@ -960,7 +975,7 @@ function Simulator(my_party, oppo_party, options) {
             r.append(d, g1, g2, g1.name + "'s " + name, msg);
 
             /* A physical attack is evaded. */
-            if ((skill == null || skill.isPhysical() && skill != Skill.gs && skill != Skill.bg && skill != Skill.cd) && 
+            if ((skill == null || skill.isPhysical() && skill != Skill.gs && skill != Skill.sgs && skill != Skill.bg && skill != Skill.cd) && 
                 (d.swap(function() { return applyDS(r, d, g2, g1); })))
                 return;
 
@@ -971,7 +986,7 @@ function Simulator(my_party, oppo_party, options) {
 
             g2.battle.status.hp -= damage;
 
-            if (skill == Skill.gs) {
+            if (skill == Skill.gs || skill == Skill.sgs) {
                 if (damage <= g1.battle.status.atk)
                     r.append(d, g1, g2, "Glancing blow", MSG_OTHER);
                 else
