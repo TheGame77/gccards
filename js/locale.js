@@ -108,7 +108,7 @@ var Locale = function(l) {
                 "Protector of the Chalice",
                 "Demon of Vengeance", // Arioch
                 "Tempestuous Goddess", // Shandian Niangniang
-                "拮抗する者達", // Maeve & Varuna
+                "Defiant Defenders", // Maeve & Varuna
                 "Tokyo Game Show 2014",
                 "The Seeping Darkness",
                 "Witches' Brew",

@@ -701,7 +701,7 @@ Card.addAll([
      [Skill.darkness3, Skill.datk20, Skill.death3],
      [Skill.datk20, Skill.death3, Skill.revival]],
     ["30141", "ヴァルナ", "", 
-     Event.maevevaruna, Border.none, 4, Place.aedengard, 0, null, Shape.none, Attribute.darkness,
+     Event.maevevaruna, Border.none, 4, Place.aedengard, 0, null, Shape.orbs, Attribute.water,
      1050, 880, 1000, 1060, 1040, 1080,
      [Skill.resistant, Skill.ep, Skill.water3, Skill.def10, Skill.water4, Skill.ls],
      [Skill.resistant, Skill.ep, Skill.water4],

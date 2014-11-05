@@ -3288,6 +3288,12 @@ Card.addAll([
      [Skill.sap, Skill.lightning2, Skill.dagi20, Skill.lightning3, Skill.lightning4, Skill.np],
      [Skill.sap, Skill.dagi20, Skill.lightning4],
      [Skill.sap, Skill.lightning4, Skill.np]],
+    ["40701", "Maeve", "The scion of an islang goddess, her reputation as a \"king maker\" caused many a man to shed blood over her.",
+     Event.maevevaruna, Border.none, 5, Place.aedengard, 0, null, Shape.female, Attribute.darkness,
+     1910, 1500, 1220, 1390, 1340, 1740,
+     [Skill.resistant, Skill.physical2, Skill.darkness3, Skill.datk20, Skill.death4, Skill.sap],
+     [Skill.resistant, Skill.datk20, Skill.death4],
+     [Skill.resistant, Skill.death4, Skill.sap]],
     ["40702", "Almighty Cthulhu Risen", "Awoken from its deep slumber in R'lyeh, this ancient horror now seeks to destroy the world of man.",
      Event.none, Border.almighty, 5, Place.coliseum, 2, "40574", Shape.none, Attribute.poison,
      2060, 1360, 1560, 1390, 1350, 1610,
@@ -3309,9 +3315,9 @@ Card.addAll([
     ["40719", "Minerva Arcanus", "Corrupted by dark magics, this once-pristine goddess now protects the city of the wicked with her sinister guile and sorcery.",
      Event.witchesbrew, Border.none, 5, Place.aedengard, 0, null, Shape.pumpkin, Attribute.darkness,
      1920, 1400, 1320, 1420, 1360, 1765,
-     [Skill.ssap, Skill.agi10, Skill.darkness3, Skill.dwis20, Skill.darkness4x, Skill.ds],
-     [Skill.ssap, Skill.dwis20, Skill.darkness4x],
-     [Skill.ssap, Skill.darkness4x, Skill.ds]],
+     [Skill.ssap, Skill.agi10, Skill.darkness3, Skill.dwis20, Skill.darkness4, Skill.ds],
+     [Skill.ssap, Skill.dwis20, Skill.darkness4],
+     [Skill.ssap, Skill.darkness4, Skill.ds]],
      ["40720", "Phantom Iblis", "The demon lord returns, more powerful and malevolent than ever.",
      Event.seepingdarkness, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
      1380, 1100, 1620, 1260, 1300, 1280,
@@ -3605,10 +3611,10 @@ Card.addNotes({
     "40696": "Skills from Japanese version", // Viviane
     "40697": "Skills from Japanese version", // Gaasyendietha
     "40698": "Skills from Japanese version", // Arioch
+    "40701": "Skills from Japanese version", // Maeve
     "40702": "Skills from Japanese version", // Almighty Ctulhu Risen
     "40717": "Skills from Japanese version", // Arthur the Dark
     "40718": "Skills from Japanese version", // Fallen Gabriel
-    "40719": "Skills from Japanese version", // Minerva Arcanus
     "40720": "Skills from Japanese version" // Phantom Iblis
 });
 

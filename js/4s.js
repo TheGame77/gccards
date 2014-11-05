@@ -693,7 +693,13 @@ Card.addAll([
      1020, 600, 992, 1020, 1030, 1030,
      [Skill.death2, Skill.slash2, Skill.darkness3, Skill.datk20, Skill.death3, Skill.revival],
      [Skill.darkness3, Skill.datk20, Skill.death3],
-     [Skill.datk20, Skill.death3, Skill.revival]]
+     [Skill.datk20, Skill.death3, Skill.revival]],
+    ["30141", "Varuna", "Goddess of rain and the Celestial Ocean. Her dominion over dragons led many warships to be named after her.", 
+     Event.maevevaruna, Border.none, 4, Place.aedengard, 0, null, Shape.orbs, Attribute.water,
+     1050, 880, 1000, 1060, 1040, 1080,
+     [Skill.resistant, Skill.ep, Skill.water3, Skill.def10, Skill.water4, Skill.ls],
+     [Skill.resistant, Skill.ep, Skill.water4],
+     [Skill.resistant, Skill.water4, Skill.ls]]
 ]);
 
 Card.addLimitedTypes({
@@ -752,7 +758,8 @@ Card.addNotes({
     "30137": "Skills from Japanese version", // Nebiros
     "30138": "All data from Japanese version, rebirth skill missing", // Hades
     "30139": "Skills from Japanese version", // Tyr
-    "30140": "Skills from Japanese version" // Balam
+    "30140": "Skills from Japanese version", // Balam
+    "30141": "Skills from Japanese version" // Varuna
 });
 
 ExCard.addAll([
