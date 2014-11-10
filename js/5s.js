@@ -3300,6 +3300,54 @@ Card.addAll([
      [Skill.physical3, Skill.fb, Skill.physical4, Skill.poison4, Skill.resistant],
      [Skill.fb, Skill.poison4, Skill.resistant],
      [Skill.fb, Skill.poison4, Skill.resistant]],
+    ["40704", "Hermes", "The son and envoy of the king of gods. With his winged boots, he is able to travel across all of the divine dominions.",
+     Event.none, Border.none, 5, Place.babylon, 0, null, Shape.orbs, Attribute.light,
+     2020, 1030, 1600, 1480, 1335, 1450,
+     [Skill.qs, Skill.agi20, Skill.slash3, Skill.slash4, Skill.gs, Skill.np],
+     [Skill.qs, Skill.agi20, Skill.gs],
+     [Skill.qs, Skill.gs, Skill.np]],
+    ["40705", "Tyrant", "A heavily armored berserker-class model. True to its name, it can bully itself across any battlefield.",
+     Event.none, Border.none, 5, Place.babylon, 0, null, Shape.giant, Attribute.mecha,
+     2120, 1325, 1670, 1460, 1325, 1420,
+     [Skill.resistant, Skill.physical3, Skill.def10, Skill.physical4, Skill.cd, Skill.dr],
+     [Skill.resistant, Skill.def10, Skill.cd],
+     [Skill.resistant, Skill.cd, Skill.dr]],
+    ["40706", "Vayu", "The father of the wind god Hanuman, this deity rules the heavens with the thunder god Indra, and controls the Vital Breath.",
+     Event.none, Border.none, 5, Place.babylon, 0, null, Shape.humanoid, Attribute.wind,
+     2100, 700, 1720, 1480, 1260, 1430,
+     [Skill.ds, Skill.slash2, Skill.wind2, Skill.slash3, Skill.tb, Skill.ls],
+     [Skill.ds, Skill.slash3, Skill.tb],
+     [Skill.ds, Skill.tb, Skill.ls]],
+    ["40707", "Saraswati", "The greatest of the river goddesses is a master of the veena harp, and is the patron deity of arts and sciences.",
+     Event.none, Border.none, 5, Place.babylon, 0, null, Shape.female, Attribute.water,
+     1915, 1360, 1335, 1390, 1330, 1750,
+     [Skill.revival, Skill.water2, Skill.wis10, Skill.datk20, Skill.water4, Skill.mvs],
+     [Skill.revival, Skill.wis10, Skill.water4],
+     [Skill.revival, Skill.water4, Skill.mvs]],
+    ["40708", "Frey", "A shining warrior god who boldly confronted the fire giants who sought to usurp the kingdom of the gods.",
+     Event.none, Border.none, 5, Place.babylon, 0, null, Shape.beast, Attribute.earth,
+     2100, 2480, 1660, 1480, 1340, 1440,
+     [Skill.resistant, Skill.slash3, Skill.datk20, Skill.slash4, Skill.bg, Skill.rendburst],
+     [Skill.resistant, Skill.datk20, Skill.bg],
+     [Skill.resistant, Skill.bg, Skill.rendburst]],
+    ["40710", "Takemikazuchi", "A war god who is sent from the havens to pacify lands in turmoil. His brute power is said to quell the most violent of uprisings.",
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.lightning,
+     1370, 1000, 1290, 1320, 1285, 1250,
+     [Skill.slash2, Skill.lightning3, Skill.slash3, Skill.datk40, Skill.bg, Skill.revival],
+     [Skill.datk40, Skill.bg, Skill.slash3],
+     [Skill.datk40, Skill.bg, Skill.revival]],
+    ["40711", "Princess Fuse", "A mystical maiden who guides young heroes in their attempt to rid the world of an ancient curse.",
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.water,
+     1300, 900, 1460, 1420, 1315, 1400,
+     [Skill.qs, Skill.ddef20, Skill.slash3, Skill.dagi20, Skill.slash4, Skill.dp],
+     [Skill.qs, Skill.ddef20, Skill.slash4],
+     [Skill.qs, Skill.ddef20, Skill.dp]],
+    ["40712", "Almighty Sleeping Beauty", "After a hundred-year slumber, the Princess of the Dawn finally broke the death curse placed upon her.", 
+     Event.none, Border.almighty, 5, Place.coliseum, 5, "40665", Shape.none, Attribute.darkness,
+     2400, 600, 1660, 1600, 1260, 1600,
+     [Skill.dr, Skill.darkness3, Skill.dagi20, Skill.np, Skill.tb],
+     [Skill.dr, Skill.np, Skill.tb],
+     [Skill.dr, Skill.np, Skill.tb]],
     ["40717", "Arthur the Dark", "A conquering king, returned from the Black isle, now stakes his claim on the mainland with his order of dark knights.",
      Event.seepingdarkness, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
      1580, 600, 1530, 1440, 1200, 1320,
@@ -3357,12 +3405,14 @@ Card.addLimitedTypes({
     "40541": [Type.cool, Type.coolr],   // Urania
     "40577": [Type.cool, Type.coolr],   // Jahi
     "40581": [Type.cool, Type.coolr],   // Belial
-    "40679": [Type.cool, Type.coolr],    // Barbariccia of the Wind
-    "40680": [Type.cool, Type.coolr],    // Scarmiglione of the Earth
-    "40681": [Type.cool, Type.coolr],    // Cagnazzo of the Water
-    "40682": [Type.cool, Type.coolr],    // Rubicante of the Flame
-    "40683": [Type.cool, Type.coolr],    // Golbez of the Darkness
-    "40720": [Type.cool, Type.coolr]     // Phantom Iblis
+    "40679": [Type.cool, Type.coolr],   // Barbariccia of the Wind
+    "40680": [Type.cool, Type.coolr],   // Scarmiglione of the Earth
+    "40681": [Type.cool, Type.coolr],   // Cagnazzo of the Water
+    "40682": [Type.cool, Type.coolr],   // Rubicante of the Flame
+    "40683": [Type.cool, Type.coolr],   // Golbez of the Darkness
+    "40710": [Type.cool, Type.coolr],   // Takemikazuchi
+    "40711": [Type.cool, Type.coolr],   // Princess Fuse
+    "40720": [Type.cool, Type.coolr]    // Phantom Iblis
 });
 
 Card.addNotes({
@@ -3613,6 +3663,14 @@ Card.addNotes({
     "40698": "Skills from Japanese version", // Arioch
     "40701": "Skills from Japanese version", // Maeve
     "40702": "Skills from Japanese version", // Almighty Ctulhu Risen
+    "40704": "Skills from Japanese version", // Hermes
+    "40705": "Skills from Japanese version", // Tyrant
+    "40706": "Skills from Japanese version", // Vayu
+    "40707": "Skills from Japanese version", // Frey
+    "40708": "Skills from Japanese version", // Saraswati
+    "40710": "Skills from Japanese version", // Takemikazuchi
+    "40711": "Skills from Japanese version", // Princess Fuse
+    "40712": "Skills from Japanese version", // Almighty Sleeping Beauty
     "40717": "Skills from Japanese version", // Arthur the Dark
     "40718": "Skills from Japanese version", // Fallen Gabriel
     "40720": "Skills from Japanese version" // Phantom Iblis
@@ -3657,5 +3715,8 @@ ExCard.addAll([
      [ExSkill.suc_gs10, ExSkill.suc_gs12, ExSkill.suc_gs15]],
     ["45013", "Hercules", "",
      Event.none, ExType.red, 5, Place.ocean_night, 0, Shape.merman, Attribute.lightning,
-     [ExSkill.hp10, ExSkill.hp12, ExSkill.hp15]]
+     [ExSkill.hp10, ExSkill.hp12, ExSkill.hp15]],
+    ["45014", "Puck", "",
+     Event.none, ExType.red, 5, Place.fp, 0, Shape.none, Attribute.wind,
+     [ExSkill.wis10, ExSkill.wis12, ExSkill.wis15]]
 ]);
