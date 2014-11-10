@@ -114,7 +114,8 @@ var Locale = function(l) {
                 "Witches' Brew",
                 "Neverland Fairy",
                 "Twilight Predator",
-                "Gods of the bountiful earth"
+                "Gods of the bountiful earth",
+                "Metal Destroyer"
             ),
             borders: new Array(
                 "None",
@@ -491,7 +492,8 @@ var Locale = function(l) {
                 "魔女達の狂宴", // Witches' Brew
                 "夢幻の妖精", // Neverland Fairy
                 "闇夜の捕食者", // Twilight Predator
-                "豊穣なる大地の神々" // Gods of the bountiful earth
+                "豊穣なる大地の神々", // Gods of the bountiful earth
+                "鋼の殲滅者" // Metal Destroyer
             ),
             borders: new Array(
                 "なし",

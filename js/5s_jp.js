@@ -3473,7 +3473,37 @@ Card.addAll([
      1880, 1480, 1620, 1580, 1310, 1580,
      [Skill.physical3, Skill.darkness4, Skill.dp, Skill.powershift, Skill.mm],
      [Skill.dp, Skill.powershift, Skill.mm],
-     [Skill.dp, Skill.powershift, Skill.mm]]
+     [Skill.dp, Skill.powershift, Skill.mm]],
+    ["40722", "最強クロノス", "始まりにして、老いを知らぬ神。光・混沌・闇の次に、宇宙を内包した銀の卵を生んだ。", 
+     Event.none, Border.almighty, 5, Place.coliseum, 7, "40601", Shape.none, Attribute.mecha,
+     1820, 2300, 1320, 1500, 1330, 1740,
+     [Skill.nj, Skill.light3, Skill.agi20, Skill.mecha4, Skill.sd],
+     [Skill.nj, Skill.mecha4, Skill.sd],
+     [Skill.nj, Skill.mecha4, Skill.sd]],
+    ["40733", "ファランクス", "近接戦闘型装甲侵略機。主兵装の爆射巨杭は、同級以上の戦闘機械の装甲すら貫通する。", 
+     Event.metaldestroyer, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.mecha,
+     1466, 1100, 1420, 1330, 1300, 1220,
+     [Skill.ls, Skill.atk10, Skill.slash3, Skill.slash4, Skill.qs, Skill.bg],
+     [Skill.qs, Skill.slash4, Skill.ls],
+     [Skill.qs, Skill.bg, Skill.ls]],
+    ["40734", "グウィバー", "染みの海峡を越え、大陸から攻め寄せた刃の部族の象徴。白の島を守る紅竜と激突する。",
+     Event.none, Border.none, 5, Place.babylon, 0, null, Shape.avian, Attribute.lightning,
+     1910, 1180, 1640, 1300, 1340, 1600,
+     [Skill.nj, Skill.slash3, Skill.ddef20, Skill.slash4, Skill.qs, Skill.dp],
+     [Skill.nj, Skill.qs, Skill.slash4],
+     [Skill.nj, Skill.qs, Skill.dp]],
+    ["40735", "グウィバー", "", 
+     Event.none, Border.none, 5, Place.babylon, 0, null, Shape.female, Attribute.death,
+     2120, 2000, 1560, 1500, 1330, 1400,
+     [Skill.rendburst, Skill.slash4, Skill.water3, Skill.datk20, Skill.bg, Skill.tb],
+     [Skill.datk20, Skill.bg, Skill.rendburst],
+     [Skill.tb, Skill.bg, Skill.rendburst]],
+    ["40736", "ヘカテ", "", 
+     Event.none, Border.none, 5, Place.babylon, 0, null, Shape.humanoid, Attribute.earth,
+     1760, 1290, 1460, 1420, 1350, 1740,
+     [Skill.revival, Skill.darkness2, Skill.wis10, Skill.death3, Skill.death4, Skill.resistant],
+     [Skill.wis10, Skill.death4, Skill.revival],
+     [Skill.resistant, Skill.death4, Skill.revival]]
 /*
 Vジャンプ12月特大号特典！- dont know description and 6th skill, cool only, need to add event
 Code:
@@ -3577,7 +3607,10 @@ ExCard.addAll([
      [ExSkill.hp10, ExSkill.hp12, ExSkill.hp15]],
     ["45014", "パック", "",
      Event.none, ExType.red, 5, Place.fp, 0, Shape.none, Attribute.wind,
-     [ExSkill.wis10, ExSkill.wis12, ExSkill.wis15]]
+     [ExSkill.wis10, ExSkill.wis12, ExSkill.wis15]],
+    ["45015", "エンフィールド", "",
+     Event.none, ExType.blue, 5, Place.fp, 0, Shape.none, Attribute.wind,
+     [ExSkill.pow_qs6, ExSkill.pow_qs8, ExSkill.pow_qs10]]
 ]);
 
 ExCard.addNotes({
