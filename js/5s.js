@@ -3716,7 +3716,7 @@ ExCard.addAll([
     ["45013", "Hercules", "",
      Event.none, ExType.red, 5, Place.ocean_night, 0, Shape.merman, Attribute.lightning,
      [ExSkill.hp10, ExSkill.hp12, ExSkill.hp15]],
-    ["45014", "Puck", "",
+    ["45014", "Puck", "A self-proclaimed vassal of the Faerie King whose motives are as mysterious as the night forest he lurks in.",
      Event.none, ExType.red, 5, Place.fp, 0, Shape.none, Attribute.wind,
      [ExSkill.wis10, ExSkill.wis12, ExSkill.wis15]]
 ]);

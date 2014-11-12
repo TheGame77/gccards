@@ -259,7 +259,8 @@ var Event = (function() {
         [70, ["neverlandfairy"]],
         [71, ["twilightpredator"]],
         [72, ["godsofthebountifulearth"]],
-        [73, ["metaldestroyer"]]
+        [73, ["metaldestroyer"]],
+        [74, ["kushinadahime"]]
     ];
 
     var events = {

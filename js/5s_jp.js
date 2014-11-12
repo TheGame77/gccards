@@ -3378,6 +3378,12 @@ Card.addAll([
      [Skill.physical3, Skill.fb, Skill.physical4, Skill.poison4, Skill.resistant],
      [Skill.fb, Skill.poison4, Skill.resistant],
      [Skill.fb, Skill.poison4, Skill.resistant]],
+    ["40703", "ケールV", "", 
+     Event.none, Border.none, 5, Place.login, 0, null, Shape.none, Attribute.death,
+     1400, 1080, 1070, 1300, 1275, 1380,
+     [Skill.darkness2, Skill.death3, Skill.darkness3, Skill.datk20, Skill.dwis40],
+     [Skill.datk20, Skill.dwis40, Skill.death3],
+     [Skill.datk20, Skill.dwis40, Skill.death3]],
     ["40704", "ヘルメス", "",
      Event.none, Border.none, 5, Place.babylon, 0, null, Shape.orbs, Attribute.light,
      2020, 1030, 1600, 1480, 1335, 1450,
@@ -3492,27 +3498,24 @@ Card.addAll([
      [Skill.nj, Skill.slash3, Skill.ddef20, Skill.slash4, Skill.qs, Skill.dp],
      [Skill.nj, Skill.qs, Skill.slash4],
      [Skill.nj, Skill.qs, Skill.dp]],
-    ["40735", "グウィバー", "", 
-     Event.none, Border.none, 5, Place.babylon, 0, null, Shape.female, Attribute.death,
+    ["40735", "ジークフリート", "英傑揃いの一族の中でも抜きん出る猛者。神に折られた剣を再び鍛え、竜を討ち取った。",  // Seigried
+     Event.none, Border.none, 5, Place.babylon, 0, null, Shape.humanoid, Attribute.death,
      2120, 2000, 1560, 1500, 1330, 1400,
      [Skill.rendburst, Skill.slash4, Skill.water3, Skill.datk20, Skill.bg, Skill.tb],
      [Skill.datk20, Skill.bg, Skill.rendburst],
      [Skill.tb, Skill.bg, Skill.rendburst]],
-    ["40736", "ヘカテ", "", 
+    ["40736", "ヘカテ", "神王も一目を置く、月影の女神。夜は彼女の時間であり、天地海すら意のままにできる。", 
      Event.none, Border.none, 5, Place.babylon, 0, null, Shape.humanoid, Attribute.earth,
      1760, 1290, 1460, 1420, 1350, 1740,
      [Skill.revival, Skill.darkness2, Skill.wis10, Skill.death3, Skill.death4, Skill.resistant],
      [Skill.wis10, Skill.death4, Skill.revival],
-     [Skill.resistant, Skill.death4, Skill.revival]]
-/*
-Vジャンプ12月特大号特典！- dont know description and 6th skill, cool only, need to add event
-Code:
-"<ID>", "ケールV", "<Description>", 
-     Event.decembervjumpspecialpresent, Border.none, 5, Place.none, 0, null, Shape.none, Attribute.death,
-     1400, 1080, 1070, 1300, 1275, 1380,
-     [darkness2, death3, darkness3, datk20, dwis40, skill6],
-     [datk20, dwis40, death3],
-     [datk20, dwis40, death3]*/
+     [Skill.resistant, Skill.death4, Skill.revival]],
+    ["40738", "クシナダヒメ", "姉達を蛇龍に奪われた姫神。遂に己も餌食になるその時、逐降された神により救われる。", 
+     Event.kushinadahime, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.earth,
+     2080, 1280, 1670, 1510, 1340, 1460,
+     [Skill.qs, Skill.physical3, Skill.ddef20, Skill.physical4, Skill.ll, Skill.vd],
+     [Skill.qs, Skill.ddef20, Skill.ll],
+     [Skill.qs, Skill.vd, Skill.ll]]
 ]);
 
 Card.addLimitedTypes({
@@ -3550,6 +3553,7 @@ Card.addLimitedTypes({
     "40682": [Type.cool, Type.coolr],    // Rubicante of the Flame
     "40683": [Type.cool, Type.coolr],    // Golbez of the Darkness
     "40694": [Type.cool, Type.coolr],    // Seraph
+    "40703": [Type.cool, Type.coolr],    // Ker V
     "40710": [Type.cool, Type.coolr],    // Takemikazuchi
     "40711": [Type.cool, Type.coolr],    // Fusehime
     "40720": [Type.cool, Type.coolr]     // Phantom Iblis
@@ -3562,7 +3566,8 @@ Card.addNotes({
     "40485": "Rebirth skill missing",
     "40517": "The first skill is Nerve Pinch before rebirth",
     "40518": "The first skill is Nerve Pinch before rebirth",
-    "40519": "The first skill is Nerve Pinch before rebirth"
+    "40519": "The first skill is Nerve Pinch before rebirth",
+    "40703": "Rebirth skill missing"
 });
 
 ExCard.addAll([

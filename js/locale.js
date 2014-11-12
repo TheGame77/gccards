@@ -115,7 +115,8 @@ var Locale = function(l) {
                 "Neverland Fairy",
                 "Twilight Predator",
                 "Gods of the bountiful earth",
-                "Metal Destroyer"
+                "Metal Destroyer",
+                "Kushinadahime"
             ),
             borders: new Array(
                 "None",
@@ -493,7 +494,8 @@ var Locale = function(l) {
                 "夢幻の妖精", // Neverland Fairy
                 "闇夜の捕食者", // Twilight Predator
                 "豊穣なる大地の神々", // Gods of the bountiful earth
-                "鋼の殲滅者" // Metal Destroyer
+                "鋼の殲滅者", // Metal Destroyer
+                "金稲撫子" // Kushinadahime
             ),
             borders: new Array(
                 "なし",
