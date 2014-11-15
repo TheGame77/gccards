@@ -2115,7 +2115,7 @@ Card.addAll([
      1400, 1040, 1260, 1160, 1180, 1340,
      [Skill.physical3, Skill.wis20, Skill.poison3, Skill.curse, Skill.poison4, Skill.darkness4],
      [Skill.wis20, Skill.curse, Skill.poison4],
-     [Skill.wis20, Skill.poison4, Skill.darkness4]],
+     [Skill.wis20, Skill.curse, Skill.poison4]],
     ["40440", "Scheherazade", "", 
      Event.none, Border.none, 5, Place.volcano_night, 0, null, Shape.female, Attribute.fire, 
      1180, 1280, 920, 1020, 1150, 1320,
@@ -3190,7 +3190,7 @@ Card.addAll([
      Event.none, Border.great, 5, Place.coliseum, 108, "40507", Shape.none, Attribute.earth,
      1480, 1560, 1560, 1100, 990, 940,
      [Skill.dr, Skill.physical3, Skill.earth3, Skill.qs, Skill.sd],
-     [Skill.dr, Skill.physical3, Skill.qs],
+     [Skill.dr, Skill.qs, Skill.sd],
      [Skill.dr, Skill.qs, Skill.sd]],
     ["40679", "Gale Barbariccia", "With exquisite beauty and gold tresses, this lone female among the Elemental Archfiends wields wind as her weapon.", 
      Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.wind,
@@ -3416,11 +3416,9 @@ Card.addLimitedTypes({
 });
 
 Card.addNotes({
-    "40014": "Profile missing",
     "40159": "1st skill before rebirth is Sap and after rebirth is DS",
     "40167": "Rebirth skill from Japanese version",    // Freyja
     "40194": "Stats not confirmed",          // Almighty Sphinx Empress
-    "40204": "Skillset not confirmed",       // Palladium
     "40205": "Skillset not confirmed",       // Gandharva
     "40207": "Rebirth Skill not confirmed",  // Charybdis
     "40217": "All data from Japanese version",    // Ragnarok
@@ -3439,14 +3437,12 @@ Card.addNotes({
     "40248": "Skillset not confirmed",
     "40249": "All data from Japanese version",    // Almighty Cthulhu
     "40253": "All data from Japanese version",
-    "40254": "Rebirth skill not confirmed",  // Dragon Zombie
     "40255": "Rebirth skill not confirmed",  // Minotaur Sergeant
     "40256": "All data from Japanese version",    // Almighty Charybdis
     "40257": "Skills not confirmed",         // Mighty Charybdis
     "40259": "All data from Japanese version",    // Almighty Ladon
     "40261": "Skills from Japanese version",      // Great Ladon
     "40263": "Rebirth skill not confirmed",         // Cethlenn
-    "40264": "Rebirth skill from Japanese version",      // Gandring
     "40266": "Skillset not confirmed",       // Apocalypse Beast
     "40274": "All data from Japanese version",  // Almighty Puca
     "40275": "All data from Japanese version",  // Mighty Puca
@@ -3468,7 +3464,7 @@ Card.addNotes({
     "40339": "All data from Japanese version",         // Almighty Apocalypse Beast
     "40340": "All data from Japanese version",         // Mighty Apocalypse Beast
     "40341": "All data from Japanese version",         // Great Apocalypse Beast
-    "40368": "Skills from Japanese version",
+    "40368": "Skills unconfirmed",
     "40369": "Skills from Japanese version",
     "40371": "All data from Japanese version",         // Almighty Dwarven Tank
     "40372": "All data from Japanese version",         // Mighty Dwarven Tank
@@ -3498,7 +3494,6 @@ Card.addNotes({
     "40414": "All data from Japanese version",
     "40415": "Skills from Japanese version",
     "40416": "All data from Japanese version",
-    "40417": "All data from Japanese version",
     "40418": "Skills from Japanese version",
     "40419": "Skills not confirmed",
     "40422": "Skills from Japanese version",
@@ -3511,12 +3506,10 @@ Card.addNotes({
     "40436": "All data from Japanese version",
     "40437": "All data from Japanese version",
     "40438": "Skills from Japanese version",
-    "40439": "All data from Japanese version",
     "40440": "All data from Japanese version",
     "40441": "All data from Japanese version",
     "40442": "Skills from Japanese version", // Beira
     "40443": "Skills from Japanese version",  // Persephone
-    "40446": "Skills from Japanese version",
     "40447": "All data from Japanese version",
     "40449": "All data from Japanese version",
     "40451": "All data from Japanese version",
@@ -3526,14 +3519,10 @@ Card.addNotes({
     "40456": "Skills from Japanese version, profile missing",
     "40457": "Skills from Japanese version",
     "40458": "All data from Japanese version",
-    "40459": "Stats from Japanese version, profile missing",
     "40460": "Skills from Japanese version",
     "40461": "All data from Japanese version",
     "40462": "All data from Japanese version",
     "40463": "Skills from Japanese version",
-    "40467": "All data from Japanese version",
-    "40468": "All data from Japanese version",
-    "40469": "All data from Japanese version",
     "40470": "All data from Japanese version",
     "40475": "All data from Japanese version", // Almighty Merrymaking Titan
     "40476": "All data from Japanese version",  // Almighty Nike Claus
@@ -3554,8 +3543,6 @@ Card.addNotes({
     "40497": "Skills from Japanese version, profile missing",
     "40498": "Skills from Japanese version, profile missing",
     "40499": "All data from Japanese version",
-    "40500": "All data from Japanese version",
-    "40501": "Skills from Japanese version",
     "40502": "Skills from Japanese version",
     "40503": "All data from Japanese version",
     "40504": "All data from Japanese version",
@@ -3563,7 +3550,6 @@ Card.addNotes({
     "40507": "All data from Japanese version",
     "40508": "All data from Japanese version",
     "40509": "Skills from Japanese version",
-    "40510": "All data from Japanese version",
     "40514": "All data from Japanese version",
     "40516": "All data from Japanese version",
     "40517": "Skills from Japanese version",
@@ -3584,9 +3570,7 @@ Card.addNotes({
     "40537": "Skills from Japanese version",
     "40538": "All data from Japanese version",
     "40540": "Skills from Japanese version",
-    "40541": "Skills from Japanese version",
     "40542": "All data from Japanese version",
-    "40543": "All data from Japanese version",
     "40544": "Skills from Japanese version",
     "40546": "Stats from Japanese version", // Ichikishimahime
     "40547": "All data from Japanese version",
@@ -3596,13 +3580,10 @@ Card.addNotes({
     "40554": "All data from Japanese version",
     "40561": "All data from Japanese version",
     "40562": "All data from Japanese version",
-    "40563": "All data from Japanese version",
     "40564": "Stats from Japanese version", // Almighty Legendary Sphinx
     "40565": "All data from Japanese version",
     "40566": "Skills from Japanese version",
     "40567": "All data from Japanese version",
-    "40568": "All data from Japanese version",
-    "40569": "All data from Japanese version",
     "40570": "Stats from Japanese version", // Lich Queen
     "40572": "Stats from Japanese version", // Triton
     "40573": "Stats from Japanese version", // Lightning Incarnate
@@ -3644,25 +3625,21 @@ Card.addNotes({
     "40653": "Skills from Japanese version", // Mighty Aegir
     "40654": "All data from Japanese version", // Great Aegir
     "40659": "Stats from Japanese version", // Almighty Triton
-    "40660": "Skills from Japanese version", // Mighty Triton
     "40661": "All data from Japanese version", // Great Triton
     "40670": "All data from Japanese version", // Almighty Lightning Incarnate
     "40671": "Skills from Japanese version", // Mighty Lightning Incarnate
     "40672": "All data from Japanese version", // Great Lightning Incarnate
     "40676": "Stats from Japanese version", // Almighty Legendary Titan
     "40677": "All data from Japanese version", // Mighty Legendary Titan
-    "40678": "Skills from Japanese version", // Great Legendary Titan
     "40679": "Skills from Japanese version", // Gale Barbariccia
     "40681": "Skills from Japanese version", // Maelstrom Cagnazzo
     "40682": "Skills from Japanese version", // Wildfire Rubicante
     "40683": "Skills from Japanese version", // Cimmerian Golbez
     "40687": "Skills from Japanese version", // Ame-no-Uzume
-    "40695": "Skills from Japanese version", // Angitia
     "40696": "Skills from Japanese version", // Viviane
     "40697": "Skills from Japanese version", // Gaasyendietha
     "40698": "Skills from Japanese version", // Arioch
     "40701": "Skills from Japanese version", // Maeve
-    "40702": "Skills from Japanese version", // Almighty Ctulhu Risen
     "40704": "Skills from Japanese version", // Hermes
     "40705": "Skills from Japanese version", // Tyrant
     "40706": "Skills from Japanese version", // Vayu
@@ -3672,8 +3649,7 @@ Card.addNotes({
     "40711": "Skills from Japanese version", // Princess Fuse
     "40712": "Skills from Japanese version", // Almighty Sleeping Beauty
     "40717": "Skills from Japanese version", // Arthur the Dark
-    "40718": "Skills from Japanese version", // Fallen Gabriel
-    "40720": "Skills from Japanese version" // Phantom Iblis
+    "40718": "Skills from Japanese version" // Fallen Gabriel
 });
 
 ExCard.addAll([
