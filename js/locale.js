@@ -116,7 +116,8 @@ var Locale = function(l) {
                 "Twilight Predator",
                 "Gods of the bountiful earth",
                 "Metal Destroyer",
-                "Kushinadahime"
+                "Kushinadahime",
+                "Vジャンプ12月特大号特典" // December V Jump
             ),
             borders: new Array(
                 "None",
@@ -495,7 +496,8 @@ var Locale = function(l) {
                 "闇夜の捕食者", // Twilight Predator
                 "豊穣なる大地の神々", // Gods of the bountiful earth
                 "鋼の殲滅者", // Metal Destroyer
-                "金稲撫子" // Kushinadahime
+                "金稲撫子", // Kushinadahime
+                "Vジャンプ12月特大号特典" // December V Jump
             ),
             borders: new Array(
                 "なし",

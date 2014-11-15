@@ -260,7 +260,8 @@ var Event = (function() {
         [71, ["twilightpredator"]],
         [72, ["godsofthebountifulearth"]],
         [73, ["metaldestroyer"]],
-        [74, ["kushinadahime"]]
+        [74, ["kushinadahime"]],
+        [75, ["decembervjump"]]
     ];
 
     var events = {
