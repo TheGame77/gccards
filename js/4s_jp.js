@@ -619,9 +619,9 @@ Card.addAll([
     ["30126", "ガイア", "", 
      Event.none, Border.none, 4, Place.zeus, 0, null, Shape.zhumanoid, Attribute.mecha,
      1018, 1001, 980, 960, 999, 1020,
-     [Skill.def10, Skill.earth1, Skill.datk20, Skill.earth2, Skill.defwis10],
+     [Skill.def10, Skill.earth1, Skill.datk20, Skill.earth2, Skill.defwis10, Skill.earth3],
      [Skill.def10, Skill.earth2, Skill.defwis10],
-     [Skill.def10, Skill.earth2, Skill.defwis10]],
+     [Skill.def10, Skill.defwis10, Skill.earth3]],
     ["30127", "アスタロト", "", 
      Event.none, Border.none, 4, Place.zeus, 0, null, Shape.zdragon, Attribute.fire,
      1022, 997, 1020, 999, 1002, 969,
@@ -661,21 +661,21 @@ Card.addAll([
     ["30133", "ストリゴイイ", "", 
      Event.none, Border.none, 4, Place.aedengard, 0, null, Shape.none, Attribute.death,
      1035, 913, 1020, 1035, 1015, 1020,
-     [Skill.death2, Skill.dwis20, Skill.dagi20, Skill.death3, Skill.agi20],
+     [Skill.death2, Skill.dwis20, Skill.dagi20, Skill.death3, Skill.agi20, Skill.def20],
      [Skill.dwis20, Skill.death3, Skill.agi20],
-     [Skill.dwis20, Skill.death3, Skill.agi20]],
+     [Skill.dwis20, Skill.death3, Skill.def20]],
     ["30134", "ウロボロス", "", 
      Event.none, Border.none, 4, Place.aedengard, 0, null, Shape.serpent, Attribute.wind,
      1020, 1000, 1033, 1030, 1020, 1010,
-     [Skill.wind2],
-     [],
-     []],
+     [Skill.wind2, Skill.slash2, Skill.atk25, Skill.wind3, Skill.slash3],
+     [Skill.atk25, Skill.wind3, Skill.slash3],
+     [Skill.atk25, Skill.slash3, Skill.ls]],
     ["30136", "バフォメット", "", 
      Event.none, Border.none, 4, Place.aedengard, 0, null, Shape.none, Attribute.darkness,
      1019, 1030, 995, 1015, 1028, 1036,
      [Skill.darkness2],
-     [],
-     []],
+     [Skill.ep, Skill.darkness3, Skill.mm],
+     [Skill.ep, Skill.darkness3, Skill.mm]],
     ["30137", "ネビロス", "", 
      Event.deathfire, Border.none, 4, Place.plains, 0, null, Shape.humanoid, Attribute.fire,
      1020, 880, 1015, 1030, 1026, 1025,
@@ -725,16 +725,16 @@ Card.addNotes({
     "30116": "Skills from Int'l version", // Y Ddraig Goch
     "30120": "Rebirth skill missing",
     "30121": "Silhouette missing",
-    "30126": "Rebirth skill missing, all data from Int'l version", // Gaia
+    "30126": "All data from Int'l version", // Gaia
     "30127": "All data from Int'l version", // Astaroth
     "30128": "All data missing",
     "30129": "Rebirth skill missing", // Barbatos
     "30130": "All data from Int'l version", // Nemean Lion
     "30131": "All data missing",
     "30132": "All data missing",
-    "30133": "Rebirth skill missing, all data from Int'l version", // Strigoi
-    "30134": "Skills missing, stats from Int'l version", // Ouroboros
-    "30136": "Skills missing, stats from Int'l version", // Baphomet
+    "30133": "All data from Int'l version", // Strigoi
+    "30134": "All data from Int'l version", // Ouroboros
+    "30136": "Rebirth skill missing, all data from Int'l version", // Baphomet
     "30138": "Rebirth skill missing" // Hades
 });
 

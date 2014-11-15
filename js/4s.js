@@ -579,7 +579,7 @@ Card.addAll([
      1020, 992, 999, 993, 969, 960,
      [Skill.physical1, Skill.atk10, Skill.physical2, Skill.atk20, Skill.ddef20],
      [Skill.physical2, Skill.atk20, Skill.ddef20],
-     []],
+     [Skill.physical2, Skill.atk20, Skill.ddef20]],
     ["30121", "Levin Serpent", "Nesting in the skies, this celestial snake rides upon stormy clouds of black and descends to earth below as lightning.", 
      Event.none, Border.none, 4, Place.ocean_night, 0, null, Shape.none, Attribute.lightning,
      1001, 997, 981, 966, 1001, 992,
@@ -613,9 +613,9 @@ Card.addAll([
     ["30126", "Gaia", "Mother of the ancient gods, this first being to exist emerged from a rift in nothingness to form sea, land, and sky.", 
      Event.none, Border.none, 4, Place.zeus, 0, null, Shape.zhumanoid, Attribute.mecha,
      1018, 1001, 980, 960, 999, 1020,
-     [Skill.def10, Skill.earth1, Skill.datk20, Skill.earth2, Skill.defwis10],
+     [Skill.def10, Skill.earth1, Skill.datk20, Skill.earth2, Skill.defwis10, Skill.earth3],
      [Skill.def10, Skill.earth2, Skill.defwis10],
-     [Skill.def10, Skill.earth2, Skill.defwis10]],
+     [Skill.def10, Skill.defwis10, Skill.earth3]],
     ["30127", "Astaroth", "Giving conjurers who revere him power over serpents, this arch duke of hell's might surges across the new world.", 
      Event.none, Border.none, 4, Place.zeus, 0, null, Shape.zdragon, Attribute.fire,
      1022, 997, 1020, 999, 1002, 969,
@@ -653,23 +653,23 @@ Card.addAll([
      [],
      []],
     ["30133", "Strigoi", "History remembers this shade for breaking forth from its grave sixteen years after death to attack its kinsfolk.", 
-     Event.none, Border.none, 4, Place.aedengard, 0, null, Shape.none, Attribute.death,
+     Event.none, Border.none, 4, Place.aedengard, 0, null, Shape.orbs, Attribute.death,
      1035, 913, 1020, 1035, 1015, 1020,
-     [Skill.death2, Skill.dwis20, Skill.dagi20, Skill.death3, Skill.agi20],
+     [Skill.death2, Skill.dwis20, Skill.dagi20, Skill.death3, Skill.agi20, Skill.def20],
      [Skill.dwis20, Skill.death3, Skill.agi20],
-     [Skill.dwis20, Skill.death3, Skill.agi20]],
+     [Skill.dwis20, Skill.death3, Skill.def20]],
     ["30134", "Ouroboros ", "", 
      Event.none, Border.none, 4, Place.aedengard, 0, null, Shape.serpent, Attribute.wind,
      1020, 1000, 1033, 1030, 1020, 1010,
-     [Skill.wind2],
-     [],
-     []],
+     [Skill.wind2, Skill.slash2, Skill.atk25, Skill.wind3, Skill.slash3],
+     [Skill.atk25, Skill.wind3, Skill.slash3],
+     [Skill.atk25, Skill.slash3, Skill.ls]],
     ["30136", "Baphomet", "This elder demon serves its lords by hosting banquets for witches who act as hell's vanguard in the mortal realm.", 
      Event.none, Border.none, 4, Place.aedengard, 0, null, Shape.none, Attribute.darkness,
      1019, 1030, 995, 1015, 1028, 1036,
-     [Skill.darkness2],
-     [],
-     []],
+     [Skill.darkness2, Skill.ep, Skill.physical3, Skill.darkness3, Skill.mm],
+     [Skill.ep, Skill.darkness3, Skill.mm],
+     [Skill.ep, Skill.darkness3, Skill.mm]],
     ["30137", "Nebiros", "With a demon king in lands uncharted, this greatest of hell's necromancers works to end man from the shadows.", 
      Event.deathfire, Border.none, 4, Place.plains, 0, null, Shape.humanoid, Attribute.fire,
      1020, 880, 1015, 1030, 1026, 1025,
@@ -752,9 +752,7 @@ Card.addNotes({
     "30129": "All data from Japanese version, rebirth skill missing", // Barbatos
     "30131": "All data missing", // Shuten-Doji
     "30132": "All data missing", // Osiris
-    "30133": "Rebirth skill missing", // Strigoi
-    "30134": "Skills missing", // Ouroboros
-    "30136": "Skills missing", // Baphomet
+    "30136": "Rebirth skill missing", // Baphomet
     "30137": "Skills from Japanese version", // Nebiros
     "30138": "All data from Japanese version, rebirth skill missing", // Hades
     "30139": "Skills from Japanese version", // Tyr
