@@ -6,6 +6,9 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/11/15': [
+            "\"Battle simulator II\" has been renamed to \"Battle Simulator\". The old battle simulator has been removed."
+        ],
         '2014/11/12': [
             "Vジャンプ12月特大号特典！: " + Card.mklnk(40703) + "。",
             "金稲撫子: " + Card.mklnk(40738) + "。"
