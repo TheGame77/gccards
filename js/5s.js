@@ -3348,6 +3348,18 @@ Card.addAll([
      [Skill.dr, Skill.darkness3, Skill.dagi20, Skill.np, Skill.tb],
      [Skill.dr, Skill.np, Skill.tb],
      [Skill.dr, Skill.np, Skill.tb]],
+    ["40713", "Yowie", "A creature indigenous to the largely unexplored southern continent. Its footsteps are distinctively loud.",
+     Event.twilightpredator, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.poison,
+     1400, 1005, 1400, 1330, 1260, 1120,
+     [Skill.def40, Skill.slash2, Skill.dagi20, Skill.slash4, Skill.dp, Skill.ls],
+     [Skill.def40, Skill.dagi20, Skill.dp],
+     [Skill.def40, Skill.dp, Skill.ls]],
+    ["40715", "Aine", "A fairy goddess of summer and fertility. Farmers perform rights in her honor to gain her blessing for the next harvest.", 
+     Event.neverlandfairy, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
+     1800, 1370, 1220, 1280, 1320, 1740,
+     [Skill.revival, Skill.wind2, Skill.dwis20, Skill.wind3, Skill.wind4, Skill.tb],
+     [Skill.revival, Skill.dwis20, Skill.wind4],
+     [Skill.revival, Skill.wind4, Skill.tb]],
     ["40717", "Arthur the Dark", "A conquering king, returned from the Black isle, now stakes his claim on the mainland with his order of dark knights.",
      Event.seepingdarkness, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
      1580, 600, 1530, 1440, 1200, 1320,
@@ -3648,6 +3660,8 @@ Card.addNotes({
     "40710": "Skills from Japanese version", // Takemikazuchi
     "40711": "Skills from Japanese version", // Princess Fuse
     "40712": "Skills from Japanese version", // Almighty Sleeping Beauty
+    "40713": "Skills from Japanese version", // Yowie
+    "40715": "Skills from Japanese version", // Aine
     "40717": "Skills from Japanese version", // Arthur the Dark
     "40718": "Skills from Japanese version" // Fallen Gabriel
 });
