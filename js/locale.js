@@ -114,10 +114,13 @@ var Locale = function(l) {
                 "Witches' Brew",
                 "Illusive Fairy",
                 "Night Feeder",
-                "Gods of the bountiful earth",
+                "Bountiful Goddess",
                 "Metal Destroyer",
                 "Kushinadahime",
-                "Vジャンプ12月特大号特典" // December V Jump
+                "Vジャンプ12月特大号特典", // December V Jump
+                "四季天乱", // Four Season Chaos
+                "サマー・グッバイ", // Goodbye Summer
+                "ゴールドハント" // Gold hunt
             ),
             borders: new Array(
                 "None",
@@ -272,7 +275,8 @@ var Locale = function(l) {
                 new Array("Earth +4↑",         "Earth +4↑"),
                 new Array("Shadow Gigant Smash","High Damage Attack"),
                 new Array("Shadow Revival",    "Shadow Revive"),
-                new Array("Shadow Sap",        "MP Wipe")
+                new Array("Shadow Sap",        "MP Wipe"),
+                new Array("Holy Grail",        "")
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",
@@ -497,7 +501,10 @@ var Locale = function(l) {
                 "豊穣なる大地の神々", // Gods of the bountiful earth
                 "鋼の殲滅者", // Metal Destroyer
                 "金稲撫子", // Kushinadahime
-                "Vジャンプ12月特大号特典" // December V Jump
+                "Vジャンプ12月特大号特典", // December V Jump
+                "四季天乱", // Four Season Chaos
+                "サマー・グッバイ", // Goodbye Summer
+                "ゴールドハント" // Gold hunt
             ),
             borders: new Array(
                 "なし",
@@ -652,7 +659,8 @@ var Locale = function(l) {
                 new Array("アースクェイク改", "土+4改"), // Earth +4x
                 new Array("暗黒ギガントスラッシュ", "一撃大ダメージ"), // Shadow Gigant Smash
                 new Array("暗黒リバイバル", "暗黒復活"), // Shadow Revival
-                new Array("暗黒アビリティロック", "MP 無効") // Shadow Sap
+                new Array("暗黒アビリティロック", "MP 無効"), // Shadow Sap
+                new Array("ホーリーグレイ", "????") // Holy Grail
             ),
             exskills: new Array(
                 "火属性ガーディアンの全ステータスを10%アップ",

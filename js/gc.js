@@ -261,7 +261,10 @@ var Event = (function() {
         [72, ["godsofthebountifulearth"]],
         [73, ["metaldestroyer"]],
         [74, ["kushinadahime"]],
-        [75, ["decembervjump"]]
+        [75, ["decembervjump"]],
+        [76, ["fourseasonchaos"]],
+        [77, ["goodbyesummer"]],
+        [78, ["goldenhunt"]]
     ];
 
     var events = {
@@ -679,7 +682,8 @@ var Skill = (function() {
         [105, SKILL_ATTACK, "earth4x",             new Cost(0, 1300), stone_yes, nbuff({}),                   Attribute.earth, 5], // (Earth +4x)
         [106, SKILL_ATTACK, "sgs",                 new Cost(0, 1200), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Gigant Smash
         [107, SKILL_OTHER, "srevival",             new Cost(0,    1), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Revival
-        [108, SKILL_OTHER, "ssap",                 new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0] // Shadow Sap
+        [108, SKILL_OTHER, "ssap",                 new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Sap
+        [109, SKILL_OTHER, "holygrail",            new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0] // Holy Grail -- MP is wrong
     ];
 
     var skills = {

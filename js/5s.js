@@ -3360,6 +3360,12 @@ Card.addAll([
      [Skill.revival, Skill.wind2, Skill.dwis20, Skill.wind3, Skill.wind4, Skill.tb],
      [Skill.revival, Skill.dwis20, Skill.wind4],
      [Skill.revival, Skill.wind4, Skill.tb]],
+    ["40716", "Demeter", "One of the twelve pillars of the Olympian Pantheon. As the goddess of sustenance, she brings both feast and famine to the people.", 
+     Event.godsofthebountifulearth, Border.none, 5, Place.aedengard, 0, null, Shape.female, Attribute.earth,
+     2100, 1384, 1620, 1480, 1340, 1440,
+     [Skill.fb, Skill.physical3, Skill.datk20, Skill.physical4, Skill.atk25, Skill.ll],
+     [Skill.fb, Skill.atk25, Skill.physical4],
+     [Skill.fb, Skill.atk25, Skill.ll]],
     ["40717", "Arthur the Dark", "A conquering king, returned from the Black isle, now stakes his claim on the mainland with his order of dark knights.",
      Event.seepingdarkness, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
      1580, 600, 1530, 1440, 1200, 1320,
@@ -3383,7 +3389,13 @@ Card.addAll([
      1380, 1100, 1620, 1260, 1300, 1280,
      [Skill.sap, Skill.darkness3, Skill.slash4, Skill.ls, Skill.darkness4, Skill.smr],
      [Skill.sap, Skill.slash4, Skill.ls],
-     [Skill.sap, Skill.ls, Skill.smr]]
+     [Skill.sap, Skill.ls, Skill.smr]],
+    ["40721", "Almighty Loki", "True to his name, \"The Closer\" and his god-killer children will be instrumental in bringing about the end of days.", 
+     Event.none, Border.almighty, 5, Place.coliseum, 6, "40521", Shape.none, Attribute.darkness,
+     1880, 1480, 1620, 1580, 1310, 1580,
+     [Skill.physical3, Skill.darkness4, Skill.dp, Skill.powershift, Skill.mm],
+     [Skill.dp, Skill.powershift, Skill.mm],
+     [Skill.dp, Skill.powershift, Skill.mm]]
 ]);
 
 Card.addLimitedTypes({
@@ -3662,8 +3674,10 @@ Card.addNotes({
     "40712": "Skills from Japanese version", // Almighty Sleeping Beauty
     "40713": "Skills from Japanese version", // Yowie
     "40715": "Skills from Japanese version", // Aine
+    "40716": "Skills from Japanese version", // Demeter
     "40717": "Skills from Japanese version", // Arthur the Dark
-    "40718": "Skills from Japanese version" // Fallen Gabriel
+    "40718": "Skills from Japanese version", // Fallen Gabriel
+    "40721": "All data from Japanese version" // Almighty Loki
 });
 
 ExCard.addAll([
