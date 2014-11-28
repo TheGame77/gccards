@@ -128,6 +128,7 @@ function Simulator(my_party, oppo_party, options) {
                 g.battle.protect = false;              /* Indicate if a card is protected by Full Barrier. */
                 g.battle.paralyzed = false;            /* Indicate if a card is paralyzed. */
                 g.battle.resistant_effective = false;  /* Indicate if a card is protected by Resistant. */
+                g.battle.poisoned = false;             /* Indicate if a card is poisoned. */
                 g.battle.ls = g.hasSkill(Skill.ls);                 /* Can cast LS? */
                 g.battle.revival = g.hasSkill(Skill.revival) || g.hasSkill(Skill.srevival); /* Can cast Revival? */
                 g.battle.ds = g.hasSkill(Skill.ds) || g.hasSkill(Skill.sds); /* Can cast DS/SDS? */
@@ -142,6 +143,7 @@ function Simulator(my_party, oppo_party, options) {
                 g.battle.np = g.hasSkill(Skill.np);                 /* Can cast Nerve Pinch? */
                 g.battle.mvs = g.hasSkill(Skill.mvs);
                 g.battle.resistant = g.hasSkill(Skill.resistant);   /* Can cast Resistant? */
+                g.battle.tb = g.hasSkill(Skill.tb);                 /* Can cast Toxic Blast? */
             }
         }, new Array(
             {name: "me", cards: my_party.cards, ex1: my_party.ex1, ex2: my_party.ex2}, 
@@ -781,6 +783,21 @@ function Simulator(my_party, oppo_party, options) {
         return res;
     };
 
+    var applyTB = function(r, d, g1, g2, damage) {
+    
+        var res = false;
+
+        if (g1.battle.tb && !g2.battle.resistant_effective) {
+            if (Math.random() < options[d.attacker].tb) {
+                g2.battle.poisoned = 1;
+                r.append(d, g1, g2, g2.name + " is poisoned", MSG_BUFF);
+                res = true;
+            }
+        }
+
+        return res;
+    };
+    
     var getSkillDamage = function(d, g1, g2, skill) {
         var atk = 0;
         var sk = 0;
@@ -1021,8 +1038,11 @@ function Simulator(my_party, oppo_party, options) {
             }
         }
 
-        if (g2.battle.status.hp > 0 && skill != Skill.dr && skill != Skill.cd) {
-            d.swap(function() { applyDR(r, d, g2, g1, damage); });
+        if (g2.battle.status.hp > 0) {
+            applyTB(r, d, g1, g2);
+            if (skill != Skill.dr && skill != Skill.cd) {
+                d.swap(function() { applyDR(r, d, g2, g1, damage); });
+            }
         } else if (g2.battle.status.hp <= 0 && !d.swap(function() { return applyLS(r, d, g2, g1); })) {
             killed = true;
             d.nextDefenderCard();
@@ -1054,6 +1074,12 @@ function Simulator(my_party, oppo_party, options) {
 
         var count = 0;
         while(true) {
+
+            if(++count > 1000) {
+                alert("Sanity check failed, battle lasted longer than 1,000 rounds!");
+                return;
+            }
+
             d.setAttacker(d.me);
             if (d.isOpponentPartyDefeated()) {
                 r.append(d, d.getMyLastCard(), d.getOpponentLastCard(), "Won Battle", MSG_OTHER);
@@ -1069,6 +1095,19 @@ function Simulator(my_party, oppo_party, options) {
 
             var attacker = d.getAttackerCard();
             var defender = d.getDefenderCard();
+
+            if (attacker.battle.poisoned > 0) {
+                var dmg = Math.floor(attacker.status.hp / 4);
+                r.append(d, defender, attacker, dmg + " poison damage to " + attacker.name);
+                attacker.battle.status.hp -= dmg;
+
+                if(attacker.battle.status.hp <= 0) {
+                    r.append(d, defender, attacker, "Defeated " + attacker.name, MSG_DEFEATED);
+                    d.nextAttackerCard();
+                    d.resetMeters(RESET_ZERO);
+                    continue;
+                }
+            }
 
             if (attacker.battle.paralyzed > 0) {
                 r.append(d, attacker, defender, attacker.name + " is unable to act.");

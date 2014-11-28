@@ -10,6 +10,7 @@ var COOKIE_ME_GS = "battle.me.gs";
 var COOKIE_ME_MR = "battle.me.mr";
 var COOKIE_ME_MR2 = "battle.me.mr2";
 var COOKIE_ME_NP = "battle.me.np";
+var COOKIE_ME_TB = "battle.me.tb";
 var COOKIE_OPPO_SD = "battle.oppo.sd";
 var COOKIE_OPPO_LS = "battle.oppo.ls";
 var COOKIE_OPPO_REVIVAL = "battle.oppo.revival";
@@ -19,6 +20,7 @@ var COOKIE_OPPO_GS = "battle.oppo.gs";
 var COOKIE_OPPO_MR = "battle.oppo.mr";
 var COOKIE_OPPO_MR2 = "battle.oppo.mr2";
 var COOKIE_OPPO_NP = "battle.oppo.np";
+var COOKIE_OPPO_TB = "battle.oppo.tb";
 var COOKIE_ANIMATION = "battle.animation";
 var COOKIE_BATTLE_MESSAGE = "battle.message";
 var COOKIE_AGIBUFF = "battle.agibuff";
@@ -48,7 +50,8 @@ var options = {
         gs: parseFloat(getCookie(COOKIE_ME_GS, 0.6)),
         mr: parseFloat(getCookie(COOKIE_ME_MR, 0.6)),
         mr2: parseFloat(getCookie(COOKIE_ME_MR2, 0.6)),
-        np: parseFloat(getCookie(COOKIE_ME_NP, 0.6))
+        np: parseFloat(getCookie(COOKIE_ME_NP, 0.6)),
+        tb: parseFloat(getCookie(COOKIE_ME_TB, 0.6))
     },
     oppo: {
         sd: parseFloat(getCookie(COOKIE_OPPO_SD, 0.8)),
@@ -59,7 +62,8 @@ var options = {
         gs: parseFloat(getCookie(COOKIE_OPPO_GS, 0.8)),
         mr: parseFloat(getCookie(COOKIE_OPPO_MR, 0.8)),
         mr2: parseFloat(getCookie(COOKIE_OPPO_MR2, 0.8)),
-        np: parseFloat(getCookie(COOKIE_OPPO_NP, 0.8))
+        np: parseFloat(getCookie(COOKIE_OPPO_NP, 0.8)),
+        tb: parseFloat(getCookie(COOKIE_OPPO_TB, 0.8))
     },
     meter: parseFloat(getCookie(COOKIE_METER, 10000)),
     agibuff: parseInt(getCookie(COOKIE_AGIBUFF, 0)),
@@ -1158,6 +1162,7 @@ function battle_init() {
                 setCookie(COOKIE_ME_MR, options.me.mr, DEFAULT_COOKIE_EXDAYS);
                 setCookie(COOKIE_ME_MR2, options.me.mr2, DEFAULT_COOKIE_EXDAYS);
                 setCookie(COOKIE_ME_NP, options.me.np, DEFAULT_COOKIE_EXDAYS);
+                setCookie(COOKIE_ME_TB, options.me.tb, DEFAULT_COOKIE_EXDAYS);
                 setCookie(COOKIE_OPPO_SD, options.oppo.sd, DEFAULT_COOKIE_EXDAYS);
                 setCookie(COOKIE_OPPO_LS, options.oppo.ls, DEFAULT_COOKIE_EXDAYS);
                 setCookie(COOKIE_OPPO_REVIVAL, options.oppo.revival, DEFAULT_COOKIE_EXDAYS);
@@ -1167,6 +1172,7 @@ function battle_init() {
                 setCookie(COOKIE_OPPO_MR, options.oppo.mr, DEFAULT_COOKIE_EXDAYS);
                 setCookie(COOKIE_OPPO_MR2, options.oppo.mr2, DEFAULT_COOKIE_EXDAYS);
                 setCookie(COOKIE_OPPO_NP, options.oppo.np, DEFAULT_COOKIE_EXDAYS);
+                setCookie(COOKIE_OPPO_TB, options.oppo.tb, DEFAULT_COOKIE_EXDAYS);
                 setCookie(COOKIE_ANIMATION, options.animation, DEFAULT_COOKIE_EXDAYS);
                 setCookie(COOKIE_BATTLE_MESSAGE, options.battle_message, DEFAULT_COOKIE_EXDAYS);
                 setCookie(COOKIE_AGIBUFF, options.agibuff, DEFAULT_COOKIE_EXDAYS);
