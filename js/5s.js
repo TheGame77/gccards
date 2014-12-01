@@ -3395,7 +3395,31 @@ Card.addAll([
      1880, 1480, 1620, 1580, 1310, 1580,
      [Skill.physical3, Skill.darkness4, Skill.dp, Skill.powershift, Skill.mm],
      [Skill.dp, Skill.powershift, Skill.mm],
-     [Skill.dp, Skill.powershift, Skill.mm]]
+     [Skill.dp, Skill.powershift, Skill.mm]],
+    ["40733", "Phalanx", "A war machine designed for close-quarters combat. Its projecting lance can rip through any armor.", 
+     Event.metaldestroyer, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.mecha,
+     1466, 1100, 1420, 1330, 1300, 1220,
+     [Skill.ls, Skill.atk10, Skill.slash3, Skill.slash4, Skill.qs, Skill.bg],
+     [Skill.qs, Skill.slash4, Skill.ls],
+     [Skill.qs, Skill.bg, Skill.ls]],
+    ["40734", "Gwiber", "A valley-dwelling creature that can traverse land, sea, and sky. Many have tried, and failed, to hunt it down.",
+     Event.none, Border.none, 5, Place.babylon, 0, null, Shape.avian, Attribute.lightning,
+     1910, 1180, 1640, 1300, 1340, 1600,
+     [Skill.nj, Skill.slash3, Skill.ddef20, Skill.slash4, Skill.qs, Skill.dp],
+     [Skill.nj, Skill.qs, Skill.slash4],
+     [Skill.nj, Skill.qs, Skill.dp]],
+    ["40735", "Siegfried", "A hero among heroes, this warrior forged the great blade Nothung to slay Fafnir, the great dragon.",
+     Event.none, Border.none, 5, Place.babylon, 0, null, Shape.humanoid, Attribute.earth,
+     2120, 2000, 1560, 1500, 1330, 1400,
+     [Skill.rendburst, Skill.slash4, Skill.water3, Skill.datk20, Skill.bg, Skill.tb],
+     [Skill.datk20, Skill.bg, Skill.rendburst],
+     [Skill.tb, Skill.bg, Skill.rendburst]],
+    ["40736", "Hecate", "A powerful moon goddess who, in the dark of night, can control land, sea, and sky at her whim.", 
+     Event.none, Border.none, 5, Place.babylon, 0, null, Shape.humanoid, Attribute.death,
+     1760, 1290, 1460, 1420, 1350, 1740,
+     [Skill.revival, Skill.darkness2, Skill.wis10, Skill.death3, Skill.death4, Skill.resistant],
+     [Skill.wis10, Skill.death4, Skill.revival],
+     [Skill.resistant, Skill.death4, Skill.revival]]
 ]);
 
 Card.addLimitedTypes({
@@ -3677,7 +3701,11 @@ Card.addNotes({
     "40716": "Skills from Japanese version", // Demeter
     "40717": "Skills from Japanese version", // Arthur the Dark
     "40718": "Skills from Japanese version", // Fallen Gabriel
-    "40721": "All data from Japanese version" // Almighty Loki
+    "40721": "All data from Japanese version", // Almighty Loki
+    "40733": "Skills from Japanese version", // Phalanx
+    "40734": "Skills from Japanese version", // Gwiber
+    "40735": "Skills from Japanese version", // Siegfried
+    "40736": "Skills from Japanese version" // Hecate
 });
 
 ExCard.addAll([

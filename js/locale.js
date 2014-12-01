@@ -115,7 +115,7 @@ var Locale = function(l) {
                 "Illusive Fairy",
                 "Night Feeder",
                 "Bountiful Goddess",
-                "Metal Destroyer",
+                "The Steel Annihilator",
                 "Kushinadahime",
                 "Vジャンプ12月特大号特典", // December V Jump
                 "四季天乱", // Four Season Chaos
