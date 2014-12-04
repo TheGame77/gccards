@@ -3700,8 +3700,7 @@ Card.addNotes({
     "40715": "Skills from Japanese version", // Aine
     "40717": "Skills from Japanese version", // Arthur the Dark
     "40718": "Skills from Japanese version", // Fallen Gabriel
-    "40721": "All data from Japanese version", // Almighty Loki
-    "40733": "Skills from Japanese version", // Phalanx
+    "40721": "Skills from Japanese version", // Almighty Loki
     "40734": "Skills from Japanese version", // Gwiber
     "40735": "Skills from Japanese version", // Siegfried
     "40736": "Skills from Japanese version" // Hecate

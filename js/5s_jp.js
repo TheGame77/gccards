@@ -3561,9 +3561,9 @@ Card.addAll([
     ["40749", "クピードー", "名は欲望を意味する愛の神。黄金の矢は激しい恋心を、鉛の矢は恋を拒絶する心を生む。", 
      Event.blackwingeddemonbow, Border.none, 5, Place.babylon, 0, null, Shape.circular, Attribute.darkness,
      2080, 405, 1670, 1360, 1340, 1600,
-     [Skill.darkness3, Skill.bg, Skill.dp, Skill.vd, Skill.revival, Skill.tb],
-     [Skill.bg, Skill.dp, Skill.revival],
-     [Skill.bg, Skill.dp, Skill.revival]]
+     [Skill.darkness3, Skill.bg, Skill.ds, Skill.vd, Skill.revival, Skill.tb],
+     [Skill.bg, Skill.ds, Skill.revival],
+     [Skill.bg, Skill.ds, Skill.revival]]
 ]);
 
 Card.addLimitedTypes({

@@ -654,7 +654,7 @@ Card.addAll([
      []],
     ["30132", "オシリス", "", 
      Event.none, Border.none, 4, Place.desert_night, 0, null, Shape.humanoid, Attribute.death,
-     0, 0, 0, 0, 0, 0,
+     1031, 1001, 988, 1005, 1025, 1035,
      [],
      [],
      []],
@@ -731,7 +731,7 @@ Card.addNotes({
     "30129": "Rebirth skill missing", // Barbatos
     "30130": "All data from Int'l version", // Nemean Lion
     "30131": "All data missing",
-    "30132": "All data missing",
+    "30132": "All data from Int'l  version, skills missing",
     "30133": "All data from Int'l version", // Strigoi
     "30134": "All data from Int'l version", // Ouroboros
     "30136": "Rebirth skill missing, all data from Int'l version", // Baphomet

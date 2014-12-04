@@ -699,7 +699,25 @@ Card.addAll([
      1050, 880, 1000, 1060, 1040, 1080,
      [Skill.resistant, Skill.ep, Skill.water3, Skill.def10, Skill.water4, Skill.ls],
      [Skill.resistant, Skill.ep, Skill.water4],
-     [Skill.resistant, Skill.water4, Skill.ls]]
+     [Skill.resistant, Skill.water4, Skill.ls]],
+    ["30143", "Alkyoneus", "", 
+     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.unknown, Attribute.earh,
+     0, 0, 0, 0, 0, 0,
+     [],
+     [],
+     []],
+    ["30147", "Arjuna", "The third of the Pandava brothers, this tragic hero is fated to fight a long blood feud with a cursed stepbrother.", 
+     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.unknown, Attribute.wind,
+     0, 0, 0, 0, 0, 0,
+     [],
+     [],
+     []],
+    ["30148", "Huanglong", "One of the four cardinal direction gods, this beast can change weather and seasons with a single breath.", 
+     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.unknown, Attribute.lightning,
+     0, 0, 0, 0, 0, 0,
+     [],
+     [],
+     []]
 ]);
 
 Card.addLimitedTypes({
@@ -747,17 +765,19 @@ Card.addNotes({
     "30123": "All data from Japanese version",
     "30124": "All data from Japanese version",
     "30125": "All data from Japanese version",
-    "30126": "Rebirth skill missing", // Gaia
     "30128": "All data from Japanese version", // Pallas
     "30129": "All data from Japanese version, rebirth skill missing", // Barbatos
     "30131": "All data missing", // Shuten-Doji
-    "30132": "All data missing", // Osiris
+    "30132": "Skills missing", // Osiris
     "30136": "Rebirth skill missing", // Baphomet
     "30137": "Skills from Japanese version", // Nebiros
     "30138": "All data from Japanese version, rebirth skill missing", // Hades
     "30139": "Skills from Japanese version", // Tyr
     "30140": "Skills from Japanese version", // Balam
-    "30141": "Skills from Japanese version" // Varuna
+    "30141": "Skills from Japanese version", // Varuna
+    "30143": "Skills missing", // Alkyoneus
+    "30147": "All data missing", // Arjuna
+    "30148": "All data missing" // Huanglong
 });
 
 ExCard.addAll([
