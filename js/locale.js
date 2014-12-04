@@ -120,7 +120,9 @@ var Locale = function(l) {
                 "Vジャンプ12月特大号特典", // December V Jump
                 "四季天乱", // Four Season Chaos
                 "サマー・グッバイ", // Goodbye Summer
-                "ゴールドハント" // Gold hunt
+                "ゴールドハント", // Gold hunt
+                "紅蓮の暴君", // Crimson Berserker
+                "黒翼の魔弓" // Black Winged Demon Bow
             ),
             borders: new Array(
                 "None",
@@ -504,7 +506,9 @@ var Locale = function(l) {
                 "Vジャンプ12月特大号特典", // December V Jump
                 "四季天乱", // Four Season Chaos
                 "サマー・グッバイ", // Goodbye Summer
-                "ゴールドハント" // Gold hunt
+                "ゴールドハント", // Gold hunt
+                "紅蓮の暴君", // Crimson Berserker
+                "黒翼の魔弓" // Black Winged Demon Bow
             ),
             borders: new Array(
                 "なし",

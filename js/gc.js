@@ -264,7 +264,9 @@ var Event = (function() {
         [75, ["decembervjump"]],
         [76, ["fourseasonchaos"]],
         [77, ["goodbyesummer"]],
-        [78, ["goldenhunt"]]
+        [78, ["goldenhunt"]],
+        [79, ["crimsonberserker"]],
+        [80, ["blackwingeddemonbow"]]
     ];
 
     var events = {

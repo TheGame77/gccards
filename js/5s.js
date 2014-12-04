@@ -3363,9 +3363,9 @@ Card.addAll([
     ["40716", "Demeter", "One of the twelve pillars of the Olympian Pantheon. As the goddess of sustenance, she brings both feast and famine to the people.", 
      Event.godsofthebountifulearth, Border.none, 5, Place.aedengard, 0, null, Shape.female, Attribute.earth,
      2100, 1384, 1620, 1480, 1340, 1440,
-     [Skill.fb, Skill.physical3, Skill.datk20, Skill.physical4, Skill.atk25, Skill.ll],
-     [Skill.fb, Skill.atk25, Skill.physical4],
-     [Skill.fb, Skill.atk25, Skill.ll]],
+     [Skill.ds, Skill.physical3, Skill.datk20, Skill.physical4, Skill.atk25, Skill.ll],
+     [Skill.ds, Skill.atk25, Skill.physical4],
+     [Skill.ds, Skill.atk25, Skill.ll]],
     ["40717", "Arthur the Dark", "A conquering king, returned from the Black isle, now stakes his claim on the mainland with his order of dark knights.",
      Event.seepingdarkness, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
      1580, 600, 1530, 1440, 1200, 1320,
@@ -3698,7 +3698,6 @@ Card.addNotes({
     "40712": "Skills from Japanese version", // Almighty Sleeping Beauty
     "40713": "Skills from Japanese version", // Yowie
     "40715": "Skills from Japanese version", // Aine
-    "40716": "Skills from Japanese version", // Demeter
     "40717": "Skills from Japanese version", // Arthur the Dark
     "40718": "Skills from Japanese version", // Fallen Gabriel
     "40721": "All data from Japanese version", // Almighty Loki
