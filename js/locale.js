@@ -116,7 +116,7 @@ var Locale = function(l) {
                 "Night Feeder",
                 "Bountiful Goddess",
                 "The Steel Annihilator",
-                "Kushinadahime",
+                "The Harvest Princess",
                 "Vジャンプ12月特大号特典", // December V Jump
                 "四季天乱", // Four Season Chaos
                 "サマー・グッバイ", // Goodbye Summer

@@ -6,6 +6,10 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/12/8': [
+            "7th Skyborne Coliseum Reward: " + Card.mklnk(40722) + ".",
+            "The Harvest Princess: " + Card.mklnk(40738) + "."
+        ],
         '2014/12/3': [
             "Changed skillset for " + Card.mklnk(40716) + "."
         ],

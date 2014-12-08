@@ -3396,6 +3396,12 @@ Card.addAll([
      [Skill.physical3, Skill.darkness4, Skill.dp, Skill.powershift, Skill.mm],
      [Skill.dp, Skill.powershift, Skill.mm],
      [Skill.dp, Skill.powershift, Skill.mm]],
+    ["40722", "Almighty Chronos", "The beginning that knows no end, he created light, chaos, and the darkness before giving birth to the universe.", 
+     Event.none, Border.almighty, 5, Place.coliseum, 7, "40601", Shape.none, Attribute.mecha,
+     1820, 2300, 1320, 1500, 1330, 1740,
+     [Skill.nj, Skill.light3, Skill.agi20, Skill.mecha4, Skill.sd],
+     [Skill.nj, Skill.mecha4, Skill.sd],
+     [Skill.nj, Skill.mecha4, Skill.sd]],
     ["40733", "Phalanx", "A war machine designed for close-quarters combat. Its projecting lance can rip through any armor.", 
      Event.metaldestroyer, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.mecha,
      1466, 1100, 1420, 1330, 1300, 1220,
@@ -3419,7 +3425,13 @@ Card.addAll([
      1760, 1290, 1460, 1420, 1350, 1740,
      [Skill.revival, Skill.darkness2, Skill.wis10, Skill.death3, Skill.death4, Skill.resistant],
      [Skill.wis10, Skill.death4, Skill.revival],
-     [Skill.resistant, Skill.death4, Skill.revival]]
+     [Skill.resistant, Skill.death4, Skill.revival]],
+    ["40738", "Kushinadahime", "A divine princess whose sisters have been taken by a vile serpent, while she herself was saved by the gods.",
+     Event.kushinadahime, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.earth,
+     2080, 1280, 1670, 1510, 1340, 1460,
+     [Skill.qs, Skill.physical3, Skill.ddef20, Skill.physical4, Skill.ll, Skill.vd],
+     [Skill.qs, Skill.ddef20, Skill.ll],
+     [Skill.qs, Skill.vd, Skill.ll]]
 ]);
 
 Card.addLimitedTypes({
@@ -3700,10 +3712,12 @@ Card.addNotes({
     "40715": "Skills from Japanese version", // Aine
     "40717": "Skills from Japanese version", // Arthur the Dark
     "40718": "Skills from Japanese version", // Fallen Gabriel
-    "40721": "Skills from Japanese version", // Almighty Loki
+    "40721": "All data from Japanese version", // Almighty Loki
+    "40722": "All data from Japanese version", // Almighty Chronos
     "40734": "Skills from Japanese version", // Gwiber
     "40735": "Skills from Japanese version", // Siegfried
-    "40736": "Skills from Japanese version" // Hecate
+    "40736": "Skills from Japanese version", // Hecate
+    "40738": "Skills from Japanese version" // Kushinadahime
 });
 
 ExCard.addAll([
