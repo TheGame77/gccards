@@ -118,8 +118,8 @@ var Locale = function(l) {
                 "The Steel Annihilator",
                 "The Harvest Princess",
                 "Vジャンプ12月特大号特典", // December V Jump
-                "四季天乱", // Four Season Chaos
-                "サマー・グッバイ", // Goodbye Summer
+                "Turbulent Seasons", // Four Season Chaos
+                "Farewell Summer", // Goodbye Summer
                 "ゴールドハント", // Gold hunt
                 "紅蓮の暴君", // Crimson Berserker
                 "黒翼の魔弓" // Black Winged Demon Bow

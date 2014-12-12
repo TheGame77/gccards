@@ -3431,7 +3431,25 @@ Card.addAll([
      2080, 1280, 1670, 1510, 1340, 1460,
      [Skill.qs, Skill.physical3, Skill.ddef20, Skill.physical4, Skill.ll, Skill.vd],
      [Skill.qs, Skill.ddef20, Skill.ll],
-     [Skill.qs, Skill.vd, Skill.ll]]
+     [Skill.qs, Skill.vd, Skill.ll]],
+    ["40740", "Nafanua", "A goddess of the forgotten isle, she rises from the ocean to end the war and strife that plagues her people.",
+     Event.goodbyesummer, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.earth,
+     1460, 1120, 1470, 1300, 1312, 1300,
+     [Skill.qs, Skill.ddef20, Skill.physical3, Skill.physical4, Skill.dp, Skill.mr],
+     [Skill.qs, Skill.ddef20, Skill.dp],
+     [Skill.qs, Skill.mr, Skill.dp]],
+    ["40741", "Fleurety", "A direct subordinate of Beelzebub, this archdemon sends deadly blizzards from the dark continent.",
+     Event.fourseasonchaos, Border.none, 5, Place.babylon, 0, null, Shape.female, Attribute.water,
+     2100, 2480, 1680, 1420, 1340, 1440,
+     [Skill.rendburst, Skill.atk10, Skill.slash4, Skill.bg, Skill.ds],
+     [Skill.bg, Skill.atk10, Skill.rendburst],
+     [Skill.bg, Skill.ds, Skill.rendburst]],
+    ["40742", "Konohana-sakuya", "A goddesss of the mystic mountains, she embodies the sublime yet short-lived beauty of a flower.",
+     Event.fourseasonchaos, Border.none, 5, Place.babylon, 0, null, Shape.female, Attribute.wind,
+     1920, 1180, 1670, 1320, 1360, 1460,
+     [Skill.sap, Skill.ddef20, Skill.physical3, Skill.physical4, Skill.ll, Skill.revival],
+     [Skill.sap, Skill.ddef20, Skill.ll],
+     [Skill.sap, Skill.ll, Skill.revival]]
 ]);
 
 Card.addLimitedTypes({
@@ -3717,7 +3735,10 @@ Card.addNotes({
     "40734": "Skills from Japanese version", // Gwiber
     "40735": "Skills from Japanese version", // Siegfried
     "40736": "Skills from Japanese version", // Hecate
-    "40738": "Skills from Japanese version" // Kushinadahime
+    "40738": "Skills from Japanese version", // Kushinadahime
+    "40740": "Skills from Japanese version", // Nafanua
+    "40741": "Skills from Japanese version", // Fleurety
+    "40742": "Skills from Japanese version" // Konohana-sakuya
 });
 
 ExCard.addAll([
