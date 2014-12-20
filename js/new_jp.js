@@ -6,6 +6,13 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/12/19': [
+            "ガーディアンソウル: " + Card.mklnk(40752) + "。",
+            "魔宮殿: " + Card.mklnk(40753) + "、" + Card.mklnk(40754) + "、" + Card.mklnk(40755) + "、" + Card.mklnk(40756) + "。",
+            "知謀の刺客: " + Card.mklnk(40758) + "。",
+            ExCard.mklnk(35017) + " skills changed.",
+            "WARNING: New skills holy grail, arondight, divine shield and force not yet implemented in the damage calculator or the battle simulator."
+        ],
         '2014/12/3': [
             "第9回天空コロシアム: " + Card.mklnk(40746) + "。",
             "紅蓮の暴君: " + Card.mklnk(40748) + "。",

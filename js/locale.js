@@ -39,7 +39,9 @@ var Locale = function(l) {
                 "The Guardians Who Stole Christmas",
                 "Zeus Nebula",
                 "Aedengard",
-                "Babylon"
+                "Babylon",
+                "Pandemonium",
+                "Guardian Soul"
             ),
             events: new Array(
                 "None",
@@ -122,7 +124,8 @@ var Locale = function(l) {
                 "Farewell Summer", // Goodbye Summer
                 "ゴールドハント", // Gold hunt
                 "紅蓮の暴君", // Crimson Berserker
-                "黒翼の魔弓" // Black Winged Demon Bow
+                "黒翼の魔弓", // Black Winged Demon Bow
+                "知謀の刺客" // Assassin
             ),
             borders: new Array(
                 "None",
@@ -278,7 +281,10 @@ var Locale = function(l) {
                 new Array("Shadow Gigant Smash","High Damage Attack"),
                 new Array("Shadow Revival",    "Shadow Revive"),
                 new Array("Shadow Sap",        "MP Wipe"),
-                new Array("Holy Grail",        "")
+                new Array("Holy Grail",        ""),
+                new Array("arondight",        ""),
+                new Array("divineshield",        ""),
+                new Array("force",        "")
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",
@@ -385,7 +391,10 @@ var Locale = function(l) {
                 "HP of all Guardians increasd by 15%.",
                 "Gigant Smash success rate increased by 10%.",
                 "Gigant Smash success rate increased by 12%.",
-                "Gigant Smash success rate increased by 15%."
+                "Gigant Smash success rate increased by 15%.",
+                "Revival success rate increased by 4%.",
+                "Revival success rate increased by 7%.",
+                "Revival success rate increased by 9%."
             )
         };
     } else if (l == LANG_JP) {
@@ -424,8 +433,10 @@ var Locale = function(l) {
                 "Crimson Keep",
                 "聖夜に舞い散る黒い雪",
                 "ゼウス星雲",
-                "エデン",
-                "バビロン"
+                "エデン", // Eden
+                "バビロン", // Babylon
+                "魔宮殿", // Pandemonium
+                "ガーディアンソウル" // Guardian Soul
             ),
             events: new Array(
                 "なし",
@@ -508,7 +519,8 @@ var Locale = function(l) {
                 "サマー・グッバイ", // Goodbye Summer
                 "ゴールドハント", // Gold hunt
                 "紅蓮の暴君", // Crimson Berserker
-                "黒翼の魔弓" // Black Winged Demon Bow
+                "黒翼の魔弓", // Black Winged Demon Bow
+                "知謀の刺客" // Assassin
             ),
             borders: new Array(
                 "なし",
@@ -664,7 +676,10 @@ var Locale = function(l) {
                 new Array("暗黒ギガントスラッシュ", "一撃大ダメージ"), // Shadow Gigant Smash
                 new Array("暗黒リバイバル", "暗黒復活"), // Shadow Revival
                 new Array("暗黒アビリティロック", "MP 無効"), // Shadow Sap
-                new Array("ホーリーグレイ", "????") // Holy Grail
+                new Array("ホーリーグレイ", "????"), // Holy Grail
+                new Array("アロンダイト", "????"), // Arondight
+                new Array("ディバインシールド",  "????"), //Divine Shield
+                new Array("フォース",        "????") // Force
             ),
             exskills: new Array(
                 "火属性ガーディアンの全ステータスを10%アップ",
@@ -768,7 +783,10 @@ var Locale = function(l) {
                 "ギガントスラッシュの成功率1%アップ",
                 "ギガントスラッシュの成功率10%アップ",
                 "ギガントスラッシュの成功率12%アップ",
-                "ギガントスラッシュの成功率15%アップ"
+                "ギガントスラッシュの成功率15%アップ",
+                "リバイバルの成功率4%アップ",
+                "リバイバルの成功率7%アップ",
+                "リバイバルの成功率9%アップ"
             )
         };
     }

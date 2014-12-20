@@ -789,7 +789,7 @@ ExCard.addAll([
      [ExSkill.water2, ExSkill.water4, ExSkill.water6]],
     ["35017", "アポロン", "",
      Event.none, ExType.blue, 4, Place.desert_night, 0, Shape.humanoid, Attribute.light,
-     [ExSkill.suc_ls3, ExSkill.suc_ls5, ExSkill.suc_ls7]]
+     [ExSkill.suc_revival4, ExSkill.suc_revival7, ExSkill.suc_revival9]]
 ]);
 
 ExCard.addNotes({

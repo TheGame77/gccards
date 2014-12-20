@@ -3563,7 +3563,50 @@ Card.addAll([
      2080, 405, 1670, 1360, 1340, 1600,
      [Skill.darkness3, Skill.bg, Skill.ds, Skill.vd, Skill.revival, Skill.tb],
      [Skill.bg, Skill.ds, Skill.revival],
-     [Skill.bg, Skill.ds, Skill.revival]]
+     [Skill.bg, Skill.ds, Skill.revival]],
+     // 40750/51???
+    ["40752", "ケルビム", "智天使の位につく楽園の守護神。大気を震わす雷鳴、大地を揺るがす地震と共に現れる。", 
+     Event.none, Border.none, 5, Place.gsexchange, 0, null, Shape.none, Attribute.light,
+     1880, 370, 1640, 1420, 1320, 1320,
+     [Skill.ds, Skill.agi10, Skill.slash2, Skill.slash4, Skill.bg, Skill.vd],
+     [Skill.ds, Skill.agi10, Skill.bg],
+     [Skill.ds, Skill.bg, Skill.vd]],
+    ["40753", "アトロポス・カラミティ", "運命を弄ぶ悪魔さん姉妹の末妹。その心は狂気に満ち、巨大な鋏で人の運命すら断ち切る。", 
+     Event.none, Border.none, 5, Place.pandemonium, 0, null, Shape.circular, Attribute.wind,
+     2000, 1325, 1560, 1500, 1350, 1740,
+     [Skill.smr, Skill.wind3, Skill.dagi20, Skill.wind4, Skill.wis25, Skill.arondight],
+     [Skill.smr, Skill.wind4, Skill.wis25],
+     [Skill.smr, Skill.wis25, Skill.arondight]],
+    ["40754", "ゼノビア", "砂漠の国の頂点に君臨した女帝。自ら戦場に立ち指揮する姿を人々は戦士女王と呼んだ。", 
+     Event.none, Border.none, 5, Place.pandemonium, 0, null, Shape.female, Attribute.darkness,
+     2220, 1100, 1670, 1560, 1360, 1500,
+     [Skill.force, Skill.datk20, Skill.darkness3, Skill.slash4, Skill.qs, Skill.bg],
+     [Skill.force, Skill.slash4, Skill.qs],
+     [Skill.force, Skill.qs, Skill.bg]],
+    ["40755", "モルドレッド", "呪われし者として生を受けた闇の騎士。王の親族でありながら、国を奪おうと画策した。", 
+     Event.none, Border.none, 5, Place.pandemonium, 0, null, Shape.wolf, Attribute.death,
+     2080, 1250, 1660, 1600, 1320, 1490,
+     [Skill.divineshield, Skill.def20, Skill.slash4, Skill.resistant, Skill.gs],
+     [Skill.divineshield, Skill.slash4, Skill.resistant],
+     [Skill.divineshield, Skill.resistant, Skill.gs]],
+    ["40756", "ペイルライダー", "第四の封印が解かれた時に現れる騎士。存在そのものが死とされ、人々を冥府へと誘う。", 
+     Event.none, Border.none, 5, Place.pandemonium, 0, null, Shape.beast, Attribute.death,
+     2160, 1130, 1680, 1500, 1320, 1480,
+     [Skill.dp, Skill.dagi20, Skill.darkness4, Skill.ddef20, Skill.ls, Skill.tb],
+     [Skill.dp, Skill.ddef20, Skill.ls],
+     [Skill.dp, Skill.ls, Skill.tb]],
+    ["40757", "ヘレル・ベン・サハル", "神に最初に創られた天使。自らの傲慢さから神に反旗を翻し、魔界の王として君臨する。", 
+     Event.none, Border.none, 5, Place.pandemonium, 0, null, Shape.humanoid, Attribute.darkness,
+     1920, 1075, 1590, 1480, 1360, 1765,
+     [Skill.arondight, Skill.wis10, Skill.nj, Skill.revival],
+     [Skill.arondight, Skill.wis10, Skill.nj],
+     [Skill.arondight, Skill.nj, Skill.revival]],
+    ["40758", "ルキフグス", "", 
+     Event.assassin, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.darkness,
+     1500, 730, 1180, 1410, 1310, 1700,
+     [Skill.sap, Skill.datk20, Skill.darkness3, Skill.ddef20, Skill.darkness4, Skill.mvs],
+     [Skill.sap, Skill.datk20, Skill.darkness4],
+     [Skill.sap, Skill.darkness4, Skill.mvs]]
 ]);
 
 Card.addLimitedTypes({
@@ -3604,7 +3647,8 @@ Card.addLimitedTypes({
     "40703": [Type.cool, Type.coolr],    // Ker V
     "40710": [Type.cool, Type.coolr],    // Takemikazuchi
     "40711": [Type.cool, Type.coolr],    // Fusehime
-    "40720": [Type.cool, Type.coolr]     // Phantom Iblis
+    "40720": [Type.cool, Type.coolr],    // Phantom Iblis
+    "40752": [Type.cool, Type.coolr]     // Cherubim
 });
 
 Card.addNotes({
@@ -3617,7 +3661,9 @@ Card.addNotes({
     "40519": "The first skill is Nerve Pinch before rebirth",
     "40703": "Rebirth skill missing",
     "40741": "Skills incomplete", // Fleurety
-    "40749": "Recommended skills not confirmed" // Cupid
+    "40749": "Recommended skills not confirmed", // Cupid
+    "40755": "Skills incomplete", // Mordred
+    "40757": "Skills incomplete" // Helel ben Shahar
 });
 
 ExCard.addAll([

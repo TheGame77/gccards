@@ -153,7 +153,9 @@ var Place = (function() {
         [22, 112, ["black_snow"]],         // The Guardians Who Stole Christmas
         [23, 10,  ["zeus"]],               // Zeus Nebula
         [24, 11,  ["aedengard"]],          // Aedengard
-        [25, 12,  ["babylon"]]             // Babylon
+        [25, 12,  ["babylon"]],            // Babylon
+        [26, 13,  ["pandemonium"]],        // Pandemonium
+        [27, 113, ["gsexchange"]]          // Guardian Soul
     ];
 
     var places = {
@@ -266,7 +268,8 @@ var Event = (function() {
         [77, ["goodbyesummer"]],
         [78, ["goldenhunt"]],
         [79, ["crimsonberserker"]],
-        [80, ["blackwingeddemonbow"]]
+        [80, ["blackwingeddemonbow"]],
+        [81, ["assassin"]]
     ];
 
     var events = {
@@ -685,7 +688,10 @@ var Skill = (function() {
         [106, SKILL_ATTACK, "sgs",                 new Cost(0, 1200), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Gigant Smash
         [107, SKILL_OTHER, "srevival",             new Cost(0,    1), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Revival
         [108, SKILL_OTHER, "ssap",                 new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Sap
-        [109, SKILL_OTHER, "holygrail",            new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0] // Holy Grail -- MP is wrong
+        [109, SKILL_OTHER, "holygrail",            new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Holy Grail -- MP is wrong
+        [110, SKILL_ATTACK, "arondight",           new Cost(0, 1400), stone_no,  nbuff({}),                   Attribute.none, 0], // Arondight
+        [111, SKILL_OTHER, "divineshield",         new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Divine Shield
+        [112, SKILL_OTHER, "force",                new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0] // Force
     ];
 
     var skills = {
@@ -1642,6 +1648,7 @@ var ExSkill = (function() {
         [90,  ExType.red,  ["water2"],          as(Attribute.water),     0.02, 0.02, 0.02, 0.02, 0.02, 0.02, none, 0, none, 0, none, 0, 0],
         [91,  ExType.red,  ["water4"],          as(Attribute.water),     0.04, 0.04, 0.04, 0.04, 0.04, 0.04, none, 0, none, 0, none, 0, 0],
         [92,  ExType.red,  ["water6"],          as(Attribute.water),     0.06, 0.06, 0.06, 0.06, 0.06, 0.06, none, 0, none, 0, none, 0, 0],
+        // TODO: Remove these eventually when they are removed from international version
         [93,  ExType.blue, ["suc_ls3"],         all,                        0,    0,    0,    0,    0,    0, ls, 0.03, none, 0, none, 0, 0],
         [94,  ExType.blue, ["suc_ls5"],         all,                        0,    0,    0,    0,    0,    0, ls, 0.05, none, 0, none, 0, 0],
         [95,  ExType.blue, ["suc_ls7"],         all,                        0,    0,    0,    0,    0,    0, ls, 0.07, none, 0, none, 0, 0],
@@ -1653,7 +1660,10 @@ var ExSkill = (function() {
         [101, ExType.red,  ["hp15"],            all,                     0.15,    0,    0,    0,    0,    0, none, 0, none, 0, none, 0, 0],
         [102, ExType.blue, ["suc_gs10"],        all,                        0,    0,    0,    0,    0,    0, gs, 0.10, none, 0, none, 0, 0],
         [103, ExType.blue, ["suc_gs12"],        all,                        0,    0,    0,    0,    0,    0, gs, 0.12, none, 0, none, 0, 0],
-        [104, ExType.blue, ["suc_gs15"],        all,                        0,    0,    0,    0,    0,    0, gs, 0.15, none, 0, none, 0, 0]
+        [104, ExType.blue, ["suc_gs15"],        all,                        0,    0,    0,    0,    0,    0, gs, 0.15, none, 0, none, 0, 0],
+        [105, ExType.blue, ["suc_revival4"],    all,                        0,    0,    0,    0,    0,    0, revival, 0.04, none, 0, none, 0, 0],
+        [106, ExType.blue, ["suc_revival7"],    all,                        0,    0,    0,    0,    0,    0, revival, 0.07, none, 0, none, 0, 0],
+        [107, ExType.blue, ["suc_revival9"],    all,                        0,    0,    0,    0,    0,    0, revival, 0.09, none, 0, none, 0, 0]
     ];
 
     var skills = {
