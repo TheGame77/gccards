@@ -780,6 +780,7 @@ var Shape = (function() {
         [24,  "zfemale",               ["zfemale"]],
         [25,  "pegasus",               ["pegasus"]],
         [27,  "zdragon",               ["zdragon"]],
+        [38,  "snowman",               ["snowman"]],
         [102, "Large Floating Orbs",   ["lorbs"]],
         [104, "Large Giant",           ["lgiant"]],
         [106, "Large Bird",            ["lbird"]],

@@ -3,6 +3,6 @@
 for f in `ls *.png`; do
   fn=${f/.png/}
   if [[ ! -f ${fn}.jpg ]]; then
-    sips -s format jpeg ${fn}.png --out ${fn}.jpg
+    convert -background white -flatten ${fn}.png ${fn}.jpg
   fi
 done
