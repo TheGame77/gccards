@@ -125,7 +125,9 @@ var Locale = function(l) {
                 "ゴールドハント", // Gold hunt
                 "紅蓮の暴君", // Crimson Berserker
                 "黒翼の魔弓", // Black Winged Demon Bow
-                "知謀の刺客" // Assassin
+                "知謀の刺客", // Assassin
+                "Yuletide Rondo", 
+                "Christmas Capriccio"
             ),
             borders: new Array(
                 "None",
@@ -282,9 +284,12 @@ var Locale = function(l) {
                 new Array("Shadow Revival",    "Shadow Revive"),
                 new Array("Shadow Sap",        "MP Wipe"),
                 new Array("Holy Grail",        ""),
-                new Array("arondight",        ""),
-                new Array("divineshield",        ""),
-                new Array("force",        "")
+                new Array("arondight",         ""),
+                new Array("divineshield",      ""),
+                new Array("force",             ""),
+                new Array("Holy Sap",          "MP Wipe"),
+                new Array("Holy Step",         "Physical Evasion"),
+                new Array("Holy Shift",        "Attribute Evasion")
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",
@@ -520,7 +525,9 @@ var Locale = function(l) {
                 "ゴールドハント", // Gold hunt
                 "紅蓮の暴君", // Crimson Berserker
                 "黒翼の魔弓", // Black Winged Demon Bow
-                "知謀の刺客" // Assassin
+                "知謀の刺客", // Assassin
+                "聖なる夜の輪舞曲", // Yuletide Rondo
+                "クリスマス狂想曲" // Christmas Capriccio
             ),
             borders: new Array(
                 "なし",
@@ -676,10 +683,13 @@ var Locale = function(l) {
                 new Array("暗黒ギガントスラッシュ", "一撃大ダメージ"), // Shadow Gigant Smash
                 new Array("暗黒リバイバル", "暗黒復活"), // Shadow Revival
                 new Array("暗黒アビリティロック", "MP 無効"), // Shadow Sap
-                new Array("ホーリーグレイ", "????"), // Holy Grail
-                new Array("アロンダイト", "????"), // Arondight
-                new Array("ディバインシールド",  "????"), //Divine Shield
-                new Array("フォース",        "????") // Force
+                new Array("ホーリーグレイ", "HP回復全"), // Holy Grail
+                new Array("アロンダイト", "HP,MPダメージ"), // Arondight
+                new Array("ディバインシールド", "初撃無効"), //Divine Shield
+                new Array("フォース", "継承"), // Force
+                new Array("ホーリーロック", "絶対MP無効"), // Holy Sap
+                new Array("ホーリーステップ", "絶対物理回避"), // Holy Step
+                new Array("Holy Shift", "Attribute Evasion") // Holy Shift
             ),
             exskills: new Array(
                 "火属性ガーディアンの全ステータスを10%アップ",

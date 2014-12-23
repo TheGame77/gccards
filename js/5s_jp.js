@@ -3606,7 +3606,13 @@ Card.addAll([
      1500, 730, 1180, 1410, 1310, 1700,
      [Skill.sap, Skill.datk20, Skill.darkness3, Skill.ddef20, Skill.darkness4, Skill.mvs],
      [Skill.sap, Skill.datk20, Skill.darkness4],
-     [Skill.sap, Skill.darkness4, Skill.mvs]]
+     [Skill.sap, Skill.darkness4, Skill.mvs]],
+    ["40768", "聖夜のアメノウズメ", "", 
+     Event.christmascapriccio, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
+     1580, 900, 1535, 1360, 1300, 1260,
+     [Skill.hsap, Skill.physical3, Skill.atk10, Skill.physical4, Skill.ll, Skill.atk25],
+     [Skill.hsap, Skill.atk10, Skill.ll],
+     [Skill.hsap, Skill.ll, Skill.atk25]]
 ]);
 
 Card.addLimitedTypes({

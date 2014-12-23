@@ -6,6 +6,10 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/12/23': [
+            "クリスマス狂想曲: " + Card.mklnk(40768) + "。",
+            "WARNING: New skills holy sap, holy step, holy shift not implemented in the damage calculator or the battle simulator."
+        ],
         '2014/12/19': [
             "ガーディアンソウル: " + Card.mklnk(40752) + "。",
             "魔宮殿: " + Card.mklnk(40753) + "、" + Card.mklnk(40754) + "、" + Card.mklnk(40755) + "、" + Card.mklnk(40756) + "。",

@@ -269,7 +269,9 @@ var Event = (function() {
         [78, ["goldenhunt"]],
         [79, ["crimsonberserker"]],
         [80, ["blackwingeddemonbow"]],
-        [81, ["assassin"]]
+        [81, ["assassin"]],
+        [82, ["yuletiderondo"]],
+        [83, ["christmascapriccio"]]
     ];
 
     var events = {
@@ -691,7 +693,10 @@ var Skill = (function() {
         [109, SKILL_OTHER, "holygrail",            new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Holy Grail -- MP is wrong
         [110, SKILL_ATTACK, "arondight",           new Cost(0, 1400), stone_no,  nbuff({}),                   Attribute.none, 0], // Arondight
         [111, SKILL_OTHER, "divineshield",         new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Divine Shield
-        [112, SKILL_OTHER, "force",                new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0] // Force
+        [112, SKILL_OTHER, "force",                new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Force
+        [113, SKILL_OTHER, "hsap",                 new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Holy Sap
+        [114, SKILL_OTHER, "hs",                   new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Holy Step
+        [115, SKILL_OTHER, "hshift",               new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0] // Holy Shift
     ];
 
     var skills = {
