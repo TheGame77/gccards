@@ -2748,7 +2748,8 @@ var Calculator = (function() {
 
             if (!(options.sap && (
                     (hasSkill(skills2, Skill.sap) && status2.mp >= Skill.sap.cost.mp) ||
-                    (hasSkill(skills2, Skill.ssap) && status2.mp >= Skill.ssap.cost.mp)
+                    (hasSkill(skills2, Skill.ssap) && status2.mp >= Skill.ssap.cost.mp) ||
+                    (hasSkill(skills2, Skill.hsap) && status2.mp >= Skill.hsap.cost.mp)
                 ) && !hasSkill(skills1, Skill.resistant) )) {
                 for (var i = 0; i < skills1.length; i++) {
                     var skill = skills1[i];
@@ -2991,7 +2992,9 @@ var Calculator = (function() {
             damage = Math.max(damage, 1);
             res['normal'] = damage >= hp1;
 
-            if (!(options.sap && (hasSkill(skills1, Skill.sap) || hasSkill(skills1, Skill.ssap)) && !hasSkill(skills2, Skill.resistant))) {
+            if (!(options.sap && (hasSkill(skills1, Skill.sap) ||
+                                    hasSkill(skills1, Skill.ssap) ||
+                                    hasSkill(skills1, Skill.hsap)) && !hasSkill(skills2, Skill.resistant))) {
                 if ((hasSkill(skills2, Skill.gs) && status2.mp >= Skill.gs.cost.mp) ||
                     (hasSkill(skills2, Skill.sgs) && status2.mp >= Skill.sgs.cost.mp)) {
                     /* Attack by Gigant Smash. */

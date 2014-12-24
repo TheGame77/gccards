@@ -1,4 +1,5 @@
-/** To be supported: Crash Drain, Deep Sleep, Poison Attack */
+/** To be supported: holygrail, arondight, divineshield, force */
+// TODO: Death by tb does not blur out defeated opponent. Fix
 
 var TEAM_SIZE = 10;
 var STAR_SIZE = 5;
@@ -131,10 +132,10 @@ function Simulator(my_party, oppo_party, options) {
                 g.battle.poisoned = false;             /* Indicate if a card is poisoned. */
                 g.battle.ls = g.hasSkill(Skill.ls);                 /* Can cast LS? */
                 g.battle.revival = g.hasSkill(Skill.revival) || g.hasSkill(Skill.srevival); /* Can cast Revival? */
-                g.battle.ds = g.hasSkill(Skill.ds) || g.hasSkill(Skill.sds); /* Can cast DS/SDS? */
-                g.battle.vd = g.hasSkill(Skill.vd);                 /* Can cast VD? */
+                g.battle.ds = g.hasSkill(Skill.ds) || g.hasSkill(Skill.sds) || g.hasSkill(Skill.hs); /* Can cast DS/SDS/HS? */
+                g.battle.vd = g.hasSkill(Skill.vd) || g.hasSkill(Skill.hshift); /* Can cast VD/Holy Shift? */
                 g.battle.ep = g.hasSkill(Skill.ep);                 /* Can cast EP? */
-                g.battle.sap = g.hasSkill(Skill.sap) || g.hasSkill(Skill.ssap); /* Can cast Sap? */
+                g.battle.sap = g.hasSkill(Skill.sap) || g.hasSkill(Skill.ssap) || g.hasSkill(Skill.hsap); /* Can cast Sap? */
                 g.battle.dr = g.hasSkill(Skill.dr);                 /* Can cast Deadly Reflex? */
                 g.battle.sd = g.hasSkill(Skill.sd) || g.hasSkill(Skill.rendburst); /* Can cast SD/Rendburst? */
                 g.battle.mr = g.hasSkill(Skill.mr) || g.hasSkill(Skill.smr); /* Can cast MR/SMR? */
@@ -583,11 +584,19 @@ function Simulator(my_party, oppo_party, options) {
 
     var applySap = function(r, d, g1, g2) {
         var res = false;
-        var skill = g1.hasSkill(Skill.ssap) ? Skill.ssap : Skill.sap;
+        var skill;
+
+        if(g1.hasSkill(Skill.ssap))
+            skill = Skill.ssap;
+        else if(g1.hasSkill(Skill.hsap))
+            skill = Skill.hsap;
+        else
+            skill = Skill.sap;
+
         if (g1.battle.sap && skill.cost.mp <= g1.battle.status.mp) {
             g1.battle.sap = false;
             r.append(d, g1, g2, g1.name + "'s " + skill.name, MSG_BUFF);
-            if ((skill == Skill.ssap || Math.random() < options[d.attacker].sap) && !g2.battle.resistant_effective) {
+            if ((skill == Skill.ssap || skill == Skill.hsap || Math.random() < options[d.attacker].sap) && !g2.battle.resistant_effective) {
                 g1.battle.status.mp -= skill.cost.mp;
                 g2.battle.status.mp = 0;
                 r.append(d, g1, g2, g2.name + " is sapped", MSG_BUFF);
@@ -634,7 +643,7 @@ function Simulator(my_party, oppo_party, options) {
         }
 
         // Code will need adjusting if ds/sds had different mp costs
-        if (g1.battle.ds && Skill.ds.cost.mp <= g1.battle.status.mp && (g1.hasSkill(Skill.sds) || Math.random() < rate)) {
+        if (g1.battle.ds && Skill.ds.cost.mp <= g1.battle.status.mp && (g1.hasSkill(Skill.sds) || g1.hasSkill(Skill.hs) || Math.random() < rate)) {
             g1.battle.status.mp -= Skill.ds.cost.mp;
             r.append(d, g1, g2, g1.name + " evades the attack.", MSG_DS);
             return true;
@@ -646,14 +655,18 @@ function Simulator(my_party, oppo_party, options) {
         if (g1.battle.paralyzed > 0)
             return false;
 
-        var rate = options[d.attacker].ds;
-        /* Apply EX2 buff. */
-        var ex2 = d.getAttackerEx2();
-        var exskill = ex2 == null ? null : ex2.getSkill();
-        if (exskill != null && exskill.scs(Skill.vd))
-            rate += exskill.sucup;
+        var rate;
 
-        if (g1.battle.vd && Skill.vd.cost.mp <= g1.battle.status.mp && Math.random() < rate) {
+        if(g1.hasSkill(Skill.vd)) {
+            rate = options[d.attacker].ds;
+            /* Apply EX2 buff. */
+            var ex2 = d.getAttackerEx2();
+            var exskill = ex2 == null ? null : ex2.getSkill();
+            if (exskill != null && exskill.scs(Skill.vd))
+                rate += exskill.sucup;
+        }
+
+        if (g1.battle.vd && Skill.vd.cost.mp <= g1.battle.status.mp && (g1.hasSkill(Skill.hshift) || Math.random() < rate)) {
             g1.battle.status.mp -= Skill.vd.cost.mp;
             r.append(d, g1, g2, g1.name + " evades the attack.", MSG_DS);
             return true;

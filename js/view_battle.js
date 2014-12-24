@@ -635,10 +635,14 @@ function setImage(target, prefix, g) {
             .append(g.getImage(200));
     }
 
-    if (g.battle.status.hp <= 0 && !g.battle.ls) {
+    if (g.battle.status.hp <= 0) {
         $("#" + prefix + "-image img").addClass("defeated");
         $(target.id + "_avatars img:nth-of-type(" + (g.battle.position + 1) + ")")
             .addClass("defeated");
+    } else {
+        $("#" + prefix + "-image img").removeClass("defeated");
+        $(target.id + "_avatars img:nth-of-type(" + (g.battle.position + 1) + ")")
+            .removeClass("defeated");
     }
 
     var id = prefix + "-hp";
@@ -951,7 +955,7 @@ function suggest(iters, rounds) {
     }
 
     if (oppo.cards.length == 0) {
-        outputMessage("Hey! Your opponent does not have any card!");
+        outputMessage("Hey! Your opponent does not have any cards!");
         finalize();
         return;
     }

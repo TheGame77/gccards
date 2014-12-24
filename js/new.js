@@ -10,7 +10,7 @@ WhatIsNew.get = function() {
             "8th Skyborne Coliseum Reward: " + Card.mklnk(40739) + ".",
             "Christmas Capriccio: " + Card.mklnk(40768) + ".",
             "Yuletide Rondo: " + Card.mklnk(40769) + ", " + Card.mklnk(40770) + ".",
-            "WARNING: New skills holy sap, holy step, holy shift not implemented in the damage calculator or the battle simulator."
+            "New skills holy sap, holy step, holy shift implemented in the damage calculator and battle simulator."
         ],
         '2014/12/12': [
             "Farewell Summer: " + Card.mklnk(40740) + ",",
