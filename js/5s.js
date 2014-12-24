@@ -3432,6 +3432,12 @@ Card.addAll([
      [Skill.qs, Skill.physical3, Skill.ddef20, Skill.physical4, Skill.ll, Skill.vd],
      [Skill.qs, Skill.ddef20, Skill.ll],
      [Skill.qs, Skill.vd, Skill.ll]],
+    ["40739", "Almighty Tezcatlipoca", "The god of a race long extinct, it is said to take the form of a jaguar to bat the sun out of the sky.",
+     Event.none, Border.almighty, 5, Place.coliseum, 8, "40657", Shape.none, Attribute.earth,
+     1980, 800, 1760, 1570, 1360, 1400,
+     [Skill.slash4, Skill.atk20, Skill.bg, Skill.sap, Skill.revival],
+     [Skill.sap, Skill.bg, Skill.revival],
+     [Skill.sap, Skill.bg, Skill.revival]],
     ["40740", "Nafanua", "A goddess of the forgotten isle, she rises from the ocean to end the war and strife that plagues her people.",
      Event.goodbyesummer, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.earth,
      1460, 1120, 1470, 1300, 1312, 1300,
@@ -3449,7 +3455,25 @@ Card.addAll([
      1920, 1180, 1670, 1320, 1360, 1460,
      [Skill.sap, Skill.ddef20, Skill.physical3, Skill.physical4, Skill.ll, Skill.revival],
      [Skill.sap, Skill.ddef20, Skill.ll],
-     [Skill.sap, Skill.ll, Skill.revival]]
+     [Skill.sap, Skill.ll, Skill.revival]],
+    ["40768", "Holy Ame-no-Uzume", "The divine dancer, in her new sacred garb, devotes herself to delighting the gods that gather on the holy night.", 
+     Event.christmascapriccio, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
+     1580, 900, 1535, 1360, 1300, 1260,
+     [Skill.hsap, Skill.physical3, Skill.atk10, Skill.physical4, Skill.ll, Skill.atk25],
+     [Skill.hsap, Skill.atk10, Skill.ll],
+     [Skill.hsap, Skill.ll, Skill.atk25]],
+    ["40769", "Saint Angitia", "This binary goddess appears on the banks of frozen lakes, providing peace and comfort to all visitors.", 
+     Event.yuletiderondo, Border.none, 5, Place.aedengard, 0, null, Shape.snowman, Attribute.water,
+     0, 0, 0, 0, 0, 0,
+     [Skill.ds, Skill.hshift, Skill.dp],
+     [Skill.ds, Skill.hshift, Skill.dp],
+     [Skill.ds, Skill.hshift, Skill.dp]],
+    ["40770", "Aine Claus", "A fairy that flitters in the falling snow on the holiest of nights, spreading big holiday joy from her tiny frame.", 
+     Event.yuletiderondo, Border.none, 5, Place.aedengard, 0, null, Shape.snowman, Attribute.wind,
+     1920, 1180, 1200, 1320, 1360, 1760,
+     [Skill.hs, Skill.wind4, Skill.tb],
+     [Skill.hs, Skill.wind4, Skill.tb],
+     [Skill.hs, Skill.wind4, Skill.tb]]
 ]);
 
 Card.addLimitedTypes({
@@ -3736,9 +3760,12 @@ Card.addNotes({
     "40735": "Skills from Japanese version", // Siegfried
     "40736": "Skills from Japanese version", // Hecate
     "40738": "Skills from Japanese version", // Kushinadahime
+    "40739": "All data from Japanese version", // Almighty Tezcatlipoca
     "40740": "Skills from Japanese version", // Nafanua
     "40741": "Skills from Japanese version", // Fleurety
-    "40742": "Skills from Japanese version" // Konohana-sakuya
+    "40742": "Skills from Japanese version", // Konohana-sakuya
+    "40769": "Profile missing, skills not confirmed", // Saint Angitia
+    "40770": "Profile from Japanese version, skills not confirmed" // Aine Claus
 });
 
 ExCard.addAll([

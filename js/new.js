@@ -6,6 +6,12 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/12/24': [
+            "8th Skyborne Coliseum Reward: " + Card.mklnk(40739) + ".",
+            "Christmas Capriccio: " + Card.mklnk(40768) + ".",
+            "Yuletide Rondo: " + Card.mklnk(40769) + ", " + Card.mklnk(40770) + ".",
+            "WARNING: New skills holy sap, holy step, holy shift not implemented in the damage calculator or the battle simulator."
+        ],
         '2014/12/12': [
             "Farewell Summer: " + Card.mklnk(40740) + ",",
             "Turbulent Seasons: " + Card.mklnk(40741) + ", " + Card.mklnk(40742) + "."
