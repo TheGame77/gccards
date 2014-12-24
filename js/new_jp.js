@@ -8,6 +8,7 @@ WhatIsNew.get = function() {
         ],
         '2014/12/23': [
             "クリスマス狂想曲: " + Card.mklnk(40768) + "。",
+            "聖なる夜の輪舞曲: " + Card.mklnk(40769) + "、" + Card.mklnk(40770) + "。",
             "WARNING: New skills holy sap, holy step, holy shift not implemented in the damage calculator or the battle simulator."
         ],
         '2014/12/19': [

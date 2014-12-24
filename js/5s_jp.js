@@ -3612,7 +3612,19 @@ Card.addAll([
      1580, 900, 1535, 1360, 1300, 1260,
      [Skill.hsap, Skill.physical3, Skill.atk10, Skill.physical4, Skill.ll, Skill.atk25],
      [Skill.hsap, Skill.atk10, Skill.ll],
-     [Skill.hsap, Skill.ll, Skill.atk25]]
+     [Skill.hsap, Skill.ll, Skill.atk25]],
+    ["40769", "セイント・アナグティア", "", 
+     Event.yuletiderondo, Border.none, 5, Place.aedengard, 0, null, Shape.snowman, Attribute.water,
+     0, 0, 0, 0, 0, 0,
+     [Skill.divineshield],
+     [],
+     []],
+    ["40770", "サンタ・ティンカー・ベル", "", 
+     Event.yuletiderondo, Border.none, 5, Place.aedengard, 0, null, Shape.snowman, Attribute.wind,
+     1920, 1180, 1200, 1320, 1360, 1760,
+     [Skill.arondight],
+     [],
+     []]
 ]);
 
 Card.addLimitedTypes({
@@ -3669,7 +3681,9 @@ Card.addNotes({
     "40741": "Skills incomplete", // Fleurety
     "40749": "Recommended skills not confirmed", // Cupid
     "40755": "Skills incomplete", // Mordred
-    "40757": "Skills incomplete" // Helel ben Shahar
+    "40757": "Skills incomplete", // Helel ben Shahar
+    "40769": "All data missing", // Saint Angitia
+    "40770": "Skills missing" // Santa Tinkerbell
 });
 
 ExCard.addAll([
