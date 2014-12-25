@@ -6,6 +6,13 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2014/12/25': [
+            "招待特典第8弾: " + Card.mklnk(40750) + "、" + Card.mklnk(40751) + "。",
+            "災厄の紡ぎ手: " + Card.mklnk(40766) + "。",
+            "第10回天空コロシアム: " + Card.mklnk(40759) + "。",
+            "第11回天空コロシアム: " + Card.mklnk(40767) + "。",
+            "第12回天空コロシアム: " + Card.mklnk(40771) + "。"
+        ],
         '2014/12/24': [
             "New skills holy sap, holy step, holy shift implemented in the damage calculator and battle simulator."
         ],

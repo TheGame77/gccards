@@ -3464,14 +3464,14 @@ Card.addAll([
      [Skill.hsap, Skill.ll, Skill.atk25]],
     ["40769", "Saint Angitia", "This binary goddess appears on the banks of frozen lakes, providing peace and comfort to all visitors.", 
      Event.yuletiderondo, Border.none, 5, Place.aedengard, 0, null, Shape.snowman, Attribute.water,
-     0, 0, 0, 0, 0, 0,
+     1580, 1230, 1660, 1400, 1310, 1400,
      [Skill.ds, Skill.hshift, Skill.dp],
      [Skill.ds, Skill.hshift, Skill.dp],
      [Skill.ds, Skill.hshift, Skill.dp]],
     ["40770", "Aine Claus", "A fairy that flitters in the falling snow on the holiest of nights, spreading big holiday joy from her tiny frame.", 
      Event.yuletiderondo, Border.none, 5, Place.aedengard, 0, null, Shape.snowman, Attribute.wind,
-     1920, 1180, 1200, 1320, 1360, 1760,
-     [Skill.hs, Skill.wind4, Skill.tb],
+     1920, 1000, 1200, 1320, 1340, 1760,
+     [Skill.hs, Skill.wis10, Skill.wind4, Skill.tb],
      [Skill.hs, Skill.wind4, Skill.tb],
      [Skill.hs, Skill.wind4, Skill.tb]]
 ]);
@@ -3765,7 +3765,7 @@ Card.addNotes({
     "40741": "Skills from Japanese version", // Fleurety
     "40742": "Skills from Japanese version", // Konohana-sakuya
     "40769": "Profile missing, skills not confirmed", // Saint Angitia
-    "40770": "Profile from Japanese version, skills not confirmed" // Aine Claus
+    "40770": "Skills not confirmed" // Aine Claus
 });
 
 ExCard.addAll([

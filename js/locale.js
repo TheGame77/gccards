@@ -287,9 +287,9 @@ var Locale = function(l) {
                 new Array("arondight",         ""),
                 new Array("divineshield",      ""),
                 new Array("force",             ""),
-                new Array("Holy Sap",          "MP Wipe"),
-                new Array("Holy Step",         "Physical Evasion"),
-                new Array("Holy Shift",        "Attribute Evasion")
+                new Array("Holy Sap",          "MP wipe"),
+                new Array("Holy Step",         "Physical evasion"),
+                new Array("Holy Shift",        "Attribute evasion")
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",

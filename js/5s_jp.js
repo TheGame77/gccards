@@ -3564,7 +3564,18 @@ Card.addAll([
      [Skill.darkness3, Skill.bg, Skill.ds, Skill.vd, Skill.revival, Skill.tb],
      [Skill.bg, Skill.ds, Skill.revival],
      [Skill.bg, Skill.ds, Skill.revival]],
-     // 40750/51???
+    ["40750", "ジルニトラ", "", 
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.water,
+     1320, 940, 1470, 1310, 1300, 1380,
+     [Skill.qs, Skill.slash3, Skill.atk10, Skill.slash4, Skill.np, Skill.dp],
+     [Skill.qs, Skill.slash4, Skill.np],
+     [Skill.qs, Skill.np, Skill.dp]],
+    ["40751", "ヴァハ", "", 
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.wind,
+     1380, 1020, 1280, 1370, 1280, 1480,
+     [Skill.force, Skill.wind3, Skill.datk20, Skill.agi10, Skill.wind4, Skill.mvs],
+     [Skill.force, Skill.agi10, Skill.wind4],
+     [Skill.force, Skill.wind4, Skill.mvs]],
     ["40752", "ケルビム", "智天使の位につく楽園の守護神。大気を震わす雷鳴、大地を揺るがす地震と共に現れる。", 
      Event.none, Border.none, 5, Place.gsexchange, 0, null, Shape.none, Attribute.light,
      1880, 370, 1640, 1420, 1320, 1320,
@@ -3607,6 +3618,24 @@ Card.addAll([
      [Skill.sap, Skill.datk20, Skill.darkness3, Skill.ddef20, Skill.darkness4, Skill.mvs],
      [Skill.sap, Skill.datk20, Skill.darkness4],
      [Skill.sap, Skill.darkness4, Skill.mvs]],
+    ["40759", "最強フェルニゲシュ", "全ての龍の帝王として君臨する黒龍。魔界の最深部から姿を現し、破壊の限りを尽くす。", 
+     Event.none, Border.almighty, 5, Place.coliseum, 10, "40748", Shape.none, Attribute.fire,
+     1720, 2320, 1640, 1530, 1320, 1480,
+     [Skill.qs, Skill.agi10, Skill.physical4, Skill.dp, Skill.rendburst],
+     [Skill.qs, Skill.agi10, Skill.dp],
+     [Skill.qs, Skill.dp, Skill.rendburst]],
+    ["40766", "クロト・カラミティ", "災厄を司る運命の三女神、その長女。彼女が紡ぎ出す運命の糸は冷酷な死の宣告である。", 
+     Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.mecha,
+     1870, 2500, 1500, 1420, 1330, 1720,
+     [Skill.rendburst, Skill.wis10, Skill.mecha4, Skill.datk20, Skill.ds, Skill.death4],
+     [Skill.rendburst, Skill.mecha4, Skill.ds],
+     [Skill.rendburst, Skill.ds, Skill.death4]],
+    ["40767", "最強ルー", "神族と魔族双方の血を受け継ぎ、あらゆる分野において卓越した技能を発揮する太陽神。", 
+     Event.none, Border.almighty, 5, Place.coliseum, 11, "40658", Shape.none, Attribute.light,
+     2180, 900, 1700, 1480, 1330, 1400,
+     [Skill.ds, Skill.slash4, Skill.ddef20, Skill.bg, Skill.qs],
+     [Skill.ds, Skill.bg, Skill.qs],
+     [Skill.ds, Skill.bg, Skill.qs]],
     ["40768", "聖夜のアメノウズメ", "", 
      Event.christmascapriccio, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
      1580, 900, 1535, 1360, 1300, 1260,
@@ -3615,16 +3644,22 @@ Card.addAll([
      [Skill.hsap, Skill.ll, Skill.atk25]],
     ["40769", "セイント・アナグティア", "", 
      Event.yuletiderondo, Border.none, 5, Place.aedengard, 0, null, Shape.snowman, Attribute.water,
-     0, 0, 0, 0, 0, 0,
-     [Skill.divineshield],
-     [],
-     []],
+     1780, 1330, 1670, 1460, 0, 0,
+     [Skill.divineshield, Skill.def10, Skill.physical4, Skill.dp, Skill.qs],
+     [Skill.divineshield, Skill.def10, Skill.dp],
+     [Skill.divineshield, Skill.dp, Skill.qs]],
     ["40770", "サンタ・ティンカー・ベル", "", 
      Event.yuletiderondo, Border.none, 5, Place.aedengard, 0, null, Shape.snowman, Attribute.wind,
      1920, 1180, 1200, 1320, 1360, 1760,
-     [Skill.arondight],
+     [Skill.arondight, Skill.tb],
      [],
-     []]
+     []],
+    ["40771", "最強アメノウズメ", "かつて闇に覆われた世界を救った救世の舞姫。その舞は神々に賑わいと光をもたらした。", 
+     Event.none, Border.almighty, 5, Place.coliseum, 12, "40687", Shape.none, Attribute.wind,
+     1880, 1400, 1300, 1420, 1360, 1700,
+     [Skill.ds, Skill.wis10, Skill.wind3, Skill.wind4, Skill.mindshift],
+     [Skill.ds, Skill.wind4, Skill.mindshift],
+     [Skill.ds, Skill.wind4, Skill.mindshift]]
 ]);
 
 Card.addLimitedTypes({
@@ -3666,6 +3701,8 @@ Card.addLimitedTypes({
     "40710": [Type.cool, Type.coolr],    // Takemikazuchi
     "40711": [Type.cool, Type.coolr],    // Fusehime
     "40720": [Type.cool, Type.coolr],    // Phantom Iblis
+    "40750": [Type.cool, Type.coolr],    // Zirnitra
+    "40751": [Type.cool, Type.coolr],    // Macha
     "40752": [Type.cool, Type.coolr]     // Cherubim
 });
 
@@ -3682,7 +3719,7 @@ Card.addNotes({
     "40749": "Recommended skills not confirmed", // Cupid
     "40755": "Skills incomplete", // Mordred
     "40757": "Skills incomplete", // Helel ben Shahar
-    "40769": "All data missing", // Saint Angitia
+    "40769": "Skills not confirmed, agi/wis missing", // Saint Angitia
     "40770": "Skills missing" // Santa Tinkerbell
 });
 
