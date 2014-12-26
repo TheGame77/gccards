@@ -3456,6 +3456,18 @@ Card.addAll([
      [Skill.sap, Skill.ddef20, Skill.physical3, Skill.physical4, Skill.ll, Skill.revival],
      [Skill.sap, Skill.ddef20, Skill.ll],
      [Skill.sap, Skill.ll, Skill.revival]],
+    ["40748", "Fernyiges", "Said to possess the power of a thousand dragons, this obsidian terror scorches all that stands in its path.", 
+     Event.crimsonberserker, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.fire,
+     1480, 1270, 1480, 1320, 1280, 1260,
+     [Skill.qs, Skill.agi10, Skill.physical3, Skill.physical4, Skill.dp, Skill.rendburst],
+     [Skill.qs, Skill.agi10, Skill.dp],
+     [Skill.qs, Skill.dp, Skill.rendburst]],
+    ["40749", "Cupido", "The goddess whose very name means desire. Her gold arrow evokes passion, whil her lead arrow brings emptiness.", 
+     Event.blackwingeddemonbow, Border.none, 5, Place.babylon, 0, null, Shape.circular, Attribute.darkness,
+     2080, 405, 1670, 1360, 1340, 1600,
+     [Skill.darkness3, Skill.bg, Skill.ds, Skill.vd, Skill.revival, Skill.tb],
+     [Skill.bg, Skill.ds, Skill.revival],
+     [Skill.bg, Skill.ds, Skill.revival]],
     ["40768", "Holy Ame-no-Uzume", "The divine dancer, in her new sacred garb, devotes herself to delighting the gods that gather on the holy night.", 
      Event.christmascapriccio, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
      1580, 900, 1535, 1360, 1300, 1260,
@@ -3764,6 +3776,7 @@ Card.addNotes({
     "40740": "Skills from Japanese version", // Nafanua
     "40741": "Skills from Japanese version", // Fleurety
     "40742": "Skills from Japanese version", // Konohana-sakuya
+    "40749": "Recommended skills not confirmed", // Cupid
     "40769": "Profile missing, skills not confirmed", // Saint Angitia
     "40770": "Skills not confirmed" // Aine Claus
 });

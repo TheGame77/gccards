@@ -123,8 +123,8 @@ var Locale = function(l) {
                 "Turbulent Seasons", // Four Season Chaos
                 "Farewell Summer", // Goodbye Summer
                 "ゴールドハント", // Gold hunt
-                "紅蓮の暴君", // Crimson Berserker
-                "黒翼の魔弓", // Black Winged Demon Bow
+                "Crimson Tyrant", // Crimson Berserker
+                "Black-Feathered Arrow", // Black Winged Demon Bow
                 "知謀の刺客", // Assassin
                 "Yuletide Rondo", 
                 "Christmas Capriccio"
