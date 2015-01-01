@@ -3373,7 +3373,7 @@ Card.addAll([
      [Skill.resistant, Skill.datk20, Skill.death4],
      [Skill.resistant, Skill.death4, Skill.sap]],
     ["40702", "最強水神クトゥルフ", "沈睡から目覚めた螺湮城の主。再臨を果たした来るべきものは、人の世の全てを滅ぼす。",
-     Event.none, Border.almighty, 5, Place.coliseum, 2, "40574", Shape.none, Attribute.poison,
+     Event.none, Border.almighty, 5, Place.coliseum, 4, "40574", Shape.none, Attribute.poison,
      2060, 1360, 1560, 1390, 1350, 1610,
      [Skill.physical3, Skill.fb, Skill.physical4, Skill.poison4, Skill.resistant],
      [Skill.fb, Skill.poison4, Skill.resistant],

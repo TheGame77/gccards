@@ -126,8 +126,9 @@ var Locale = function(l) {
                 "Crimson Tyrant", // Crimson Berserker
                 "Black-Feathered Arrow", // Black Winged Demon Bow
                 "知謀の刺客", // Assassin
-                "Yuletide Rondo", 
-                "Christmas Capriccio"
+                "Yuletide Rondo",
+                "Christmas Capriccio",
+                "The Greatest Hits"
             ),
             borders: new Array(
                 "None",
@@ -527,7 +528,8 @@ var Locale = function(l) {
                 "黒翼の魔弓", // Black Winged Demon Bow
                 "知謀の刺客", // Assassin
                 "聖なる夜の輪舞曲", // Yuletide Rondo
-                "クリスマス狂想曲" // Christmas Capriccio
+                "クリスマス狂想曲", // Christmas Capriccio
+                "The Greatest Hits"
             ),
             borders: new Array(
                 "なし",

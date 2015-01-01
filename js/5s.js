@@ -3222,6 +3222,12 @@ Card.addAll([
      [Skill.smr, Skill.slash3, Skill.wis20, Skill.darkness3, Skill.darkness4, Skill.dr],
      [Skill.smr, Skill.wis20, Skill.darkness4],
      [Skill.smr, Skill.darkness4, Skill.dr]],
+    ["40684", "Merkabah", "Flight hastened by a suite of airborne armor, this unforgiving angel spreads the justice of the gods among mortals.",
+     Event.greatesthits, Border.none, 5, Place.babylon, 0, null, Shape.giant, Attribute.mecha,
+     0, 0, 0, 0, 0, 0,
+     [Skill.nj, Skill.wis10, Skill.light2, Skill.light3, Skill.mecha4, Skill.mr],
+     [Skill.nj, Skill.wis10, Skill.mecha4],
+     [Skill.nj, Skill.mecha4, Skill.mr]],
     ["40685", "Hera", "Ruling from high atop a holy mountain, this queen of the gods ever protects womankind in birth, life, and marriage.", 
      Event.goddessoflove, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.light,
      1190, 1180, 1050, 1120, 1160, 1400,
@@ -3485,7 +3491,13 @@ Card.addAll([
      1920, 1000, 1200, 1320, 1340, 1760,
      [Skill.hs, Skill.wis10, Skill.wind4, Skill.tb],
      [Skill.hs, Skill.wind4, Skill.tb],
-     [Skill.hs, Skill.wind4, Skill.tb]]
+     [Skill.hs, Skill.wind4, Skill.tb]],
+    ["40778", "Ovis Phobetor", "A master of dreams responsible for nightmares, she roams the dreamscape in many beastly forms.", 
+     Event.greatesthits, Border.none, 5, Place.babylon, 0, null, Shape.canine, Attribute.death,
+     0, 0, 0, 0, 0, 0,
+     [],
+     [],
+     []]
 ]);
 
 Card.addLimitedTypes({
@@ -3749,6 +3761,7 @@ Card.addNotes({
     "40681": "Skills from Japanese version", // Maelstrom Cagnazzo
     "40682": "Skills from Japanese version", // Wildfire Rubicante
     "40683": "Skills from Japanese version", // Cimmerian Golbez
+    "40684": "Profile missing, skills from Japanese version", // Merkabah
     "40687": "Skills from Japanese version", // Ame-no-Uzume
     "40696": "Skills from Japanese version", // Viviane
     "40697": "Skills from Japanese version", // Gaasyendietha
@@ -3778,7 +3791,8 @@ Card.addNotes({
     "40742": "Skills from Japanese version", // Konohana-sakuya
     "40749": "Recommended skills not confirmed", // Cupid
     "40769": "Profile missing, skills not confirmed", // Saint Angitia
-    "40770": "Skills not confirmed" // Aine Claus
+    "40770": "Skills not confirmed", // Aine Claus
+    "40778": "All data missing" // Ovis Phobetor
 });
 
 ExCard.addAll([
@@ -3812,7 +3826,7 @@ ExCard.addAll([
     ["45010", "Silent Princess", "",
      Event.none, ExType.red, 5, Place.desert_night, 0, Shape.female, Attribute.light,
      [ExSkill.light10, ExSkill.light12, ExSkill.light15]],
-    ["45011", "Uriel", "",
+    ["45011", "Uriel", "More pitiless than the lords of hell, this angel watches for the immoral among men and the active among demons.",
      Event.none, ExType.blue, 5, Place.desert_night, 0, Shape.orbs, Attribute.light,
      [ExSkill.costdec_bg600, ExSkill.costdec_bg700, ExSkill.costdec_bg900]],
     ["45012", "Ares", "",
@@ -3823,5 +3837,8 @@ ExCard.addAll([
      [ExSkill.hp10, ExSkill.hp12, ExSkill.hp15]],
     ["45014", "Puck", "A self-proclaimed vassal of the Faerie King whose motives are as mysterious as the night forest he lurks in.",
      Event.none, ExType.red, 5, Place.fp, 0, Shape.none, Attribute.wind,
-     [ExSkill.wis10, ExSkill.wis12, ExSkill.wis15]]
+     [ExSkill.wis10, ExSkill.wis12, ExSkill.wis15]],
+    ["45015", "Enfield", "A mythological creature seen on many coats of arms, it is said to rise from the seas to protect the honored dead.",
+     Event.none, ExType.blue, 5, Place.fp, 0, Shape.none, Attribute.wind,
+     [ExSkill.pow_qs6, ExSkill.pow_qs8, ExSkill.pow_qs10]]
 ]);

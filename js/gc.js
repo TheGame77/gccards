@@ -271,7 +271,8 @@ var Event = (function() {
         [80, ["blackwingeddemonbow"]],
         [81, ["assassin"]],
         [82, ["yuletiderondo"]],
-        [83, ["christmascapriccio"]]
+        [83, ["christmascapriccio"]],
+        [84, ["greatesthits"]]
     ];
 
     var events = {
