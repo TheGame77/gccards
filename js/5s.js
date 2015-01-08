@@ -3462,6 +3462,18 @@ Card.addAll([
      [Skill.sap, Skill.ddef20, Skill.physical3, Skill.physical4, Skill.ll, Skill.revival],
      [Skill.sap, Skill.ddef20, Skill.ll],
      [Skill.sap, Skill.ll, Skill.revival]],
+    ["40745", "Krishna", "The hero who arrived to defeat the ultimate evil was none other the earthly incarnation of the supreme deity.",
+     Event.goldenhunt, Border.none, 5, Place.babylon, 0, null, Shape.humanoid, Attribute.water,
+     2200, 640, 1660, 1530, 1360, 1530,
+     [Skill.dr, Skill.slash3, Skill.datk20, Skill.dwis20, Skill.resistant, Skill.holygrail],
+     [Skill.resistant, Skill.datk20, Skill.dr],
+     [Skill.resistant, Skill.dr, Skill.holygrail]],
+    ["40746", "Almighty Maiden Lilith", "So feared by mankind was this vampire matriarch that they sought the protection of angels.", 
+     Event.none, Border.almighty, 5, Place.coliseum, 9, "40576", Shape.none, Attribute.darkness,
+     1880, 1180, 1360, 1480, 1360, 1860,
+     [Skill.resistant, Skill.darkness3, Skill.defwis10, Skill.darkness4, Skill.revival],
+     [Skill.resistant, Skill.darkness4, Skill.revival],
+     [Skill.resistant, Skill.darkness4, Skill.revival]],
     ["40748", "Fernyiges", "Said to possess the power of a thousand dragons, this obsidian terror scorches all that stands in its path.", 
      Event.crimsonberserker, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.fire,
      1480, 1270, 1480, 1320, 1280, 1260,
@@ -3789,6 +3801,8 @@ Card.addNotes({
     "40740": "Skills from Japanese version", // Nafanua
     "40741": "Skills from Japanese version", // Fleurety
     "40742": "Skills from Japanese version", // Konohana-sakuya
+    "40745": "Skills from Japanese version", // Krishna
+    "40739": "All data from Japanese version", // Almighty Maiden Lilith
     "40749": "Recommended skills not confirmed", // Cupid
     "40769": "Profile missing, skills not confirmed", // Saint Angitia
     "40770": "Skills not confirmed", // Aine Claus

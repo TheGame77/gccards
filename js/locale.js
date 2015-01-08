@@ -122,7 +122,7 @@ var Locale = function(l) {
                 "Vジャンプ12月特大号特典", // December V Jump
                 "Turbulent Seasons", // Four Season Chaos
                 "Farewell Summer", // Goodbye Summer
-                "ゴールドハント", // Gold hunt
+                "Return of the Heroes", // Gold hunt
                 "Crimson Tyrant", // Crimson Berserker
                 "Black-Feathered Arrow", // Black Winged Demon Bow
                 "知謀の刺客", // Assassin
@@ -284,7 +284,7 @@ var Locale = function(l) {
                 new Array("Shadow Gigant Smash","High Damage Attack"),
                 new Array("Shadow Revival",    "Shadow Revive"),
                 new Array("Shadow Sap",        "MP Wipe"),
-                new Array("Holy Grail",        ""),
+                new Array("Holy Grail",        "Full HP Recovery"),
                 new Array("arondight",         ""),
                 new Array("divineshield",      ""),
                 new Array("force",             ""),
