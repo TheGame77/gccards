@@ -3482,7 +3482,7 @@ Card.addAll([
      [Skill.qs, Skill.dp, Skill.rendburst]],
     ["40749", "Cupido", "The goddess whose very name means desire. Her gold arrow evokes passion, whil her lead arrow brings emptiness.", 
      Event.blackwingeddemonbow, Border.none, 5, Place.babylon, 0, null, Shape.circular, Attribute.darkness,
-     2080, 405, 1670, 1360, 1340, 1600,
+     2060, 405, 1670, 1360, 1340, 1600,
      [Skill.darkness3, Skill.bg, Skill.ds, Skill.vd, Skill.revival, Skill.tb],
      [Skill.bg, Skill.ds, Skill.revival],
      [Skill.bg, Skill.ds, Skill.revival]],
