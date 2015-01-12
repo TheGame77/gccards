@@ -3644,14 +3644,14 @@ Card.addAll([
      [Skill.hsap, Skill.ll, Skill.atk25]],
     ["40769", "セイント・アナグティア", "", 
      Event.yuletiderondo, Border.none, 5, Place.aedengard, 0, null, Shape.snowman, Attribute.water,
-     1780, 1330, 1670, 1460, 0, 0,
+     1780, 1330, 1670, 1460, 1320, 1500,
      [Skill.divineshield, Skill.def10, Skill.physical4, Skill.dp, Skill.qs],
      [Skill.divineshield, Skill.def10, Skill.dp],
      [Skill.divineshield, Skill.dp, Skill.qs]],
     ["40770", "サンタ・ティンカー・ベル", "", 
      Event.yuletiderondo, Border.none, 5, Place.aedengard, 0, null, Shape.snowman, Attribute.wind,
      1920, 1180, 1200, 1320, 1360, 1760,
-     [Skill.arondight, Skill.tb],
+     [Skill.hs, Skill.arondight],
      [],
      []],
     ["40771", "最強アメノウズメ", "かつて闇に覆われた世界を救った救世の舞姫。その舞は神々に賑わいと光をもたらした。", 
@@ -3719,7 +3719,7 @@ Card.addNotes({
     "40749": "Recommended skills not confirmed", // Cupid
     "40755": "Skills incomplete", // Mordred
     "40757": "Skills incomplete", // Helel ben Shahar
-    "40769": "Skills not confirmed, agi/wis missing", // Saint Angitia
+    "40769": "Skills not confirmed", // Saint Angitia
     "40770": "Skills missing" // Santa Tinkerbell
 });
 

@@ -3495,8 +3495,8 @@ Card.addAll([
     ["40769", "Saint Angitia", "This binary goddess appears on the banks of frozen lakes, providing peace and comfort to all visitors.", 
      Event.yuletiderondo, Border.none, 5, Place.aedengard, 0, null, Shape.snowman, Attribute.water,
      1580, 1230, 1660, 1400, 1310, 1400,
-     [Skill.ds, Skill.hshift, Skill.dp],
-     [Skill.ds, Skill.hshift, Skill.dp],
+     [Skill.ds, Skill.ddef20, Skill.physical3, Skill.hshift, Skill.physical4, Skill.dp],
+     [Skill.ds, Skill.hshift, Skill.physical4],
      [Skill.ds, Skill.hshift, Skill.dp]],
     ["40770", "Aine Claus", "A fairy that flitters in the falling snow on the holiest of nights, spreading big holiday joy from her tiny frame.", 
      Event.yuletiderondo, Border.none, 5, Place.aedengard, 0, null, Shape.snowman, Attribute.wind,
@@ -3506,8 +3506,8 @@ Card.addAll([
      [Skill.hs, Skill.wind4, Skill.tb]],
     ["40778", "Ovis Phobetor", "A master of dreams responsible for nightmares, she roams the dreamscape in many beastly forms.", 
      Event.greatesthits, Border.none, 5, Place.babylon, 0, null, Shape.canine, Attribute.death,
-     0, 0, 0, 0, 0, 0,
-     [],
+     2010, 1300, 1470, 1480, 1330, 1760,
+     [Skill.ds],
      [],
      []]
 ]);
@@ -3804,9 +3804,8 @@ Card.addNotes({
     "40745": "Skills from Japanese version", // Krishna
     "40739": "All data from Japanese version", // Almighty Maiden Lilith
     "40749": "Recommended skills not confirmed", // Cupid
-    "40769": "Profile missing, skills not confirmed", // Saint Angitia
     "40770": "Skills not confirmed", // Aine Claus
-    "40778": "All data missing" // Ovis Phobetor
+    "40778": "Skills missing" // Ovis Phobetor
 });
 
 ExCard.addAll([
