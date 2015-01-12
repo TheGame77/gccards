@@ -272,7 +272,8 @@ var Event = (function() {
         [81, ["assassin"]],
         [82, ["yuletiderondo"]],
         [83, ["christmascapriccio"]],
-        [84, ["greatesthits"]]
+        [84, ["greatesthits"]],
+        [85, ["urthverthandi"]]
     ];
 
     var events = {

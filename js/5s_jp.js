@@ -3659,7 +3659,19 @@ Card.addAll([
      1880, 1400, 1300, 1420, 1360, 1700,
      [Skill.ds, Skill.wis10, Skill.wind3, Skill.wind4, Skill.mindshift],
      [Skill.ds, Skill.wind4, Skill.mindshift],
-     [Skill.ds, Skill.wind4, Skill.mindshift]]
+     [Skill.ds, Skill.wind4, Skill.mindshift]],
+    ["40772", "ウルズ", "世界樹を守護する運命の三女神、その長女。聖なる泉から水を注ぎ、樹勢を保つ管理者。", 
+     Event.urthverthandi, Border.none, 5, Place.pandemonium, 0, null, Shape.female, Attribute.earth,
+     2090, 2400, 1670, 1520, 1350, 1460,
+     [Skill.qs, Skill.dagi20, Skill.physical4, Skill.atk10, Skill.bg, Skill.rendburst],
+     [Skill.qs, Skill.atk10, Skill.bg],
+     [Skill.qs, Skill.bg, Skill.rendburst]],
+    ["40773", "ヴェルザンディ", "世界樹を守護する運命の三女神、その次女。木片にルーンを刻み、人間の運命を決する。", 
+     Event.urthverthandi, Border.none, 5, Place.pandemonium, 0, null, Shape.female, Attribute.water,
+     1900, 1280, 1520, 1490, 1360, 1760,
+     [Skill.resistant, Skill.water3, Skill.agi10, Skill.water4, Skill.vd, Skill.arondight],
+     [Skill.resistant, Skill.water4, Skill.vd],
+     [Skill.resistant, Skill.vd, Skill.arondight]]
 ]);
 
 Card.addLimitedTypes({

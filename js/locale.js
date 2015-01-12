@@ -128,7 +128,8 @@ var Locale = function(l) {
                 "知謀の刺客", // Assassin
                 "Yuletide Rondo",
                 "Christmas Capriccio",
-                "The Greatest Hits"
+                "The Greatest Hits",
+                "運命の予言者" // Urth/Verthandi
             ),
             borders: new Array(
                 "None",
@@ -529,7 +530,8 @@ var Locale = function(l) {
                 "知謀の刺客", // Assassin
                 "聖なる夜の輪舞曲", // Yuletide Rondo
                 "クリスマス狂想曲", // Christmas Capriccio
-                "The Greatest Hits"
+                "The Greatest Hits",
+                "運命の予言者" // Urth/Verthandi
             ),
             borders: new Array(
                 "なし",
