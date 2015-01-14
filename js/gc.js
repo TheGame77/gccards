@@ -273,7 +273,8 @@ var Event = (function() {
         [82, ["yuletiderondo"]],
         [83, ["christmascapriccio"]],
         [84, ["greatesthits"]],
-        [85, ["urthverthandi"]]
+        [85, ["urthverthandi"]],
+        [86, ["skuld"]]
     ];
 
     var events = {

@@ -3671,7 +3671,25 @@ Card.addAll([
      1900, 1280, 1520, 1490, 1360, 1760,
      [Skill.resistant, Skill.water3, Skill.agi10, Skill.water4, Skill.vd, Skill.arondight],
      [Skill.resistant, Skill.water4, Skill.vd],
-     [Skill.resistant, Skill.vd, Skill.arondight]]
+     [Skill.resistant, Skill.vd, Skill.arondight]],
+    ["40774", "スクルド", "世界樹を守護する運命の三女神、その末妹にして、死した勇者の魂を天界へと導く精霊。", 
+     Event.skuld, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
+     1900, 1280, 1520, 1490, 1360, 1760,
+     [Skill.nj, Skill.agi10, Skill.wind3, Skill.wis10, Skill.wind4, Skill.qs],
+     [Skill.nj, Skill.wis10, Skill.wind4],
+     [Skill.nj, Skill.wind4, Skill.qs]],
+    ["40775", "最強キングアーサー", "あまねく脅威から王国を守りし伝説の王。いつの日か復活し、再び王になるといわれる。", 
+     Event.none, Border.almighty, 5, Place.coliseum, 13, "40663", Shape.none, Attribute.earth,
+     2160, 1180, 1700, 1440, 1330, 1440,
+     [Skill.revival, Skill.atk10, Skill.slash4, Skill.cd, Skill.dr],
+     [Skill.revival, Skill.cd, Skill.dr],
+     [Skill.revival, Skill.cd, Skill.dr]],
+    ["40778", "羊姫ポベートール", "夢の支配者の一柱であり、悪夢を生み出す神。様々な獣に姿を変え、夢の中を徘徊する。", 
+     Event.goldenhunt, Border.none, 5, Place.pandemonium, 0, null, Shape.canine, Attribute.death,
+     1660, 1390, 1470, 1480, 1330, 1760,
+     [Skill.divineshield, Skill.darkness3, Skill.death4, Skill.revival],
+     [Skill.divineshield, Skill.darkness3, Skill.death4],
+     [Skill.divineshield, Skill.death4, Skill.revival]]
 ]);
 
 Card.addLimitedTypes({
@@ -3732,7 +3750,8 @@ Card.addNotes({
     "40755": "Skills incomplete", // Mordred
     "40757": "Skills incomplete", // Helel ben Shahar
     "40769": "Skills not confirmed", // Saint Angitia
-    "40770": "Skills missing" // Santa Tinkerbell
+    "40770": "Skills missing", // Santa Tinkerbell
+    "40778": "Skills incomplete" // Goat Princess Phobetor
 });
 
 ExCard.addAll([

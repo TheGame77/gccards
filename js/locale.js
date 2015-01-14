@@ -129,7 +129,8 @@ var Locale = function(l) {
                 "Yuletide Rondo",
                 "Christmas Capriccio",
                 "The Greatest Hits",
-                "運命の予言者" // Urth/Verthandi
+                "運命の予言者", // Urth/Verthandi
+                "救世のワルキューレ" // Skuld
             ),
             borders: new Array(
                 "None",
@@ -531,7 +532,8 @@ var Locale = function(l) {
                 "聖なる夜の輪舞曲", // Yuletide Rondo
                 "クリスマス狂想曲", // Christmas Capriccio
                 "The Greatest Hits",
-                "運命の予言者" // Urth/Verthandi
+                "運命の予言者", // Urth/Verthandi
+                "救世のワルキューレ" // Skuld
             ),
             borders: new Array(
                 "なし",
