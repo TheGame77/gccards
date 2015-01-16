@@ -6,6 +6,13 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2015/1/15': [
+            "Guardian Soul Exchange: " + Card.mklnk(40752) + ".",
+            "Perdition Keep: " + Card.mklnk(40753) + ", " + Card.mklnk(40754) + ", " + Card.mklnk(40755) + ", " + Card.mklnk(40756) + ".",
+            "The Tactician: " + Card.mklnk(40758) + ".",
+            ExCard.mklnk(35017) + " skills changed.",
+            "WARNING: New skills holy grail, aroundight, divine shield and bequeath not yet implemented in the damage calculator or the battle simulator."
+        ],
         '2015/1/11': [
             "Added stats for " + Card.mklnk(40778) + ".",
             "Added skills for " + Card.mklnk(40769) + "."

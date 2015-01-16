@@ -154,8 +154,8 @@ var Place = (function() {
         [23, 10,  ["zeus"]],               // Zeus Nebula
         [24, 11,  ["aedengard"]],          // Aedengard
         [25, 12,  ["babylon"]],            // Babylon
-        [26, 13,  ["pandemonium"]],        // Pandemonium
-        [27, 113, ["gsexchange"]]          // Guardian Soul
+        [26, 13,  ["perditionkeep"]],      // Perdition Keep
+        [27, 113, ["gsexchange"]]          // Guardian Soul Exchange
     ];
 
     var places = {

@@ -40,8 +40,8 @@ var Locale = function(l) {
                 "Zeus Nebula",
                 "Aedengard",
                 "Babylon",
-                "Pandemonium",
-                "Guardian Soul"
+                "Perdition Keep",
+                "Guardian Soul Exchange"
             ),
             events: new Array(
                 "None",
@@ -125,7 +125,7 @@ var Locale = function(l) {
                 "Return of the Heroes", // Gold hunt
                 "Crimson Tyrant", // Crimson Berserker
                 "Black-Feathered Arrow", // Black Winged Demon Bow
-                "知謀の刺客", // Assassin
+                "The Tactician", // Assassin
                 "Yuletide Rondo",
                 "Christmas Capriccio",
                 "The Greatest Hits",
@@ -287,9 +287,9 @@ var Locale = function(l) {
                 new Array("Shadow Revival",    "Shadow Revive"),
                 new Array("Shadow Sap",        "MP Wipe"),
                 new Array("Holy Grail",        "Full HP Recovery"),
-                new Array("arondight",         ""),
-                new Array("divineshield",      ""),
-                new Array("force",             ""),
+                new Array("Aroundight",        "HP & MP damage"),
+                new Array("Divine Shield",     "1st attack nullified"),
+                new Array("Bequeath",          "Pass on stats"),
                 new Array("Holy Sap",          "MP wipe"),
                 new Array("Holy Step",         "Physical evasion"),
                 new Array("Holy Shift",        "Attribute evasion")
