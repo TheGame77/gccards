@@ -3453,7 +3453,7 @@ Card.addAll([
     ["40741", "Fleurety", "A direct subordinate of Beelzebub, this archdemon sends deadly blizzards from the dark continent.",
      Event.fourseasonchaos, Border.none, 5, Place.babylon, 0, null, Shape.female, Attribute.water,
      2100, 2480, 1680, 1420, 1340, 1440,
-     [Skill.rendburst, Skill.atk10, Skill.slash4, Skill.bg, Skill.ds],
+     [Skill.rendburst, Skill.atk10, Skill.slash3, Skill.slash4, Skill.bg, Skill.ds],
      [Skill.bg, Skill.atk10, Skill.rendburst],
      [Skill.bg, Skill.ds, Skill.rendburst]],
     ["40742", "Konohana-sakuya", "A goddesss of the mystic mountains, she embodies the sublime yet short-lived beauty of a flower.",
@@ -3501,13 +3501,13 @@ Card.addAll([
     ["40754", "Zenobia", "This warrior queen of the desert stands personally at the head of her army, striking fear in the hearts of her foes.", 
      Event.none, Border.none, 5, Place.perditionkeep, 0, null, Shape.female, Attribute.darkness,
      2220, 1100, 1670, 1560, 1360, 1500,
-     [Skill.force, Skill.datk20, Skill.darkness3, Skill.slash4, Skill.qs, Skill.bg],
-     [Skill.force, Skill.slash4, Skill.qs],
-     [Skill.force, Skill.qs, Skill.bg]],
+     [Skill.bequeath, Skill.datk20, Skill.darkness3, Skill.slash4, Skill.qs, Skill.bg],
+     [Skill.bequeath, Skill.slash4, Skill.qs],
+     [Skill.bequeath, Skill.qs, Skill.bg]],
     ["40755", "Mordred", "A cursed knight born into darkness, this kingson plotted to usurp his father's throne.", 
      Event.none, Border.none, 5, Place.perditionkeep, 0, null, Shape.wolf, Attribute.death,
      2080, 1250, 1660, 1600, 1320, 1490,
-     [Skill.divineshield, Skill.def20, Skill.slash4, Skill.resistant, Skill.gs],
+     [Skill.divineshield, Skill.slash3, Skill.def20, Skill.slash4, Skill.resistant, Skill.gs],
      [Skill.divineshield, Skill.slash4, Skill.resistant],
      [Skill.divineshield, Skill.resistant, Skill.gs]],
     ["40756", "Pale Rider", "This ghastly rider, thought to be the emodiment of death itself, leads the newly dead toward the underworld.", 
@@ -3519,9 +3519,9 @@ Card.addAll([
     ["40757", "Shahar", "One of the first angels created, he was also one of the first to fall after the failed war against heaven.", 
      Event.none, Border.none, 5, Place.perditionkeep, 0, null, Shape.humanoid, Attribute.darkness,
      1920, 1075, 1590, 1480, 1360, 1765,
-     [Skill.arondight, Skill.wis10, Skill.nj, Skill.revival],
-     [Skill.arondight, Skill.wis10, Skill.nj],
-     [Skill.arondight, Skill.nj, Skill.revival]],
+     [Skill.aroundight, Skill.wis10, Skill.agi10, Skill.dwis20, Skill.nj, Skill.revival],
+     [Skill.aroundight, Skill.wis10, Skill.nj],
+     [Skill.aroundight, Skill.nj, Skill.revival]],
     ["40758", "Lucifugus", "A demon in the service of the Lord of the Underworld. His devastating power shakes the earth and spreads plague.", 
      Event.assassin, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.darkness,
      1500, 730, 1180, 1410, 1310, 1700,
@@ -3851,6 +3851,7 @@ Card.addNotes({
     "40753": "Skills not confirmed", // Calamitous Atropos
     "40754": "Skills from Japanese version", // Zenobia
     "40755": "Skills from Japanese version", // Mordred
+    "40757": "Skills from Japanese version", // Shahar
     "40758": "Skills from Japanese version", // Lucifugus
     "40770": "Skills not confirmed", // Aine Claus
     "40778": "Skills missing" // Ovis Phobetor

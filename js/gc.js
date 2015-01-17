@@ -694,9 +694,9 @@ var Skill = (function() {
         [107, SKILL_OTHER, "srevival",             new Cost(0,    1), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Revival
         [108, SKILL_OTHER, "ssap",                 new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Sap
         [109, SKILL_OTHER, "holygrail",            new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Holy Grail -- MP is wrong
-        [110, SKILL_ATTACK, "arondight",           new Cost(0, 1400), stone_no,  nbuff({}),                   Attribute.none, 0], // Arondight
+        [110, SKILL_ATTACK, "aroundight",          new Cost(0, 1400), stone_no,  nbuff({}),                   Attribute.none, 0], // Aroundight
         [111, SKILL_OTHER, "divineshield",         new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Divine Shield
-        [112, SKILL_OTHER, "force",                new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Force
+        [112, SKILL_OTHER, "bequeath",             new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Bequeath
         [113, SKILL_OTHER, "hsap",                 new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Holy Sap
         [114, SKILL_OTHER, "hs",                   new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Holy Step
         [115, SKILL_OTHER, "hshift",               new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0] // Holy Shift

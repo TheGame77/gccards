@@ -8,7 +8,7 @@ WhatIsNew.get = function() {
         ],
         '2015/1/15': [
             "Guardian Soul Exchange: " + Card.mklnk(40752) + ".",
-            "Perdition Keep: " + Card.mklnk(40753) + ", " + Card.mklnk(40754) + ", " + Card.mklnk(40755) + ", " + Card.mklnk(40756) + ".",
+            "Perdition Keep: " + Card.mklnk(40753) + ", " + Card.mklnk(40754) + ", " + Card.mklnk(40755) + ", " + Card.mklnk(40756) + ", " + Card.mklnk(40757) + ".",
             "The Tactician: " + Card.mklnk(40758) + ".",
             ExCard.mklnk(35017) + " skills changed.",
             "WARNING: New skills holy grail, aroundight, divine shield and bequeath not yet implemented in the damage calculator or the battle simulator."

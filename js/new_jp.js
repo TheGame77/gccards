@@ -33,7 +33,7 @@ WhatIsNew.get = function() {
         ],
         '2014/12/19': [
             "ガーディアンソウル: " + Card.mklnk(40752) + "。",
-            "魔宮殿: " + Card.mklnk(40753) + "、" + Card.mklnk(40754) + "、" + Card.mklnk(40755) + "、" + Card.mklnk(40756) + "。",
+            "魔宮殿: " + Card.mklnk(40753) + "、" + Card.mklnk(40754) + "、" + Card.mklnk(40755) + "、" + Card.mklnk(40756) + "、" + Card.mklnk(40757) + "。",
             "知謀の刺客: " + Card.mklnk(40758) + "。",
             ExCard.mklnk(35017) + " skills changed.",
             "WARNING: New skills holy grail, arondight, divine shield and force not yet implemented in the damage calculator or the battle simulator."
