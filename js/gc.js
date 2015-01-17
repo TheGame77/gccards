@@ -387,7 +387,8 @@ var Attribute = (function() {
         [7,  ["mecha"],     [6,  8],  [1,  3,  7]], // Mecha
         [8,  ["light"],     [0,  3],  [7,  8,  9]], // Light
         [9,  ["darkness"],  [2,  8],  [4,  5,  9]], // Darkness
-        [10, ["none"],      [],       []]           // None
+        [10, ["none"],      [],       []],          // None
+        [11, ["user"],      [],       []]           // User
     ];
 
     var attributes = {
@@ -687,14 +688,14 @@ var Skill = (function() {
         [100, SKILL_OTHER, "rendburst",            new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Rendburst/Detonation
         [101, SKILL_OTHER, "vd",                   new Cost(0,  300), stone_no, nbuff({}),                    Attribute.none, 0], // Veil of Deadening/Mirage Drive
         [102, SKILL_OTHER, "smr",                  new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Mind Rift (Confusion)
-        [103, SKILL_OTHER, "nj",                   new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Nimble Jinx
+        [103, SKILL_OTHER, "nj",                   new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.user, 0], // Nimble Jinx
         [104, SKILL_ATTACK, "darkness4x",          new Cost(0, 1300), stone_yes, nbuff({}),                   Attribute.darkness, 5], // (Darkness +4x)
         [105, SKILL_ATTACK, "earth4x",             new Cost(0, 1300), stone_yes, nbuff({}),                   Attribute.earth, 5], // (Earth +4x)
         [106, SKILL_ATTACK, "sgs",                 new Cost(0, 1200), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Gigant Smash
         [107, SKILL_OTHER, "srevival",             new Cost(0,    1), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Revival
         [108, SKILL_OTHER, "ssap",                 new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Sap
         [109, SKILL_OTHER, "holygrail",            new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Holy Grail -- MP is wrong
-        [110, SKILL_ATTACK, "aroundight",          new Cost(0, 1400), stone_no,  nbuff({}),                   Attribute.none, 0], // Aroundight
+        [110, SKILL_ATTACK, "aroundight",          new Cost(0, 1400), stone_no,  nbuff({}),                   Attribute.user, 4], // Aroundight
         [111, SKILL_OTHER, "divineshield",         new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Divine Shield
         [112, SKILL_OTHER, "bequeath",             new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Bequeath
         [113, SKILL_OTHER, "hsap",                 new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Holy Sap
@@ -1657,22 +1658,18 @@ var ExSkill = (function() {
         [90,  ExType.red,  ["water2"],          as(Attribute.water),     0.02, 0.02, 0.02, 0.02, 0.02, 0.02, none, 0, none, 0, none, 0, 0],
         [91,  ExType.red,  ["water4"],          as(Attribute.water),     0.04, 0.04, 0.04, 0.04, 0.04, 0.04, none, 0, none, 0, none, 0, 0],
         [92,  ExType.red,  ["water6"],          as(Attribute.water),     0.06, 0.06, 0.06, 0.06, 0.06, 0.06, none, 0, none, 0, none, 0, 0],
-        // TODO: Remove these eventually when they are removed from international version
-        [93,  ExType.blue, ["suc_ls3"],         all,                        0,    0,    0,    0,    0,    0, ls, 0.03, none, 0, none, 0, 0],
-        [94,  ExType.blue, ["suc_ls5"],         all,                        0,    0,    0,    0,    0,    0, ls, 0.05, none, 0, none, 0, 0],
-        [95,  ExType.blue, ["suc_ls7"],         all,                        0,    0,    0,    0,    0,    0, ls, 0.07, none, 0, none, 0, 0],
-        [96,  ExType.red,  ["mp2"],             all,                        0, 0.02,    0,    0,    0,    0, none, 0, none, 0, none, 0, 0],
-        [97,  ExType.red,  ["mp3"],             all,                        0, 0.03,    0,    0,    0,    0, none, 0, none, 0, none, 0, 0],
-        [98,  ExType.blue, ["suc_gs1"],         all,                        0,    0,    0,    0,    0,    0, gs, 0.01, none, 0, none, 0, 0],
-        [99,  ExType.red,  ["hp10"],            all,                     0.10,    0,    0,    0,    0,    0, none, 0, none, 0, none, 0, 0],
-        [100, ExType.red,  ["hp12"],            all,                     0.12,    0,    0,    0,    0,    0, none, 0, none, 0, none, 0, 0],
-        [101, ExType.red,  ["hp15"],            all,                     0.15,    0,    0,    0,    0,    0, none, 0, none, 0, none, 0, 0],
-        [102, ExType.blue, ["suc_gs10"],        all,                        0,    0,    0,    0,    0,    0, gs, 0.10, none, 0, none, 0, 0],
-        [103, ExType.blue, ["suc_gs12"],        all,                        0,    0,    0,    0,    0,    0, gs, 0.12, none, 0, none, 0, 0],
-        [104, ExType.blue, ["suc_gs15"],        all,                        0,    0,    0,    0,    0,    0, gs, 0.15, none, 0, none, 0, 0],
-        [105, ExType.blue, ["suc_revival4"],    all,                        0,    0,    0,    0,    0,    0, revival, 0.04, none, 0, none, 0, 0],
-        [106, ExType.blue, ["suc_revival7"],    all,                        0,    0,    0,    0,    0,    0, revival, 0.07, none, 0, none, 0, 0],
-        [107, ExType.blue, ["suc_revival9"],    all,                        0,    0,    0,    0,    0,    0, revival, 0.09, none, 0, none, 0, 0]
+        [93,  ExType.red,  ["mp2"],             all,                        0, 0.02,    0,    0,    0,    0, none, 0, none, 0, none, 0, 0],
+        [94,  ExType.red,  ["mp3"],             all,                        0, 0.03,    0,    0,    0,    0, none, 0, none, 0, none, 0, 0],
+        [95,  ExType.blue, ["suc_gs1"],         all,                        0,    0,    0,    0,    0,    0, gs, 0.01, none, 0, none, 0, 0],
+        [96,  ExType.red,  ["hp10"],            all,                     0.10,    0,    0,    0,    0,    0, none, 0, none, 0, none, 0, 0],
+        [97,  ExType.red,  ["hp12"],            all,                     0.12,    0,    0,    0,    0,    0, none, 0, none, 0, none, 0, 0],
+        [98,  ExType.red,  ["hp15"],            all,                     0.15,    0,    0,    0,    0,    0, none, 0, none, 0, none, 0, 0],
+        [99,  ExType.blue, ["suc_gs10"],        all,                        0,    0,    0,    0,    0,    0, gs, 0.10, none, 0, none, 0, 0],
+        [100, ExType.blue, ["suc_gs12"],        all,                        0,    0,    0,    0,    0,    0, gs, 0.12, none, 0, none, 0, 0],
+        [101, ExType.blue, ["suc_gs15"],        all,                        0,    0,    0,    0,    0,    0, gs, 0.15, none, 0, none, 0, 0],
+        [102, ExType.blue, ["suc_revival4"],    all,                        0,    0,    0,    0,    0,    0, revival, 0.04, none, 0, none, 0, 0],
+        [103, ExType.blue, ["suc_revival7"],    all,                        0,    0,    0,    0,    0,    0, revival, 0.07, none, 0, none, 0, 0],
+        [104, ExType.blue, ["suc_revival9"],    all,                        0,    0,    0,    0,    0,    0, revival, 0.09, none, 0, none, 0, 0]
     ];
 
     var skills = {
@@ -2762,7 +2759,7 @@ var Calculator = (function() {
                         var dmg = this.getDamage(status1.atk, sk, atk1, 1, status2.def, -1);
                         damage = Math.max(damage, dmg);
                     } else if (skill == Skill.cd && status1.mp >= skill.cost.mp) {
-                        /* Attack by Crash Drain. */
+                        /* Attack by Crash Drain/Life Leech. */
                         var dmg = this.getDamage(status1.atk, this.skill_mult[skill.level - 1], atk1, 1, status2.def, def2);
                         damage = Math.max(damage, dmg);
                     } else if (skill.isPhysical() && status1.mp >= skill.cost.mp) {
@@ -2772,9 +2769,16 @@ var Calculator = (function() {
                     } else if (skill.isElemental() && status1.mp >= skill.cost.mp) {
                         /* Elemental attack. */
                         var elm = 1;
-                        if (hasSkill(skills2, Skill.fb) || skill.attribute.isBlockedBy(g2.attribute))
+                        var skillAttr;
+
+                        if(skill.attribute == Attribute.user)
+                            skillAttr = g1.attribute;
+                        else
+                            skillAttr = skill.attribute;
+
+                        if (hasSkill(skills2, Skill.fb) || skillAttr.isBlockedBy(g2.attribute))
                             elm = 0.85;
-                        else if (skill.attribute.isCriticalTo(g2.attribute))
+                        else if (skillAttr.isCriticalTo(g2.attribute))
                             elm = 1.15;
                         var dmg = this.getDamage(status1.wis, this.skill_mult[skill.level - 1], wis1, elm, status2.wis, wis2);
                         damage = Math.max(damage, dmg);
