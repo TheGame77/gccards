@@ -3528,6 +3528,12 @@ Card.addAll([
      [Skill.sap, Skill.datk20, Skill.darkness3, Skill.ddef20, Skill.darkness4, Skill.mvs],
      [Skill.sap, Skill.datk20, Skill.darkness4],
      [Skill.sap, Skill.darkness4, Skill.mvs]],
+    ["40759", "Almighty Fernyiges", "Known as the king of dragons, this beast appears from the depths of the abyss to wreak havoc upon the world.", 
+     Event.none, Border.almighty, 5, Place.coliseum, 10, "40748", Shape.none, Attribute.fire,
+     1720, 2320, 1640, 1530, 1320, 1480,
+     [Skill.qs, Skill.agi10, Skill.physical4, Skill.dp, Skill.rendburst],
+     [Skill.qs, Skill.agi10, Skill.dp],
+     [Skill.qs, Skill.dp, Skill.rendburst]],
     ["40768", "Holy Ame-no-Uzume", "The divine dancer, in her new sacred garb, devotes herself to delighting the gods that gather on the holy night.", 
      Event.christmascapriccio, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
      1580, 900, 1535, 1360, 1300, 1260,
@@ -3853,6 +3859,7 @@ Card.addNotes({
     "40755": "Skills from Japanese version", // Mordred
     "40757": "Skills from Japanese version", // Shahar
     "40758": "Skills from Japanese version", // Lucifugus
+    "40759": "All data from Japanese version", // Almighty Fernyiges
     "40770": "Skills not confirmed", // Aine Claus
     "40778": "Skills missing" // Ovis Phobetor
 });
