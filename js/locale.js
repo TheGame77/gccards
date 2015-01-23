@@ -130,7 +130,8 @@ var Locale = function(l) {
                 "Christmas Capriccio",
                 "The Greatest Hits",
                 "運命の予言者", // Urth/Verthandi
-                "救世のワルキューレ" // Skuld
+                "救世のワルキューレ", // Skuld
+                "Calamity's Grasp"
             ),
             borders: new Array(
                 "None",
@@ -292,7 +293,8 @@ var Locale = function(l) {
                 new Array("Bequeath",          "Pass on stats"),
                 new Array("Holy Sap",          "MP wipe"),
                 new Array("Holy Step",         "Physical evasion"),
-                new Array("Holy Shift",        "Attribute evasion")
+                new Array("Holy Shift",        "Attribute evasion"),
+                new Array("Shadow Self-destruct","Damage on death")
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",
@@ -533,7 +535,8 @@ var Locale = function(l) {
                 "クリスマス狂想曲", // Christmas Capriccio
                 "The Greatest Hits",
                 "運命の予言者", // Urth/Verthandi
-                "救世のワルキューレ" // Skuld
+                "救世のワルキューレ", // Skuld
+                "災厄の紡ぎ手"
             ),
             borders: new Array(
                 "なし",
@@ -682,7 +685,7 @@ var Locale = function(l) {
                 new Array("暗黒光速ターン", "絶対物理回避"), // Shadow Deft Step
                 new Array("炸裂", "敵に必中ダメージ"), // Detonation
                 new Array("ミラージュドライヴ", "属性回避"), // Mirage Drive
-                new Array("暗黒マインドブレイク",    "絶対混乱"), // Shadow Mind Rift
+                new Array("暗黒マインドブレイク", "絶対混乱"), // Shadow Mind Rift
                 new Array("ワイズスマイト", "先制魔攻"), // Wise Smite
                 new Array("ナイトメア改 ", "闇+4改"), // Darkness +4x
                 new Array("アースクェイク改", "土+4改"), // Earth +4x
@@ -695,7 +698,8 @@ var Locale = function(l) {
                 new Array("フォース", "継承"), // Force
                 new Array("ホーリーロック", "絶対MP無効"), // Holy Sap
                 new Array("ホーリーステップ", "絶対物理回避"), // Holy Step
-                new Array("Holy Shift", "Attribute Evasion") // Holy Shift
+                new Array("Holy Shift", "Attribute Evasion"), // Holy Shift
+                new Array("暗黒自爆", "敵にダメージ") // Shadow Self-destruct
             ),
             exskills: new Array(
                 "火属性ガーディアンの全ステータスを10%アップ",

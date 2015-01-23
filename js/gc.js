@@ -274,7 +274,8 @@ var Event = (function() {
         [83, ["christmascapriccio"]],
         [84, ["greatesthits"]],
         [85, ["urthverthandi"]],
-        [86, ["skuld"]]
+        [86, ["skuld"]],
+        [87, ["calamitysgrasp"]]
     ];
 
     var events = {
@@ -700,7 +701,8 @@ var Skill = (function() {
         [112, SKILL_OTHER, "bequeath",             new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Bequeath
         [113, SKILL_OTHER, "hsap",                 new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Holy Sap
         [114, SKILL_OTHER, "hs",                   new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Holy Step
-        [115, SKILL_OTHER, "hshift",               new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0] // Holy Shift
+        [115, SKILL_OTHER, "hshift",               new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Holy Shift
+        [116, SKILL_OTHER, "ssd",                  new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0] // Shadow Self-destruct
     ];
 
     var skills = {

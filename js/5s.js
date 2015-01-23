@@ -3486,6 +3486,18 @@ Card.addAll([
      [Skill.darkness3, Skill.bg, Skill.ds, Skill.vd, Skill.revival, Skill.tb],
      [Skill.bg, Skill.ds, Skill.revival],
      [Skill.bg, Skill.ds, Skill.revival]],
+    ["40750", "Zirnitra", "This black dragon is said to be the source of all magic. As such, its magical abilities are immeasurable.", 
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.water,
+     1320, 940, 1470, 1310, 1300, 1380,
+     [Skill.qs, Skill.slash3, Skill.atk10, Skill.slash4, Skill.np, Skill.dp],
+     [Skill.qs, Skill.slash4, Skill.np],
+     [Skill.qs, Skill.np, Skill.dp]],
+    ["40751", "Macha", "This red-maned war goddess uses her magic to whip warriors into a battle frenzy.", 
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.wind,
+     1380, 1020, 1280, 1370, 1280, 1480,
+     [Skill.bequeath, Skill.wind3, Skill.datk20, Skill.agi10, Skill.wind4, Skill.mvs],
+     [Skill.bequeath, Skill.agi10, Skill.wind4],
+     [Skill.bequeath, Skill.wind4, Skill.mvs]],
     ["40752", "Karabu", "A guardian of paradise, this angel's appearance is always accompanied by earthquakes and lightning.", 
      Event.none, Border.none, 5, Place.gsexchange, 0, null, Shape.none, Attribute.light,
      1880, 370, 1640, 1420, 1320, 1320,
@@ -3534,6 +3546,12 @@ Card.addAll([
      [Skill.qs, Skill.agi10, Skill.physical4, Skill.dp, Skill.rendburst],
      [Skill.qs, Skill.agi10, Skill.dp],
      [Skill.qs, Skill.dp, Skill.rendburst]],
+    ["40766", "Clotho of Calamities", "The eldest of the Fates, the strings of destiny she weaves out lead to certain death.", 
+     Event.calamitysgrasp, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.mecha,
+     1870, 2500, 1500, 1420, 1330, 1720,
+     [Skill.ssd, Skill.wis10, Skill.mecha4, Skill.datk20, Skill.ds, Skill.death4],
+     [Skill.ssd, Skill.mecha4, Skill.ds],
+     [Skill.ssd, Skill.ds, Skill.death4]],
     ["40768", "Holy Ame-no-Uzume", "The divine dancer, in her new sacred garb, devotes herself to delighting the gods that gather on the holy night.", 
      Event.christmascapriccio, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
      1580, 900, 1535, 1360, 1300, 1260,
@@ -3599,6 +3617,8 @@ Card.addLimitedTypes({
     "40710": [Type.cool, Type.coolr],   // Takemikazuchi
     "40711": [Type.cool, Type.coolr],   // Princess Fuse
     "40720": [Type.cool, Type.coolr],   // Phantom Iblis
+    "40750": [Type.cool, Type.coolr],   // Zirnitra
+    "40751": [Type.cool, Type.coolr],   // Macha
     "40752": [Type.cool, Type.coolr]    // Karabu
 });
 
@@ -3853,6 +3873,8 @@ Card.addNotes({
     "40745": "Skills from Japanese version", // Krishna
     "40739": "All data from Japanese version", // Almighty Maiden Lilith
     "40749": "Recommended skills not confirmed", // Cupido
+    "40750": "Skills from Japanese version", // Zirnitra
+    "40751": "Skills from Japanese version", // Macha
     "40752": "Skills from Japanese version", // Karabu
     "40753": "Skills not confirmed", // Calamitous Atropos
     "40754": "Skills from Japanese version", // Zenobia
@@ -3860,6 +3882,7 @@ Card.addNotes({
     "40757": "Skills from Japanese version", // Shahar
     "40758": "Skills from Japanese version", // Lucifugus
     "40759": "All data from Japanese version", // Almighty Fernyiges
+    "40766": "Skills from Japanese version", // Clotho of Calamities
     "40770": "Skills not confirmed", // Aine Claus
     "40778": "Skills missing" // Ovis Phobetor
 });
