@@ -3552,6 +3552,12 @@ Card.addAll([
      [Skill.ssd, Skill.wis10, Skill.mecha4, Skill.datk20, Skill.ds, Skill.death4],
      [Skill.ssd, Skill.mecha4, Skill.ds],
      [Skill.ssd, Skill.ds, Skill.death4]],
+    ["40767", "Almighty Lugh", "Being both god and faerie, there is little this sun deity is unable to accomplish.", 
+     Event.none, Border.almighty, 5, Place.coliseum, 11, "40658", Shape.none, Attribute.light,
+     2180, 900, 1700, 1480, 1330, 1400,
+     [Skill.ds, Skill.slash4, Skill.ddef20, Skill.bg, Skill.qs],
+     [Skill.ds, Skill.bg, Skill.qs],
+     [Skill.ds, Skill.bg, Skill.qs]],
     ["40768", "Holy Ame-no-Uzume", "The divine dancer, in her new sacred garb, devotes herself to delighting the gods that gather on the holy night.", 
      Event.christmascapriccio, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
      1580, 900, 1535, 1360, 1300, 1260,
@@ -3573,9 +3579,9 @@ Card.addAll([
     ["40778", "Ovis Phobetor", "A master of dreams responsible for nightmares, she roams the dreamscape in many beastly forms.", 
      Event.greatesthits, Border.none, 5, Place.babylon, 0, null, Shape.canine, Attribute.death,
      2010, 1300, 1470, 1480, 1330, 1760,
-     [Skill.ds],
-     [],
-     []]
+     [Skill.ds, Skill.death4, Skill.revival],
+     [Skill.ds, Skill.death4, Skill.revival],
+     [Skill.ds, Skill.death4, Skill.revival]]
 ]);
 
 Card.addLimitedTypes({
@@ -3883,8 +3889,9 @@ Card.addNotes({
     "40758": "Skills from Japanese version", // Lucifugus
     "40759": "All data from Japanese version", // Almighty Fernyiges
     "40766": "Skills from Japanese version", // Clotho of Calamities
+    "40767": "All data from Japanese version", // Almighty Lugh
     "40770": "Skills not confirmed", // Aine Claus
-    "40778": "Skills missing" // Ovis Phobetor
+    "40778": "Skills incomplete" // Ovis Phobetor
 });
 
 ExCard.addAll([
