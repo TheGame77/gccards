@@ -129,8 +129,8 @@ var Locale = function(l) {
                 "Yuletide Rondo",
                 "Christmas Capriccio",
                 "The Greatest Hits",
-                "運命の予言者", // Urth/Verthandi
-                "救世のワルキューレ", // Skuld
+                "Sisters of Fate",
+                "Valkyrie's Courage",
                 "Calamity's Grasp"
             ),
             borders: new Array(
@@ -534,8 +534,8 @@ var Locale = function(l) {
                 "聖なる夜の輪舞曲", // Yuletide Rondo
                 "クリスマス狂想曲", // Christmas Capriccio
                 "The Greatest Hits",
-                "運命の予言者", // Urth/Verthandi
-                "救世のワルキューレ", // Skuld
+                "運命の予言者", // Sisters of Fate
+                "救世のワルキューレ", // Valkyrie's Courage
                 "災厄の紡ぎ手"
             ),
             borders: new Array(

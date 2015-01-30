@@ -273,8 +273,8 @@ var Event = (function() {
         [82, ["yuletiderondo"]],
         [83, ["christmascapriccio"]],
         [84, ["greatesthits"]],
-        [85, ["urthverthandi"]],
-        [86, ["skuld"]],
+        [85, ["sistersoffate"]],
+        [86, ["valkyriescourage"]],
         [87, ["calamitysgrasp"]]
     ];
 

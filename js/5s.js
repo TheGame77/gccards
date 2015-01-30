@@ -3576,6 +3576,24 @@ Card.addAll([
      [Skill.hs, Skill.wis10, Skill.wind4, Skill.tb],
      [Skill.hs, Skill.wind4, Skill.tb],
      [Skill.hs, Skill.wind4, Skill.tb]],
+    ["40772", "Urd", "The eldest of the norns who protect the World Tree. She nurtures the tree with water from a sacred spring.", 
+     Event.sistersoffate, Border.none, 5, Place.perditionkeep, 0, null, Shape.female, Attribute.earth,
+     2090, 2400, 1670, 1520, 1350, 1460,
+     [Skill.qs, Skill.dagi20, Skill.physical4, Skill.atk10, Skill.bg, Skill.rendburst],
+     [Skill.qs, Skill.atk10, Skill.bg],
+     [Skill.qs, Skill.bg, Skill.rendburst]],
+    ["40773", "Verdandi", "One of the norns who protect the World Tree. She carves runes in the bark to determine the fates of mortals.", 
+     Event.sistersoffate, Border.none, 5, Place.perditionkeep, 0, null, Shape.female, Attribute.water,
+     1900, 1280, 1520, 1490, 1360, 1760,
+     [Skill.resistant, Skill.water3, Skill.agi10, Skill.water4, Skill.vd, Skill.aroundight],
+     [Skill.resistant, Skill.water4, Skill.vd],
+     [Skill.resistant, Skill.vd, Skill.aroundight]],
+    ["40774", "Skuld", "The youngest of the norns who protect the World Tree. She carries the souls of dead heroes to Valhalla.", 
+     Event.valkyriescourage, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
+     1530, 1040, 1370, 1300, 1300, 1430,
+     [Skill.nj, Skill.agi10, Skill.wind3, Skill.wis10, Skill.wind4, Skill.qs],
+     [Skill.nj, Skill.wis10, Skill.wind4],
+     [Skill.nj, Skill.wind4, Skill.qs]],
     ["40778", "Ovis Phobetor", "A master of dreams responsible for nightmares, she roams the dreamscape in many beastly forms.", 
      Event.greatesthits, Border.none, 5, Place.babylon, 0, null, Shape.canine, Attribute.death,
      2010, 1300, 1470, 1480, 1330, 1760,
@@ -3891,6 +3909,9 @@ Card.addNotes({
     "40766": "Skills from Japanese version", // Clotho of Calamities
     "40767": "All data from Japanese version", // Almighty Lugh
     "40770": "Skills not confirmed", // Aine Claus
+    "40772": "Skills from Japanese version", // Urd
+    "40773": "Skills from Japanese version", // Verdandi
+    "40774": "Skills from Japanese version", // Skuld
     "40778": "Skills incomplete" // Ovis Phobetor
 });
 
