@@ -701,7 +701,7 @@ Card.addAll([
      [Skill.resistant, Skill.ep, Skill.water4],
      [Skill.resistant, Skill.water4, Skill.ls]],
     ["30143", "Alkyoneus", "The first of the fire giants, immortal in his land of origin, leads his brethren in a vendetta against the gods.", 
-     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.unknown, Attribute.earh,
+     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.unknown, Attribute.earth,
      1090, 745, 1095, 1080, 1042, 1020,
      [Skill.def25],
      [],

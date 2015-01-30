@@ -2449,16 +2449,22 @@ var Sorting = (function() {
             return comparator(x, y, x.event.id, y.event.id);  
         },
         attribute: function(x, y) {
-            if (x.id == y.id)
+            if(x.id == y.id)
                 return 0;
 
-            if (x.attribute.id < y.attribute.id)
+            if(typeof x.attribute == "undefined")
+                alert("Invalid attribute: " + x.id);
+
+            if(typeof y.attribute == "undefined")
+                alert("Invalid attribute: " + y.id);
+
+            if(x.attribute.id < y.attribute.id)
                 return -1;
-            else if (x.attribute.id > y.attribute.id)
+            else if(x.attribute.id > y.attribute.id)
                 return 1;
-            else if (x.border.id < y.border.id)
+            else if(x.border.id < y.border.id)
                 return -1;
-            else if (x.border.id > y.border.id)
+            else if(x.border.id > y.border.id)
                 return 1;
             else
                 return 0;
