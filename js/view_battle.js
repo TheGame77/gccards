@@ -960,6 +960,12 @@ function suggest(iters, rounds) {
         return;
     }
 
+    // Check for unimplemented skills
+    if(!unimplementedSkillsCheck(my.cards, oppo.cards)) {
+        finalize();
+        return;
+    }
+
     var d = {
         my: my,
         oppo: oppo,
@@ -1010,6 +1016,12 @@ function simulate(rounds) {
             return;
         }
 
+        // Check for unimplemented skills
+        if(!unimplementedSkillsCheck(my.cards, oppo.cards)) {
+            $("#battle-top button").button("enable");
+            return;
+        }
+
         if (rounds == 1) {
             options.battle_message = true;
             $(targets[0].id).toggle("slide", {direction: "left", distance: SLIDE_DISTANCE}, ANIMATION_DURATION, function() {
@@ -1040,6 +1052,33 @@ function simulate(rounds) {
             $("#battle-top button").button("enable");
         }
     }, 100);
+}
+
+function unimplementedSkillsCheck(mycards, oppocards) {
+    var skills = $.unique(getUnimplementedSkills(mycards).concat(getUnimplementedSkills(oppocards)));
+
+    if(skills.length == 0)
+        return true;
+
+    return confirm("The following skills are unimplemented:\n" +
+        List.map(function(s) { return s.name; }, skills).join("\n") +
+        "\n\nDo you wish to continue?");
+}
+
+function getUnimplementedSkills(cards) {
+    var skills = new Array();
+
+    for(var i = 0; i < cards.length; i++) {
+        currSkills = cards[i].getSkills();
+
+        for(var j = 0; j < currSkills.length; j++) {
+            if(!currSkills[j].simulator) {
+                skills[skills.length] = currSkills[j];
+            }
+        }
+    }
+
+    return skills;
 }
 
 /** Determines if two cards are the same by their parties and positions in the parties. */

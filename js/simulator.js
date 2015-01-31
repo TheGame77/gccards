@@ -34,16 +34,16 @@ var HEAL_APPLY_MULT = 0.9;
 var MAJORHEAL_APPLY_MULT = 0.9;
 
 var DEACTIVATE = {};
-DEACTIVATE[Skill.life.name] = [Skill.ds, Skill.dr];
-DEACTIVATE[Skill.gs.name] = [Skill.ds];
-DEACTIVATE[Skill.bg.name] = [Skill.ds];
-DEACTIVATE[Skill.cd.name] = [Skill.ds, Skill.dr];
+DEACTIVATE[Skill.life.name] = [Skill.ds, Skill.sds, Skill.dr];
+DEACTIVATE[Skill.gs.name] = [Skill.ds, Skill.sds];
+DEACTIVATE[Skill.bg.name] = [Skill.ds, Skill.sds];
+DEACTIVATE[Skill.cd.name] = [Skill.ds, Skill.sds, Skill.dr];
 DEACTIVATE[Skill.dr.name] = [Skill.ds, Skill.dr];
-DEACTIVATE[Skill.sd.name] = [Skill.revival, Skill.ls, Skill.sd, Skill.curse, Skill.nervepinch];
-DEACTIVATE[Skill.mr.name] = [Skill.mr, Skill.ds, Skill.dr, Skill.life, Skill.cd];
-DEACTIVATE[Skill.tb.name] = [Skill.revival, Skill.ls, Skill.sd];
-DEACTIVATE[Skill.nervepinch.name] = [Skill.ds, Skill.dr, Skill.ls, Skill.revival, Skill.sd, Skill.nervepinch];
-DEACTIVATE[Skill.deathpredator.name] = [Skill.ls, Skill.revival, Skill.sd, Skill.nervepinch];
+DEACTIVATE[Skill.sd.name] = [Skill.dr, Skill.ls, Skill.revival, Skill.sd, Skill.curse, Skill.nervepinch, Skill.rendburst, Skill.ssd, Skill.bequeath];
+DEACTIVATE[Skill.mr.name] = [Skill.mr, Skill.ds, Skill.sds, Skill.dr, Skill.life, Skill.cd, Skill.vd, Skill.hs, Skill.hshift];
+DEACTIVATE[Skill.tb.name] = [Skill.revival, Skill.ls, Skill.sd, Skill.curse, Skill.nervepinch, Skill.rendburst, Skill.ssd, Skill.bequeath];
+DEACTIVATE[Skill.nervepinch.name] = [Skill.ds, Skill.sds, Skill.dr, Skill.ls, Skill.revival, Skill.sd, Skill.curse, Skill.nervepinch, Skill.rendburst, Skill.ssd, Skill.bequeath, Skill.vd, Skill.hs, Skill.hshift];
+DEACTIVATE[Skill.deathpredator.name] = [Skill.ls, Skill.revival, Skill.sd, Skill.curse, Skill.nervepinch, Skill.rendburst, Skill.ssd, Skill.bequeath];
 
 function Simulator(my_party, oppo_party, options) {
     // ========== Start of mkRes ==========
@@ -130,7 +130,7 @@ function Simulator(my_party, oppo_party, options) {
                 g.battle.paralyzed = false;            /* Indicate if a card is paralyzed. */
                 g.battle.resistant_effective = false;  /* Indicate if a card is protected by Resistant. */
                 g.battle.poisoned = false;             /* Indicate if a card is poisoned. */
-                g.battle.ls = g.hasSkill(Skill.ls);                 /* Can cast LS? */
+                g.battle.ls = g.hasSkill(Skill.ls);    /* Can cast LS? */
                 g.battle.revival = g.hasSkill(Skill.revival) || g.hasSkill(Skill.srevival); /* Can cast Revival? */
                 g.battle.ds = g.hasSkill(Skill.ds) || g.hasSkill(Skill.sds) || g.hasSkill(Skill.hs); /* Can cast DS/SDS/HS? */
                 g.battle.vd = g.hasSkill(Skill.vd) || g.hasSkill(Skill.hshift); /* Can cast VD/Holy Shift? */

@@ -516,6 +516,8 @@ var SkillClass = function(d) {
     this.buff = d[5];
     this.attribute = d[6];
     this.level = d[7];
+    this.calculator = true;
+    this.simulator = true;
 };
 SkillClass.prototype.isBuff = function() {
     return this.type == SKILL_BUFF;
@@ -728,6 +730,14 @@ var Skill = (function() {
             return id in skills_map ? skills_map[id] : null;
         };
     })();
+
+    // Unimplemented skills
+    skills["holygrail"].simulator = false;
+    skills["aroundight"].simulator = false;
+    skills["divineshield"].simulator = false;
+    skills["bequeath"].simulator = false;
+    skills["ssd"].simulator = false;
+
     skills.toString = function(skills, delim) {
         if (skills.length == 0)
             return "";
