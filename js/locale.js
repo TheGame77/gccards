@@ -131,7 +131,8 @@ var Locale = function(l) {
                 "The Greatest Hits",
                 "Sisters of Fate",
                 "Valkyrie's Courage",
-                "Calamity's Grasp"
+                "Calamity's Grasp",
+                "幼き傀儡師" // Lachesis
             ),
             borders: new Array(
                 "None",
@@ -401,7 +402,10 @@ var Locale = function(l) {
                 "Gigant Smash success rate increased by 15%.",
                 "Revival success rate increased by 4%.",
                 "Revival success rate increased by 7%.",
-                "Revival success rate increased by 9%."
+                "Revival success rate increased by 9%.",
+                "Deft Step success rate increased by 10%.",
+                "Deft Step success rate increased by 15%.",
+                "Deft Step success rate increased by 20%."
             )
         };
     } else if (l == LANG_JP) {
@@ -533,7 +537,8 @@ var Locale = function(l) {
                 "The Greatest Hits",
                 "運命の予言者", // Sisters of Fate
                 "救世のワルキューレ", // Valkyrie's Courage
-                "災厄の紡ぎ手"
+                "災厄の紡ぎ手",
+                "幼き傀儡師" // Lachesis
             ),
             borders: new Array(
                 "なし",
@@ -800,7 +805,10 @@ var Locale = function(l) {
                 "ギガントスラッシュの成功率15%アップ",
                 "リバイバルの成功率4%アップ",
                 "リバイバルの成功率7%アップ",
-                "リバイバルの成功率9%アップ"
+                "リバイバルの成功率9%アップ",
+                "光速ターンの成功率10%アップ",
+                "光速ターンの成功率15%アップ",
+                "光速ターンの成功率20%アップ"
             )
         };
     }

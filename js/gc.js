@@ -275,7 +275,8 @@ var Event = (function() {
         [84, ["greatesthits"]],
         [85, ["sistersoffate"]],
         [86, ["valkyriescourage"]],
-        [87, ["calamitysgrasp"]]
+        [87, ["calamitysgrasp"]],
+        [88, ["lachesis"]]
     ];
 
     var events = {
@@ -1681,7 +1682,10 @@ var ExSkill = (function() {
         [101, ExType.blue, ["suc_gs15"],        all,                        0,    0,    0,    0,    0,    0, gs, 0.15, none, 0, none, 0, 0],
         [102, ExType.blue, ["suc_revival4"],    all,                        0,    0,    0,    0,    0,    0, revival, 0.04, none, 0, none, 0, 0],
         [103, ExType.blue, ["suc_revival7"],    all,                        0,    0,    0,    0,    0,    0, revival, 0.07, none, 0, none, 0, 0],
-        [104, ExType.blue, ["suc_revival9"],    all,                        0,    0,    0,    0,    0,    0, revival, 0.09, none, 0, none, 0, 0]
+        [104, ExType.blue, ["suc_revival9"],    all,                        0,    0,    0,    0,    0,    0, revival, 0.09, none, 0, none, 0, 0],
+        [105, ExType.blue, ["suc_ds10"],        all,                        0,    0,    0,    0,    0,    0, ds, 0.10, none, 0, none, 0, 0],
+        [106, ExType.blue, ["suc_ds15"],        all,                        0,    0,    0,    0,    0,    0, ds, 0.15, none, 0, none, 0, 0],
+        [107, ExType.blue, ["suc_ds20"],        all,                        0,    0,    0,    0,    0,    0, ds, 0.20, none, 0, none, 0, 0]
     ];
 
     var skills = {

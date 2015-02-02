@@ -3684,6 +3684,12 @@ Card.addAll([
      [Skill.revival, Skill.atk10, Skill.slash4, Skill.cd, Skill.dr],
      [Skill.revival, Skill.cd, Skill.dr],
      [Skill.revival, Skill.cd, Skill.dr]],
+    ["40776", "ラケシス・カラミティ ", "災厄を司る運命の三女神、その次女。人間を持つ運命の糸を操り、残酷な未来へと導く。", 
+     Event.lachesis, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
+     1480, 210, 1550, 1480, 1240, 1400,
+     [Skill.sds, Skill.physical3, Skill.def10, Skill.ls, Skill.tb],
+     [Skill.sds, Skill.physical3, Skill.ls],
+     [Skill.sds, Skill.ls, Skill.tb]],
     ["40778", "羊姫ポベートール", "夢の支配者の一柱であり、悪夢を生み出す神。様々な獣に姿を変え、夢の中を徘徊する。", 
      Event.goldenhunt, Border.none, 5, Place.perditionkeep, 0, null, Shape.canine, Attribute.death,
      1660, 1390, 1470, 1480, 1330, 1760,
@@ -3795,6 +3801,9 @@ ExCard.addAll([
      Event.none, ExType.red, 5, Place.fp, 0, Shape.none, Attribute.wind,
      [ExSkill.wis10, ExSkill.wis12, ExSkill.wis15]],
     ["45015", "エンフィールド", "",
+     Event.none, ExType.blue, 5, Place.fp, 0, Shape.none, Attribute.wind,
+     [ExSkill.pow_qs6, ExSkill.pow_qs8, ExSkill.pow_qs10]],
+    ["45016", "イリス", "",
      Event.none, ExType.blue, 5, Place.fp, 0, Shape.none, Attribute.wind,
      [ExSkill.pow_qs6, ExSkill.pow_qs8, ExSkill.pow_qs10]]
 ]);
