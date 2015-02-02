@@ -3594,6 +3594,12 @@ Card.addAll([
      [Skill.nj, Skill.agi10, Skill.wind3, Skill.wis10, Skill.wind4, Skill.qs],
      [Skill.nj, Skill.wis10, Skill.wind4],
      [Skill.nj, Skill.wind4, Skill.qs]],
+    ["40775", "Almighty King Arthur", "Having saved his kingdom from peril many times during his reign, it is said this king will rule again one day.", 
+     Event.none, Border.almighty, 5, Place.coliseum, 13, "40663", Shape.none, Attribute.earth,
+     2160, 1180, 1700, 1440, 1330, 1440,
+     [Skill.revival, Skill.atk10, Skill.slash4, Skill.cd, Skill.dr],
+     [Skill.revival, Skill.cd, Skill.dr],
+     [Skill.revival, Skill.cd, Skill.dr]],
     ["40778", "Ovis Phobetor", "A master of dreams responsible for nightmares, she roams the dreamscape in many beastly forms.", 
      Event.greatesthits, Border.none, 5, Place.babylon, 0, null, Shape.canine, Attribute.death,
      2010, 1300, 1470, 1480, 1330, 1760,
@@ -3905,13 +3911,14 @@ Card.addNotes({
     "40755": "Skills from Japanese version", // Mordred
     "40757": "Skills from Japanese version", // Shahar
     "40758": "Skills from Japanese version", // Lucifugus
-    "40759": "All data from Japanese version", // Almighty Fernyiges
+    "40759": "Skills from Japanese version", // Almighty Fernyiges
     "40766": "Skills from Japanese version", // Clotho of Calamities
-    "40767": "All data from Japanese version", // Almighty Lugh
+    "40767": "Skills from Japanese version", // Almighty Lugh
     "40770": "Skills not confirmed", // Aine Claus
     "40772": "Skills from Japanese version", // Urd
     "40773": "Skills from Japanese version", // Verdandi
     "40774": "Skills from Japanese version", // Skuld
+    "40775": "All data from Japanese version", // Almighty King Arthur
     "40778": "Skills incomplete" // Ovis Phobetor
 });
 
