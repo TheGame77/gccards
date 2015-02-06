@@ -276,7 +276,9 @@ var Event = (function() {
         [85, ["sistersoffate"]],
         [86, ["valkyriescourage"]],
         [87, ["calamitysgrasp"]],
-        [88, ["lachesis"]]
+        [88, ["lachesis"]],
+        [89, ["sweetwar"]],
+        [90, ["thirteensecondsofpassion"]]
     ];
 
     var events = {

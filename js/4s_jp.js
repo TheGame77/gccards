@@ -707,7 +707,7 @@ Card.addAll([
      [Skill.resistant, Skill.ep, Skill.water4],
      [Skill.resistant, Skill.water4, Skill.ls]]
 ]);
-
+// TODO: Alkyoneus, Janus, Arjuna, Huanglong, Manannan Mac Lir, Shennong go to aedengard
 Card.addLimitedTypes({
     "30040": [Type.cool, Type.coolr], // Anahita
     "30041": [Type.cool, Type.coolr], // Peri

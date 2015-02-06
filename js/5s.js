@@ -2448,7 +2448,7 @@ Card.addAll([
       [Skill.cd, Skill.fb, Skill.dwis20, Skill.atk20, Skill.atk25],
       [Skill.cd, Skill.fb, Skill.atk25],
       [Skill.cd, Skill.fb, Skill.atk25] ],
-    [ "40507", "Legendary Titan", "", 
+    [ "40507", "Legendary Titan", "In times of old, these earthen divinities reigned over a paradise of their own creation after dethroning a fell tyrant.", 
       Event.titan_legend, Border.none, 5, Place.quests, 0, "40003", Shape.giant, Attribute.earth,
       1560, 1560, 1480, 1110, 990, 940,
       [Skill.dr, Skill.physical3, Skill.earth3, Skill.physical4, Skill.qs, Skill.sd],
@@ -3259,7 +3259,7 @@ Card.addAll([
      [Skill.revival, Skill.def10, Skill.slash4],
      [Skill.revival, Skill.slash4, Skill.qs]],
     ["40693", "Almighty Aeolus", "The Master of the Four Winds and Four Storms is said to send favorable winds to the ships of heroes.",
-     Event.none, Border.almighty, 5, Place.coliseum, 3, "40507", Shape.none, Attribute.wind,
+     Event.none, Border.almighty, 5, Place.coliseum, 3, "40600", Shape.none, Attribute.wind,
      2160, 1400, 1750, 1500, 1360, 1460,
      [Skill.slash3, Skill.wind4, Skill.bg, Skill.np, Skill.qs],
      [Skill.bg, Skill.np, Skill.qs],
@@ -3605,7 +3605,13 @@ Card.addAll([
      2010, 1300, 1470, 1480, 1330, 1760,
      [Skill.ds, Skill.death4, Skill.revival],
      [Skill.ds, Skill.death4, Skill.revival],
-     [Skill.ds, Skill.death4, Skill.revival]]
+     [Skill.ds, Skill.death4, Skill.revival]],
+    ["40835", "Valentine Zenobia", "The queen of the desert's words may be bitter, but her gifts are oh-so-sweet.", 
+     Event.sweetwar, Border.none, 5, Place.perditionkeep, 0, null, Shape.valentine, Attribute.darkness,
+     2060, 420, 1760, 1580, 1340, 1500,
+     [Skill.resistant, Skill.revival, Skill.tb],
+     [Skill.resistant, Skill.revival, Skill.tb],
+     [Skill.resistant, Skill.revival, Skill.tb]]
 ]);
 
 Card.addLimitedTypes({
@@ -3784,7 +3790,7 @@ Card.addNotes({
     "40503": "All data from Japanese version",
     "40504": "All data from Japanese version",
     "40505": "Skills from Japanese version",
-    "40507": "All data from Japanese version",
+    "40507": "Stats from Japanese version",
     "40508": "All data from Japanese version",
     "40509": "Skills from Japanese version",
     "40514": "All data from Japanese version",
@@ -3919,7 +3925,8 @@ Card.addNotes({
     "40773": "Skills from Japanese version", // Verdandi
     "40774": "Skills from Japanese version", // Skuld
     "40775": "All data from Japanese version", // Almighty King Arthur
-    "40778": "Skills incomplete" // Ovis Phobetor
+    "40778": "Skills incomplete", // Ovis Phobetor
+    "40835": "Skills incomplete" // Valentine Zenobia
 });
 
 ExCard.addAll([

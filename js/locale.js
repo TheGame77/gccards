@@ -84,7 +84,7 @@ var Locale = function(l) {
                 "Winter Hunt",
                 "FINAL FANTASY X | X-2 HD Remaster",
                 "Guardian Cross Poll 2014",
-                "伝説のタイタン",
+                "Remember the Titan",
                 "Valentine Hunt Event",
                 "Bahamut Returns!",
                 "The Coming Sandstorm!",
@@ -132,7 +132,9 @@ var Locale = function(l) {
                 "Sisters of Fate",
                 "Valkyrie's Courage",
                 "Calamity's Grasp",
-                "幼き傀儡師" // Lachesis
+                "幼き傀儡師", // Lachesis
+                "The Sweet War",
+                "13 Seconds of Passion"
             ),
             borders: new Array(
                 "None",
@@ -538,7 +540,9 @@ var Locale = function(l) {
                 "運命の予言者", // Sisters of Fate
                 "救世のワルキューレ", // Valkyrie's Courage
                 "災厄の紡ぎ手",
-                "幼き傀儡師" // Lachesis
+                "幼き傀儡師", // Lachesis
+                "The Sweet War",
+                "13 Seconds of Passion"
             ),
             borders: new Array(
                 "なし",
