@@ -2450,7 +2450,7 @@ Card.addAll([
       [Skill.cd, Skill.fb, Skill.atk25] ],
     [ "40507", "Legendary Titan", "In times of old, these earthen divinities reigned over a paradise of their own creation after dethroning a fell tyrant.", 
       Event.titan_legend, Border.none, 5, Place.quests, 0, "40003", Shape.giant, Attribute.earth,
-      1560, 1560, 1480, 1110, 990, 940,
+      1560, 1560, 1480, 1100, 990, 940,
       [Skill.dr, Skill.physical3, Skill.earth3, Skill.physical4, Skill.qs, Skill.sd],
       [Skill.dr, Skill.physical4, Skill.qs],
       [Skill.dr, Skill.qs, Skill.sd] ],
@@ -3611,7 +3611,19 @@ Card.addAll([
      2060, 420, 1760, 1580, 1340, 1500,
      [Skill.resistant, Skill.revival, Skill.tb],
      [Skill.resistant, Skill.revival, Skill.tb],
-     [Skill.resistant, Skill.revival, Skill.tb]]
+     [Skill.resistant, Skill.revival, Skill.tb]],
+    ["40836", "Princess Somnus", "During her hundred-year sleep, this princess dreams of nothing but the love of a sweet prince.", 
+     Event.sweetwar, Border.none, 5, Place.perditionkeep, 0, null, Shape.valentine, Attribute.darkness,
+     2200, 1030, 1680, 1560, 1360, 1500,
+     [Skill.qs, Skill.np, Skill.cd],
+     [Skill.qs, Skill.np, Skill.cd],
+     [Skill.qs, Skill.np, Skill.cd]],
+    ["40837", "Sweet Hera", "When this powerful goddess sends a gift of affection, refusing is not a viable option.", 
+     Event.thirteensecondsofpassion, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.light,
+     1440, 940, 1380, 1300, 1260, 1460,
+     [Skill.mvs, Skill.light4, Skill.bequeath],
+     [Skill.mvs, Skill.light4, Skill.bequeath],
+     [Skill.mvs, Skill.light4, Skill.bequeath]]
 ]);
 
 Card.addLimitedTypes({
@@ -3790,7 +3802,6 @@ Card.addNotes({
     "40503": "All data from Japanese version",
     "40504": "All data from Japanese version",
     "40505": "Skills from Japanese version",
-    "40507": "Stats from Japanese version",
     "40508": "All data from Japanese version",
     "40509": "Skills from Japanese version",
     "40514": "All data from Japanese version",
@@ -3926,7 +3937,9 @@ Card.addNotes({
     "40774": "Skills from Japanese version", // Skuld
     "40775": "All data from Japanese version", // Almighty King Arthur
     "40778": "Skills incomplete", // Ovis Phobetor
-    "40835": "Skills incomplete" // Valentine Zenobia
+    "40835": "Skills incomplete", // Valentine Zenobia
+    "40836": "Skills incomplete", // Princess Somnus
+    "40837": "Skills incomplete" // Sweet Hera
 });
 
 ExCard.addAll([
