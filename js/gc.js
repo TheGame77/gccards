@@ -278,7 +278,8 @@ var Event = (function() {
         [87, ["calamitysgrasp"]],
         [88, ["lachesis"]],
         [89, ["sweetwar"]],
-        [90, ["thirteensecondsofpassion"]]
+        [90, ["thirteensecondsofpassion"]],
+        [91, ["tindalos"]]
     ];
 
     var events = {

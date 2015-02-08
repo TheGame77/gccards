@@ -134,7 +134,8 @@ var Locale = function(l) {
                 "Calamity's Grasp",
                 "幼き傀儡師", // Lachesis
                 "The Sweet War",
-                "13 Seconds of Passion"
+                "13 Seconds of Passion",
+                "飢えた猟犬" // Tindalos
             ),
             borders: new Array(
                 "None",
@@ -542,7 +543,8 @@ var Locale = function(l) {
                 "災厄の紡ぎ手",
                 "幼き傀儡師", // Lachesis
                 "The Sweet War",
-                "13 Seconds of Passion"
+                "13 Seconds of Passion",
+                "飢えた猟犬" // Tindalos
             ),
             borders: new Array(
                 "なし",
