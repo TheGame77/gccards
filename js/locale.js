@@ -135,7 +135,8 @@ var Locale = function(l) {
                 "幼き傀儡師", // Lachesis
                 "The Sweet War",
                 "13 Seconds of Passion",
-                "飢えた猟犬" // Tindalos
+                "飢えた猟犬", // Tindalos
+                "幻惑する妖魔" // Lilim
             ),
             borders: new Array(
                 "None",
@@ -544,7 +545,8 @@ var Locale = function(l) {
                 "幼き傀儡師", // Lachesis
                 "The Sweet War",
                 "13 Seconds of Passion",
-                "飢えた猟犬" // Tindalos
+                "飢えた猟犬", // Tindalos
+                "幻惑する妖魔" // Lilim
             ),
             borders: new Array(
                 "なし",

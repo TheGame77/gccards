@@ -3719,7 +3719,25 @@ Card.addAll([
      1670, 765, 1600, 1500, 1320, 1300,
      [Skill.dp, Skill.def10, Skill.wis10, Skill.agi10, Skill.atk20, Skill.powershift],
      [Skill.dp, Skill.def10, Skill.atk20],
-     [Skill.dp, Skill.atk20, Skill.powershift]]
+     [Skill.dp, Skill.atk20, Skill.powershift]],
+    ["40812", "最強カーボニク・ナイト", "絶大な力を持つ不死身の守護騎士。聖杯を手にする資格を得た者に最後の試練を与える。",
+     Event.none, Border.almighty, 5, Place.coliseum, 15, "40692", Shape.none, Attribute.poison,
+     1920, 1075, 1700, 1470, 1350, 1500,
+     [Skill.revival, Skill.def20, Skill.slash4, Skill.cd, Skill.qs],
+     [Skill.revival, Skill.cd, Skill.qs],
+     [Skill.revival, Skill.cd, Skill.qs]],
+    ["40814", "リリム", "",
+     Event.lilim, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
+     2100, 950, 1550, 1550, 1360, 1760,
+     [Skill.vd, Skill.death3, Skill.wis10, Skill.dwis20, Skill.death4, Skill.bequeath],
+     [Skill.vd, Skill.wis10, Skill.death4],
+     [Skill.vd, Skill.death4, Skill.bequeath]],
+    ["40815", "最強ツクヨミ", "太陽神と対になり、夜を統べる月の神。天津神より賜った十掌剣を手に、月下を駆ける。",
+     Event.none, Border.almighty, 5, Place.coliseum, 16, "40626", Shape.none, Attribute.water,
+     2240, 1280, 1720, 1530, 1340, 1500,
+     [Skill.qs, Skill.slash3, Skill.water4, Skill.dp, Skill.resistant],
+     [Skill.qs, Skill.dp, Skill.resistant],
+     [Skill.qs, Skill.dp, Skill.resistant]]
 ]);
 
 Card.addLimitedTypes({
