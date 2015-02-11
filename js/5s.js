@@ -3595,7 +3595,7 @@ Card.addAll([
      [Skill.nj, Skill.wis10, Skill.wind4],
      [Skill.nj, Skill.wind4, Skill.qs]],
     ["40775", "Almighty King Arthur", "Having saved his kingdom from peril many times during his reign, it is said this king will rule again one day.", 
-     Event.none, Border.almighty, 5, Place.coliseum, 13, "40663", Shape.none, Attribute.earth,
+     Event.none, Border.almighty, 5, Place.coliseum, 12, "40663", Shape.none, Attribute.earth,
      2160, 1180, 1700, 1440, 1330, 1440,
      [Skill.revival, Skill.atk10, Skill.slash4, Skill.cd, Skill.dr],
      [Skill.revival, Skill.cd, Skill.dr],
@@ -3621,9 +3621,15 @@ Card.addAll([
     ["40837", "Sweet Hera", "When this powerful goddess sends a gift of affection, refusing is not a viable option.", 
      Event.thirteensecondsofpassion, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.light,
      1440, 940, 1380, 1300, 1260, 1460,
-     [Skill.mvs, Skill.light4, Skill.bequeath],
-     [Skill.mvs, Skill.light4, Skill.bequeath],
-     [Skill.mvs, Skill.light4, Skill.bequeath]]
+     [Skill.mvs, Skill.light2, Skill.wis10, Skill.light3, Skill.light4, Skill.bequeath],
+     [Skill.mvs, Skill.wis10, Skill.light4],
+     [Skill.mvs, Skill.light4, Skill.bequeath]],
+    ["40844", "Tenacious Hera", "When this powerful goddess sends a gift of affection, refusing is not a viable option.", 
+     Event.none, Border.almighty, 5, Place.coliseum, 13, "40837", Shape.none, Attribute.light,
+     2160, 1146, 2600, 1800, 1360, 800,
+     [Skill.qs, Skill.physical3, Skill.light3, Skill.physical4, Skill.sap],
+     [Skill.qs, Skill.physical4, Skill.sap],
+     [Skill.qs, Skill.physical4, Skill.sap]]
 ]);
 
 Card.addLimitedTypes({
@@ -3939,7 +3945,7 @@ Card.addNotes({
     "40778": "Skills incomplete", // Ovis Phobetor
     "40835": "Skills incomplete", // Valentine Zenobia
     "40836": "Skills incomplete", // Princess Somnus
-    "40837": "Skills incomplete" // Sweet Hera
+    "40844": "Skills from Japanese version" // Tenacious Hera
 });
 
 ExCard.addAll([

@@ -6,6 +6,9 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2015/2/11': [
+            "13th Skyborne Coliseum Reward: " + Card.mklnk(40844) + "."
+        ],
         '2015/2/7': [
             "The Sweet War: " + Card.mklnk(40836) + ".",
             "13 Seconds of Passion: " + Card.mklnk(40837) + "."
@@ -14,7 +17,7 @@ WhatIsNew.get = function() {
             "The Sweet War: " + Card.mklnk(40835) + "."
         ],
         '2015/2/2': [
-            "11th Skyborne Coliseum Reward: " + Card.mklnk(40775) + "."
+            "12th Skyborne Coliseum Reward: " + Card.mklnk(40775) + "."
         ],
         '2015/1/30': [
             "Sisters of Fate: " + Card.mklnk(40772) + ", " + Card.mklnk(40773) + ".",
