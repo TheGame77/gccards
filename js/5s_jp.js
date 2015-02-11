@@ -3737,7 +3737,19 @@ Card.addAll([
      2240, 1280, 1720, 1530, 1340, 1500,
      [Skill.qs, Skill.slash3, Skill.water4, Skill.dp, Skill.resistant],
      [Skill.qs, Skill.dp, Skill.resistant],
-     [Skill.qs, Skill.dp, Skill.resistant]]
+     [Skill.qs, Skill.dp, Skill.resistant]],
+    ["40816", "マーリン", "",
+     Event.merlinlancelot, Border.none, 5, Place.perditionkeep, 0, null, Shape.orbs, Attribute.lightning,
+     2000, 2340, 1420, 1400, 1340, 1730,
+     [Skill.death3, Skill.rendburst, Skill.vd, Skill.lightning4x, Skill.death4],
+     [Skill.rendburst, Skill.vd, Skill.lightning4x],
+     [Skill.rendburst, Skill.vd, Skill.lightning4x]],
+    ["40817", "ランスロット", "",
+     Event.merlinlancelot, Border.none, 5, Place.perditionkeep, 0, null, Shape.humanoid, Attribute.water,
+     2000, 940, 1670, 1520, 1360, 1460,
+     [Skill.revival, Skill.slash4, Skill.qs, Skill.gs],
+     [Skill.revival, Skill.slash4, Skill.qs],
+     [Skill.revival, Skill.qs, Skill.gs]]
 ]);
 
 Card.addLimitedTypes({
@@ -3797,7 +3809,9 @@ Card.addNotes({
     "40769": "Skills not confirmed", // Saint Angitia
     "40770": "Skills incomplete", // Santa Tinkerbell
     "40778": "Skills incomplete", // Goat Princess Phobetor
-    "40780": "Recommended skills not confirmed" // Satan
+    "40780": "Recommended skills not confirmed", // Satan
+    "40816": "Skills incomplete", // Merlin
+    "40817": "Skills incomplete" // Lancelot
 });
 
 ExCard.addAll([

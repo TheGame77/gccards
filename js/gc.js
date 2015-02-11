@@ -280,7 +280,8 @@ var Event = (function() {
         [89, ["sweetwar"]],
         [90, ["thirteensecondsofpassion"]],
         [91, ["tindalos"]],
-        [92, ["lilim"]]
+        [92, ["lilim"]],
+        [93, ["merlinlancelot"]]
     ];
 
     var events = {

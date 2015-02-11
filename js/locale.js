@@ -136,7 +136,8 @@ var Locale = function(l) {
                 "The Sweet War",
                 "13 Seconds of Passion",
                 "飢えた猟犬", // Tindalos
-                "幻惑する妖魔" // Lilim
+                "幻惑する妖魔", // Lilim
+                "騎士王への反逆者" // Merlin/Lancelot
             ),
             borders: new Array(
                 "None",
@@ -546,7 +547,8 @@ var Locale = function(l) {
                 "The Sweet War",
                 "13 Seconds of Passion",
                 "飢えた猟犬", // Tindalos
-                "幻惑する妖魔" // Lilim
+                "幻惑する妖魔", // Lilim
+                "騎士王への反逆者" // Merlin/Lancelot
             ),
             borders: new Array(
                 "なし",
