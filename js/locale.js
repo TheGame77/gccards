@@ -135,9 +135,10 @@ var Locale = function(l) {
                 "幼き傀儡師", // Lachesis
                 "The Sweet War",
                 "13 Seconds of Passion",
-                "飢えた猟犬", // Tindalos
+                "Hunger of the Hounds",
                 "幻惑する妖魔", // Lilim
-                "騎士王への反逆者" // Merlin/Lancelot
+                "騎士王への反逆者", // Merlin/Lancelot
+                "舞い堕ちる黒き羽" // Nemain
             ),
             borders: new Array(
                 "None",
@@ -546,9 +547,10 @@ var Locale = function(l) {
                 "幼き傀儡師", // Lachesis
                 "The Sweet War",
                 "13 Seconds of Passion",
-                "飢えた猟犬", // Tindalos
+                "飢えた猟犬", // Hunger of the Hounds
                 "幻惑する妖魔", // Lilim
-                "騎士王への反逆者" // Merlin/Lancelot
+                "騎士王への反逆者", // Merlin/Lancelot
+                "舞い堕ちる黒き羽" // Nemain
             ),
             borders: new Array(
                 "なし",

@@ -3715,7 +3715,7 @@ Card.addAll([
      [Skill.divineshield, Skill.agi10, Skill.aroundight],
      [Skill.divineshield, Skill.aroundight, Skill.mvs]],
     ["40782", "ティンダロス", "",
-     Event.tindalos, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.darkness,
+     Event.hungerofthehounds, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.darkness,
      1670, 765, 1600, 1500, 1320, 1300,
      [Skill.dp, Skill.def10, Skill.wis10, Skill.agi10, Skill.atk20, Skill.powershift],
      [Skill.dp, Skill.def10, Skill.atk20],
@@ -3749,7 +3749,19 @@ Card.addAll([
      2000, 940, 1670, 1520, 1360, 1460,
      [Skill.revival, Skill.slash4, Skill.qs, Skill.gs],
      [Skill.revival, Skill.slash4, Skill.qs],
-     [Skill.revival, Skill.qs, Skill.gs]]
+     [Skill.revival, Skill.qs, Skill.gs]],
+    ["40818", "最強ルキフグス", "最強の名を手にした地獄全土の宰相。覚醒したその魔力は、あらゆる光を奪うとされる。",
+     Event.none, Border.almighty, 5, Place.coliseum, 17, "40758", Shape.none, Attribute.darkness,
+     2020, 1145, 1460, 1410, 1360, 1900,
+     [Skill.sap, Skill.datk20, Skill.ddef20, Skill.darkness4, Skill.mvs],
+     [Skill.sap, Skill.darkness4, Skill.mvs],
+     [Skill.sap, Skill.darkness4, Skill.mvs]],
+    ["40821", "ネヴァン", "",
+     Event.nemain, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
+     1380, 1140, 1120, 1220, 1240, 1540,
+     [Skill.dagi20, Skill.wind3, Skill.ddef20, Skill.dwis40, Skill.wind4, Skill.srevival],
+     [Skill.dagi20, Skill.dwis40, Skill.wind4],
+     [Skill.dwis40, Skill.wind4, Skill.srevival]]
 ]);
 
 Card.addLimitedTypes({

@@ -3606,6 +3606,24 @@ Card.addAll([
      [Skill.ds, Skill.death4, Skill.revival],
      [Skill.ds, Skill.death4, Skill.revival],
      [Skill.ds, Skill.death4, Skill.revival]],
+    ["40780", "Dark Emperor", "Enemy to both gods and manking, this lord of demons is seen as the embodiment of evil.",
+     Event.none, Border.none, 5, Place.perditionkeep, 0, null, Shape.humanoid, Attribute.death,
+     2020, 1220, 1670, 1580, 1360, 1720,
+     [Skill.revival, Skill.dp, Skill.aroundight, Skill.resistant, Skill.vd, Skill.tb],
+     [Skill.revival, Skill.aroundight, Skill.vd],
+     [Skill.revival, Skill.aroundight, Skill.vd]],
+    ["40781", "Merihim", "One of the seven Dukes of Hell, whose name means \"flaming arrow.\"' Lightning strikes whenever he appears.",
+     Event.none, Border.none, 5, Place.perditionkeep, 0, null, Shape.orbs, Attribute.poison,
+     2080, 1280, 1500, 1480, 1350, 1760,
+     [Skill.divineshield, Skill.poison3, Skill.agi10, Skill.poison4, Skill.aroundight, Skill.mvs],
+     [Skill.divineshield, Skill.agi10, Skill.aroundight],
+     [Skill.divineshield, Skill.aroundight, Skill.mvs]],
+    ["40782", "Vesper Hound", "An inter-dimensional entity with an unending hunger. It is relentless in its pursuit of prey.",
+     Event.hungerofthehounds, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.darkness,
+     1670, 765, 1600, 1500, 1320, 1390,
+     [Skill.dp, Skill.def10, Skill.wis10, Skill.agi10, Skill.atk20, Skill.powershift],
+     [Skill.dp, Skill.def10, Skill.atk20],
+     [Skill.dp, Skill.atk20, Skill.powershift]],
     ["40835", "Valentine Zenobia", "The queen of the desert's words may be bitter, but her gifts are oh-so-sweet.", 
      Event.sweetwar, Border.none, 5, Place.perditionkeep, 0, null, Shape.valentine, Attribute.darkness,
      2060, 420, 1760, 1580, 1340, 1500,
@@ -3943,6 +3961,8 @@ Card.addNotes({
     "40774": "Skills from Japanese version", // Skuld
     "40775": "All data from Japanese version", // Almighty King Arthur
     "40778": "Skills incomplete", // Ovis Phobetor
+    "40780": "Recommended skills not confirmed", // Dark Emperor
+    "40782": "Skills from Japanese version", // Vesper Hound
     "40835": "Skills incomplete", // Valentine Zenobia
     "40836": "Skills incomplete", // Princess Somnus
     "40844": "Skills from Japanese version" // Tenacious Hera
