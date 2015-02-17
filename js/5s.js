@@ -3576,6 +3576,12 @@ Card.addAll([
      [Skill.hs, Skill.wis10, Skill.wind4, Skill.tb],
      [Skill.hs, Skill.wind4, Skill.tb],
      [Skill.hs, Skill.wind4, Skill.tb]],
+    ["40771", "Almighty Ame-no-Uzume", "This celestial dancer saved the world by bringing light to the gods and heightening their power.",
+     Event.none, Border.almighty, 5, Place.coliseum, 14, "40687", Shape.none, Attribute.wind,
+     1880, 1400, 1300, 1420, 1360, 1700,
+     [Skill.ds, Skill.wis10, Skill.wind3, Skill.wind4, Skill.mindshift],
+     [Skill.ds, Skill.wind4, Skill.mindshift],
+     [Skill.ds, Skill.wind4, Skill.mindshift]],
     ["40772", "Urd", "The eldest of the norns who protect the World Tree. She nurtures the tree with water from a sacred spring.", 
      Event.sistersoffate, Border.none, 5, Place.perditionkeep, 0, null, Shape.female, Attribute.earth,
      2090, 2400, 1670, 1520, 1350, 1460,
@@ -3956,6 +3962,7 @@ Card.addNotes({
     "40766": "Skills from Japanese version", // Clotho of Calamities
     "40767": "Skills from Japanese version", // Almighty Lugh
     "40770": "Skills not confirmed", // Aine Claus
+    "40771": "All data from Japanese version", // Almighty Ame-no-Uzume
     "40772": "Skills from Japanese version", // Urd
     "40773": "Skills from Japanese version", // Verdandi
     "40774": "Skills from Japanese version", // Skuld
