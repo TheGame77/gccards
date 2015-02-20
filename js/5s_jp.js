@@ -3756,6 +3756,18 @@ Card.addAll([
      [Skill.sap, Skill.datk20, Skill.ddef20, Skill.darkness4, Skill.mvs],
      [Skill.sap, Skill.darkness4, Skill.mvs],
      [Skill.sap, Skill.darkness4, Skill.mvs]],
+    ["40819", "アエーシェマ", "",
+     Event.none, Border.none, 5, Place.perditionkeep, 0, null, Shape.humanoid, Attribute.darkness,
+     2000, 1140, 1680, 1580, 1350, 1480,
+     [Skill.qs, Skill.bg, Skill.divineshield],
+     [Skill.qs, Skill.bg, Skill.divineshield],
+     [Skill.qs, Skill.bg, Skill.divineshield]],
+    ["40820", "サタナエル", "",
+     Event.none, Border.none, 5, Place.perditionkeep, 0, null, Shape.bird, Attribute.darkness,
+     2220, 1384, 1670, 1760, 1360, 1500,
+     [Skill.ssap, Skill.cd, Skill.dr],
+     [Skill.ssap, Skill.cd, Skill.dr],
+     [Skill.ssap, Skill.cd, Skill.dr]],
     ["40821", "ネヴァン", "",
      Event.nemain, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
      1380, 1140, 1120, 1220, 1240, 1540,
@@ -3823,7 +3835,9 @@ Card.addNotes({
     "40778": "Skills incomplete", // Goat Princess Phobetor
     "40780": "Recommended skills not confirmed", // Satan
     "40816": "Skills incomplete", // Merlin
-    "40817": "Skills incomplete" // Lancelot
+    "40817": "Skills incomplete", // Lancelot
+    "40819": "Skills incomplete", // Aeshma
+    "40820": "Skills incomplete" // Satanael
 });
 
 ExCard.addAll([

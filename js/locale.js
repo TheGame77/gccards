@@ -452,7 +452,7 @@ var Locale = function(l) {
                 "ゼウス星雲",
                 "エデン", // Eden
                 "バビロン", // Babylon
-                "魔宮殿", // Pandemonium
+                "魔宮殿", // Perdition Keep
                 "ガーディアンソウル" // Guardian Soul
             ),
             events: new Array(

@@ -6,6 +6,9 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2015/2/20': [
+            "魔宮殿: " + Card.mklnk(40819) + "、" + Card.mklnk(40820) + "。"
+        ],
         '2015/2/13': [
             "第17回天空コロシアム: " + Card.mklnk(40818) + "。",
             "舞い堕ちる黒き羽: " + Card.mklnk(40821) + "。"
