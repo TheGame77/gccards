@@ -276,11 +276,11 @@ var Event = (function() {
         [85, ["sistersoffate"]],
         [86, ["valkyriescourage"]],
         [87, ["calamitysgrasp"]],
-        [88, ["lachesis"]],
+        [88, ["puppeteer"]],
         [89, ["sweetwar"]],
         [90, ["thirteensecondsofpassion"]],
         [91, ["hungerofthehounds"]],
-        [92, ["lilim"]],
+        [92, ["impsgambit"]],
         [93, ["merlinlancelot"]],
         [94, ["nemain"]]
     ];

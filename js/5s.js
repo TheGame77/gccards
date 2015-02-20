@@ -3606,6 +3606,12 @@ Card.addAll([
      [Skill.revival, Skill.atk10, Skill.slash4, Skill.cd, Skill.dr],
      [Skill.revival, Skill.cd, Skill.dr],
      [Skill.revival, Skill.cd, Skill.dr]],
+    ["40776", "Lachesis the Calamity", "The second eldest of the Fates, she manipulates the strings of destiny to lead mortals to their doom.",
+     Event.puppeteer, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
+     1480, 210, 1550, 1480, 1240, 1400,
+     [Skill.sds, Skill.physical3, Skill.def10, Skill.ls, Skill.tb],
+     [Skill.sds, Skill.physical3, Skill.ls],
+     [Skill.sds, Skill.ls, Skill.tb]],
     ["40778", "Ovis Phobetor", "A master of dreams responsible for nightmares, she roams the dreamscape in many beastly forms.", 
      Event.greatesthits, Border.none, 5, Place.babylon, 0, null, Shape.canine, Attribute.death,
      2010, 1300, 1470, 1480, 1330, 1760,
@@ -3630,6 +3636,12 @@ Card.addAll([
      [Skill.dp, Skill.def10, Skill.wis10, Skill.agi10, Skill.atk20, Skill.powershift],
      [Skill.dp, Skill.def10, Skill.atk20],
      [Skill.dp, Skill.atk20, Skill.powershift]],
+    ["40814", "Lilim", "A mischevious demon that targets men and children. Always acting on a whim, she can be dangerously unpredictable.",
+     Event.impsgambit, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
+     2100, 960, 1550, 1550, 1360, 1760,
+     [Skill.vd, Skill.death3, Skill.wis10, Skill.dwis20, Skill.death4, Skill.bequeath],
+     [Skill.vd, Skill.wis10, Skill.death4],
+     [Skill.vd, Skill.death4, Skill.bequeath]],
     ["40835", "Valentine Zenobia", "The queen of the desert's words may be bitter, but her gifts are oh-so-sweet.", 
      Event.sweetwar, Border.none, 5, Place.perditionkeep, 0, null, Shape.valentine, Attribute.darkness,
      2060, 420, 1760, 1580, 1340, 1500,
@@ -3967,9 +3979,11 @@ Card.addNotes({
     "40773": "Skills from Japanese version", // Verdandi
     "40774": "Skills from Japanese version", // Skuld
     "40775": "All data from Japanese version", // Almighty King Arthur
+    "40776": "Skills from Japanese version", // Lachesis the Calamity
     "40778": "Skills incomplete", // Ovis Phobetor
     "40780": "Recommended skills not confirmed", // Dark Emperor
     "40782": "Skills from Japanese version", // Vesper Hound
+    "40814": "Skills from Japanese version", // Lilim
     "40835": "Skills incomplete", // Valentine Zenobia
     "40836": "Skills incomplete", // Princess Somnus
     "40844": "Skills from Japanese version" // Tenacious Hera

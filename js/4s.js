@@ -642,8 +642,8 @@ Card.addAll([
      [Skill.death3, Skill.qs, Skill.ls]],
     ["30131", "Shuten-Doji", "After days spent ransacking, this chief of ogres passed the nights slaking a famed and peerless thirst for rice wine.", 
      Event.none, Border.none, 4, Place.desert_night, 0, null, Shape.female, Attribute.poison,
-     0, 0, 0, 0, 0, 0,
-     [],
+     1026, 945, 1028, 1009, 1015, 1000,
+     [Skill.poison2],
      [],
      []],
     ["30132", "Osiris", "This merciful judge of the dead reigns in a paradise where silky reeds cradle souls whose deeds were pure in life.", 
@@ -658,7 +658,7 @@ Card.addAll([
      [Skill.death2, Skill.dwis20, Skill.dagi20, Skill.death3, Skill.agi20, Skill.def20],
      [Skill.dwis20, Skill.death3, Skill.agi20],
      [Skill.dwis20, Skill.death3, Skill.def20]],
-    ["30134", "Ouroboros ", "", 
+    ["30134", "Ouroboros", "Symbol of the infinite, this truly unique serpent needs naught to live but itself as it forever devours its own tail.", 
      Event.none, Border.none, 4, Place.aedengard, 0, null, Shape.serpent, Attribute.wind,
      1020, 1000, 1033, 1030, 1020, 1010,
      [Skill.wind2, Skill.slash2, Skill.atk25, Skill.wind3, Skill.slash3],
@@ -667,9 +667,9 @@ Card.addAll([
     ["30136", "Baphomet", "This elder demon serves its lords by hosting banquets for witches who act as hell's vanguard in the mortal realm.", 
      Event.none, Border.none, 4, Place.aedengard, 0, null, Shape.none, Attribute.darkness,
      1019, 1030, 995, 1015, 1028, 1036,
-     [Skill.darkness2, Skill.ep, Skill.physical3, Skill.darkness3, Skill.mm],
+     [Skill.darkness2, Skill.ep, Skill.physical3, Skill.darkness3, Skill.mm, Skill.darkness4],
      [Skill.ep, Skill.darkness3, Skill.mm],
-     [Skill.ep, Skill.darkness3, Skill.mm]],
+     [Skill.ep, Skill.mm, Skill.darkness4]],
     ["30137", "Nebiros", "With a demon king in lands uncharted, this greatest of hell's necromancers works to end man from the shadows.", 
      Event.deathfire, Border.none, 4, Place.plains, 0, null, Shape.humanoid, Attribute.fire,
      1020, 880, 1015, 1030, 1026, 1025,
@@ -706,18 +706,36 @@ Card.addAll([
      [Skill.def25],
      [],
      []],
+    ["30144", "Shennong", "A god of agriculture and medicine, it is said he taught people the medicinal qualities of various plants.", 
+     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.unknown, Attribute.poison,
+     1015, 790, 1005, 1030, 1020, 1060,
+     [Skill.poison2],
+     [],
+     []],
+    ["30145", "Janus", "The god of beginnings and transitions, it is said he was able to divine the fortunes of war.", 
+     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.unknown, Attribute.mecha,
+     1085, 860, 1065, 1090, 1037, 1015,
+     [Skill.ddef20],
+     [],
+     []],
+    ["30146", "Manannan mac Lir", "The guardian of a young nation across the seas, it is said he thwarted invaders with fog and visions of phantom fleets.", 
+     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.unknown, Attribute.water,
+     1095, 900, 1050, 1070, 1022, 1015,
+     [Skill.dr],
+     [],
+     []],
     ["30147", "Arjuna", "The third of the Pandava brothers, this tragic hero is fated to fight a long blood feud with a cursed stepbrother.", 
      Event.none, Border.none, 4, Place.babylon, 0, null, Shape.unknown, Attribute.wind,
-     0, 0, 0, 0, 0, 0,
-     [],
+     1090, 800, 1010, 1040, 1022, 1065,
+     [Skill.light2],
      [],
      []],
     ["30148", "Huanglong", "One of the four cardinal direction gods, this beast can change weather and seasons with a single breath.", 
      Event.none, Border.none, 4, Place.babylon, 0, null, Shape.unknown, Attribute.lightning,
-     0, 0, 0, 0, 0, 0,
-     [],
-     [],
-     []]
+     1100, 920, 1060, 1060, 1020, 1015,
+     [Skill.ds, Skill.slash3, Skill.datk20, Skill.lightning3, Skill.atk20, Skill.slash4],
+     [Skill.ds, Skill.slash3, Skill.atk20],
+     [Skill.ds, Skill.atk20, Skill.slash4]]
 ]);
 
 Card.addLimitedTypes({
@@ -767,17 +785,15 @@ Card.addNotes({
     "30125": "All data from Japanese version",
     "30128": "All data from Japanese version", // Pallas
     "30129": "All data from Japanese version, rebirth skill missing", // Barbatos
-    "30131": "All data missing", // Shuten-Doji
+    "30131": "Skills missing", // Shuten-Doji
     "30132": "Skills missing", // Osiris
-    "30136": "Rebirth skill missing", // Baphomet
     "30137": "Skills from Japanese version", // Nebiros
     "30138": "All data from Japanese version, rebirth skill missing", // Hades
-    "30139": "Skills from Japanese version", // Tyr
     "30140": "Skills from Japanese version", // Balam
     "30141": "Skills from Japanese version", // Varuna
     "30143": "Skills missing", // Alkyoneus
-    "30147": "All data missing", // Arjuna
-    "30148": "All data missing" // Huanglong
+    "30144": "Skills missing", // Shennong
+    "30147": "Skills missing" // Arjuna
 });
 
 ExCard.addAll([

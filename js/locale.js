@@ -132,11 +132,11 @@ var Locale = function(l) {
                 "Sisters of Fate",
                 "Valkyrie's Courage",
                 "Calamity's Grasp",
-                "幼き傀儡師", // Lachesis
+                "The Puppeteer",
                 "The Sweet War",
                 "13 Seconds of Passion",
                 "Hunger of the Hounds",
-                "幻惑する妖魔", // Lilim
+                "The Imp's Gambit",
                 "騎士王への反逆者", // Merlin/Lancelot
                 "舞い堕ちる黒き羽" // Nemain
             ),
@@ -544,11 +544,11 @@ var Locale = function(l) {
                 "運命の予言者", // Sisters of Fate
                 "救世のワルキューレ", // Valkyrie's Courage
                 "災厄の紡ぎ手",
-                "幼き傀儡師", // Lachesis
+                "幼き傀儡師", // The Puppeteer
                 "The Sweet War",
                 "13 Seconds of Passion",
                 "飢えた猟犬", // Hunger of the Hounds
-                "幻惑する妖魔", // Lilim
+                "幻惑する妖魔", // The Imp's Gambit
                 "騎士王への反逆者", // Merlin/Lancelot
                 "舞い堕ちる黒き羽" // Nemain
             ),
