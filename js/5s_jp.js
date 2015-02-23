@@ -3773,7 +3773,13 @@ Card.addAll([
      1380, 1140, 1120, 1220, 1240, 1540,
      [Skill.dagi20, Skill.wind3, Skill.ddef20, Skill.dwis40, Skill.wind4, Skill.srevival],
      [Skill.dagi20, Skill.dwis40, Skill.wind4],
-     [Skill.dwis40, Skill.wind4, Skill.srevival]]
+     [Skill.dwis40, Skill.wind4, Skill.srevival]],
+    ["40834", "最強ヘカテ", "地獄の番犬と共に冥界より現れる夜の女神。最強の名の下に魔女の女王として君臨する。",
+     Event.none, Border.almighty, 5, Place.coliseum, 18, "40736", Shape.none, Attribute.death,
+     2000, 1290, 1460, 1420, 1350, 1820,
+     [Skill.revival, Skill.wis10, Skill.death3, Skill.death4, Skill.resistant],
+     [Skill.revival, Skill.death4, Skill.resistant],
+     [Skill.revival, Skill.death4, Skill.resistant]]
 ]);
 
 Card.addLimitedTypes({
@@ -3888,7 +3894,10 @@ ExCard.addAll([
      [ExSkill.pow_qs6, ExSkill.pow_qs8, ExSkill.pow_qs10]],
     ["45016", "イリス", "",
      Event.none, ExType.blue, 5, Place.fp, 0, Shape.none, Attribute.wind,
-     [ExSkill.pow_qs6, ExSkill.pow_qs8, ExSkill.pow_qs10]]
+     [ExSkill.pow_qs6, ExSkill.pow_qs8, ExSkill.pow_qs10]],
+    ["45017", " トリスメギストス ", "",
+     Event.none, ExType.blue, 5, Place.gsexchange, 0, Shape.none, Attribute.poison,
+     []] // TODO: Implement
 ]);
 
 ExCard.addNotes({

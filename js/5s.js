@@ -3618,6 +3618,12 @@ Card.addAll([
      [Skill.ds, Skill.death4, Skill.revival],
      [Skill.ds, Skill.death4, Skill.revival],
      [Skill.ds, Skill.death4, Skill.revival]],
+    ["40779", "Almighty Sargatanas", "One of the six pillars of the underworld, this archdemon leads a legion of demons that numbers in the millions.",
+     Event.none, Border.almighty, 5, Place.coliseum, 15, "40664", Shape.none, Attribute.death,
+     2200, 2690, 1730, 1470, 1340, 1440,
+     [Skill.rendburst, Skill.ddef20, Skill.slash4, Skill.qs, Skill.resistant],
+     [Skill.rendburst, Skill.qs, Skill.resistant],
+     [Skill.rendburst, Skill.qs, Skill.resistant]],
     ["40780", "Dark Emperor", "Enemy to both gods and manking, this lord of demons is seen as the embodiment of evil.",
      Event.none, Border.none, 5, Place.perditionkeep, 0, null, Shape.humanoid, Attribute.death,
      2020, 1220, 1670, 1580, 1360, 1720,
@@ -3974,19 +3980,18 @@ Card.addNotes({
     "40766": "Skills from Japanese version", // Clotho of Calamities
     "40767": "Skills from Japanese version", // Almighty Lugh
     "40770": "Skills not confirmed", // Aine Claus
-    "40771": "All data from Japanese version", // Almighty Ame-no-Uzume
+    "40771": "Skills Japanese version", // Almighty Ame-no-Uzume
     "40772": "Skills from Japanese version", // Urd
     "40773": "Skills from Japanese version", // Verdandi
     "40774": "Skills from Japanese version", // Skuld
     "40775": "All data from Japanese version", // Almighty King Arthur
     "40776": "Skills from Japanese version", // Lachesis the Calamity
     "40778": "Skills incomplete", // Ovis Phobetor
+    "40779": "All data from Japanese version", // Almighty Sargatanas
     "40780": "Recommended skills not confirmed", // Dark Emperor
-    "40782": "Skills from Japanese version", // Vesper Hound
     "40814": "Skills from Japanese version", // Lilim
     "40835": "Skills incomplete", // Valentine Zenobia
-    "40836": "Skills incomplete", // Princess Somnus
-    "40844": "Skills from Japanese version" // Tenacious Hera
+    "40836": "Skills incomplete" // Princess Somnus
 });
 
 ExCard.addAll([
