@@ -3779,7 +3779,25 @@ Card.addAll([
      2000, 1290, 1460, 1420, 1350, 1820,
      [Skill.revival, Skill.wis10, Skill.death3, Skill.death4, Skill.resistant],
      [Skill.revival, Skill.death4, Skill.resistant],
-     [Skill.revival, Skill.death4, Skill.resistant]]
+     [Skill.revival, Skill.death4, Skill.resistant]],
+    ["40835", "バレンタイン・ゼノビア", "", 
+     Event.sweetwar, Border.none, 5, Place.perditionkeep, 0, null, Shape.valentine, Attribute.darkness,
+     2060, 420, 1760, 1580, 1340, 1500,
+     [Skill.resistant, Skill.revival, Skill.tb],
+     [Skill.resistant, Skill.revival, Skill.tb],
+     [Skill.resistant, Skill.revival, Skill.tb]],
+    ["40836", "スリーピング・ハート", "", 
+     Event.sweetwar, Border.none, 5, Place.perditionkeep, 0, null, Shape.valentine, Attribute.darkness,
+     2200, 1030, 1680, 1560, 1360, 1500,
+     [Skill.qs, Skill.darkness4, Skill.dagi20, Skill.dwis20, Skill.np, Skill.cd],
+     [Skill.qs, Skill.darkness4, Skill.dwis20],
+     [Skill.qs, Skill.np, Skill.cd]],
+    ["40837", "スウィート・ヘラ", "", 
+     Event.thirteensecondsofpassion, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.light,
+     1440, 940, 1380, 1300, 1260, 1460,
+     [Skill.mvs, Skill.light2, Skill.wis10, Skill.light3, Skill.light4, Skill.bequeath],
+     [Skill.mvs, Skill.wis10, Skill.light4],
+     [Skill.mvs, Skill.light4, Skill.bequeath]]
 ]);
 
 Card.addLimitedTypes({
@@ -3843,7 +3861,8 @@ Card.addNotes({
     "40816": "Skills incomplete", // Merlin
     "40817": "Skills incomplete", // Lancelot
     "40819": "Skills incomplete", // Aeshma
-    "40820": "Skills incomplete" // Satanael
+    "40820": "Skills incomplete", // Satanael
+    "40835": "Skills not confirmed" // Valentine Zenobia
 });
 
 ExCard.addAll([

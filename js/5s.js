@@ -3657,8 +3657,8 @@ Card.addAll([
     ["40836", "Princess Somnus", "During her hundred-year sleep, this princess dreams of nothing but the love of a sweet prince.", 
      Event.sweetwar, Border.none, 5, Place.perditionkeep, 0, null, Shape.valentine, Attribute.darkness,
      2200, 1030, 1680, 1560, 1360, 1500,
-     [Skill.qs, Skill.np, Skill.cd],
-     [Skill.qs, Skill.np, Skill.cd],
+     [Skill.qs, Skill.darkness4, Skill.dagi20, Skill.dwis20, Skill.np, Skill.cd],
+     [Skill.qs, Skill.darkness4, Skill.dwis20],
      [Skill.qs, Skill.np, Skill.cd]],
     ["40837", "Sweet Hera", "When this powerful goddess sends a gift of affection, refusing is not a viable option.", 
      Event.thirteensecondsofpassion, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.light,
@@ -3991,7 +3991,7 @@ Card.addNotes({
     "40780": "Recommended skills not confirmed", // Dark Emperor
     "40814": "Skills from Japanese version", // Lilim
     "40835": "Skills incomplete", // Valentine Zenobia
-    "40836": "Skills incomplete" // Princess Somnus
+    "40836": "Skills from Japanese version" // Princess Somnus
 });
 
 ExCard.addAll([

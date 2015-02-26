@@ -546,7 +546,7 @@ var Locale = function(l) {
                 "災厄の紡ぎ手",
                 "幼き傀儡師", // The Puppeteer
                 "The Sweet War",
-                "13 Seconds of Passion",
+                "恋の13秒戦争",
                 "飢えた猟犬", // Hunger of the Hounds
                 "幻惑する妖魔", // The Imp's Gambit
                 "騎士王への反逆者", // Merlin/Lancelot
