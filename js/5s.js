@@ -3642,12 +3642,30 @@ Card.addAll([
      [Skill.dp, Skill.def10, Skill.wis10, Skill.agi10, Skill.atk20, Skill.powershift],
      [Skill.dp, Skill.def10, Skill.atk20],
      [Skill.dp, Skill.atk20, Skill.powershift]],
+    ["40812", "Almighty Obsidian Knight", "An immortal sentinel that serves as the last challenge for those who seek the sacred chalice.",
+     Event.none, Border.almighty, 5, Place.coliseum, 16, "40692", Shape.none, Attribute.poison,
+     1920, 1075, 1700, 1470, 1350, 1500,
+     [Skill.revival, Skill.def20, Skill.slash4, Skill.cd, Skill.qs],
+     [Skill.revival, Skill.cd, Skill.qs],
+     [Skill.revival, Skill.cd, Skill.qs]],
     ["40814", "Lilim", "A mischevious demon that targets men and children. Always acting on a whim, she can be dangerously unpredictable.",
      Event.impsgambit, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
      2100, 960, 1550, 1550, 1360, 1760,
      [Skill.vd, Skill.death3, Skill.wis10, Skill.dwis20, Skill.death4, Skill.bequeath],
      [Skill.vd, Skill.wis10, Skill.death4],
      [Skill.vd, Skill.death4, Skill.bequeath]],
+    ["40816", "Merlin", "A mage of renown that created the enchanted round table where the greatest knights of legend gathered.",
+     Event.greatesthits, Border.none, 5, Place.perditionkeep, 0, null, Shape.orbs, Attribute.lightning,
+     2000, 2340, 1420, 1400, 1340, 1730,
+     [Skill.death3, Skill.rendburst, Skill.vd, Skill.lightning4x, Skill.death4],
+     [Skill.rendburst, Skill.vd, Skill.lightning4x],
+     [Skill.rendburst, Skill.vd, Skill.lightning4x]],
+    ["40817", "Lancelot", "The knight of the lake, whose skills in battle are the stuff of legend. His betrayal caused the fall of a kingdom.",
+     Event.greatesthits, Border.none, 5, Place.perditionkeep, 0, null, Shape.humanoid, Attribute.water,
+     1940, 1180, 1520, 1520, 1360, 1765,
+     [Skill.aroundight, Skill.nj, Skill.ds],
+     [Skill.aroundight, Skill.nj, Skill.ds],
+     [Skill.aroundight, Skill.nj, Skill.ds]],
     ["40835", "Valentine Zenobia", "The queen of the desert's words may be bitter, but her gifts are oh-so-sweet.", 
      Event.sweetwar, Border.none, 5, Place.perditionkeep, 0, null, Shape.valentine, Attribute.darkness,
      2060, 420, 1760, 1580, 1340, 1500,
@@ -3989,7 +4007,10 @@ Card.addNotes({
     "40778": "Skills incomplete", // Ovis Phobetor
     "40779": "All data from Japanese version", // Almighty Sargatanas
     "40780": "Recommended skills not confirmed", // Dark Emperor
+    "40812": "All data from Japanese version", // Almighty Obsidian Knight
     "40814": "Skills from Japanese version", // Lilim
+    "40816": "Skills from Japanese version", // Merlin
+    "40817": "Skills incomplete", // Lancelot
     "40835": "Skills incomplete", // Valentine Zenobia
     "40836": "Skills from Japanese version" // Princess Somnus
 });
@@ -4039,5 +4060,8 @@ ExCard.addAll([
      [ExSkill.wis10, ExSkill.wis12, ExSkill.wis15]],
     ["45015", "Enfield", "A mythological creature seen on many coats of arms, it is said to rise from the seas to protect the honored dead.",
      Event.none, ExType.blue, 5, Place.fp, 0, Shape.none, Attribute.wind,
-     [ExSkill.pow_qs6, ExSkill.pow_qs8, ExSkill.pow_qs10]]
+     [ExSkill.pow_qs6, ExSkill.pow_qs8, ExSkill.pow_qs10]],
+    ["45016", "Iris", "Goddess of rainbows and new challenges. She serves as a messenger of gods.",
+     Event.none, ExType.blue, 5, Place.fp, 0, Shape.none, Attribute.wind,
+     [ExSkill.suc_ds10, ExSkill.suc_ds15, ExSkill.suc_ds20]]
 ]);

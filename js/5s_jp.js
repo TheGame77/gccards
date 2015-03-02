@@ -3913,8 +3913,8 @@ ExCard.addAll([
      [ExSkill.pow_qs6, ExSkill.pow_qs8, ExSkill.pow_qs10]],
     ["45016", "イリス", "",
      Event.none, ExType.blue, 5, Place.fp, 0, Shape.none, Attribute.wind,
-     [ExSkill.pow_qs6, ExSkill.pow_qs8, ExSkill.pow_qs10]],
-    ["45017", " トリスメギストス ", "",
+     [ExSkill.suc_ds10, ExSkill.suc_ds15, ExSkill.suc_ds20]],
+    ["45017", " トリスメギストス", "",
      Event.none, ExType.blue, 5, Place.gsexchange, 0, Shape.none, Attribute.poison,
      []] // TODO: Implement
 ]);
