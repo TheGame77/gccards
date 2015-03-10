@@ -3769,7 +3769,7 @@ Card.addAll([
      [Skill.ssap, Skill.cd, Skill.dr],
      [Skill.ssap, Skill.cd, Skill.dr]],
     ["40821", "ネヴァン", "",
-     Event.nemain, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
+     Event.rainofblackfeathers, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
      1380, 1140, 1120, 1220, 1240, 1540,
      [Skill.dagi20, Skill.wind3, Skill.ddef20, Skill.dwis40, Skill.wind4, Skill.srevival],
      [Skill.dagi20, Skill.dwis40, Skill.wind4],

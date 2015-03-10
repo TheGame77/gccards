@@ -282,7 +282,7 @@ var Event = (function() {
         [91, ["hungerofthehounds"]],
         [92, ["impsgambit"]],
         [93, ["merlinlancelot"]],
-        [94, ["nemain"]]
+        [94, ["rainofblackfeathers"]]
     ];
 
     var events = {

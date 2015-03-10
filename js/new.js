@@ -6,6 +6,13 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2015/3/9': [
+            "17th Skyborne Coliseum Reward: " + Card.mklnk(40815) + ".",
+            "Perdition Keep: " + Card.mklnk(40819) + ", " + Card.mklnk(40820) + ".",
+            "Rain of Black Feathers: " + Card.mklnk(40821) + ".",
+            "Guardian Soul Exchange: " + ExCard.mklnk(45017) + ".",
+            "Warning: Skills for " + ExCard.mklnk(45017) + " not implemented."
+        ],
         '2015/3/2': [
             "16th Skyborne Coliseum Reward: " + Card.mklnk(40812) + ".",
             "The Greatest Hits Hunt: " + Card.mklnk(40816) + ", " + Card.mklnk(40817) + ".",

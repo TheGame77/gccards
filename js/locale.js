@@ -138,7 +138,7 @@ var Locale = function(l) {
                 "Hunger of the Hounds",
                 "The Imp's Gambit",
                 "騎士王への反逆者", // Merlin/Lancelot
-                "舞い堕ちる黒き羽" // Nemain
+                "Rain of Black Feathers"
             ),
             borders: new Array(
                 "None",
@@ -550,7 +550,7 @@ var Locale = function(l) {
                 "飢えた猟犬", // Hunger of the Hounds
                 "幻惑する妖魔", // The Imp's Gambit
                 "騎士王への反逆者", // Merlin/Lancelot
-                "舞い堕ちる黒き羽" // Nemain
+                "舞い堕ちる黒き羽" // Rain of Black Feathers
             ),
             borders: new Array(
                 "なし",

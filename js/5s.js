@@ -3654,6 +3654,12 @@ Card.addAll([
      [Skill.vd, Skill.death3, Skill.wis10, Skill.dwis20, Skill.death4, Skill.bequeath],
      [Skill.vd, Skill.wis10, Skill.death4],
      [Skill.vd, Skill.death4, Skill.bequeath]],
+    ["40815", "Almighty Tsukuyomi", "This moon god rules the night with the sword given to him by his counterpart, the sun god Amatsu.",
+     Event.none, Border.almighty, 5, Place.coliseum, 17, "40626", Shape.none, Attribute.water,
+     2240, 1280, 1720, 1530, 1340, 1500,
+     [Skill.qs, Skill.slash3, Skill.water4, Skill.dp, Skill.resistant],
+     [Skill.qs, Skill.dp, Skill.resistant],
+     [Skill.qs, Skill.dp, Skill.resistant]],
     ["40816", "Merlin", "A mage of renown that created the enchanted round table where the greatest knights of legend gathered.",
      Event.greatesthits, Border.none, 5, Place.perditionkeep, 0, null, Shape.orbs, Attribute.lightning,
      2000, 2340, 1420, 1400, 1340, 1730,
@@ -3666,6 +3672,24 @@ Card.addAll([
      [Skill.aroundight, Skill.nj, Skill.ds],
      [Skill.aroundight, Skill.nj, Skill.ds],
      [Skill.aroundight, Skill.nj, Skill.ds]],
+    ["40819", "Aeshma", "A demon lord that declared war on the heavens, and rallied the legions of darkness around him.",
+     Event.none, Border.none, 5, Place.perditionkeep, 0, null, Shape.humanoid, Attribute.darkness,
+     2000, 1140, 1680, 1580, 1350, 1480,
+     [Skill.qs, Skill.bg, Skill.divineshield],
+     [Skill.qs, Skill.bg, Skill.divineshield],
+     [Skill.qs, Skill.bg, Skill.divineshield]],
+    ["40820", "Satanail", "A fallen angel that sought to rule over humans as a god, and re-create heaven in his own image.",
+     Event.none, Border.none, 5, Place.perditionkeep, 0, null, Shape.bird, Attribute.darkness,
+     2220, 1384, 1670, 1760, 1360, 1500,
+     [Skill.ssap, Skill.cd, Skill.dr],
+     [Skill.ssap, Skill.cd, Skill.dr],
+     [Skill.ssap, Skill.cd, Skill.dr]],
+    ["40821", "Nemain", "A dark angel whose shriek drives men on the battlefield to madness, causing alies to turn on one another.",
+     Event.rainofblackfeathers, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
+     1380, 1140, 1120, 1220, 1240, 1540,
+     [Skill.dagi20, Skill.wind3, Skill.ddef20, Skill.dwis40, Skill.wind4, Skill.srevival],
+     [Skill.dagi20, Skill.dwis40, Skill.wind4],
+     [Skill.dwis40, Skill.wind4, Skill.srevival]],
     ["40835", "Valentine Zenobia", "The queen of the desert's words may be bitter, but her gifts are oh-so-sweet.", 
      Event.sweetwar, Border.none, 5, Place.perditionkeep, 0, null, Shape.valentine, Attribute.darkness,
      2060, 420, 1760, 1580, 1340, 1500,
@@ -4009,8 +4033,11 @@ Card.addNotes({
     "40780": "Recommended skills not confirmed", // Dark Emperor
     "40812": "All data from Japanese version", // Almighty Obsidian Knight
     "40814": "Skills from Japanese version", // Lilim
+    "40815": "All data from Japanese version", // Almighty Tsukoyomi
     "40816": "Skills from Japanese version", // Merlin
     "40817": "Skills incomplete", // Lancelot
+    "40819": "Skills from Japanese version", // Aeshma
+    "40820": "Skills from Japanese version", // Satanail
     "40835": "Skills incomplete", // Valentine Zenobia
     "40836": "Skills from Japanese version" // Princess Somnus
 });
@@ -4063,5 +4090,8 @@ ExCard.addAll([
      [ExSkill.pow_qs6, ExSkill.pow_qs8, ExSkill.pow_qs10]],
     ["45016", "Iris", "Goddess of rainbows and new challenges. She serves as a messenger of gods.",
      Event.none, ExType.blue, 5, Place.fp, 0, Shape.none, Attribute.wind,
-     [ExSkill.suc_ds10, ExSkill.suc_ds15, ExSkill.suc_ds20]]
+     [ExSkill.suc_ds10, ExSkill.suc_ds15, ExSkill.suc_ds20]],
+    ["45017", " Trismegistus", "A legendary thaumaturge that has lived for 50,000 years through the power of alchemic reincarnation.",
+     Event.none, ExType.blue, 5, Place.gsexchange, 0, Shape.none, Attribute.poison,
+     []] // TODO: Implement
 ]);
