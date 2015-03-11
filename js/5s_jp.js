@@ -3797,7 +3797,25 @@ Card.addAll([
      1440, 940, 1380, 1300, 1260, 1460,
      [Skill.mvs, Skill.light2, Skill.wis10, Skill.light3, Skill.light4, Skill.bequeath],
      [Skill.mvs, Skill.wis10, Skill.light4],
-     [Skill.mvs, Skill.light4, Skill.bequeath]]
+     [Skill.mvs, Skill.light4, Skill.bequeath]],
+    ["40842", "シスターズ", "", 
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.death,
+     1600, 1090, 1280, 1350, 1310, 1600,
+     [Skill.mr, Skill.darkness3, Skill.wis10, Skill.atk10, Skill.darkness4, Skill.vd],
+     [Skill.mr, Skill.wis10, Skill.darkness4],
+     [Skill.mr, Skill.darkness4, Skill.vd]],
+    ["40843", "ドラキュラ ", "", 
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.darkness,
+     1800, 1030, 1500, 1400, 1340, 1380,
+     [Skill.cd, Skill.darkness3, Skill.def10, Skill.darkness4, Skill.powershift, Skill.revival],
+     [Skill.cd, Skill.def10, Skill.powershift],
+     [Skill.cd, Skill.powershift, Skill.revival]],
+    ["40844", "妻恐ヘラ", "運命の愛を迫る最高位の女神。ただ一人に注がれる純粋な愛は熱く、そして永遠に続く", 
+     Event.none, Border.almighty, 5, Place.coliseum, 19, "40837", Shape.none, Attribute.light,
+     2160, 1146, 2600, 1800, 1360, 800,
+     [Skill.qs, Skill.physical3, Skill.light3, Skill.physical4, Skill.sap],
+     [Skill.qs, Skill.physical4, Skill.sap],
+     [Skill.qs, Skill.physical4, Skill.sap]]
 ]);
 
 Card.addLimitedTypes({
@@ -3841,7 +3859,9 @@ Card.addLimitedTypes({
     "40720": [Type.cool, Type.coolr],    // Phantom Iblis
     "40750": [Type.cool, Type.coolr],    // Zirnitra
     "40751": [Type.cool, Type.coolr],    // Macha
-    "40752": [Type.cool, Type.coolr]     // Cherubim
+    "40752": [Type.cool, Type.coolr],    // Cherubim
+    "40842": [Type.cool, Type.coolr],    // Sisters
+    "40843": [Type.cool, Type.coolr]     // Dracula
 });
 
 Card.addNotes({
