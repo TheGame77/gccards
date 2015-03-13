@@ -282,7 +282,9 @@ var Event = (function() {
         [91, ["hungerofthehounds"]],
         [92, ["impsgambit"]],
         [93, ["merlinlancelot"]],
-        [94, ["rainofblackfeathers"]]
+        [94, ["rainofblackfeathers"]],
+        [95, ["queenofdiscord"]],
+        [96, ["pandoramoloch"]]
     ];
 
     var events = {

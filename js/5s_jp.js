@@ -3810,12 +3810,36 @@ Card.addAll([
      [Skill.cd, Skill.darkness3, Skill.def10, Skill.darkness4, Skill.powershift, Skill.revival],
      [Skill.cd, Skill.def10, Skill.powershift],
      [Skill.cd, Skill.powershift, Skill.revival]],
-    ["40844", "妻恐ヘラ", "運命の愛を迫る最高位の女神。ただ一人に注がれる純粋な愛は熱く、そして永遠に続く", 
+    ["40844", "妻恐ヘラ", "運命の愛を迫る最高位の女神。ただ一人に注がれる純粋な愛は熱く、そして永遠に続く。", 
      Event.none, Border.almighty, 5, Place.coliseum, 19, "40837", Shape.none, Attribute.light,
      2160, 1146, 2600, 1800, 1360, 800,
      [Skill.qs, Skill.physical3, Skill.light3, Skill.physical4, Skill.sap],
      [Skill.qs, Skill.physical4, Skill.sap],
-     [Skill.qs, Skill.physical4, Skill.sap]]
+     [Skill.qs, Skill.physical4, Skill.sap]],
+    ["40846", "サルヴァ", "", 
+     Event.queenofdiscord, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.water,
+     2220, 840, 1670, 1580, 1360, 1500,
+     [Skill.tb, Skill.slash3, Skill.ddef20, Skill.slash4, Skill.ls, Skill.bg],
+     [Skill.tb, Skill.slash4, Skill.ls],
+     [Skill.tb, Skill.ls, Skill.bg]],
+    ["40847", "最強タイラント", "暴君の名を持つ自立型戦闘機械。その力を恐れられ開発者自らに封印された過去を持つ。", 
+     Event.none, Border.almighty, 5, Place.coliseum, 20, "40705", Shape.none, Attribute.mecha,
+     0, 0, 0, 0, 0, 0,
+     [],
+     [],
+     []],
+    ["40848", "モロク", "", 
+     Event.pandoramoloch, Border.none, 5, Place.perditionkeep, 0, null, Shape.giant, Attribute.fire,
+     2160, 1000, 1500, 1580, 1350, 1760,
+     [Skill.dr, Skill.revival, Skill.death4],
+     [Skill.dr, Skill.revival, Skill.death4],
+     [Skill.dr, Skill.revival, Skill.death4]],
+    ["40849", "パンドラ・デスペア", "", 
+     Event.pandoramoloch, Border.none, 5, Place.perditionkeep, 0, null, Shape.female, Attribute.earth,
+     2120, 1460, 1660, 1740, 1340, 1580,
+     [Skill.vd, Skill.ds, Skill.cd],
+     [Skill.vd, Skill.ds, Skill.cd],
+     [Skill.vd, Skill.ds, Skill.cd]]
 ]);
 
 Card.addLimitedTypes({
@@ -3882,7 +3906,10 @@ Card.addNotes({
     "40817": "Skills incomplete", // Lancelot
     "40819": "Skills incomplete", // Aeshma
     "40820": "Skills incomplete", // Satanael
-    "40835": "Skills not confirmed" // Valentine Zenobia
+    "40835": "Skills not confirmed", // Valentine Zenobia
+    "40847": "All data missing", // Almighty Tyrant
+    "40848": "Skills incomplete", // Moloch
+    "40849": "Skills incomplete" // Pandora Despair
 });
 
 ExCard.addAll([

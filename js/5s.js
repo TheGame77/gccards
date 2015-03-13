@@ -3615,8 +3615,8 @@ Card.addAll([
     ["40778", "Ovis Phobetor", "A master of dreams responsible for nightmares, she roams the dreamscape in many beastly forms.", 
      Event.greatesthits, Border.none, 5, Place.babylon, 0, null, Shape.canine, Attribute.death,
      2010, 1300, 1470, 1480, 1330, 1760,
-     [Skill.ds, Skill.death4, Skill.revival],
-     [Skill.ds, Skill.death4, Skill.revival],
+     [Skill.ds, Skill.darkness3, Skill.darkness4, Skill.death4, Skill.revival],
+     [Skill.ds, Skill.def10, Skill.death4],
      [Skill.ds, Skill.death4, Skill.revival]],
     ["40779", "Almighty Sargatanas", "One of the six pillars of the underworld, this archdemon leads a legion of demons that numbers in the millions.",
      Event.none, Border.almighty, 5, Place.coliseum, 15, "40664", Shape.none, Attribute.death,
@@ -3713,7 +3713,13 @@ Card.addAll([
      2160, 1146, 2600, 1800, 1360, 800,
      [Skill.qs, Skill.physical3, Skill.light3, Skill.physical4, Skill.sap],
      [Skill.qs, Skill.physical4, Skill.sap],
-     [Skill.qs, Skill.physical4, Skill.sap]]
+     [Skill.qs, Skill.physical4, Skill.sap]],
+    ["40846", "Saurva", "A dark deity that seeks the destroy the order created by the gods of light by sowing discord in the hearts of men.", 
+     Event.queenofdiscord, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.water,
+     2220, 840, 1670, 1580, 1360, 1500,
+     [Skill.tb, Skill.slash3, Skill.ddef20, Skill.slash4, Skill.ls, Skill.bg],
+     [Skill.tb, Skill.slash4, Skill.ls],
+     [Skill.tb, Skill.ls, Skill.bg]]
 ]);
 
 Card.addLimitedTypes({
@@ -4028,7 +4034,6 @@ Card.addNotes({
     "40774": "Skills from Japanese version", // Skuld
     "40775": "All data from Japanese version", // Almighty King Arthur
     "40776": "Skills from Japanese version", // Lachesis the Calamity
-    "40778": "Skills incomplete", // Ovis Phobetor
     "40779": "All data from Japanese version", // Almighty Sargatanas
     "40780": "Recommended skills not confirmed", // Dark Emperor
     "40812": "All data from Japanese version", // Almighty Obsidian Knight
@@ -4039,7 +4044,8 @@ Card.addNotes({
     "40819": "Skills from Japanese version", // Aeshma
     "40820": "Skills from Japanese version", // Satanail
     "40835": "Skills incomplete", // Valentine Zenobia
-    "40836": "Skills from Japanese version" // Princess Somnus
+    "40836": "Skills from Japanese version", // Princess Somnus
+    "40846": "Skills from Japanese version" // Saurva
 });
 
 ExCard.addAll([

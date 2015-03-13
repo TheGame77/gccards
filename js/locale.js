@@ -137,8 +137,10 @@ var Locale = function(l) {
                 "13 Seconds of Passion",
                 "Hunger of the Hounds",
                 "The Imp's Gambit",
-                "騎士王への反逆者", // Merlin/Lancelot
-                "Rain of Black Feathers"
+                "騎士王への反逆者", // Merlin/Lancelot -- Never happened in int'l
+                "Rain of Black Feathers",
+                "Queen of Discord",
+                "奈落より出でし惨禍" // pandoramoloch
             ),
             borders: new Array(
                 "None",
@@ -550,7 +552,9 @@ var Locale = function(l) {
                 "飢えた猟犬", // Hunger of the Hounds
                 "幻惑する妖魔", // The Imp's Gambit
                 "騎士王への反逆者", // Merlin/Lancelot
-                "舞い堕ちる黒き羽" // Rain of Black Feathers
+                "舞い堕ちる黒き羽", // Rain of Black Feathers,
+                "恋の13秒戦争", // Queen of Discord
+                "奈落より出でし惨禍" // pandoramoloch
             ),
             borders: new Array(
                 "なし",
