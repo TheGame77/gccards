@@ -284,7 +284,9 @@ var Event = (function() {
         [93, ["merlinlancelot"]],
         [94, ["rainofblackfeathers"]],
         [95, ["queenofdiscord"]],
-        [96, ["pandoramoloch"]]
+        [96, ["pandoramoloch"]],
+        [97, ["fieryguardian"]],
+        [98, ["deathbladedarkshield"]]
     ];
 
     var events = {

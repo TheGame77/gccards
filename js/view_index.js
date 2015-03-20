@@ -105,9 +105,15 @@ function showRelatedLinks() {
 }
 
 function initHelpNeeded() {
-    var gs = new Array();
-    for (var gid in Card.notes)
+    var gs = [];
+    for (var gid in Card.notes) {
+        var card = Card.get(gid);
+
+        if(card == null)
+            alert("Help specified for invalid card: " + gid);
+
         gs.push(Card.get(gid));
+    }
     gs.sort(Sorting.compose(Sorting.stars, Sorting.name));
     var stars = null;
     for (var i = 0; i < gs.length; i++) {
@@ -139,7 +145,7 @@ function insertCardsSelection() {
     var getid = function(x) {
         return x.id;
     };
-    var queries = new Array(
+    var queries = [
         {name: "id", value: new Array(), ignore: 0},
         {name: "stars", value: stars, ignore: stars.length},
         {name: "place", value: List.map(getid, Place.all), ignore: Place.all.length},
@@ -147,7 +153,7 @@ function insertCardsSelection() {
         {name: "border", value: List.map(getid, Border.all), ignore: Border.all.length},
         {name: "shape", value: List.map(getid, Shape.all), ignore: Shape.all.length},
         {name: "skill", value: List.map(getid, Skill.all), ignore: Skill.all.length}
-    );
+    ];
     var s_ids = queries[0].value;
     var s_stars = queries[1].value;
     var s_places = queries[2].value;
@@ -157,7 +163,7 @@ function insertCardsSelection() {
     var s_skills = queries[6].value;
 
     var update = function() {
-        var strs = new Array();
+        var strs = [];
         for (var i = 0; i < queries.length; i++) {
             if (queries[i].value.length == queries[i].ignore)
                 continue;
@@ -220,7 +226,7 @@ function insertCardsSelection() {
         }
         update();
     });
-    var data = new Array(
+    var data = [
         { id: "stars_selector", src: stars, dst: s_stars, width: 0,
           value: function(x) {return x; }, content: function(x) {
             return List.map(
@@ -238,7 +244,7 @@ function insertCardsSelection() {
           value: function(x) {return x.id; }, content: function(x) {return x.getImage(32); }},
         { id: "skill_selector", src: Skill.all, dst: s_skills, width: 1,
           value: function(x) {return x.id; }, content: function(x) {return x.name + " (" + x.description + ")"; }}
-    );
+    ];
 
     for (var i = 0; i < data.length; i++) { 
         var d = data[i];

@@ -3615,7 +3615,7 @@ Card.addAll([
     ["40778", "Ovis Phobetor", "A master of dreams responsible for nightmares, she roams the dreamscape in many beastly forms.", 
      Event.greatesthits, Border.none, 5, Place.babylon, 0, null, Shape.canine, Attribute.death,
      2010, 1300, 1470, 1480, 1330, 1760,
-     [Skill.ds, Skill.darkness3, Skill.darkness4, Skill.death4, Skill.revival],
+     [Skill.ds, Skill.darkness3, Skill.def10, Skill.darkness4, Skill.death4, Skill.revival],
      [Skill.ds, Skill.def10, Skill.death4],
      [Skill.ds, Skill.death4, Skill.revival]],
     ["40779", "Almighty Sargatanas", "One of the six pillars of the underworld, this archdemon leads a legion of demons that numbers in the millions.",
@@ -3672,6 +3672,12 @@ Card.addAll([
      [Skill.aroundight, Skill.nj, Skill.ds],
      [Skill.aroundight, Skill.nj, Skill.ds],
      [Skill.aroundight, Skill.nj, Skill.ds]],
+    ["40818", "Almighty Lucifugus", "First among the servants of the Underworld, this demon's dark power is said to erase all light.",
+     Event.none, Border.almighty, 5, Place.coliseum, 18, "40758", Shape.none, Attribute.darkness,
+     2020, 1145, 1460, 1410, 1360, 1900,
+     [Skill.sap, Skill.datk20, Skill.ddef20, Skill.darkness4, Skill.mvs],
+     [Skill.sap, Skill.darkness4, Skill.mvs],
+     [Skill.sap, Skill.darkness4, Skill.mvs]],
     ["40819", "Aeshma", "A demon lord that declared war on the heavens, and rallied the legions of darkness around him.",
      Event.none, Border.none, 5, Place.perditionkeep, 0, null, Shape.humanoid, Attribute.darkness,
      2000, 1140, 1680, 1580, 1350, 1480,
@@ -3708,6 +3714,18 @@ Card.addAll([
      [Skill.mvs, Skill.light2, Skill.wis10, Skill.light3, Skill.light4, Skill.bequeath],
      [Skill.mvs, Skill.wis10, Skill.light4],
      [Skill.mvs, Skill.light4, Skill.bequeath]],
+    ["40842", "Undead Sisters", "Beautiful siblings in the service of the Count. They are always maneuvering to add young women to their brood.", 
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.death,
+     1600, 1090, 1280, 1350, 1310, 1600,
+     [Skill.mr, Skill.darkness3, Skill.wis10, Skill.atk10, Skill.darkness4, Skill.vd],
+     [Skill.mr, Skill.wis10, Skill.darkness4],
+     [Skill.mr, Skill.darkness4, Skill.vd]],
+    ["40843", "Dracula", "A legendary vampire that has manipulated world events for centuries in a bid for total control.", 
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.darkness,
+     1800, 1030, 1500, 1400, 1340, 1380,
+     [Skill.cd, Skill.darkness3, Skill.def10, Skill.darkness4, Skill.powershift, Skill.revival],
+     [Skill.cd, Skill.def10, Skill.powershift],
+     [Skill.cd, Skill.powershift, Skill.revival]],
     ["40844", "Tenacious Hera", "When this powerful goddess sends a gift of affection, refusing is not a viable option.", 
      Event.none, Border.almighty, 5, Place.coliseum, 13, "40837", Shape.none, Attribute.light,
      2160, 1146, 2600, 1800, 1360, 800,
@@ -3719,7 +3737,25 @@ Card.addAll([
      2220, 840, 1670, 1580, 1360, 1500,
      [Skill.tb, Skill.slash3, Skill.ddef20, Skill.slash4, Skill.ls, Skill.bg],
      [Skill.tb, Skill.slash4, Skill.ls],
-     [Skill.tb, Skill.ls, Skill.bg]]
+     [Skill.tb, Skill.ls, Skill.bg]],
+    ["40890", "Eidolon Diabolos", "When this Eidolon's gravity powers are primed to maximum, its attack power exceeds even that of Bahamut.", 
+     Event.deathbladedarkshield, Border.none, 5, Place.aedengard, 0, null, Shape.avian, Attribute.death,
+     2220, 840, 1670, 1580, 1360, 1500,
+     [Skill.divineshield, Skill.datk20, Skill.darkness3, Skill.dagi20, Skill.cd],
+     [Skill.divineshield, Skill.dagi20, Skill.cd],
+     [Skill.divineshield, Skill.dagi20, Skill.cd]],
+    ["40891", "Eidolon Odin", "This Eidolon possesses the instant kill ability Zantetsuken, making it ideal for dealing with multiple enemies.", 
+     Event.deathbladedarkshield, Border.none, 5, Place.aedengard, 0, null, Shape.canine, Attribute.darkness,
+     2080, 1040, 1680, 1680, 1360, 1500,
+     [Skill.resistant, Skill.slash3, Skill.atk20, Skill.gs, Skill.revival],
+     [Skill.resistant, Skill.atk20, Skill.gs],
+     [Skill.resistant, Skill.gs, Skill.revival]],
+    ["40892", "Eidolon Ifrit", "A well-balanced Eidolon with no real weaknesses, making it one of the easiest to use.", 
+     Event.fieryguardian, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.fire,
+     1480, 1300, 1140, 1360, 1260, 1540,
+     [Skill.nj, Skill.fire3, Skill.dagi20, Skill.fire4, Skill.fire4x, Skill.rendburst],
+     [Skill.nj, Skill.dagi20, Skill.fire4x],
+     [Skill.nj, Skill.fire4x, Skill.rendburst]]
 ]);
 
 Card.addLimitedTypes({
@@ -3763,7 +3799,9 @@ Card.addLimitedTypes({
     "40720": [Type.cool, Type.coolr],   // Phantom Iblis
     "40750": [Type.cool, Type.coolr],   // Zirnitra
     "40751": [Type.cool, Type.coolr],   // Macha
-    "40752": [Type.cool, Type.coolr]    // Karabu
+    "40752": [Type.cool, Type.coolr],   // Karabu
+    "40842": [Type.cool, Type.coolr],   // Undead Sisters
+    "40843": [Type.cool, Type.coolr]    // Dracula
 });
 
 Card.addNotes({
@@ -4022,7 +4060,6 @@ Card.addNotes({
     "40753": "Skills not confirmed", // Calamitous Atropos
     "40754": "Skills from Japanese version", // Zenobia
     "40755": "Skills from Japanese version", // Mordred
-    "40757": "Skills from Japanese version", // Shahar
     "40758": "Skills from Japanese version", // Lucifugus
     "40759": "Skills from Japanese version", // Almighty Fernyiges
     "40766": "Skills from Japanese version", // Clotho of Calamities
@@ -4041,11 +4078,16 @@ Card.addNotes({
     "40815": "All data from Japanese version", // Almighty Tsukoyomi
     "40816": "Skills from Japanese version", // Merlin
     "40817": "Skills incomplete", // Lancelot
+    "40818": "Skills from Japanese version", // Almighty Lucifugus
     "40819": "Skills from Japanese version", // Aeshma
     "40820": "Skills from Japanese version", // Satanail
     "40835": "Skills incomplete", // Valentine Zenobia
     "40836": "Skills from Japanese version", // Princess Somnus
-    "40846": "Skills from Japanese version" // Saurva
+    "40842": "Skills from Japanese version", // Undead Sisters
+    "40843": "Skills from Japanese version", // Dracula
+    "40846": "Skills from Japanese version", // Saurva
+    "40890": "Rebirth skill missing", // Eidolon Diabolos
+    "40891": "Skills incomplete" // Eidolon Odin
 });
 
 ExCard.addAll([
