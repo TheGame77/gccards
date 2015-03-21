@@ -3740,10 +3740,10 @@ Card.addAll([
      [Skill.tb, Skill.ls, Skill.bg]],
     ["40890", "Eidolon Diabolos", "When this Eidolon's gravity powers are primed to maximum, its attack power exceeds even that of Bahamut.", 
      Event.deathbladedarkshield, Border.none, 5, Place.aedengard, 0, null, Shape.avian, Attribute.death,
-     2220, 840, 1670, 1580, 1360, 1500,
-     [Skill.divineshield, Skill.datk20, Skill.darkness3, Skill.dagi20, Skill.cd],
+     2220, 1180, 1670, 1580, 1360, 1500,
+     [Skill.divineshield, Skill.datk20, Skill.darkness3, Skill.dagi20, Skill.cd, Skill.ls],
      [Skill.divineshield, Skill.dagi20, Skill.cd],
-     [Skill.divineshield, Skill.dagi20, Skill.cd]],
+     [Skill.divineshield, Skill.cd, Skill.ls]],
     ["40891", "Eidolon Odin", "This Eidolon possesses the instant kill ability Zantetsuken, making it ideal for dealing with multiple enemies.", 
      Event.deathbladedarkshield, Border.none, 5, Place.aedengard, 0, null, Shape.canine, Attribute.darkness,
      2080, 1040, 1680, 1680, 1360, 1500,
@@ -4086,7 +4086,6 @@ Card.addNotes({
     "40842": "Skills from Japanese version", // Undead Sisters
     "40843": "Skills from Japanese version", // Dracula
     "40846": "Skills from Japanese version", // Saurva
-    "40890": "Rebirth skill missing", // Eidolon Diabolos
     "40891": "Skills incomplete" // Eidolon Odin
 });
 
