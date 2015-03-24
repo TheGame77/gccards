@@ -3224,7 +3224,7 @@ Card.addAll([
      [Skill.smr, Skill.darkness4, Skill.dr]],
     ["40684", "Merkabah", "Flight hastened by a suite of airborne armor, this unforgiving angel spreads the justice of the gods among mortals.",
      Event.greatesthits, Border.none, 5, Place.babylon, 0, null, Shape.giant, Attribute.mecha,
-     0, 0, 0, 0, 0, 0,
+     2040, 1150, 1400, 1400, 1340, 1720,
      [Skill.nj, Skill.wis10, Skill.light2, Skill.light3, Skill.mecha4, Skill.mr],
      [Skill.nj, Skill.wis10, Skill.mecha4],
      [Skill.nj, Skill.mecha4, Skill.mr]],
@@ -3740,7 +3740,7 @@ Card.addAll([
      [Skill.tb, Skill.ls, Skill.bg]],
     ["40890", "Eidolon Diabolos", "When this Eidolon's gravity powers are primed to maximum, its attack power exceeds even that of Bahamut.", 
      Event.deathbladedarkshield, Border.none, 5, Place.aedengard, 0, null, Shape.avian, Attribute.death,
-     2220, 1180, 1670, 1580, 1360, 1500,
+     2100, 1180, 1680, 1600, 1354, 1500,
      [Skill.divineshield, Skill.datk20, Skill.darkness3, Skill.dagi20, Skill.cd, Skill.ls],
      [Skill.divineshield, Skill.dagi20, Skill.cd],
      [Skill.divineshield, Skill.cd, Skill.ls]],
@@ -4023,7 +4023,7 @@ Card.addNotes({
     "40681": "Skills from Japanese version", // Maelstrom Cagnazzo
     "40682": "Skills from Japanese version", // Wildfire Rubicante
     "40683": "Skills from Japanese version", // Cimmerian Golbez
-    "40684": "Profile missing, skills from Japanese version", // Merkabah
+    "40684": "Skills from Japanese version", // Merkabah
     "40687": "Skills from Japanese version", // Ame-no-Uzume
     "40696": "Skills from Japanese version", // Viviane
     "40697": "Skills from Japanese version", // Gaasyendietha
