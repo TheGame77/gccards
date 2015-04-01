@@ -142,7 +142,9 @@ var Locale = function(l) {
                 "Queen of Discord",
                 "奈落より出でし惨禍", // pandoramoloch
                 "The Fiery Guardian",
-                "Death's Blade and the Dark Shield"
+                "Death's Blade and the Dark Shield",
+                "Mistress and Overlord",
+                "Walking Fortress"
             ),
             borders: new Array(
                 "None",
@@ -305,7 +307,8 @@ var Locale = function(l) {
                 new Array("Holy Sap",          "MP wipe"),
                 new Array("Holy Step",         "Physical evasion"),
                 new Array("Holy Shift",        "Attribute evasion"),
-                new Array("Shadow Self-destruct","Damage on death")
+                new Array("Shadow Self-destruct","Damage on death"),
+                new Array("Teraflare",         "Light + ZERO")
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",
@@ -558,7 +561,9 @@ var Locale = function(l) {
                 "恋の13秒戦争", // Queen of Discord
                 "奈落より出でし惨禍", // pandoramoloch
                 "The Fiery Guardian",
-                "Death's Blade and the Dark Shield"
+                "Death's Blade and the Dark Shield",
+                "Mistress and Overlord",
+                "Walking Fortress"
             ),
             borders: new Array(
                 "なし",
@@ -721,7 +726,8 @@ var Locale = function(l) {
                 new Array("ホーリーロック", "絶対MP無効"), // Holy Sap
                 new Array("ホーリーステップ", "絶対物理回避"), // Holy Step
                 new Array("Holy Shift", "Attribute Evasion"), // Holy Shift
-                new Array("暗黒自爆", "敵にダメージ") // Shadow Self-destruct
+                new Array("暗黒自爆", "敵にダメージ"), // Shadow Self-destruct,
+                new Array("Teraflare", "Light + ZERO")
             ),
             exskills: new Array(
                 "火属性ガーディアンの全ステータスを10%アップ",

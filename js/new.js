@@ -6,6 +6,12 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2015/4/1': [
+            "Walking Fortress: " + Card.mklnk(40896) + ".",
+            "Mistress and Overlord: " + Card.mklnk(40894) + ", " + Card.mklnk(40895)+ ".",
+            "19th Skyborne Coliseum Reward: " + Card.mklnk(40893) + ".",
+            "20th Skyborne Coliseum Reward: " + Card.mklnk(40897) + "."
+        ],
         '2015/3/20': [
             "The Fiery Guardian: " + Card.mklnk(40892) + ".",
             "Death's Blade and the Dark Shield: " + Card.mklnk(40890) + ", " + Card.mklnk(40891)+ ".",

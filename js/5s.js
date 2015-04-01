@@ -3755,7 +3755,37 @@ Card.addAll([
      1480, 1300, 1140, 1360, 1260, 1540,
      [Skill.nj, Skill.fire3, Skill.dagi20, Skill.fire4, Skill.fire4x, Skill.rendburst],
      [Skill.nj, Skill.dagi20, Skill.fire4x],
-     [Skill.nj, Skill.fire4x, Skill.rendburst]]
+     [Skill.nj, Skill.fire4x, Skill.rendburst]],
+    ["40893", "Almighty Eidolon Ifrit", "A well-balanced Eidolon with no real weaknesses, making it one of the easiest to use.",
+     Event.none, Border.almighty, 5, Place.coliseum, 19, "40892", Shape.none, Attribute.fire,
+     2080, 2050, 1440, 1460, 1360, 1800,
+     [Skill.nj, Skill.dagi20, Skill.fire4, Skill.fire4x, Skill.rendburst],
+     [Skill.nj, Skill.fire4x, Skill.rendburst],
+     [Skill.nj, Skill.fire4x, Skill.rendburst]],
+    ["40894", "Eidolon Shiva", "A frost power user with blinding quickness, it the most mobile of the Eidolons.", 
+     Event.mistressandoverlord, Border.none, 5, Place.perditionkeep, 0, null, Shape.female, Attribute.water,
+     1920, 1350, 1420, 1500, 1362, 1780,
+     [Skill.ds, Skill.aroundight, Skill.vd],
+     [Skill.ds, Skill.aroundight, Skill.vd],
+     [Skill.ds, Skill.aroundight, Skill.vd]],
+    ["40895", "Eidolon Bahamut ZERO", "Arecia's personal Eidolon. It's existence is not even known by members of the Sorcery Department.", 
+     Event.mistressandoverlord, Border.none, 5, Place.perditionkeep, 0, null, Shape.bird, Attribute.light,
+     2060, 1160, 1600, 1720, 1360, 1760,
+     [Skill.sap, Skill.light4x, Skill.revival],
+     [Skill.sap, Skill.light4x, Skill.revival],
+     [Skill.sap, Skill.light4x, Skill.revival]],
+    ["40896", "Eidolon Golem", "A defense-oriented Eidolon that truly shines against powerful opponents.", 
+     Event.walkingfortress, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.earth,
+     2060, 440, 1540, 1560, 1080, 1160,
+     [Skill.ls, Skill.physical3, Skill.ddef20, Skill.def20, Skill.dr, Skill.fb],
+     [Skill.ls, Skill.def20, Skill.dr],
+     [Skill.ls, Skill.dr, Skill.fb]],
+    ["40897", "Almighty Eidolon Golem", "A defense-oriented Eidolon that truly shines against powerful opponents.",
+     Event.none, Border.almighty, 5, Place.coliseum, 20, "40896", Shape.none, Attribute.earth,
+     0, 0, 0, 0, 0, 0,
+     [],
+     [],
+     []]
 ]);
 
 Card.addLimitedTypes({
@@ -4086,7 +4116,11 @@ Card.addNotes({
     "40842": "Skills from Japanese version", // Undead Sisters
     "40843": "Skills from Japanese version", // Dracula
     "40846": "Skills from Japanese version", // Saurva
-    "40891": "Skills incomplete" // Eidolon Odin
+    "40891": "Skills incomplete", // Eidolon Odin
+    "40894": "Skills incomplete", // Eidolon Shiva
+    "40895": "Skills incomplete", // Eidolon Bahamut ZERO
+    "40896": "Skills incomplete", // Eidolon Golem
+    "40897": "Profile missing" // Almighty Eidolon Golem
 });
 
 ExCard.addAll([

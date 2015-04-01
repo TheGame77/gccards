@@ -286,7 +286,9 @@ var Event = (function() {
         [95, ["queenofdiscord"]],
         [96, ["pandoramoloch"]],
         [97, ["fieryguardian"]],
-        [98, ["deathbladedarkshield"]]
+        [98, ["deathbladedarkshield"]],
+        [99, ["mistressandoverlord"]],
+        [100, ["walkingfortress"]]
     ];
 
     var events = {
@@ -715,7 +717,8 @@ var Skill = (function() {
         [113, SKILL_OTHER, "hsap",                 new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Holy Sap
         [114, SKILL_OTHER, "hs",                   new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Holy Step
         [115, SKILL_OTHER, "hshift",               new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Holy Shift
-        [116, SKILL_OTHER, "ssd",                  new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0] // Shadow Self-destruct
+        [116, SKILL_OTHER, "ssd",                  new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Self-destruct
+        [117, SKILL_ATTACK, "light4x",             new Cost(0, 1300), stone_yes, nbuff({}),                   Attribute.light, 5] // Teraflare
     ];
 
     var skills = {
