@@ -3771,9 +3771,9 @@ Card.addAll([
     ["40895", "Eidolon Bahamut ZERO", "Arecia's personal Eidolon. It's existence is not even known by members of the Sorcery Department.", 
      Event.mistressandoverlord, Border.none, 5, Place.perditionkeep, 0, null, Shape.bird, Attribute.light,
      2060, 1160, 1600, 1720, 1360, 1760,
-     [Skill.sap, Skill.light4x, Skill.revival],
-     [Skill.sap, Skill.light4x, Skill.revival],
-     [Skill.sap, Skill.light4x, Skill.revival]],
+     [Skill.sap, Skill.teraflare, Skill.revival],
+     [Skill.sap, Skill.teraflare, Skill.revival],
+     [Skill.sap, Skill.teraflare, Skill.revival]],
     ["40896", "Eidolon Golem", "A defense-oriented Eidolon that truly shines against powerful opponents.", 
      Event.walkingfortress, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.earth,
      2060, 440, 1540, 1560, 1080, 1160,
@@ -3782,10 +3782,10 @@ Card.addAll([
      [Skill.ls, Skill.dr, Skill.fb]],
     ["40897", "Almighty Eidolon Golem", "A defense-oriented Eidolon that truly shines against powerful opponents.",
      Event.none, Border.almighty, 5, Place.coliseum, 20, "40896", Shape.none, Attribute.earth,
-     0, 0, 0, 0, 0, 0,
-     [],
-     [],
-     []]
+     2400, 1800, 1330, 640, 1800, 1360,
+     [Skill.ls, Skill.def20, Skill.ddef20, Skill.dr, Skill.fb],
+     [Skill.ls, Skill.dr, Skill.fb],
+     [Skill.ls, Skill.dr, Skill.fb]]
 ]);
 
 Card.addLimitedTypes({
@@ -4119,8 +4119,7 @@ Card.addNotes({
     "40891": "Skills incomplete", // Eidolon Odin
     "40894": "Skills incomplete", // Eidolon Shiva
     "40895": "Skills incomplete", // Eidolon Bahamut ZERO
-    "40896": "Skills incomplete", // Eidolon Golem
-    "40897": "Profile missing" // Almighty Eidolon Golem
+    "40896": "Skills incomplete" // Eidolon Golem
 });
 
 ExCard.addAll([

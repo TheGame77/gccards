@@ -389,6 +389,7 @@ AttributeClass.prototype.getBlocks = function() {
     var that = this;
     return List.filter(function(attr) { return attr.isBlockedBy(that); }, Attribute.all);
 };
+var MAX_ATTRIBUTE = 10; // Filter out "user" from various lists.
 var Attribute = (function() {
     var data = [
         [0,  ["fire"],      [4,  6],  [0,  1,  8]], // Fire
@@ -718,7 +719,7 @@ var Skill = (function() {
         [114, SKILL_OTHER, "hs",                   new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Holy Step
         [115, SKILL_OTHER, "hshift",               new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Holy Shift
         [116, SKILL_OTHER, "ssd",                  new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Self-destruct
-        [117, SKILL_ATTACK, "light4x",             new Cost(0, 1300), stone_yes, nbuff({}),                   Attribute.light, 5] // Teraflare
+        [117, SKILL_ATTACK, "teraflare",           new Cost(0, 1500), stone_no,  nbuff({}),                   Attribute.light, 6] // Teraflare
     ];
 
     var skills = {
@@ -2314,13 +2315,13 @@ function clone(obj, deep) {
 function insertAttributesTable(e) {
     var s = "<table class='attributes'><tr><th></th>";
     var attributes = Attribute.all;
-    for (var i = 0; i < attributes.length; i++) {
+    for (var i = 0; i <= MAX_ATTRIBUTE; i++) {
         s += "<th>" + attributes[i].getImage() + "</th>";
     }
     s += "</tr>";
-    for (var i = 0; i < attributes.length; i++) {
+    for (var i = 0; i <= MAX_ATTRIBUTE; i++) {
         s += "<tr><th>" + attributes[i].getImage() + "</th>";
-        for (var j = 0; j < attributes.length; j++) {
+        for (var j = 0; j <= MAX_ATTRIBUTE; j++) {
             s += "<td>";
             if (attributes[i].isCriticalTo(attributes[j]))
                 s += "<font color='green'>+</font>";
@@ -2337,13 +2338,13 @@ function insertAttributesTable(e) {
 function insertAttributesTextTable(e) {
     var s = "<table class='attributes'><tr><th></th>";
     var attributes = Attribute.all;
-    for (var i = 0; i < attributes.length; i++) {
+    for (var i = 0; i <= MAX_ATTRIBUTE; i++) {
         s += "<th>" + attributes[i].name + "</th>";
     }
     s += "</tr>";
-    for (var i = 0; i < attributes.length; i++) {
+    for (var i = 0; i <= MAX_ATTRIBUTE; i++) {
         s += "<tr><th>" + attributes[i].id + ": " + attributes[i].name + "</th>";
-        for (var j = 0; j < attributes.length; j++) {
+        for (var j = 0; j <= MAX_ATTRIBUTE; j++) {
             s += "<td>";
             if (attributes[i].isCriticalTo(attributes[j]))
                 s += "<font color='green'>+</font>";
@@ -2656,7 +2657,7 @@ var Calculator = (function() {
         return false;
     };
 
-    var skill_mult = [0.065, 0.12, 0.25, 0.5, 0.6];
+    var skill_mult = [0.065, 0.12, 0.25, 0.5, 0.6, 1.0];
 
     var calculator = {
         MODE_UOHKO: MODE_UOHKO,
@@ -2676,8 +2677,8 @@ var Calculator = (function() {
             ex2s: {ex1: null, ex2: null}
         },
         skill_mult: skill_mult,
-        skill4_mult: skill_mult[skill_mult.length - 2],
-        skill4x_mult: skill_mult[skill_mult.length - 1],
+        skill4_mult: skill_mult[3],
+        skill4x_mult: skill_mult[4],
         normal_mult: 1,
         critical_mult: 1.15,
         blocked_mult: 0.85,
@@ -3046,8 +3047,7 @@ var Calculator = (function() {
                     res['gs'] = damage >= hp1;
                 }
 
-                /** Note: the last one is for Fire+4x. */
-                var max_skill_level = this.skill_mult.length - 2;
+                var max_skill_level = 3;
 
                 /* Physical attack. */
                 damage = this.getDamage(status2.atk, this.skill_mult[max_skill_level], atk2, 1, status1.def, def1);
@@ -3071,7 +3071,7 @@ var Calculator = (function() {
                 damage = Math.max(damage, 1);
                 res['blocked'] = damage >= hp1;
 
-                var elem4xs = [Skill.fire4x, Skill.lightning4x];
+                var elem4xs = [Skill.fire4x, Skill.lightning4x, Skill.earth4x, Skill.darkness4x];
 
                 /* Element+4x attack. */
                 if (!hasSkill(skills1, Skill.fb)) {
