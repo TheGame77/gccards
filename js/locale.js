@@ -144,7 +144,8 @@ var Locale = function(l) {
                 "The Fiery Guardian",
                 "Death's Blade and the Dark Shield",
                 "Mistress and Overlord",
-                "Walking Fortress"
+                "Walking Fortress",
+                "Outworld Queen"
             ),
             borders: new Array(
                 "None",
@@ -563,7 +564,8 @@ var Locale = function(l) {
                 "The Fiery Guardian",
                 "Death's Blade and the Dark Shield",
                 "Mistress and Overlord",
-                "Walking Fortress"
+                "Walking Fortress",
+                "Outworld Queen"
             ),
             borders: new Array(
                 "なし",

@@ -701,41 +701,47 @@ Card.addAll([
      [Skill.resistant, Skill.ep, Skill.water4],
      [Skill.resistant, Skill.water4, Skill.ls]],
     ["30143", "Alkyoneus", "The first of the fire giants, immortal in his land of origin, leads his brethren in a vendetta against the gods.", 
-     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.unknown, Attribute.earth,
+     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.none, Attribute.earth,
      1090, 745, 1095, 1080, 1042, 1020,
      [Skill.def25],
      [],
      []],
     ["30144", "Shennong", "A god of agriculture and medicine, it is said he taught people the medicinal qualities of various plants.", 
-     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.unknown, Attribute.poison,
+     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.none, Attribute.poison,
      1015, 790, 1005, 1030, 1020, 1060,
      [Skill.poison2],
      [],
      []],
     ["30145", "Janus", "The god of beginnings and transitions, it is said he was able to divine the fortunes of war.", 
-     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.unknown, Attribute.mecha,
+     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.none, Attribute.mecha,
      1085, 860, 1065, 1090, 1037, 1015,
      [Skill.ddef20],
      [],
      []],
     ["30146", "Manannan mac Lir", "The guardian of a young nation across the seas, it is said he thwarted invaders with fog and visions of phantom fleets.", 
-     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.unknown, Attribute.water,
+     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.none, Attribute.water,
      1095, 900, 1050, 1070, 1022, 1015,
      [Skill.dr],
      [],
      []],
     ["30147", "Arjuna", "The third of the Pandava brothers, this tragic hero is fated to fight a long blood feud with a cursed stepbrother.", 
-     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.unknown, Attribute.wind,
+     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.none, Attribute.wind,
      1090, 800, 1010, 1040, 1022, 1065,
      [Skill.light2],
      [],
      []],
     ["30148", "Huanglong", "One of the four cardinal direction gods, this beast can change weather and seasons with a single breath.", 
-     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.unknown, Attribute.lightning,
+     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.none, Attribute.lightning,
      1100, 920, 1060, 1060, 1020, 1015,
      [Skill.ds, Skill.slash3, Skill.datk20, Skill.lightning3, Skill.atk20, Skill.slash4],
      [Skill.ds, Skill.slash3, Skill.atk20],
-     [Skill.ds, Skill.atk20, Skill.slash4]]
+     [Skill.ds, Skill.atk20, Skill.slash4]],
+    ["30149", "True War Elephant", "", 
+     Event.none, Border.none, 4, Place.babylon, 0, null, Shape.none, Attribute.earth,
+     1040, 940, 1050, 1090, 980, 840,
+     [Skill.ls, Skill.physical2, Skill.atk10, Skill.physical3, Skill.atk20],
+     [Skill.ls, Skill.atk20, Skill.physical3],
+     [Skill.ls, Skill.atk20, Skill.physical3]]
 ]);
 
 Card.addLimitedTypes({
@@ -743,8 +749,10 @@ Card.addLimitedTypes({
     "30041": [Type.cool, Type.coolr], // Peri
     "30042": [Type.cool, Type.coolr], // Virtus
     "30071": [Type.cool, Type.coolr], // Gremory
+    "30082": [Type.cool, Type.coolr], // War Elephant
     "30100": [Type.cool, Type.coolr], // Mother of Abominations
-    "30123": [Type.cool, Type.coolr]  // Taurvi
+    "30123": [Type.cool, Type.coolr],  // Taurvi
+    "30149": [Type.cool, Type.coolr]  // True War Elephant
 });
 
 Card.addNotes({
@@ -793,7 +801,8 @@ Card.addNotes({
     "30141": "Skills from Japanese version", // Varuna
     "30143": "Skills missing", // Alkyoneus
     "30144": "Skills missing", // Shennong
-    "30147": "Skills missing" // Arjuna
+    "30147": "Skills missing", // Arjuna
+    "30149": "Rebirth skill missing" // True War Elephant
 });
 
 ExCard.addAll([

@@ -3785,7 +3785,31 @@ Card.addAll([
      2400, 1800, 1330, 640, 1800, 1360,
      [Skill.ls, Skill.def20, Skill.ddef20, Skill.dr, Skill.fb],
      [Skill.ls, Skill.dr, Skill.fb],
-     [Skill.ls, Skill.dr, Skill.fb]]
+     [Skill.ls, Skill.dr, Skill.fb]],
+    ["40906", "True Minotaur Sergeant", "", 
+     Event.outworldqueen, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.fire,
+     1520, 640, 1580, 1520, 1180, 1380,
+     [Skill.physical3, Skill.atk10, Skill.physical4, Skill.powershift, Skill.bg, Skill.ls],
+     [Skill.atk10, Skill.powershift, Skill.bg],
+     [Skill.powershift, Skill.bg, Skill.ls]],
+    ["40907", "True Carmilla", "", 
+     Event.outworldqueen, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.darkness,
+     1480, 1090, 1400, 1100, 1220, 1480,
+     [Skill.qs, Skill.darkness3, Skill.mr, Skill.death3, Skill.darkness4, Skill.death4],
+     [Skill.qs, Skill.mr, Skill.death3],
+     [Skill.qs, Skill.mr, Skill.death4]],
+    ["40908", "True Dragon Zombie", "", 
+     Event.outworldqueen, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
+     0, 999, 1140, 1240, 1200, 0,
+     [Skill.dwis20, Skill.poison3, Skill.datk20, Skill.mindshift, Skill.poison4, Skill.revival],
+     [Skill.qs, Skill.mr, Skill.death3],
+     [Skill.qs, Skill.mr, Skill.death4]],
+    ["40909", "True Ice Queen", "", 
+     Event.outworldqueen, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.water,
+     1520, 940, 1200, 1260, 1250, 1560,
+     [Skill.vd, Skill.water3, Skill.dagi20, Skill.dwis20, Skill.water4, Skill.np],
+     [Skill.vd, Skill.dwis20, Skill.water4],
+     [Skill.vd, Skill.water4, Skill.np]]
 ]);
 
 Card.addLimitedTypes({
@@ -4119,7 +4143,7 @@ Card.addNotes({
     "40891": "Skills incomplete", // Eidolon Odin
     "40894": "Skills incomplete", // Eidolon Shiva
     "40895": "Skills incomplete", // Eidolon Bahamut ZERO
-    "40896": "Skills incomplete" // Eidolon Golem
+    "40908": "Profile incomplete" // True Dragon Zombie
 });
 
 ExCard.addAll([

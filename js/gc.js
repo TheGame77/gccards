@@ -288,7 +288,8 @@ var Event = (function() {
         [97, ["fieryguardian"]],
         [98, ["deathbladedarkshield"]],
         [99, ["mistressandoverlord"]],
-        [100, ["walkingfortress"]]
+        [100, ["walkingfortress"]],
+        [101, ["outworldqueen"]]
     ];
 
     var events = {

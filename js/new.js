@@ -6,6 +6,9 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2015/4/4': [
+            "Outworld Queen: " + Card.mklnk(30149) + ", " + Card.mklnk(40906) + ", " + Card.mklnk(40907) + ", " + Card.mklnk(40908) + ", " + Card.mklnk(40909)+ "."
+        ],
         '2015/4/1': [
             "Walking Fortress: " + Card.mklnk(40896) + ".",
             "Mistress and Overlord: " + Card.mklnk(40894) + ", " + Card.mklnk(40895)+ ".",
