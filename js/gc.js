@@ -284,12 +284,13 @@ var Event = (function() {
         [93, ["merlinlancelot"]],
         [94, ["rainofblackfeathers"]],
         [95, ["queenofdiscord"]],
-        [96, ["pandoramoloch"]],
+        [96, ["depthsofdespair"]],
         [97, ["fieryguardian"]],
         [98, ["deathbladedarkshield"]],
         [99, ["mistressandoverlord"]],
         [100, ["walkingfortress"]],
-        [101, ["outworldqueen"]]
+        [101, ["outworldqueen"]],
+        [102, ["tyrantofthesea"]]
     ];
 
     var events = {

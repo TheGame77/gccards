@@ -140,12 +140,13 @@ var Locale = function(l) {
                 "騎士王への反逆者", // Merlin/Lancelot -- Never happened in int'l
                 "Rain of Black Feathers",
                 "Queen of Discord",
-                "奈落より出でし惨禍", // pandoramoloch
+                "Depths of Despair",
                 "The Fiery Guardian",
                 "Death's Blade and the Dark Shield",
                 "Mistress and Overlord",
                 "Walking Fortress",
-                "Outworld Queen"
+                "Outworld Queen",
+                "Tyrant of the Sea"
             ),
             borders: new Array(
                 "None",
@@ -560,12 +561,13 @@ var Locale = function(l) {
                 "騎士王への反逆者", // Merlin/Lancelot
                 "舞い堕ちる黒き羽", // Rain of Black Feathers,
                 "恋の13秒戦争", // Queen of Discord
-                "奈落より出でし惨禍", // pandoramoloch
+                "奈落より出でし惨禍", // Depths of Despair
                 "The Fiery Guardian",
                 "Death's Blade and the Dark Shield",
                 "Mistress and Overlord",
                 "Walking Fortress",
-                "Outworld Queen"
+                "Outworld Queen",
+                "旋渦竜リヴァイアサン" // Tyrant of the Sea
             ),
             borders: new Array(
                 "なし",

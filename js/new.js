@@ -6,6 +6,10 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2015/4/6': [
+            "Depths of Despair: " + Card.mklnk(40848) + ", " + Card.mklnk(40849) + ".",
+            "Tyrant of the Sea: " + Card.mklnk(40850) + "."
+        ],
         '2015/4/4': [
             "Outworld Queen: " + Card.mklnk(30149) + ", " + Card.mklnk(40906) + ", " + Card.mklnk(40907) + ", " + Card.mklnk(40908) + ", " + Card.mklnk(40909)+ "."
         ],

@@ -3738,6 +3738,24 @@ Card.addAll([
      [Skill.tb, Skill.slash3, Skill.ddef20, Skill.slash4, Skill.ls, Skill.bg],
      [Skill.tb, Skill.slash4, Skill.ls],
      [Skill.tb, Skill.ls, Skill.bg]],
+    ["40848", "Moloch", "A demon lord whose bloodstained temple continually resonates with the screams of human sacrifices.", 
+     Event.depthsofdespair, Border.none, 5, Place.perditionkeep, 0, null, Shape.giant, Attribute.fire,
+     2160, 1000, 1500, 1580, 1350, 1760,
+     [Skill.dr, Skill.revival, Skill.death4],
+     [Skill.dr, Skill.revival, Skill.death4],
+     [Skill.dr, Skill.revival, Skill.death4]],
+    ["40849", "Pandora of Despair", "The very symbol of despair for those that have entered the underworld. The cursed box is always by her side.", 
+     Event.depthsofdespair, Border.none, 5, Place.perditionkeep, 0, null, Shape.female, Attribute.earth,
+     2120, 1460, 1660, 1740, 1340, 1580,
+     [Skill.vd, Skill.ds, Skill.cd],
+     [Skill.vd, Skill.ds, Skill.cd],
+     [Skill.vd, Skill.ds, Skill.cd]],
+    ["40850", "Maelstrom Leviathan", "Dreaded by generations of seafarers, this lord of the ocean is said to embody the sin of envy.", 
+     Event.tyrantofthesea, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.water,
+     1680, 520, 1520, 1480, 1220, 1360,
+     [Skill.ls, Skill.slash3, Skill.physical3, Skill.slash4, Skill.dr, Skill.gs],
+     [Skill.ls, Skill.slash4, Skill.dr],
+     [Skill.ls, Skill.dr, Skill.gs]],
     ["40890", "Eidolon Diabolos", "When this Eidolon's gravity powers are primed to maximum, its attack power exceeds even that of Bahamut.", 
      Event.deathbladedarkshield, Border.none, 5, Place.aedengard, 0, null, Shape.avian, Attribute.death,
      2100, 1180, 1680, 1600, 1354, 1500,
@@ -4140,6 +4158,9 @@ Card.addNotes({
     "40842": "Skills from Japanese version", // Undead Sisters
     "40843": "Skills from Japanese version", // Dracula
     "40846": "Skills from Japanese version", // Saurva
+    "40848": "Skills from Japanese version", // Moloch
+    "40849": "Skills from Japanese version", // Pandora of Despair
+    "40850": "Skills from Japanese version", // Maelstrom Leviathan
     "40891": "Skills incomplete", // Eidolon Odin
     "40894": "Skills incomplete", // Eidolon Shiva
     "40895": "Skills incomplete", // Eidolon Bahamut ZERO
