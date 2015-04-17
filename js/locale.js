@@ -41,7 +41,8 @@ var Locale = function(l) {
                 "Aedengard",
                 "Babylon",
                 "Perdition Keep",
-                "Guardian Soul Exchange"
+                "Guardian Soul Exchange",
+                "The Sanctum"
             ),
             events: new Array(
                 "None",
@@ -310,7 +311,10 @@ var Locale = function(l) {
                 new Array("Holy Step",         "Physical evasion"),
                 new Array("Holy Shift",        "Attribute evasion"),
                 new Array("Shadow Self-destruct","Damage on death"),
-                new Array("Teraflare",         "Light + ZERO")
+                new Array("Teraflare",         "Light + ZERO"),
+                new Array("Banish",            "Banish defeated enemy"),
+                new Array("Quick Pinch",       "Paralysis First Attack"),
+                new Array("Crystallize",       "Crystallize enemy")
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",
@@ -462,7 +466,8 @@ var Locale = function(l) {
                 "エデン", // Eden
                 "バビロン", // Babylon
                 "魔宮殿", // Perdition Keep
-                "ガーディアンソウル" // Guardian Soul
+                "ガーディアンソウル", // Guardian Soul
+                "サンクチュアリ" // Sanctum
             ),
             events: new Array(
                 "なし",
@@ -731,7 +736,9 @@ var Locale = function(l) {
                 new Array("ホーリーステップ", "絶対物理回避"), // Holy Step
                 new Array("Holy Shift", "Attribute Evasion"), // Holy Shift
                 new Array("暗黒自爆", "敵にダメージ"), // Shadow Self-destruct,
-                new Array("Teraflare", "Light + ZERO")
+                new Array("ディメンションゲート", "封殺"), // Banish
+                new Array("ファストスリープ", "先制眠り"), // Quick Pinch
+                new Array("フリーズ", "結晶化") // Crystallize
             ),
             exskills: new Array(
                 "火属性ガーディアンの全ステータスを10%アップ",

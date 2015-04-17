@@ -155,7 +155,8 @@ var Place = (function() {
         [24, 11,  ["aedengard"]],          // Aedengard
         [25, 12,  ["babylon"]],            // Babylon
         [26, 13,  ["perditionkeep"]],      // Perdition Keep
-        [27, 113, ["gsexchange"]]          // Guardian Soul Exchange
+        [27, 113, ["gsexchange"]],         // Guardian Soul Exchange
+        [28, 14,  ["sanctum"]]             // The Sanctum
     ];
 
     var places = {
@@ -721,7 +722,10 @@ var Skill = (function() {
         [114, SKILL_OTHER, "hs",                   new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Holy Step
         [115, SKILL_OTHER, "hshift",               new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Holy Shift
         [116, SKILL_OTHER, "ssd",                  new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Self-destruct
-        [117, SKILL_ATTACK, "teraflare",           new Cost(0, 1500), stone_no,  nbuff({}),                   Attribute.light, 6] // Teraflare
+        [117, SKILL_ATTACK, "teraflare",           new Cost(0, 1500), stone_no,  nbuff({}),                   Attribute.light, 6], // Teraflare
+        [118, SKILL_ATTACK, "banish",              new Cost(0, 1300), stone_no,  nbuff({}),                   Attribute.user, 4], // Banish
+        [119, SKILL_OTHER, ["quickpinch", "qp"],   new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Quick Pinch
+        [120, SKILL_OTHER, "crystallize",          new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0] // Crystallize
     ];
 
     var skills = {

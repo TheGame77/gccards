@@ -6,6 +6,11 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2015/4/16': [
+            "The Sanctum: " + Card.mklnk(40864) + ", " + Card.mklnk(40865) + ", " + Card.mklnk(40866) + ", " + Card.mklnk(40867) + ", " + Card.mklnk(40868) + ".",
+            "21st Skyborne Coliseum Reward: " + Card.mklnk(40926) + ".",
+            "22nd Skyborne Coliseum Reward: " + Card.mklnk(40834) + "."
+        ],
         '2015/4/6': [
             "Depths of Despair: " + Card.mklnk(40848) + ", " + Card.mklnk(40849) + ".",
             "Tyrant of the Sea: " + Card.mklnk(40850) + "."
