@@ -6,6 +6,11 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2015/4/25': [
+            "サンクチュアリ: " + Card.mklnk(40864) + "、" + Card.mklnk(40865) + "、" + Card.mklnk(40866) + "、" + Card.mklnk(40867) + "、" + Card.mklnk(40868) + "。",
+            "第21回天空コロシアム: " + Card.mklnk(40863) + "。",
+            "海域を統べる悪竜: " + Card.mklnk(40850) + "。"
+        ],
         '2015/3/13': [
             "恋の13秒戦争: " + Card.mklnk(40846) + "。",
             "第20回天空コロシアム: " + Card.mklnk(40847) + "。",

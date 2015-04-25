@@ -572,7 +572,7 @@ var Locale = function(l) {
                 "Mistress and Overlord",
                 "Walking Fortress",
                 "Outworld Queen",
-                "旋渦竜リヴァイアサン" // Tyrant of the Sea
+                "海域を統べる悪竜" // Tyrant of the Sea
             ),
             borders: new Array(
                 "なし",
@@ -735,7 +735,8 @@ var Locale = function(l) {
                 new Array("ホーリーロック", "絶対MP無効"), // Holy Sap
                 new Array("ホーリーステップ", "絶対物理回避"), // Holy Step
                 new Array("Holy Shift", "Attribute Evasion"), // Holy Shift
-                new Array("暗黒自爆", "敵にダメージ"), // Shadow Self-destruct,
+                new Array("暗黒自爆", "敵にダメージ"), // Shadow Self-destruct
+                new Array("Teraflare", "Light + ZERO"),
                 new Array("ディメンションゲート", "封殺"), // Banish
                 new Array("ファストスリープ", "先制眠り"), // Quick Pinch
                 new Array("フリーズ", "結晶化") // Crystallize
