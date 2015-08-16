@@ -43,7 +43,7 @@ var Locale = function(l) {
                 "Perdition Keep",
                 "Guardian Soul Exchange",
                 "The Sanctum",
-                "Arcadiel"                
+                "Arcadiel"
             ),
             events: new Array(
                 "None",
@@ -324,7 +324,7 @@ var Locale = function(l) {
                 new Array("Nova Meteor",       "Ignore wisdom"),
                 new Array("Mind Crash",        "Magic strike"),
                 new Array("Soul Taker",        "Physical strike"),
-                new Array("Healing Light",        "Regenerate")                                                            
+                new Array("Healing Light",     "Regenerate")
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",
@@ -477,7 +477,8 @@ var Locale = function(l) {
                 "バビロン", // Babylon
                 "魔宮殿", // Perdition Keep
                 "ガーディアンソウル", // Guardian Soul
-                "サンクチュアリ" // Sanctum
+                "サンクチュアリ", // Sanctum
+                "Arcadiel"
             ),
             events: new Array(
                 "なし",
@@ -750,7 +751,15 @@ var Locale = function(l) {
                 new Array("Teraflare", "Light + ZERO"),
                 new Array("ディメンションゲート", "封殺"), // Banish
                 new Array("ファストスリープ", "先制眠り"), // Quick Pinch
-                new Array("フリーズ", "結晶化") // Crystallize
+                new Array("フリーズ", "結晶化"), // Crystallize
+                new Array("Judgement Flare",   "Damage on death"),
+                new Array("Deadly Poison",     "Damage over time"),
+                new Array("Judgement Flare",   "Damage on death"),
+                new Array("Blast Meteor",      "Ignore defense"),
+                new Array("Nova Meteor",       "Ignore wisdom"),
+                new Array("Mind Crash",        "Magic strike"),
+                new Array("Soul Taker",        "Physical strike"),
+                new Array("Healing Light",     "Regenerate")
             ),
             exskills: new Array(
                 "火属性ガーディアンの全ステータスを10%アップ",
