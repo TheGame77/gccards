@@ -3959,7 +3959,25 @@ Card.addAll([
      2100, 1280, 1500, 1480, 1360, 1910,
      [Skill.vd, Skill.dagi20, Skill.dwis20, Skill.water4, Skill.np],
      [Skill.vd, Skill.water4, Skill.np],
-     [Skill.vd, Skill.water4, Skill.np]]*/
+     [Skill.vd, Skill.water4, Skill.np]],
+    ["?????", "最強ミネルヴァ", "平和を求める智勇兼備の戦の女神。知恵を司る彼女の戦い振りは、軍神さえも凌駕する。",
+     Event.none, Border.almighty, 5, Place.coliseum, 22, "40667", Shape.none, Attribute.wind,
+     2100, 1600, 1460, 1600, 1360, 1900,
+     [Skill.vd, Skill.agi10, Skill.dwis20, Skill.wind4, Skill.sap],
+     [Skill.vd, Skill.wind4, Skill.sap],
+     [Skill.vd, Skill.wind4, Skill.sap]],
+    ["?????", "ロビン・フッド", "百発百中の弓の腕前から伝説の英雄の名を継ぐ天使。命令よりも義の心に従い行動する。",
+     Event.robinhood, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.wind,
+     2080, 252, 1720, 1660, 1372, 1520,
+     [Skill.ds, Skill.slash1, Skill.ddef20, Skill.slash2, Skill.bg, Skill.revival],
+     [Skill.ds, Skill.ddef20, Skill.bg],
+     [Skill.ds, Skill.bg, Skill.revival]],
+    ["?????", "最強グウィバー", "地下深くに眠っていた一対の龍の片割れ。部族反乱の象徴とされた力は大陸を震わせる。",
+     Event.none, Border.almighty, 5, Place.coliseum, 23, "40734", Shape.none, Attribute.lightning,
+     2210, 1180, 1720, 1500, 1340, 1700,
+     [Skill.nj, Skill.ddef20, Skill.slash4, Skill.qs, Skill.dp],
+     [Skill.nj, Skill.qs, Skill.dp],
+     [Skill.nj, Skill.qs, Skill.dp]]*/
 ]);
 
 Card.addLimitedTypes({
@@ -4084,8 +4102,11 @@ ExCard.addAll([
     ["45016", "イリス", "",
      Event.none, ExType.blue, 5, Place.fp, 0, Shape.none, Attribute.wind,
      [ExSkill.suc_ds10, ExSkill.suc_ds15, ExSkill.suc_ds20]],
-    ["45017", " トリスメギストス", "",
-     Event.none, ExType.blue, 5, Place.gsexchange, 0, Shape.none, Attribute.poison,
+    ["45017", "トリスメギストス", "",
+     Event.none, ExType.red, 5, Place.gsexchange, 0, Shape.none, Attribute.poison,
+     []], // TODO: Implement,
+    ["?????", "サラマンダー・エルダース", "",
+     Event.none, ExType.red, 5, Place.fp, 0, Shape.none, Attribute.fire,
      []] // TODO: Implement
 ]);
 

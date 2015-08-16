@@ -147,7 +147,8 @@ var Locale = function(l) {
                 "Mistress and Overlord",
                 "Walking Fortress",
                 "Outworld Queen",
-                "Tyrant of the Sea"
+                "Tyrant of the Sea",
+                "空翔る正義の風" // Robin Hood
             ),
             borders: new Array(
                 "None",
@@ -572,7 +573,8 @@ var Locale = function(l) {
                 "Mistress and Overlord",
                 "Walking Fortress",
                 "Outworld Queen",
-                "海域を統べる悪竜" // Tyrant of the Sea
+                "海域を統べる悪竜", // Tyrant of the Sea
+                "空翔る正義の風" // Robin Hood
             ),
             borders: new Array(
                 "なし",

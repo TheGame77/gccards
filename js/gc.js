@@ -291,7 +291,8 @@ var Event = (function() {
         [99, ["mistressandoverlord"]],
         [100, ["walkingfortress"]],
         [101, ["outworldqueen"]],
-        [102, ["tyrantofthesea"]]
+        [102, ["tyrantofthesea"]],
+        [103, ["robinhood"]]
     ];
 
     var events = {
