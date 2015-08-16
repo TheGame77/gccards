@@ -156,7 +156,8 @@ var Place = (function() {
         [25, 12,  ["babylon"]],            // Babylon
         [26, 13,  ["perditionkeep"]],      // Perdition Keep
         [27, 113, ["gsexchange"]],         // Guardian Soul Exchange
-        [28, 14,  ["sanctum"]]             // The Sanctum
+        [28, 14,  ["sanctum"]],             // The Sanctum
+        [29, 15,  ["arcadiel"]]             // Arcadiel
     ];
 
     var places = {
@@ -726,7 +727,14 @@ var Skill = (function() {
         [117, SKILL_ATTACK, "teraflare",           new Cost(0, 1500), stone_no,  nbuff({}),                   Attribute.light, 6], // Teraflare
         [118, SKILL_ATTACK, "banish",              new Cost(0, 1300), stone_no,  nbuff({}),                   Attribute.user, 4], // Banish
         [119, SKILL_OTHER, ["quickpinch", "qp"],   new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Quick Pinch
-        [120, SKILL_OTHER, "crystallize",          new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0] // Crystallize
+        [120, SKILL_OTHER, "crystallize",          new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Crystallize
+        [121, SKILL_OTHER, "jf",                   new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Judgement Flare
+        [122, SKILL_OTHER, "deadlypoison",         new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Deadly Poison
+        [122, SKILL_OTHER, "mindcrash",            new Cost(0,    300), stone_no,  nbuff({}),                   Attribute.none, 0], // Mind Crash (Magic strike)
+        [122, SKILL_OTHER, "soultaker",            new Cost(0,    300), stone_no,  nbuff({}),                   Attribute.none, 0], // Soul Taker (Physical strike)
+        [122, SKILL_ATTACK, "blastmeteor",         new Cost(0,    1300), stone_no,  nbuff({}),                   Attribute.none, 0], // Blast Meteor (Ignore defense)
+        [122, SKILL_ATTACK, "novameteor",          new Cost(0,    1300), stone_no,  nbuff({}),                   Attribute.none, 0], // Nova Meteor (Ignore wisdom)
+        [122, SKILL_OTHER, "healinglight",         new Cost(0,    300), stone_no,  nbuff({}),                   Attribute.none, 0] // Healing Light          
     ];
 
     var skills = {

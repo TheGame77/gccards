@@ -42,7 +42,8 @@ var Locale = function(l) {
                 "Babylon",
                 "Perdition Keep",
                 "Guardian Soul Exchange",
-                "The Sanctum"
+                "The Sanctum",
+                "Arcadiel"                
             ),
             events: new Array(
                 "None",
@@ -315,7 +316,15 @@ var Locale = function(l) {
                 new Array("Teraflare",         "Light + ZERO"),
                 new Array("Banish",            "Banish defeated enemy"),
                 new Array("Quick Pinch",       "Paralysis First Attack"),
-                new Array("Crystallize",       "Crystallize enemy")
+                new Array("Crystallize",       "Crystallize enemy"),
+                new Array("Judgement Flare",   "Damage on death"),
+                new Array("Deadly Poison",     "Damage over time"),
+                new Array("Judgement Flare",   "Damage on death"),
+                new Array("Blast Meteor",      "Ignore defense"),
+                new Array("Nova Meteor",       "Ignore wisdom"),
+                new Array("Mind Crash",        "Magic strike"),
+                new Array("Soul Taker",        "Physical strike"),
+                new Array("Healing Light",        "Regenerate")                                                            
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",
