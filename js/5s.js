@@ -3792,6 +3792,24 @@ Card.addAll([
      [Skill.vd, Skill.gs, Skill.rendburst],
      [Skill.vd, Skill.gs, Skill.rendburst],
      [Skill.vd, Skill.gs, Skill.rendburst]],
+    ["40872", "Robin Hood", "To be updated",
+     Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.wind,
+     2080, 252, 1720, 1660, 1372, 1520,
+     [Skill.ds, Skill.bg, Skill.revival],
+     [Skill.ds, Skill.bg, Skill.revival],
+     [Skill.ds, Skill.bg, Skill.revival]],
+    ["40874", "Sandolphon", "To be updated",
+     Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.mecha,
+     2080, 1240, 1710, 1680, 1370, 1780,
+     [Skill.banish, Skill.dp, Skill.revival, Skill.ds, Skill.vd],
+     [Skill.banish, Skill.vd, Skill.revival],
+     [Skill.banish, Skill.vd, Skill.revival]],
+    ["40875", "Justitia", "To be updated",
+     Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.water,
+     2040, 3040, 1700, 1500, 1360, 920,
+     [Skill.bg, Skill.qs, Skill.jf],
+     [Skill.bg, Skill.qs, Skill.jf],
+     [Skill.bg, Skill.qs, Skill.jf]],
     ["40890", "Eidolon Diabolos", "When this Eidolon's gravity powers are primed to maximum, its attack power exceeds even that of Bahamut.",
      Event.deathbladedarkshield, Border.none, 5, Place.aedengard, 0, null, Shape.avian, Attribute.death,
      2100, 1180, 1680, 1600, 1354, 1500,
@@ -3873,9 +3891,9 @@ Card.addAll([
     ["40927", "Victoria", "To be updated",
      Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.wind,
      2240, 1510, 1720, 1500, 1370, 1500,
-     [Skill.cd, Skill.vod, Skill.atk25],
-     [Skill.cd, Skill.vod, Skill.atk25],
-     [Skill.cd, Skill.vod, Skill.atk25]],
+     [Skill.cd, Skill.vd, Skill.atk25],
+     [Skill.cd, Skill.vd, Skill.atk25],
+     [Skill.cd, Skill.vd, Skill.atk25]],
     ["40928", "Michael", "To be updated",
      Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.wind,
      2250, 1315, 1460, 1700, 1380, 1780,
@@ -3957,9 +3975,9 @@ Card.addAll([
     ["40992", "Zeus", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.lightning,
      2160, 1440, 1700, 1500, 1386, 1560,
-     [Skill.divineshield, Skill.blastmeteor, Skill.vod],
-     [Skill.divineshield, Skill.blastmeteor, Skill.vod],
-     [Skill.divineshield, Skill.blastmeteor, Skill.vod]],
+     [Skill.divineshield, Skill.blastmeteor, Skill.vd],
+     [Skill.divineshield, Skill.blastmeteor, Skill.vd],
+     [Skill.divineshield, Skill.blastmeteor, Skill.vd]],
     ["40993", "Greater Chimera", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.poison,
      2220, 1080, 1720, 1640, 1386, 1640,
@@ -3990,168 +4008,164 @@ Card.addAll([
      [Skill.divineshield, Skill.banish, Skill.nj],
      [Skill.divineshield, Skill.banish, Skill.nj],
      [Skill.divineshield, Skill.banish, Skill.nj]],
-    ["41000", "Robin Hood", "To be updated",
-     Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.wind,
-     2080, 252, 1720, 1660, 1372, 1520,
-     [Skill.ds, Skill.bg, Skill.revival],
-     [Skill.ds, Skill.bg, Skill.revival],
-     [Skill.ds, Skill.bg, Skill.revival]],
-    ["41001", "Sandolphon", "To be updated",
-     Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.mecha,
-     2080, 1240, 1710, 1680, 1370, 1780,
-     [Skill.banish, Skill.dp, Skill.revival, Skill.ds, Skill.vd],
-     [Skill.banish, Skill.vd, Skill.revival],
-     [Skill.banish, Skill.vd, Skill.revival]],
-    ["41002", "Justitia", "To be updated",
-     Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.water,
-     2040, 3040, 1700, 1500, 1360, 920,
-     [Skill.bg, Skill.qs, Skill.jf],
-     [Skill.bg, Skill.qs, Skill.jf],
-     [Skill.bg, Skill.qs, Skill.jf]],
-    ["41014", "Vouivre", "To be updated",
-     Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.water,
-     2200, 940, 1720, 1580, 1384, 1620,
-     [Skill.qs, Skill.bg, Skill.srevival],
-     [Skill.qs, Skill.bg, Skill.srevival],
-     [Skill.qs, Skill.bg, Skill.srevival]],
-    ["41015", "Kugenecie", "To be updated",
-     Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.death,
-     2220, 1280, 1560, 1500, 1400, 1820,
-     [Skill.sap, Skill.death4, Skill.revival],
-     [Skill.sap, Skill.death4, Skill.revival],
-     [Skill.sap, Skill.death4, Skill.revival]],
-    ["41016", "Liche", "To be updated",
+     // 40998 Almighty pandora of despair
+    ["40999", "Liche", "To be updated",
      Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.death,
      2280, 1040, 1720, 1640, 1383, 1760,
      [Skill.vd, Skill.death4, Skill.revival],
      [Skill.vd, Skill.death4, Skill.revival],
      [Skill.vd, Skill.death4, Skill.revival]],
-    ["41017", "Minotaur Commander", "To be updated",
-     Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.earth,
-     2280, 1040, 1210, 1640, 1400, 1760,
-     [Skill.crystallize, Skill.dr, Skill.gs],
-     [Skill.crystallize, Skill.dr, Skill.gs],
-     [Skill.crystallize, Skill.dr, Skill.gs]],
-    ["41018", "Morrigan", "To be updated",
+    ["41000", "Morrigan", "To be updated",
      Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.darkness,
      2180, 3080, 1480, 1480, 1390, 1800,
      [Skill.aroundight, Skill.nj, Skill.ssd],
      [Skill.aroundight, Skill.nj, Skill.ssd],
      [Skill.aroundight, Skill.nj, Skill.ssd]],
-    ["41019", "Rockbouquet", "To be updated",
-     Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.lightning,
-     2280, 1640, 1500, 1540, 1411, 1840,
-     [Skill.aroundight, Skill.smr, Skill.vd],
-     [Skill.aroundight, Skill.smr, Skill.vd],
-     [Skill.aroundight, Skill.smr, Skill.vd]],
-    ["41027", "Princess Ashtoreth", "To be updated",
-     Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.poison,
-     2260, 1362, 1560, 1540, 1402, 1820,
-     [Skill.qp, Skill.novameteor, Skill.mindcrash],
-     [Skill.qp, Skill.novameteor, Skill.mindcrash],
-     [Skill.qp, Skill.novameteor, Skill.mindcrash]],
-    ["41028", "Mech Argus", "To be updated",
-     Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.mecha,
-     2340, 1040, 1740, 1640, 1400, 1700,
-     [Skill.soultaker, Skill.dr, Skill.gs],
-     [Skill.soultaker, Skill.dr, Skill.gs],
-     [Skill.soultaker, Skill.dr, Skill.gs]],
-    ["41029", "Dragon Rider", "To be updated",
-     Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.wind,
-     2240, 1425, 1732, 1780, 1394, 1620,
-     [Skill.divineshield, Skill.blastmeteor, Skill.sap],
-     [Skill.divineshield, Skill.blastmeteor, Skill.sap],
-     [Skill.divineshield, Skill.blastmeteor, Skill.sap]],
-    ["41030", "Danntag", "To be updated",
-     Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.earth,
-     2160, 1540, 1760, 1760, 1410, 1600,
-     [Skill.qs, Skill.blastmeteor, Skill.revival],
-     [Skill.qs, Skill.blastmeteor, Skill.revival],
-     [Skill.qs, Skill.blastmeteor, Skill.revival]],
-    ["41031", "True Azi Dahaka", "To be updated",
-     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.none, Attribute.poison,
-     1600, 1260, 1200, 1280, 1340, 1620,
-     [Skill.mr, Skill.wis25, Skill.banish],
-     [Skill.mr, Skill.wis25, Skill.banish],
-     [Skill.mr, Skill.wis25, Skill.banish]],
-    ["41032", "True Sphinx Empress", "To be updated",
-     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.wolf, Attribute.light,
-     1600, 1212, 1620, 1240, 1352, 1300,
-     [Skill.qs, Skill.vod, Skill.ll],
-     [Skill.qs, Skill.vod, Skill.ll],
-     [Skill.qs, Skill.vod, Skill.ll]],
-    ["41033", "True Chariot", "To be updated",
-     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.wolf, Attribute.mecha,
-     1680, 1142, 1580, 1320, 1344, 1380,
-     [Skill.ep, Skill.gc, Skill.resistant],
-     [Skill.ep, Skill.gc, Skill.resistant],
-     [Skill.ep, Skill.gc, Skill.resistant]],
-    ["41034", "True Hoarfrost Phoenix", "To be updated",
-     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.bird, Attribute.water,
-     1500, 1260, 1240, 1200, 1342, 1640,
-     [Skill.aroundight, Skill.nj, Skill.revival],
-     [Skill.aroundight, Skill.nj, Skill.revival],
-     [Skill.aroundight, Skill.nj, Skill.revival]],
-    ["41035", "True Charybdis", "To be updated",
-     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.none, Attribute.darkness,
-     1640, 1080, 1640, 1180, 1346, 1420,
-     [Skill.ls, Skill.ds, Skill.dp],
-     [Skill.ls, Skill.ds, Skill.dp],
-     [Skill.ls, Skill.ds, Skill.dp]],
-    ["41037", "Nephthys", "To be updated",
+    ["41001", "Minotaur Commander", "To be updated",
+     Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.earth,
+     2280, 1040, 1210, 1640, 1400, 1760,
+     [Skill.crystallize, Skill.dr, Skill.gs],
+     [Skill.crystallize, Skill.dr, Skill.gs],
+     [Skill.crystallize, Skill.dr, Skill.gs]],
+    ["41002", "Vouivre", "To be updated",
+     Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.water,
+     2200, 940, 1720, 1580, 1384, 1620,
+     [Skill.qs, Skill.bg, Skill.srevival],
+     [Skill.qs, Skill.bg, Skill.srevival],
+     [Skill.qs, Skill.bg, Skill.srevival]],
+     // 41003 Almighty Liche
+    ["41004", "Nephthys", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.darkness,
      0, 0, 0, 0, 0, 0,
      [Skill.crystallize, Skill.gs, Skill.rendburst],
      [Skill.crystallize, Skill.gs, Skill.rendburst],
      [Skill.crystallize, Skill.gs, Skill.rendburst]],
-    ["41038", "Ma'at", "To be updated",
-     Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.light,
-     2320, 1362, 1540, 1600, 1400, 1860,
-     [Skill.healinglight, Skill.hs, Skill.death4],
-     [Skill.healinglight, Skill.hs, Skill.death4],
-     [Skill.healinglight, Skill.hs, Skill.death4]],
-    ["41039", "Ra", "To be updated",
+    ["41007", "Kugenecie", "To be updated",
+     Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.death,
+     2220, 1280, 1560, 1500, 1400, 1820,
+     [Skill.sap, Skill.death4, Skill.revival],
+     [Skill.sap, Skill.death4, Skill.revival],
+     [Skill.sap, Skill.death4, Skill.revival]],
+     // Almighty banshee 41009
+     // Festive serenade banshee 41010
+    ["41012", "Rockbouquet", "To be updated",
+     Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.lightning,
+     2280, 1640, 1500, 1540, 1411, 1840,
+     [Skill.aroundight, Skill.smr, Skill.vd],
+     [Skill.aroundight, Skill.smr, Skill.vd],
+     [Skill.aroundight, Skill.smr, Skill.vd]],
+     // Almighty culebre 41013
+     // Festive asura 41014
+    ["41015", "Danntag", "To be updated",
+     Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.earth,
+     2160, 1540, 1760, 1760, 1410, 1600,
+     [Skill.qs, Skill.blastmeteor, Skill.revival],
+     [Skill.qs, Skill.blastmeteor, Skill.revival],
+     [Skill.qs, Skill.blastmeteor, Skill.revival]],
+     // Almighty hermes 41016
+    ["41017", "True Sphinx Empress", "To be updated",
+     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.wolf, Attribute.light,
+     1600, 1212, 1620, 1240, 1352, 1300,
+     [Skill.qs, Skill.vd, Skill.ll],
+     [Skill.qs, Skill.vd, Skill.ll],
+     [Skill.qs, Skill.vd, Skill.ll]],
+    ["41018", "True Hoarfrost Phoenix", "To be updated",
+     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.bird, Attribute.water,
+     1500, 1260, 1240, 1200, 1342, 1640,
+     [Skill.aroundight, Skill.nj, Skill.revival],
+     [Skill.aroundight, Skill.nj, Skill.revival],
+     [Skill.aroundight, Skill.nj, Skill.revival]],
+    ["41019", "True Charybdis", "To be updated",
+     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.none, Attribute.darkness,
+     1640, 1080, 1640, 1180, 1346, 1420,
+     [Skill.ls, Skill.ds, Skill.dp],
+     [Skill.ls, Skill.ds, Skill.dp],
+     [Skill.ls, Skill.ds, Skill.dp]],
+    ["41020", "True Chariot", "To be updated",
+     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.wolf, Attribute.mecha,
+     1680, 1142, 1580, 1320, 1344, 1380,
+     [Skill.ep, Skill.gs, Skill.resistant],
+     [Skill.ep, Skill.gs, Skill.resistant],
+     [Skill.ep, Skill.gs, Skill.resistant]],
+    ["41021", "True Azi Dahaka", "To be updated",
+     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.none, Attribute.poison,
+     1600, 1260, 1200, 1280, 1340, 1620,
+     [Skill.mr, Skill.wis25, Skill.banish],
+     [Skill.mr, Skill.wis25, Skill.banish],
+     [Skill.mr, Skill.wis25, Skill.banish]],
+    ["41022", "Princess Ashtoreth", "To be updated",
+     Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.poison,
+     2260, 1362, 1560, 1540, 1402, 1820,
+     [Skill.qp, Skill.novameteor, Skill.mindcrash],
+     [Skill.qp, Skill.novameteor, Skill.mindcrash],
+     [Skill.qp, Skill.novameteor, Skill.mindcrash]],
+    ["41023", "Dragon Rider", "To be updated",
+     Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.wind,
+     2240, 1425, 1732, 1780, 1394, 1620,
+     [Skill.divineshield, Skill.blastmeteor, Skill.sap],
+     [Skill.divineshield, Skill.blastmeteor, Skill.sap],
+     [Skill.divineshield, Skill.blastmeteor, Skill.sap]],
+    ["41024", "Mech Argus", "To be updated",
+     Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.mecha,
+     2340, 1040, 1740, 1640, 1400, 1700,
+     [Skill.soultaker, Skill.dr, Skill.gs],
+     [Skill.soultaker, Skill.dr, Skill.gs],
+     [Skill.soultaker, Skill.dr, Skill.gs]],
+     // almighty freyr 41025
+    ["41026", "Ra", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.fire,
      2000, 1060, 2000, 1500, 1410, 1500,
      [Skill.qs, Skill.soultaker, Skill.physical4],
      [Skill.qs, Skill.soultaker, Skill.physical4],
      [Skill.qs, Skill.soultaker, Skill.physical4]],
-    ["41040", "Thyria", "To be updated",
-     Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.lightning,
-     2100, 1160, 1760, 1500, 1400, 1560,
-     [Skill.deadlypoison, Skill.ls, Skill.ep],
-     [Skill.deadlypoison, Skill.ls, Skill.ep],
-     [Skill.deadlypoison, Skill.ls, Skill.ep]],
-    ["41041", "Lorelei", "To be updated",
+    ["41027", "Ma'at", "To be updated",
+     Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.light,
+     2320, 1362, 1540, 1600, 1400, 1860,
+     [Skill.healinglight, Skill.hs, Skill.death4],
+     [Skill.healinglight, Skill.hs, Skill.death4],
+     [Skill.healinglight, Skill.hs, Skill.death4]],
+     // Almighty pale rider 41028
+    ["41029", "Lorelei", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.water,
      2260, 1360, 1540, 1540, 1412, 1880,
      [Skill.smr, Skill.banish, Skill.mindcrash],
      [Skill.smr, Skill.banish, Skill.mindcrash],
      [Skill.smr, Skill.banish, Skill.mindcrash]],
-    ["41042", "Beachbound Angel", "To be updated",
+    ["41030", "Thyria", "To be updated",
+     Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.lightning,
+     2100, 1160, 1760, 1500, 1400, 1560,
+     [Skill.deadlypoison, Skill.ls, Skill.ep],
+     [Skill.deadlypoison, Skill.ls, Skill.ep],
+     [Skill.deadlypoison, Skill.ls, Skill.ep]],
+     // Almighty hera aesta 41031
+    ["41032", "Beachbound Angel", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.water,
      2140, 1600, 1560, 1560, 1401, 1860,
      [Skill.sap, Skill.aroundight, Skill.srevival],
      [Skill.sap, Skill.aroundight, Skill.srevival],
      [Skill.sap, Skill.aroundight, Skill.srevival]],
-    ["41043", "Hera Aesta", "To be updated",
+    ["41033", "Hera Aesta", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.light,
      2200, 1080, 1740, 1540, 1410, 1800,
      [Skill.nj, Skill.novameteor, Skill.qs],
      [Skill.nj, Skill.novameteor, Skill.qs],
      [Skill.nj, Skill.novameteor, Skill.qs]],
-    ["41044", "Clotho of Summertide", "To be updated",
+    ["41034", "Clotho of Summertide", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.mecha,
      2060, 3230, 1500, 1500, 1410, 1840,
      [Skill.ssd, Skill.resistant, Skill.death4],
      [Skill.ssd, Skill.resistant, Skill.death4],
      [Skill.ssd, Skill.resistant, Skill.death4]],
-    ["41045", "Paimon", "To be updated",
+     // 41035 summer king arthur
+     // 41040 almighty maeve
+    ["41042", "Paimon", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.darkness,
      2280, 1740, 1540, 1580, 1410, 1880,
      [Skill.divineshield, Skill.aroundight, Skill.revival],
      [Skill.divineshield, Skill.aroundight, Skill.revival],
      [Skill.divineshield, Skill.aroundight, Skill.revival]]
+     // almighty robin hood 41043
+
 ]);
 
 Card.addLimitedTypes({
@@ -4491,56 +4505,56 @@ Card.addNotes({
     "40866": "Skills from Japanese version", // Raphael
     "40867": "Skills from Japanese version", // Uriel of the Fame
     "40868": "Skills incomplete", // Camael
+    "40872": "Profile incomplete", // Robin Hood
+    "40874": "Profile incomplete", // Sandolphon
+    "40875": "Profile incomplete", // Justitia
     "40891": "Skills incomplete", // Eidolon Odin
     "40894": "Skills incomplete", // Eidolon Shiva
     "40895": "Skills incomplete", // Eidolon Bahamut ZERO
     "40908": "Profile incomplete", // True Dragon Zombie
-    "41000": "Profile incomplete", // Robin Hood
-    "41001": "Profile incomplete", // Sandolphon
-    "41000": "Profile incomplete", // Justitia
-    "41002": "Profile incomplete", // Michael
-    "41003": "Profile incomplete", // Victoria
-    "41004": "Profile incomplete", // Metis
-    "41005": "Profile incomplete", // Spenta Mainyu
-    "41006": "Profile incomplete", // Eris
-    "41007": "Profile incomplete", // Asura
-    "41008": "Profile incomplete", // Sariel
-    "41009": "Profile incomplete", // Simurgh
-    "41010": "Profile incomplete", // Demogorgen
-    "41011": "Profile incomplete", // Jyestha
-    "41012": "Profile incomplete", // Chernonog
-    "41013": "Profile incomplete", // Vouivre
-    "41014": "Profile incomplete", // Kugenecie
-    "41015": "Profile incomplete", // Liche
-    "41016": "Profile incomplete", // Minotaur Commander
-    "41017": "Profile incomplete", // Morrigan
-    "41018": "Profile incomplete", // Rockbouquet
-    "41019": "Profile incomplete", // Earthbound Angel
-    "41020": "Profile incomplete", // Zeus
-    "41021": "Profile incomplete", // Troll King
-    "41022": "Profile incomplete", // Greater Chimera
-    "41023": "Profile incomplete", // Chimeratech Dragon
-    "41024": "Profile incomplete", // Nehushtan
-    "41025": "Profile incomplete", // Otohime
-    "41026": "Profile incomplete", // Princess Ashtoreth
-    "41027": "Profile incomplete", // Mech Argus
-    "41028": "Profile incomplete", // Dragon Rider
-    "41029": "Profile incomplete", // Danntag
-    "41030": "Profile incomplete", // True Azi Dahaka
-    "41031": "Profile incomplete", // True Sphinx Empress
-    "41032": "Profile incomplete", // True Chariot
-    "41033": "Profile incomplete", // True Hoarfrost Phoenix
-    "41034": "Profile incomplete", // True Charybdis
-    "41035": "Profile incomplete", // Nemesis
-    "41036": "Profile incomplete and stats", // Nephthys
-    "41037": "Profile incomplete", // Ma'at
-    "41038": "Profile incomplete", // Ra
-    "41039": "Profile incomplete", // Thyria
-    "41040": "Profile incomplete", // Lorelei
-    "41041": "Profile incomplete", // Beachbound Angel
-    "41042": "Profile incomplete", // Hera Aesta
-    "41043": "Profile incomplete", // Clotho of Summertide
-    "41044": "Profile incomplete" // Paimon
+    "40927": "Profile incomplete", // Victoria
+    "40928": "Profile incomplete", // Michael
+    "40940": "Profile incomplete", // Eris
+    "40941": "Profile incomplete", // Spenta Mainyu
+    "40942": "Profile incomplete", // Metis
+    "40957": "Profile incomplete", // Jyestha
+    "40958": "Profile incomplete", // Asura
+    "40961": "Profile incomplete", // Sariel
+    "40962": "Profile incomplete", // Demogorgen
+    "40963": "Profile incomplete", // Simurgh
+    "40967": "Profile incomplete", // Chernonog
+    "40987": "Profile incomplete", // Nemesis
+    "40991": "Profile incomplete", // Earthbound Angel
+    "40992": "Profile incomplete", // Zeus
+    "40993": "Profile incomplete", // Greater Chimera
+    "40994": "Profile incomplete", // Chimeratech Dragon
+    "40995": "Profile incomplete", // Troll King
+    "40996": "Profile incomplete", // Nehushtan
+    "40997": "Profile incomplete", // Otohime
+    "40999": "Profile incomplete", // Liche
+    "41000": "Profile incomplete", // Morrigan
+    "41001": "Profile incomplete", // Minotaur Commander
+    "41002": "Profile incomplete", // Vouivre
+    "41004": "Profile incomplete and stats", // Nephthys
+    "41007": "Profile incomplete", // Kugenecie
+    "41012": "Profile incomplete", // Rockbouquet
+    "41015": "Profile incomplete", // Danntag
+    "41017": "Profile incomplete", // True Sphinx Empress
+    "41018": "Profile incomplete", // True Hoarfrost Phoenix
+    "41019": "Profile incomplete", // True Charybdis
+    "41020": "Profile incomplete", // True Chariot
+    "41021": "Profile incomplete", // True Azi Dahaka
+    "41022": "Profile incomplete", // Princess Ashtoreth
+    "41023": "Profile incomplete", // Dragon Rider
+    "41024": "Profile incomplete", // Mech Argus
+    "41026": "Profile incomplete", // Ra
+    "41027": "Profile incomplete", // Ma'at
+    "41029": "Profile incomplete", // Lorelei
+    "41030": "Profile incomplete", // Thyria
+    "41032": "Profile incomplete", // Beachbound Angel
+    "41033": "Profile incomplete", // Hera Aesta
+    "41034": "Profile incomplete", // Clotho of Summertide
+    "41042": "Profile incomplete" // Paimon
 });
 
 ExCard.addAll([
