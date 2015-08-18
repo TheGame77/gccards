@@ -3946,7 +3946,7 @@ Card.addAll([
      2280, 1450, 1700, 1640, 1380, 1600,
      [Skill.cd, Skill.dr, Skill.revival],
      [Skill.cd, Skill.dr, Skill.revival],
-     [Skill.cd, Skill.dr, Skill.revival]]/*,
+     [Skill.cd, Skill.dr, Skill.revival]],
     ["40963", "Simurgh", "To be updated",
      Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.fire,
      2080, 2600, 1480, 1540, 1374, 1800,
@@ -4045,7 +4045,7 @@ Card.addAll([
      2220, 1280, 1560, 1500, 1400, 1820,
      [Skill.sap, Skill.death4, Skill.revival],
      [Skill.sap, Skill.death4, Skill.revival],
-     [Skill.sap, Skill.death4, Skill.revival]],
+     [Skill.sap, Skill.death4, Skill.revival]]/*,
      // Almighty banshee 41009
      // Festive serenade banshee 41010
     ["41012", "Rockbouquet", "To be updated",
@@ -4520,7 +4520,7 @@ Card.addNotes({
     "40957": "Profile incomplete", // Jyestha
     "40958": "Profile incomplete", // Asura
     "40961": "Profile incomplete", // Sariel
-    "40962": "Profile incomplete"/*, // Demogorgen
+    "40962": "Profile incomplete", // Demogorgen
     "40963": "Profile incomplete", // Simurgh
     "40967": "Profile incomplete", // Chernonog
     "40987": "Profile incomplete", // Nemesis
@@ -4536,7 +4536,7 @@ Card.addNotes({
     "41001": "Profile incomplete", // Minotaur Commander
     "41002": "Profile incomplete", // Vouivre
     "41004": "Profile incomplete and stats", // Nephthys
-    "41007": "Profile incomplete", // Kugenecie
+    "41007": "Profile incomplete"/*, // Kugenecie
     "41012": "Profile incomplete", // Rockbouquet
     "41015": "Profile incomplete", // Danntag
     "41017": "Profile incomplete", // True Sphinx Empress

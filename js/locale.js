@@ -319,11 +319,10 @@ var Locale = function(l) {
                 new Array("Crystallize",       "Crystallize enemy"),
                 new Array("Judgement Flare",   "Damage on death"),
                 new Array("Deadly Poison",     "Damage over time"),
-                new Array("Judgement Flare",   "Damage on death"),
-                new Array("Blast Meteor",      "Ignore defense"),
-                new Array("Nova Meteor",       "Ignore wisdom"),
                 new Array("Mind Crash",        "Magic strike"),
                 new Array("Soul Taker",        "Physical strike"),
+                new Array("Blast Meteor",      "Ignore defense"),
+                new Array("Nova Meteor",       "Ignore wisdom"),
                 new Array("Healing Light",     "Regenerate")
             ),
             exskills: new Array(
@@ -754,11 +753,10 @@ var Locale = function(l) {
                 new Array("フリーズ", "結晶化"), // Crystallize
                 new Array("Judgement Flare",   "Damage on death"),
                 new Array("Deadly Poison",     "Damage over time"),
-                new Array("Judgement Flare",   "Damage on death"),
-                new Array("Blast Meteor",      "Ignore defense"),
-                new Array("Nova Meteor",       "Ignore wisdom"),
                 new Array("Mind Crash",        "Magic strike"),
                 new Array("Soul Taker",        "Physical strike"),
+                new Array("Blast Meteor",      "Ignore defense"),
+                new Array("Nova Meteor",       "Ignore wisdom"),
                 new Array("Healing Light",     "Regenerate")
             ),
             exskills: new Array(
