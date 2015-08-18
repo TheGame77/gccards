@@ -3946,7 +3946,7 @@ Card.addAll([
      2280, 1450, 1700, 1640, 1380, 1600,
      [Skill.cd, Skill.dr, Skill.revival],
      [Skill.cd, Skill.dr, Skill.revival],
-     [Skill.cd, Skill.dr, Skill.revival]],
+     [Skill.cd, Skill.dr, Skill.revival]]/*,
     ["40963", "Simurgh", "To be updated",
      Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.fire,
      2080, 2600, 1480, 1540, 1374, 1800,
@@ -4164,7 +4164,7 @@ Card.addAll([
      [Skill.divineshield, Skill.aroundight, Skill.revival],
      [Skill.divineshield, Skill.aroundight, Skill.revival],
      [Skill.divineshield, Skill.aroundight, Skill.revival]]
-     // almighty robin hood 41043
+     // almighty robin hood 41043*/
 
 ]);
 
@@ -4520,7 +4520,7 @@ Card.addNotes({
     "40957": "Profile incomplete", // Jyestha
     "40958": "Profile incomplete", // Asura
     "40961": "Profile incomplete", // Sariel
-    "40962": "Profile incomplete", // Demogorgen
+    "40962": "Profile incomplete"/*, // Demogorgen
     "40963": "Profile incomplete", // Simurgh
     "40967": "Profile incomplete", // Chernonog
     "40987": "Profile incomplete", // Nemesis
@@ -4554,7 +4554,7 @@ Card.addNotes({
     "41032": "Profile incomplete", // Beachbound Angel
     "41033": "Profile incomplete", // Hera Aesta
     "41034": "Profile incomplete", // Clotho of Summertide
-    "41042": "Profile incomplete" // Paimon
+    "41042": "Profile incomplete" // Paimon*/
 });
 
 ExCard.addAll([
