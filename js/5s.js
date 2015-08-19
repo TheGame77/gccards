@@ -4116,7 +4116,7 @@ Card.addAll([
      [Skill.poison4, Skill.nj, Skill.qs],
      [Skill.poison4, Skill.nj, Skill.qs]],      
      // Festive asura 41014
-    ["41014", "Festive serenade banshee", "To be updated",
+    ["41014", "Festive Asura", "To be updated",
      Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.fire,
      2220, 1530, 1400, 1200, 1420, 2080,
      [Skill.srevival, Skill.death4, Skill.resistant],
