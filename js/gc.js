@@ -729,12 +729,12 @@ var Skill = (function() {
         [119, SKILL_OTHER, ["quickpinch", "qp"],   new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Quick Pinch
         [120, SKILL_OTHER, "crystallize",          new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Crystallize
         [121, SKILL_OTHER, "jf",                   new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Judgement Flare
-        [123, SKILL_OTHER, "deadlypoison",         new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Deadly Poison
-        [124, SKILL_OTHER, "mindcrash",            new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0], // Mind Crash (Magic strike)
-        [125, SKILL_OTHER, "soultaker",            new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0], // Soul Taker (Physical strike)
-        [126, SKILL_ATTACK, "blastmeteor",         new Cost(0,    1300), stone_no,  nbuff({}),                Attribute.none, 0], // Blast Meteor (Ignore defense)
-        [127, SKILL_ATTACK, "novameteor",          new Cost(0,    1300), stone_no,  nbuff({}),                Attribute.none, 0], // Nova Meteor (Ignore wisdom)
-        [128, SKILL_OTHER, "healinglight",         new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0] // Healing Light          
+        [122, SKILL_OTHER, "deadlypoison",         new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Deadly Poison
+        [123, SKILL_OTHER, "mindcrash",            new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0], // Mind Crash (Magic strike)
+        [124, SKILL_OTHER, "soultaker",            new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0], // Soul Taker (Physical strike)
+        [125, SKILL_ATTACK, "blastmeteor",         new Cost(0,    1300), stone_no,  nbuff({}),                Attribute.none, 0], // Blast Meteor (Ignore defense)
+        [126, SKILL_ATTACK, "novameteor",          new Cost(0,    1300), stone_no,  nbuff({}),                Attribute.none, 0], // Nova Meteor (Ignore wisdom)
+        [127, SKILL_OTHER, "healinglight",         new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0] // Healing Light]
     ];
 
     var skills = {
