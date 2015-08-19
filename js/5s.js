@@ -4039,7 +4039,7 @@ Card.addAll([
      [Skill.divineshield, Skill.banish, Skill.nj],
      [Skill.divineshield, Skill.banish, Skill.nj]],
      // 40998 Almighty pandora of despair
-    /*["40998", "Almighty pandora of despair", "To be updated",
+    /*["40998", "Almighty Pandora of Despair", "To be updated",
      Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.earth,
      2300, 1600, 1820, 1840, 1388, 1680,
      [Skill.vd, Skill.ds, Skill.ll],
@@ -4089,14 +4089,14 @@ Card.addAll([
      [Skill.sap, Skill.death4, Skill.revival],
      [Skill.sap, Skill.death4, Skill.revival]]/*,
      // Almighty banshee 41009
-    ["41009", "Almighty banshee", "To be updated",
+    ["41009", "Almighty Banshee", "To be updated",
      Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.death,
      2220, 1280, 1560, 1500, 1400, 1820,
      [Skill.revival, Skill.life, Skill.darkness3, Skill.wis25, Skill.death4],
      [Skill.revival, Skill.wis25, Skill.death4],
      [Skill.revival, Skill.wis25, Skill.death4]],     
      // Festive serenade banshee 41010
-    ["41010", "Festive serenade banshee", "To be updated",
+    ["41010", "Festive Serenade Banshee", "To be updated",
      Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.death,
      2220, 1280, 1560, 1500, 1400, 1820,
      [Skill.ep, Skill.darkness4, Skill.dwis20, Skill.banish, Skill.qp],
@@ -4109,7 +4109,7 @@ Card.addAll([
      [Skill.aroundight, Skill.smr, Skill.vd],
      [Skill.aroundight, Skill.smr, Skill.vd]],
      // Almighty culebre 41013
-    ["41013", "Almighty culebre", "To be updated",
+    ["41013", "Almighty Culebre", "To be updated",
      Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.poison,
      1980, 1040, 1480, 1360, 1330, 1540,
      [Skill.poison3, Skill.dwis20, Skill.poison4, Skill.nj, Skill.qs],
@@ -4129,7 +4129,7 @@ Card.addAll([
      [Skill.qs, Skill.blastmeteor, Skill.revival],
      [Skill.qs, Skill.blastmeteor, Skill.revival]],
      // Almighty hermes 41016
-    ["41016", "Almighty hermes", "To be updated",
+    ["41016", "Almighty Hermes", "To be updated",
      Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.poison,
      2280, 1030, 1760, 1640, 1412, 1620,
      [Skill.qs, Skill.gs, Skill.np],
@@ -4222,7 +4222,7 @@ Card.addAll([
      [Skill.deadlypoison, Skill.ls, Skill.ep],
      [Skill.deadlypoison, Skill.ls, Skill.ep]],
      // Almighty hera aesta 41031
-    ["41031", "Almighty hera aesta", "To be updated",
+    ["41031", "Almighty Hera Aesta", "To be updated",
      Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.light,
      2280, 1080, 2000, 1540, 1410, 1720,
      [Skill.nj, Skill.blastmeteor, Skill.novameteor, Skill.qs],
@@ -4254,7 +4254,7 @@ Card.addAll([
      [Skill.vd, Skill.ll, Skill.ls],
      [Skill.vd, Skill.ll, Skill.ls]],     
      // 41040 almighty maeve
-    ["41040", "Almighty maeve", "To be updated",
+    ["41040", "Almighty Maeve", "To be updated",
      Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.darkness,
      2290, 1500, 1520, 1590, 1404, 1920,
      [Skill.resistant, Skill.death4, Skill.sap],
@@ -4267,22 +4267,75 @@ Card.addAll([
      [Skill.divineshield, Skill.aroundight, Skill.revival],
      [Skill.divineshield, Skill.aroundight, Skill.revival]],
      // almighty robin hood 41043
-    ["41043", "almighty robin hood", "To be updated",
-     Event.none, Border.none, 5, Place.none, 0, null, Shape.none, Attribute.wind,
+    ["41043", "almighty Robin Hood", "To be updated",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.wind,
      2400, 320, 1824, 1760, 1412, 1620,
      [Skill.divineshield, Skill.aroundight, Skill.revival],
      [Skill.divineshield, Skill.aroundight, Skill.revival],
-     [Skill.divineshield, Skill.aroundight, Skill.revival]] 
-     
+     [Skill.divineshield, Skill.aroundight, Skill.revival]], 
      // True ifrit #
+    ["?????", "True Ifrit", "To be updated",
+     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.giant, Attribute.fire,
+     1620, 1080, 1220, 1260, 1346, 1660,
+     [Skill.wis25, Skill.fire4, Skill.ds],
+     [Skill.wis25, Skill.fire4, Skill.ds],
+     [Skill.wis25, Skill.fire4, Skill.ds]],     
      // True Lightning Lord #
+    ["?????", "True Lightning Lord", "To be updated",
+     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.humanoid, Attribute.lightning,
+     1600, 730, 1240, 1240, 1344, 1640,
+     [Skill.sap, Skill.datk20, Skill.ddef20, Skill.lightning3, Skill.lightning4, Skill.mvs],
+     [Skill.sap, Skill.lightning4, Skill.mvs],
+     [Skill.sap, Skill.lightning4, Skill.mvs]],        
      // True Morrighan #
+    ["?????", "True Morrigan", "To be updated",
+     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.female, Attribute.Death,
+     1700, 936, 1620, 1240, 1354, 1340,
+     [Skill.ls, Skill.gs, Skill.qs],
+     [Skill.ls, Skill.gs, Skill.qs],
+     [Skill.ls, Skill.gs, Skill.qs]],      
      // True Behemoth #
+    ["?????", "True Behemoth", "To be updated",
+     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.beast, Attribute.earth,
+     1720, 1178, 1660, 1400, 1320, 1120,
+     [Skill.divineshield, Skill.dp, Skill.ls],
+     [Skill.divineshield, Skill.dp, Skill.ls],
+     [Skill.divineshield, Skill.dp, Skill.ls]],      
      // True Nike #
+    ["?????", "True Nike", "To be updated",
+     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.circular, Attribute.wind,
+     1580, 1108, 1200, 1200, 1348, 1640,
+     [Skill.banish, Skill.dwis20, Skill.dagi20, Skill.agi20, Skill.revival, Skill.resistant],
+     [Skill.banish, Skill.revival, Skill.resistant],
+     [Skill.banish, Skill.revival, Skill.resistant]],      
      // Izanagi #
+    ["?????", "Izanagi", "To be updated",
+     Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.humanoid, Attribute.light,
+     2280, 1220, 1760, 1660, 1404, 1660,
+     [Skill.soultaker, Skill.blastmeteor, Skill.resistant],
+     [Skill.soultaker, Skill.blastmeteor, Skill.resistant],
+     [Skill.soultaker, Skill.blastmeteor, Skill.resistant]],      
      // Executioner Scylla #
+    ["?????", "Executioner Scylla", "To be updated",
+     Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.giant, Attribute.darkness,
+     2340, 1380, 1740, 1800, 1396, 1600,
+     [Skill.divineshield, Skill.slash3, Skill.atk20, Skill.physical4, Skill.gs, Skill.qp],
+     [Skill.divineshield, Skill.gs, Skill.qp],
+     [Skill.divineshield, Skill.gs, Skill.qp]],      
      // Rhodante #
+    ["?????", "Rhodante", "To be updated",
+     Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.circular, Attribute.wind,
+     2270, 1300, 1500, 1600, 1412, 1880,
+     [Skill.revival, Skill.wind3, Skill.dwis20, Skill.wind4, Skill.np, Skill.banish],
+     [Skill.revival, Skill.np, Skill.banish],
+     [Skill.revival, Skill.np, Skill.banish]],      
      // Grandes Jorasses #
+    ["?????", "Grandes Jorasses", "To be updated",
+     Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.beast, Attribute.earth,
+     2360, 3560, 1760, 1800, 1386, 1620,
+     [Skill.dr, Skill.dagi20, Skill.slash4, Skill.def10, Skill.blastmeteor, Skill.ssd],
+     [Skill.dr, Skill.blastmeteor, Skill.ssd],
+     [Skill.dr, Skill.blastmeteor, Skill.ssd]]     
 */
 ]);
 
