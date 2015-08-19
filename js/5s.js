@@ -4254,7 +4254,7 @@ Card.addAll([
      [Skill.vd, Skill.ll, Skill.ls],
      [Skill.vd, Skill.ll, Skill.ls]],     
      // 41040 almighty maeve
-    ["41040", "Almighty hera aesta", "To be updated",
+    ["41040", "Almighty maeve", "To be updated",
      Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.darkness,
      2290, 1500, 1520, 1590, 1404, 1920,
      [Skill.resistant, Skill.death4, Skill.sap],
