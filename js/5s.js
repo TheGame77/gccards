@@ -3901,6 +3901,12 @@ Card.addAll([
      [Skill.sap, Skill.banish, Skill.qs],
      [Skill.sap, Skill.banish, Skill.qs]],
      // Missing Culebre 40929
+/*    ["40929", "Culebre", "To be updated",
+     Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.poison,
+     1560, 1040, 1420, 1360, 1310, 1480,
+     [Skill.poison3, Skill.dwis20, Skill.poison4, Skill.nj, Skill.qs],
+     [Skill.poison4, Skill.nj, Skill.qs],
+     [Skill.poison4, Skill.nj, Skill.qs]],  */   
     ["40940", "Eris", "To be updated",
      Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.death,
      2120, 1342, 1440, 1500, 1372, 1800,
@@ -3919,8 +3925,26 @@ Card.addAll([
      [Skill.banish, Skill.sap, Skill.deadlypoison],
      [Skill.banish, Skill.sap, Skill.deadlypoison],
      [Skill.banish, Skill.sap, Skill.deadlypoison]],
-     // Missing Geri-Freki 40943, almighty 40955
+     // Missing Geri-Freki 40943     almighty 40955
+/*    ["40943", "Geri-Freki", "To be updated",
+     Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.earth,
+     1500, 910, 1615, 1300, 1325, 1615,
+     [Skill.resistant, Skill.agi10, Skill.agi20, Skill.physical4, Skill.earth4, Skill.ls],
+     [Skill.resistant, Skill.physical4, Skill.ls],
+     [Skill.resistant, Skill.physical4, Skill.ls]],  */        
+/*    ["40955", "Almighty Geri-Freki", "To be updated",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.earth,
+     1920, 910, 1615, 1300, 1325, 1615,
+     [Skill.resistant, Skill.agi20, Skill.physical4, Skill.earth4, Skill.ls],
+     [Skill.resistant, Skill.physical4, Skill.ls],
+     [Skill.resistant, Skill.physical4, Skill.ls]], */     
      // Almighty gab 40956
+ /*   ["40956", "Almighty Archangel Gabriel", "To be updated",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.wind,
+     2280, 1490, 1550, 1600, 1382, 1900,
+     [Skill.qp, Skill.agi10, Skill.wind4, Skill.aroundight, Skill.bequeath],
+     [Skill.qp, Skill.aroundight, Skill.bequeath],
+     [Skill.qp, Skill.aroundight, Skill.bequeath]], */     
     ["40957", "Jyestha", "To be updated",
      Event.none, Border.none, 5, Place.gsexchange, 0, null, Shape.none, Attribute.wind,
      2200, 1350, 1720, 1500, 1370, 1500,
@@ -3959,7 +3983,13 @@ Card.addAll([
      [Skill.qs, Skill.nj, Skill.ssd],
      [Skill.qs, Skill.nj, Skill.ssd],
      [Skill.qs, Skill.nj, Skill.ssd]],
-     // Missing boqon 40977
+     // Added boqon 40977
+   /* ["40977", "Boqon", "To be updated",
+     Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
+     1520, 1160, 1620, 1280, 1330, 1640,
+     [Skill.physical4, Skill.divineshield, Skill.atk10, Skill.dagi20, Skill.ddef20, Skill.qs],
+     [Skill.physical4, Skill.divineshield, Skill.atk10],
+     [Skill.physical4, Skill.divineshield, Skill.qs]], */
     ["40987", "Nemesis", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.death,
      2120, 1360, 1460, 1500, 1374, 1780,
@@ -3997,18 +4027,24 @@ Card.addAll([
      [Skill.ep, Skill.gs, Skill.sap],
      [Skill.ep, Skill.gs, Skill.sap]],
     ["40996", "Nehushtan", "To be updated",
-     Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.mecha,
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.mecha,
      1820, 1140, 1320, 1360, 1350, 1600,
      [Skill.ep, Skill.aroundight, Skill.revival],
      [Skill.ep, Skill.aroundight, Skill.revival],
      [Skill.ep, Skill.aroundight, Skill.revival]],
     ["40997", "Otohime", "To be updated",
-     Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.water,
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.water,
      2000, 1460, 1340, 1380, 1362, 1760,
      [Skill.divineshield, Skill.banish, Skill.nj],
      [Skill.divineshield, Skill.banish, Skill.nj],
      [Skill.divineshield, Skill.banish, Skill.nj]],
      // 40998 Almighty pandora of despair
+    /*["40998", "Almighty pandora of despair", "To be updated",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.earth,
+     2300, 1600, 1820, 1840, 1388, 1680,
+     [Skill.vd, Skill.ds, Skill.ll],
+     [Skill.vd, Skill.ds, Skill.ll],
+     [Skill.vd, Skill.ds, Skill.ll]],   */  
     ["40999", "Liche", "To be updated",
      Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.death,
      2280, 1040, 1720, 1640, 1383, 1760,
@@ -4034,9 +4070,15 @@ Card.addAll([
      [Skill.qs, Skill.bg, Skill.srevival],
      [Skill.qs, Skill.bg, Skill.srevival]],
      // 41003 Almighty Liche
+   /* ["41003", "Almighty Liche", "To be updated",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.darkness,
+     2240, 1562, 1620, 1600, 1402, 1920,
+     [Skill.novameteor, Skill.resistant, Skill.revival],
+     [Skill.novameteor, Skill.resistant, Skill.revival],
+     [Skill.novameteor, Skill.resistant, Skill.revival]],   */  
     ["41004", "Nephthys", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.darkness,
-     0, 0, 0, 0, 0, 0,
+     2160, 2600, 1720, 1660, 1396, 1760,
      [Skill.crystallize, Skill.gs, Skill.rendburst],
      [Skill.crystallize, Skill.gs, Skill.rendburst],
      [Skill.crystallize, Skill.gs, Skill.rendburst]],
@@ -4047,7 +4089,19 @@ Card.addAll([
      [Skill.sap, Skill.death4, Skill.revival],
      [Skill.sap, Skill.death4, Skill.revival]]/*,
      // Almighty banshee 41009
+    ["41009", "Almighty banshee", "To be updated",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.death,
+     2220, 1280, 1560, 1500, 1400, 1820,
+     [Skill.revival, Skill.life, Skill.darkness3, Skill.wis25, Skill.death4],
+     [Skill.revival, Skill.wis25, Skill.death4],
+     [Skill.revival, Skill.wis25, Skill.death4]],     
      // Festive serenade banshee 41010
+    ["41010", "Festive serenade banshee", "To be updated",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.death,
+     2220, 1280, 1560, 1500, 1400, 1820,
+     [Skill.ep, Skill.darkness4, Skill.dwis20, Skill.banish, Skill.qp],
+     [Skill.ep, Skill.banish, Skill.qp],
+     [Skill.ep, Skill.banish, Skill.qp]],      
     ["41012", "Rockbouquet", "To be updated",
      Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.lightning,
      2280, 1640, 1500, 1540, 1411, 1840,
@@ -4055,7 +4109,19 @@ Card.addAll([
      [Skill.aroundight, Skill.smr, Skill.vd],
      [Skill.aroundight, Skill.smr, Skill.vd]],
      // Almighty culebre 41013
+    ["41013", "Almighty culebre", "To be updated",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.poison,
+     1980, 1040, 1480, 1360, 1330, 1540,
+     [Skill.poison3, Skill.dwis20, Skill.poison4, Skill.nj, Skill.qs],
+     [Skill.poison4, Skill.nj, Skill.qs],
+     [Skill.poison4, Skill.nj, Skill.qs]],      
      // Festive asura 41014
+    ["41014", "Festive serenade banshee", "To be updated",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.fire,
+     2220, 1530, 1400, 1200, 1420, 2080,
+     [Skill.srevival, Skill.death4, Skill.resistant],
+     [Skill.srevival, Skill.death4, Skill.resistant],
+     [Skill.srevival, Skill.death4, Skill.resistant],      
     ["41015", "Danntag", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.earth,
      2160, 1540, 1760, 1760, 1410, 1600,
@@ -4063,6 +4129,12 @@ Card.addAll([
      [Skill.qs, Skill.blastmeteor, Skill.revival],
      [Skill.qs, Skill.blastmeteor, Skill.revival]],
      // Almighty hermes 41016
+    ["41016", "Almighty hermes", "To be updated",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.poison,
+     2280, 1030, 1760, 1640, 1412, 1620,
+     [Skill.qs, Skill.gs, Skill.np],
+     [Skill.qs, Skill.gs, Skill.np],
+     [Skill.qs, Skill.gs, Skill.np]], 
     ["41017", "True Sphinx Empress", "To be updated",
      Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.wolf, Attribute.light,
      1600, 1212, 1620, 1240, 1352, 1300,
@@ -4112,6 +4184,12 @@ Card.addAll([
      [Skill.soultaker, Skill.dr, Skill.gs],
      [Skill.soultaker, Skill.dr, Skill.gs]],
      // almighty freyr 41025
+    ["41025", "Almighty Freyr", "To be updated",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.earth,
+     2280, 1600, 1825, 1610, 1404, 1650,
+     [Skill.dp, Skill.resistant, Skill.revival],
+     [Skill.dp, Skill.resistant, Skill.revival],
+     [Skill.dp, Skill.resistant, Skill.revival]],     
     ["41026", "Ra", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.fire,
      2000, 1060, 2000, 1500, 1410, 1500,
@@ -4125,6 +4203,12 @@ Card.addAll([
      [Skill.healinglight, Skill.hs, Skill.death4],
      [Skill.healinglight, Skill.hs, Skill.death4]],
      // Almighty pale rider 41028
+    ["41028", "Almighty Pale Rider", "To be updated",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.death,
+     2320, 1460, 1820, 1660, 1402, 1640,
+     [Skill.dp, Skill.ls, Skill.tb],
+     [Skill.dp, Skill.ls, Skill.tb],
+     [Skill.dp, Skill.ls, Skill.tb]],     
     ["41029", "Lorelei", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.water,
      2260, 1360, 1540, 1540, 1412, 1880,
@@ -4138,6 +4222,12 @@ Card.addAll([
      [Skill.deadlypoison, Skill.ls, Skill.ep],
      [Skill.deadlypoison, Skill.ls, Skill.ep]],
      // Almighty hera aesta 41031
+    ["41031", "Almighty hera aesta", "To be updated",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.light,
+     2280, 1080, 2000, 1540, 1410, 1720,
+     [Skill.nj, Skill.blastmeteor, Skill.novameteor, Skill.qs],
+     [Skill.nj, Skill.blastmeteor, Skill.qs],
+     [Skill.nj, Skill.blastmeteor, Skill.qs]],     
     ["41032", "Beachbound Angel", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.water,
      2140, 1600, 1560, 1560, 1401, 1860,
@@ -4157,15 +4247,43 @@ Card.addAll([
      [Skill.ssd, Skill.resistant, Skill.death4],
      [Skill.ssd, Skill.resistant, Skill.death4]],
      // 41035 summer king arthur
+    ["41035", "Summer King Arthur", "To be updated",
+     Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.earth,
+     1760, 1040, 1635, 1440, 1320, 1340,
+     [Skill.vd, Skill.ll, Skill.ls],
+     [Skill.vd, Skill.ll, Skill.ls],
+     [Skill.vd, Skill.ll, Skill.ls]],     
      // 41040 almighty maeve
+    ["41040", "Almighty hera aesta", "To be updated",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.darkness,
+     2290, 1500, 1520, 1590, 1404, 1920,
+     [Skill.resistant, Skill.death4, Skill.sap],
+     [Skill.resistant, Skill.death4, Skill.sap],
+     [Skill.resistant, Skill.death4, Skill.sap]],       
     ["41042", "Paimon", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.darkness,
      2280, 1740, 1540, 1580, 1410, 1880,
      [Skill.divineshield, Skill.aroundight, Skill.revival],
      [Skill.divineshield, Skill.aroundight, Skill.revival],
-     [Skill.divineshield, Skill.aroundight, Skill.revival]]
-     // almighty robin hood 41043*/
-
+     [Skill.divineshield, Skill.aroundight, Skill.revival]],
+     // almighty robin hood 41043
+    ["41043", "almighty robin hood", "To be updated",
+     Event.none, Border.none, 5, Place.none, 0, null, Shape.none, Attribute.wind,
+     2400, 320, 1824, 1760, 1412, 1620,
+     [Skill.divineshield, Skill.aroundight, Skill.revival],
+     [Skill.divineshield, Skill.aroundight, Skill.revival],
+     [Skill.divineshield, Skill.aroundight, Skill.revival]] 
+     
+     // True ifrit #
+     // True Lightning Lord #
+     // True Morrighan #
+     // True Behemoth #
+     // True Nike #
+     // Izanagi #
+     // Executioner Scylla #
+     // Rhodante #
+     // Grandes Jorasses #
+*/
 ]);
 
 Card.addLimitedTypes({
@@ -4211,7 +4329,13 @@ Card.addLimitedTypes({
     "40751": [Type.cool, Type.coolr],   // Macha
     "40752": [Type.cool, Type.coolr],   // Karabu
     "40842": [Type.cool, Type.coolr],   // Undead Sisters
-    "40843": [Type.cool, Type.coolr]    // Dracula
+    "40843": [Type.cool, Type.coolr],    // Dracula
+    "40955": [Type.cool, Type.coolr],    // Alm Geri-Freki
+    "40957": [Type.cool, Type.coolr, Type.ace, Type.acer],    // Jyestha
+    "40996": [Type.cool, Type.coolr],    // Nehushtan
+    "40997": [Type.cool, Type.coolr],    // Otohime
+    "41009": [Type.cool, Type.coolr]    // Alm Banshee
+   
 });
 
 Card.addNotes({
@@ -4535,7 +4659,7 @@ Card.addNotes({
     "41000": "Profile incomplete", // Morrigan
     "41001": "Profile incomplete", // Minotaur Commander
     "41002": "Profile incomplete", // Vouivre
-    "41004": "Profile incomplete and stats", // Nephthys
+    "41004": "Profile incomplete", // Nephthys
     "41007": "Profile incomplete"/*, // Kugenecie
     "41012": "Profile incomplete", // Rockbouquet
     "41015": "Profile incomplete", // Danntag
