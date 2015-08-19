@@ -6,6 +6,13 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+        '2015/8/18': [
+            "Added: " + Card.mklnk(40963) + ", " + Card.mklnk(40967) + ", " + Card.mklnk(40987) + ", " +
+            Card.mklnk(40991) + ", " + Card.mklnk(40992) + ", " + Card.mklnk(40993) + ", " + Card.mklnk(40994) + ", " +
+            Card.mklnk(40995) + ", " + Card.mklnk(40996) + ", " + Card.mklnk(40997) + ", " + Card.mklnk(40999) + ", " +
+            Card.mklnk(41000) + ", " + Card.mklnk(41001) + ", " + Card.mklnk(41002) + ", " + Card.mklnk(41004) + ", " +
+            Card.mklnk(41007) + "."
+        ],
         '2015/8/17': [
             "Added: " + Card.mklnk(40872) + ", " + Card.mklnk(40874) + ", " + Card.mklnk(40875) + ", " +
             Card.mklnk(40927) + ", " + Card.mklnk(40928) + ", " + Card.mklnk(40940) + ", " + Card.mklnk(40941) + ", " +

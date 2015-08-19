@@ -730,11 +730,11 @@ var Skill = (function() {
         [120, SKILL_OTHER, "crystallize",          new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Crystallize
         [121, SKILL_OTHER, "jf",                   new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Judgement Flare
         [122, SKILL_OTHER, "deadlypoison",         new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Deadly Poison
-        [122, SKILL_OTHER, "mindcrash",            new Cost(0,    300), stone_no,  nbuff({}),                   Attribute.none, 0], // Mind Crash (Magic strike)
-        [122, SKILL_OTHER, "soultaker",            new Cost(0,    300), stone_no,  nbuff({}),                   Attribute.none, 0], // Soul Taker (Physical strike)
-        [122, SKILL_ATTACK, "blastmeteor",         new Cost(0,    1300), stone_no,  nbuff({}),                   Attribute.none, 0], // Blast Meteor (Ignore defense)
-        [122, SKILL_ATTACK, "novameteor",          new Cost(0,    1300), stone_no,  nbuff({}),                   Attribute.none, 0], // Nova Meteor (Ignore wisdom)
-        [122, SKILL_OTHER, "healinglight",         new Cost(0,    300), stone_no,  nbuff({}),                   Attribute.none, 0] // Healing Light          
+        [123, SKILL_OTHER, "mindcrash",            new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0], // Mind Crash (Magic strike)
+        [124, SKILL_OTHER, "soultaker",            new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0], // Soul Taker (Physical strike)
+        [125, SKILL_ATTACK, "blastmeteor",         new Cost(0,    1300), stone_no,  nbuff({}),                Attribute.none, 0], // Blast Meteor (Ignore defense)
+        [126, SKILL_ATTACK, "novameteor",          new Cost(0,    1300), stone_no,  nbuff({}),                Attribute.none, 0], // Nova Meteor (Ignore wisdom)
+        [127, SKILL_OTHER, "healinglight",         new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0] // Healing Light]
     ];
 
     var skills = {
