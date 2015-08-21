@@ -3901,12 +3901,12 @@ Card.addAll([
      [Skill.sap, Skill.dr, Skill.wind4],
      [Skill.sap, Skill.dr, Skill.banish]],
      // Missing Culebre 40929
-/*    ["40929", "Culebre", "To be updated",
+    ["40929", "Culebre", "To be updated",
      Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.poison,
      1560, 1040, 1420, 1360, 1310, 1480,
      [Skill.poison3, Skill.dwis20, Skill.poison4, Skill.ddef20, Skill.nj, Skill.qs],
      [Skill.poison4, Skill.dwis20, Skill.nj],
-     [Skill.poison4, Skill.nj, Skill.qs]],  */   
+     [Skill.poison4, Skill.nj, Skill.qs]],     
     ["40940", "Eris", "To be updated",
      Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.none, Attribute.death,
      2120, 1342, 1440, 1500, 1372, 1800,
@@ -3926,25 +3926,25 @@ Card.addAll([
      [Skill.sap, Skill.dwis20, Skill.banish],
      [Skill.sap, Skill.banish, Skill.deadlypoison]],
      // Missing Geri-Freki 40943     almighty 40955
-/*    ["40943", "Geri-Freki", "To be updated",
+    ["40943", "Geri-Freki", "To be updated",
      Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.earth,
      1500, 910, 1615, 1300, 1325, 1615,
      [Skill.resistant, Skill.agi10, Skill.agi20, Skill.physical4, Skill.earth4, Skill.ls],
      [Skill.resistant, Skill.agi20, Skill.physical4],
-     [Skill.resistant, Skill.physical4, Skill.ls]],  */        
-/*    ["40955", "Almighty Geri-Freki", "To be updated",
+     [Skill.resistant, Skill.physical4, Skill.ls]],         
+    ["40955", "Almighty Geri-Freki", "To be updated",
      Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.earth,
      1920, 910, 1615, 1300, 1325, 1615,
      [Skill.resistant, Skill.agi20, Skill.physical4, Skill.earth4, Skill.ls],
      [Skill.resistant, Skill.physical4, Skill.ls],
-     [Skill.resistant, Skill.physical4, Skill.ls]], */     
+     [Skill.resistant, Skill.physical4, Skill.ls]],     
      // Almighty gab 40956
- /*   ["40956", "Almighty Archangel Gabriel", "To be updated",
+    ["40956", "Almighty Archangel Gabriel", "To be updated",
      Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.wind,
      2280, 1490, 1550, 1600, 1382, 1900,
      [Skill.qp, Skill.agi10, Skill.wind4, Skill.aroundight, Skill.bequeath],
      [Skill.qp, Skill.aroundight, Skill.bequeath],
-     [Skill.qp, Skill.aroundight, Skill.bequeath]], */     
+     [Skill.qp, Skill.aroundight, Skill.bequeath]],      
     ["40957", "Jyestha", "To be updated",
      Event.none, Border.none, 5, Place.gsexchange, 0, null, Shape.none, Attribute.wind,
      2200, 1350, 1720, 1500, 1370, 1500,
@@ -3958,7 +3958,7 @@ Card.addAll([
      [Skill.srevival, Skill.death3, Skill.death4],
      [Skill.srevival, Skill.death4, Skill.srevival]],
      // Missing almighty vesper hound 40959
-/*    ["40959", "Almighty Vesper Hound", "To be updated",
+    ["40959", "Almighty Vesper Hound", "To be updated",
      Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.darkness,
      2020, 765, 1600, 1500, 1320, 1390,
      [Skill.dp, Skill.def10, Skill.agi10, Skill.atk20, Skill.powershift],
@@ -3970,7 +3970,7 @@ Card.addAll([
      2200, 303, 2600, 800, 1400, 800,
      [Skill.bg, Skill.ds, Skill.vd, Skill.revival, Skill.tb],
      [Skill.vd, Skill.revival, Skill.tb],
-     [Skill.vd, Skill.revival, Skill.tb]],  */   
+     [Skill.vd, Skill.revival, Skill.tb]],     
     ["40961", "Sariel", "To be updated",
      Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.female, Attribute.darkness,
      2160, 1370, 1680, 1700, 1380, 1760,
@@ -3996,12 +3996,12 @@ Card.addAll([
      [Skill.nj, Skill.qs, Skill.poison4],
      [Skill.nj, Skill.qs, Skill.ssd]],
      // Added boqon 40977
-   /* ["40977", "Boqon", "To be updated",
+    ["40977", "Boqon", "To be updated",
      Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
      1520, 1160, 1620, 1280, 1330, 1640,
      [Skill.physical4, Skill.divineshield, Skill.atk10, Skill.dagi20, Skill.ddef20, Skill.qs],
      [Skill.physical4, Skill.divineshield, Skill.atk10],
-     [Skill.physical4, Skill.divineshield, Skill.qs]], */
+     [Skill.physical4, Skill.divineshield, Skill.qs]], 
     ["40987", "Nemesis", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.circular, Attribute.death,
      2120, 1360, 1460, 1500, 1374, 1780,
@@ -4051,12 +4051,12 @@ Card.addAll([
      [Skill.divineshield, Skill.banish, Skill.nj],
      [Skill.divineshield, Skill.banish, Skill.nj]],
      // 40998 Almighty pandora of despair
-    /*["40998", "Almighty Pandora of Despair", "To be updated",
+    ["40998", "Almighty Pandora of Despair", "To be updated",
      Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.earth,
      2300, 1600, 1820, 1840, 1388, 1680,
      [Skill.vd, Skill.ds, Skill.ll],
      [Skill.vd, Skill.ds, Skill.ll],
-     [Skill.vd, Skill.ds, Skill.ll]],   */  
+     [Skill.vd, Skill.ds, Skill.ll]],    
     ["40999", "Liche", "To be updated",
      Event.none, Border.none, 5, Place.sanctum, 0, null, Shape.humanoid, Attribute.death,
      2280, 1040, 1720, 1640, 1383, 1760,
@@ -4082,12 +4082,12 @@ Card.addAll([
      [Skill.srevival, Skill.ddef20, Skill.bg],
      [Skill.srevival, Skill.bg, Skill.ds]],
      // 41003 Almighty Liche
-   /* ["41003", "Almighty Liche", "To be updated",
+    ["41003", "Almighty Liche", "To be updated",
      Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.darkness,
      2240, 1562, 1620, 1600, 1402, 1920,
      [Skill.novameteor, Skill.resistant, Skill.revival],
      [Skill.novameteor, Skill.resistant, Skill.revival],
-     [Skill.novameteor, Skill.resistant, Skill.revival]],   */  
+     [Skill.novameteor, Skill.resistant, Skill.revival]],     
     ["41004", "Nephthys", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.none, Attribute.darkness,
      2160, 2600, 1720, 1660, 1396, 1760,
@@ -4099,7 +4099,7 @@ Card.addAll([
      2220, 1280, 1560, 1500, 1400, 1820,
      [Skill.sap, Skill.wis10, Skill.datk20, Skill.dwis20 ,Skill.death4, Skill.revival],
      [Skill.sap, Skill.dwis20, Skill.death4],
-     [Skill.sap, Skill.death4, Skill.revival]]/*,
+     [Skill.sap, Skill.death4, Skill.revival]],
      // Almighty banshee 41009
     ["41009", "Almighty Banshee", "To be updated",
      Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.death,
@@ -4133,7 +4133,7 @@ Card.addAll([
      2220, 1530, 1400, 1200, 1420, 2080,
      [Skill.srevival, Skill.death4, Skill.resistant],
      [Skill.srevival, Skill.death4, Skill.resistant],
-     [Skill.srevival, Skill.death4, Skill.resistant],      
+     [Skill.srevival, Skill.death4, Skill.resistant]],      
     ["41015", "Danntag", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.beast, Attribute.earth,
      2160, 1540, 1760, 1760, 1410, 1600,
@@ -4273,18 +4273,18 @@ Card.addAll([
      [Skill.resistant, Skill.death4, Skill.sap],
      [Skill.resistant, Skill.death4, Skill.sap]],       
     ["41042", "Paimon", "To be updated",
-     Event.none, Border.none, 5, Place.quest, 0, null, Shape.none, Attribute.darkness,
+     Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.darkness,
      2280, 1740, 1540, 1580, 1410, 1880,
      [Skill.divineshield, Skill.aroundight, Skill.revival],
      [Skill.divineshield, Skill.aroundight, Skill.revival],
      [Skill.divineshield, Skill.aroundight, Skill.revival]],
      // almighty robin hood 41043
-    ["41043", "almighty Robin Hood", "To be updated",
+    ["41043", "Almighty Robin Hood", "To be updated",
      Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.wind,
-     2400, 320, 1824, 1760, 1412, 1620,
-     [Skill.divineshield, Skill.aroundight, Skill.revival],
-     [Skill.divineshield, Skill.aroundight, Skill.revival],
-     [Skill.divineshield, Skill.aroundight, Skill.revival]], 
+     2400, 320, 1825, 1760, 1412, 1620,
+     [Skill.ds, Skill.ddef20, Skill.slash3, Skill.bg, Skill.revival],
+     [Skill.ds, Skill.bg, Skill.revival],
+     [Skill.ds, Skill.bg, Skill.revival]]/*, 
      // True ifrit #
     ["?????", "True Ifrit", "To be updated",
      Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.giant, Attribute.fire,
@@ -4347,8 +4347,8 @@ Card.addAll([
      2360, 3560, 1760, 1800, 1386, 1620,
      [Skill.dr, Skill.dagi20, Skill.slash4, Skill.def10, Skill.blastmeteor, Skill.ssd],
      [Skill.dr, Skill.blastmeteor, Skill.ssd],
-     [Skill.dr, Skill.blastmeteor, Skill.ssd]]]     
-*/
+     [Skill.dr, Skill.blastmeteor, Skill.ssd]]   */  
+
 ]);
 
 Card.addLimitedTypes({

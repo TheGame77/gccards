@@ -6,7 +6,7 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
- /*       '2015/8/20': [
+        '2015/8/21': [
             "Added: " + Card.mklnk(40943) + ", " + Card.mklnk(40977) + ", " + Card.mklnk(41012) + ", " +
             Card.mklnk(41015) + ", " + Card.mklnk(41017) + ", " + Card.mklnk(41018) + ", " + Card.mklnk(41019) + ", " +
             Card.mklnk(41020) + ", " + Card.mklnk(41021) + ", " + Card.mklnk(41022) + ", " + Card.mklnk(41023) + ", " +
@@ -18,7 +18,7 @@ WhatIsNew.get = function() {
             Card.mklnk(41010) + ", " + Card.mklnk(41013) + ", " + Card.mklnk(41014) + ", " + Card.mklnk(41016) + ", " +
             Card.mklnk(41025) + ", " + Card.mklnk(41028) + ", " + Card.mklnk(41031) + ", " + Card.mklnk(41040) + ", " +
             Card.mklnk(41043) + "."                                                                                                     
-        ], */
+        ], 
         '2015/8/18': [
             "Added: " + Card.mklnk(40963) + ", " + Card.mklnk(40967) + ", " + Card.mklnk(40987) + ", " +
             Card.mklnk(40991) + ", " + Card.mklnk(40992) + ", " + Card.mklnk(40993) + ", " + Card.mklnk(40994) + ", " +
