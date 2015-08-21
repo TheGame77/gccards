@@ -4103,14 +4103,14 @@ Card.addAll([
      // Almighty banshee 41009
     ["41009", "Almighty Banshee", "To be updated",
      Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.death,
-     2220, 1280, 1560, 1500, 1400, 1820,
+     1880, 860, 1260, 1280, 1330, 1620,
      [Skill.revival, Skill.life, Skill.darkness3, Skill.wis25, Skill.death4],
      [Skill.revival, Skill.wis25, Skill.death4],
      [Skill.revival, Skill.wis25, Skill.death4]],     
      // Festive serenade banshee 41010
     ["41010", "Festive Serenade Banshee", "To be updated",
      Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.death,
-     2220, 1280, 1560, 1500, 1400, 1820,
+     2000, 1120, 1400, 10, 2800, 2480,
      [Skill.ep, Skill.darkness4, Skill.dwis20, Skill.banish, Skill.qp],
      [Skill.ep, Skill.banish, Skill.qp],
      [Skill.ep, Skill.banish, Skill.qp]],      
@@ -4347,7 +4347,7 @@ Card.addAll([
      2360, 3560, 1760, 1800, 1386, 1620,
      [Skill.dr, Skill.dagi20, Skill.slash4, Skill.def10, Skill.blastmeteor, Skill.ssd],
      [Skill.dr, Skill.blastmeteor, Skill.ssd],
-     [Skill.dr, Skill.blastmeteor, Skill.ssd]]     
+     [Skill.dr, Skill.blastmeteor, Skill.ssd]]]     
 */
 ]);
 
