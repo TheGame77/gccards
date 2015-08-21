@@ -4035,7 +4035,7 @@ Card.addAll([
     ["40995", "Troll King", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.giant, Attribute.earth,
      2320, 1600, 1740, 1800, 1384, 1500,
-     [Skill.ep, Skill.gs, Skill.def20, Skill.Wis20, Skill.dwis20, Skill.sap],
+     [Skill.ep, Skill.gs, Skill.def20, Skill.wis20, Skill.dwis20, Skill.sap],
      [Skill.ep, Skill.gs, Skill.def20],
      [Skill.ep, Skill.gs, Skill.sap]],
     ["40996", "Nehushtan", "To be updated",
