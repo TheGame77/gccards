@@ -4114,7 +4114,7 @@ Card.addAll([
      [Skill.ep, Skill.darkness4, Skill.dwis20, Skill.banish, Skill.qp],
      [Skill.ep, Skill.banish, Skill.qp],
      [Skill.ep, Skill.banish, Skill.qp]],      
-    ["41012", "Rockbouquet", "To be updated",
+    ["41012", "Rockbouquet", "One of the Seven Heroes of Romancing Saga 2. Man cannot resist the charms of this sole female hero",
      Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.lightning,
      2280, 1640, 1500, 1540, 1411, 1840,
      [Skill.aroundight, Skill.smr, Skill.vd],
@@ -4347,7 +4347,21 @@ Card.addAll([
      2360, 3560, 1760, 1800, 1386, 1620,
      [Skill.dr, Skill.dagi20, Skill.slash4, Skill.def10, Skill.blastmeteor, Skill.ssd],
      [Skill.dr, Skill.blastmeteor, Skill.ssd],
-     [Skill.dr, Skill.blastmeteor, Skill.ssd]]   */  
+     [Skill.dr, Skill.blastmeteor, Skill.ssd]],
+    ["?????", "Noel", "One of the Seven Heroes of Romancing Saga 2. The always calm and chivalrous older brother of Rockbouquet",
+     Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.humanoid, Attribute.darkness,
+     2300, 1520, 1760, 1680, 1412, 1620,
+     [Skill.revival, Skill.sgs, Skill.resistant],
+     [Skill.revival, Skill.sgs, Skill.resistant],
+     [Skill.revival, Skill.sgs, Skill.resistant]],
+    ["?????", "Souvie", "One of the Seven Heroes of Romancing Saga 2. Cousin to Wagnus whose name means 'King of the Sea'",
+     Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.water,
+     1600, 1040, 1480, 1380, 1344, 1540,
+     [Skill.nj, Skill.water4, Skill.qs],
+     [Skill.nj, Skill.water4, Skill.qs],
+     [Skill.nj, Skill.water4, Skill.qs]]     
+     
+     */  
 
 ]);
 

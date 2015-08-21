@@ -6,6 +6,14 @@ WhatIsNew.get = function() {
             "<span class='warning'>I am too busy to update regularly. If anyone wants to contribute (or even take over), please let me know. Requirements:</span>" +
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
+/*        '2015/?/??': [
+            "Romancing Saga 2: " + Card.mklnk(?????) + ", " + Card.mklnk(?????) + ".",
+            "Event New Card: " + Card.mklnk(?????) + ", " + Card.mklnk(?????) + ".",            
+            "Event New Card: " + Card.mklnk(?????) + ", " + Card.mklnk(?????) + ".",            
+            ""True Cards: ": " + Card.mklnk(?????) + ", " + Card.mklnk(?????) + ", " + Card.mklnk(?????) + ", " +
+            Card.mklnk(?????) + ", " + Card.mklnk(?????) + ".",
+            "40th Skyborne Coliseum Reward: " + Card.mklnk(?????) + "."
+        ],*/        
         '2015/8/21': [
             "Event New Cards: " + Card.mklnk(40943) + ", " + Card.mklnk(40977) + ", " + Card.mklnk(41012) + ", " +
             Card.mklnk(41015) + ", " + Card.mklnk(41026) + ", " + Card.mklnk(41027) + ", " + Card.mklnk(41029) + ", " +
