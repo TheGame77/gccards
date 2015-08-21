@@ -7,24 +7,34 @@ WhatIsNew.get = function() {
                 "<ul><li><span class='warning'>Javascript programming</span></li><li><span class='warning'>Git</span></li></ul>"
         ],
         '2015/8/21': [
-            "New Cards: " + Card.mklnk(40943) + ", " + Card.mklnk(40977) + ", " + Card.mklnk(41012) + ", " +
-            Card.mklnk(41015) + ", " + Card.mklnk(41022) + ", " + Card.mklnk(41023) + ", " +
-            Card.mklnk(41024) + ", " + Card.mklnk(41026) + ", " + Card.mklnk(41027) + ", " + Card.mklnk(41029) + ", " +
-            Card.mklnk(41030) + ", " + Card.mklnk(41032) + ", " + Card.mklnk(41033) + ", " + Card.mklnk(41034) + ", " +
-            Card.mklnk(41035) + ", " + Card.mklnk(41042),
+            "Event New Cards: " + Card.mklnk(40943) + ", " + Card.mklnk(40977) + ", " + Card.mklnk(41012) + ", " +
+            Card.mklnk(41015) + ", " + Card.mklnk(41026) + ", " + Card.mklnk(41027) + ", " + Card.mklnk(41029) + ", " +
+            Card.mklnk(41030) + ", " + Card.mklnk(41042) + ".",
+            "Summer Event New Cards: " + Card.mklnk(41032) + ", " + Card.mklnk(41033) + ", " + Card.mklnk(41034) + ", " +
+            Card.mklnk(41035) + ".",
+            "Shadow Over Arcadiel: " + Card.mklnk(41022) + ", " + Card.mklnk(41023) + ", " + Card.mklnk(41024) + ".",
             "True Cards: " + Card.mklnk(41017) + ", " + Card.mklnk(41018) + ", " + Card.mklnk(41019) + ", " +
             Card.mklnk(41020) + ", " + Card.mklnk(41021) + ".",
-            "Almighties: " + Card.mklnk(40955) + ", " + Card.mklnk(40956) + ", " + Card.mklnk(40959) + ", " +
-            Card.mklnk(40960) + ", " + Card.mklnk(40998) + ", " + Card.mklnk(41003) + ", " + Card.mklnk(41009) + ", " +
-            Card.mklnk(41010) + ", " + Card.mklnk(41013) + ", " + Card.mklnk(41014) + ", " + Card.mklnk(41016) + ", " +
-            Card.mklnk(41025) + ", " + Card.mklnk(41028) + ", " + Card.mklnk(41031) + ", " + Card.mklnk(41040) + ", " +
-            Card.mklnk(41043) + "."                                                                                                     
+            "28th Skyborne Coliseum Reward: " + Card.mklnk(40955) + ", " + Card.mklnk(40956) + ".",            
+            "29th Skyborne Coliseum Reward: " + Card.mklnk(40959) + ", " + Card.mklnk(40960) + ".",            
+            "30th Skyborne Coliseum Reward: " + Card.mklnk(40998) + ".",            
+            "31st Skyborne Coliseum Reward: " + Card.mklnk(41003) + ".",            
+            "32nd Skyborne Coliseum Reward: " + Card.mklnk(41009) + ", " + Card.mklnk(41010) + ".",          
+            "33rd Skyborne Coliseum Reward: " + Card.mklnk(41013) + ", " + Card.mklnk(41014) + ".",                
+            "34th Skyborne Coliseum Reward: " + Card.mklnk(41016) + ".",            
+            "35th Skyborne Coliseum Reward: " + Card.mklnk(41025) + ".",            
+            "36th Skyborne Coliseum Reward: " + Card.mklnk(41028) + ".",            
+            "37th Skyborne Coliseum Reward: " + Card.mklnk(41031) + ".",            
+            "38th Skyborne Coliseum Reward: " + Card.mklnk(41040) + ".",            
+            "39th Skyborne Coliseum Reward: " + Card.mklnk(41043) + "."                                                                                                    
         ], 
         '2015/8/18': [
+            "Arcadiel: " + Card.mklnk(40991) + ", " + Card.mklnk(40992) + ", " + Card.mklnk(40993) + ", " + Card.mklnk(40994) + ", " +
+            Card.mklnk(40995) + ".",
+            "10th Invitation: " + Card.mklnk(40996) + ", " + Card.mklnk(40997) + ".",
+            "KCII: " + Card.mklnk(40999) + ", " + Card.mklnk(41000) + ", " + Card.mklnk(41001) + ", " + Card.mklnk(41002) + ".",            
             "Added: " + Card.mklnk(40963) + ", " + Card.mklnk(40967) + ", " + Card.mklnk(40987) + ", " +
-            Card.mklnk(40991) + ", " + Card.mklnk(40992) + ", " + Card.mklnk(40993) + ", " + Card.mklnk(40994) + ", " +
-            Card.mklnk(40995) + ", " + Card.mklnk(40996) + ", " + Card.mklnk(40997) + ", " + Card.mklnk(40999) + ", " +
-            Card.mklnk(41000) + ", " + Card.mklnk(41001) + ", " + Card.mklnk(41002) + ", " + Card.mklnk(41004) + ", " +
+            Card.mklnk(40996) + ", " + Card.mklnk(40997) + ", " + Card.mklnk(41004) + ", " +
             Card.mklnk(41007) + "."
         ],
         '2015/8/17': [
