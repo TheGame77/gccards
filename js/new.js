@@ -42,8 +42,7 @@ WhatIsNew.get = function() {
             "10th Invitation: " + Card.mklnk(40996) + ", " + Card.mklnk(40997) + ".",
             "KCII: " + Card.mklnk(40999) + ", " + Card.mklnk(41000) + ", " + Card.mklnk(41001) + ", " + Card.mklnk(41002) + ".",            
             "Added: " + Card.mklnk(40963) + ", " + Card.mklnk(40967) + ", " + Card.mklnk(40987) + ", " +
-            Card.mklnk(40996) + ", " + Card.mklnk(40997) + ", " + Card.mklnk(41004) + ", " +
-            Card.mklnk(41007) + "."
+            Card.mklnk(41004) + ", " + Card.mklnk(41007) + "."
         ],
         '2015/8/17': [
             "Added: " + Card.mklnk(40872) + ", " + Card.mklnk(40874) + ", " + Card.mklnk(40875) + ", " +
