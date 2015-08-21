@@ -4360,7 +4360,7 @@ Card.addAll([
      [Skill.nj, Skill.water4, Skill.qs],
      [Skill.nj, Skill.water4, Skill.qs],
      [Skill.nj, Skill.water4, Skill.qs]]     
-     
+     // almighty Princess Kushinada #?????
      */  
 
 ]);
