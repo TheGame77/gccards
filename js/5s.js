@@ -4359,8 +4359,14 @@ Card.addAll([
      1600, 1040, 1480, 1380, 1344, 1540,
      [Skill.nj, Skill.water4, Skill.qs],
      [Skill.nj, Skill.water4, Skill.qs],
-     [Skill.nj, Skill.water4, Skill.qs]]     
+     [Skill.nj, Skill.water4, Skill.qs]],     
      // almighty Princess Kushinada #?????
+    ["?????", "Almighty Princess Kushinada", "A divine princess whose sisters have been taken by a vile serpent, while she herself was saved by the gods.",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.earth,
+     2340, 1560, 1820, 1710, 1404, 1660,
+     [Skill.qs, Skill.vd, Skill.ll],
+     [Skill.qs, Skill.vd, Skill.ll],
+     [Skill.qs, Skill.vd, Skill.ll]]         
      */  
 
 ]);
