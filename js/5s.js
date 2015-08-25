@@ -4301,7 +4301,7 @@ Card.addAll([
      [Skill.sap, Skill.lightning4, Skill.mvs]],        
      // True Morrighan #
     ["?????", "True Morrigan", "To be updated",
-     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.female, Attribute.Death,
+     Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.female, Attribute.death,
      1700, 936, 1620, 1240, 1354, 1340,
      [Skill.ls, Skill.gs, Skill.qs],
      [Skill.ls, Skill.gs, Skill.qs],
