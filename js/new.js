@@ -17,7 +17,7 @@ WhatIsNew.get = function() {
             Card.mklnk(?????) + ", " + Card.mklnk(?????) + ".",
             "40th Skyborne Coliseum Reward: " + Card.mklnk(?????) + "." // almighty Princess Kushinada
         ],*/  
-        '2015/8/21': [
+        '2015/8/25': [
             "Event New Cards: " + Card.mklnk(40943) + ", " + Card.mklnk(40977) + ", " + Card.mklnk(41012) + ", " +
             Card.mklnk(41015) + ", " + Card.mklnk(41026) + ", " + Card.mklnk(41027) + ", " + Card.mklnk(41029) + ", " +
             Card.mklnk(41030) + ", " + Card.mklnk(41042) + ".",
