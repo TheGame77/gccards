@@ -323,7 +323,8 @@ var Locale = function(l) {
                 new Array("Soul Taker",        "Physical strike"),
                 new Array("Blast Meteor",      "Ignore defense"),
                 new Array("Nova Meteor",       "Ignore wisdom"),
-                new Array("Healing Light",     "Regenerate")
+                new Array("Healing Light",     "Regenerate"),
+                new Array("Firestrom",           "Fire5+S")
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",
@@ -757,7 +758,8 @@ var Locale = function(l) {
                 new Array("Soul Taker",        "Physical strike"),
                 new Array("Blast Meteor",      "Ignore defense"),
                 new Array("Nova Meteor",       "Ignore wisdom"),
-                new Array("Healing Light",     "Regenerate")
+                new Array("Healing Light",     "Regenerate"),
+                new Array("Firestrom",           "Fire5+S")                              
             ),
             exskills: new Array(
                 "火属性ガーディアンの全ステータスを10%アップ",
