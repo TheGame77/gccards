@@ -9,6 +9,9 @@ WhatIsNew.get = function() {
 /*        'For Test Usage': [
             "New Card: " + Card.mklnk(?????) + "."
         ],*/ 
+        /*'2015/8/??': [
+            "Romancing Saga 2: " + Card.mklnk(42012) + "."
+        ], */
         '2015/8/26': [
             "Romancing Saga 2: " + Card.mklnk(41054) + ", " + Card.mklnk(41055) + ".",
             "Arcadiel: " + Card.mklnk(41052) + ", " + Card.mklnk(41053) + ".",

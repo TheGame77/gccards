@@ -734,7 +734,8 @@ var Skill = (function() {
         [124, SKILL_OTHER, "soultaker",            new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0], // Soul Taker (Physical strike)
         [125, SKILL_ATTACK, "blastmeteor",         new Cost(0,    1300), stone_no,  nbuff({}),                Attribute.none, 0], // Blast Meteor (Ignore defense)
         [126, SKILL_ATTACK, "novameteor",          new Cost(0,    1300), stone_no,  nbuff({}),                Attribute.none, 0], // Nova Meteor (Ignore wisdom)
-        [127, SKILL_OTHER, "healinglight",         new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0] // Healing Light]
+        [127, SKILL_OTHER, "healinglight",         new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0], // Healing Light
+        [128, SKILL_ATTACK, "fire5s",              new Cost(0,    1500), stone_no,  nbuff({}),                Attribute.fire, 6] // Firestrom (Fire 5+S)             
     ];
 
     var skills = {
