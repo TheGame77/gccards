@@ -9,14 +9,17 @@ WhatIsNew.get = function() {
 /*        'For Test Usage': [
             "New Card: " + Card.mklnk(?????) + "."
         ],*/ 
-/*        '2015/?/??': [
-            "Romancing Saga 2: " + Card.mklnk(?????) + ", " + Card.mklnk(?????) + ".", // Noel and Souvie
-            "Arcadiel: " + Card.mklnk(?????) + ", " + Card.mklnk(?????) + ".",         // Rhodante and Grandes Jorasses   
-            "Event New Card: " + Card.mklnk(?????) + ", " + Card.mklnk(?????) + ".",   // Izanagi and Executioner Scylla         
-            ""True Cards: ": " + Card.mklnk(?????) + ", " + Card.mklnk(?????) + ", " + Card.mklnk(?????) + ", " +
-            Card.mklnk(?????) + ", " + Card.mklnk(?????) + ".",
-            "40th Skyborne Coliseum Reward: " + Card.mklnk(?????) + "." // almighty Princess Kushinada
-        ],*/  
+        '2015/8/26': [
+            "Romancing Saga 2: " + Card.mklnk(42012) + "."
+        ], 
+        '2015/8/25': [
+            "Romancing Saga 2: " + Card.mklnk(42010) + ", " + Card.mklnk(42009) + ".", // Noel and Souvie
+            "Arcadiel: " + Card.mklnk(42007) + ", " + Card.mklnk(42008) + ".",         // Rhodante and Grandes Jorasses   
+            "Event New Card: " + Card.mklnk(42005) + ", " + Card.mklnk(42006) + ".",   // Izanagi and Executioner Scylla         
+            "True Cards: " + Card.mklnk(42000) + ", " + Card.mklnk(42001) + ", " + Card.mklnk(42002) + ", " +
+            Card.mklnk(42003) + ", " + Card.mklnk(42004) + ".",
+            "40th Skyborne Coliseum Reward: " + Card.mklnk(42011) + "." // almighty Princess Kushinada
+        ],  
         '2015/8/21': [
             "Event New Cards: " + Card.mklnk(40943) + ", " + Card.mklnk(40977) + ", " + Card.mklnk(41012) + ", " +
             Card.mklnk(41015) + ", " + Card.mklnk(41026) + ", " + Card.mklnk(41027) + ", " + Card.mklnk(41029) + ", " +
