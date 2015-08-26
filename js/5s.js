@@ -4409,9 +4409,13 @@ Card.addLimitedTypes({
     "40752": [Type.cool, Type.coolr],   // Karabu
     "40842": [Type.cool, Type.coolr],   // Undead Sisters
     "40843": [Type.cool, Type.coolr],    // Dracula
+    "40955": [Type.cool, Type.coolr],    // Alm Geri-Freki
     "40957": [Type.cool, Type.coolr, Type.ace, Type.acer],    // Jyestha
+    "40959": [Type.cool, Type.coolr],    // Alm Vesper Hound    
     "40996": [Type.cool, Type.coolr],    // Nehushtan
-    "40997": [Type.cool, Type.coolr]    // Otohime
+    "40997": [Type.cool, Type.coolr],    // Otohime
+    "41009": [Type.cool, Type.coolr],    // Alm Banshee
+    "41013": [Type.cool, Type.coolr]    // Alm Culebre   
 });
 
 Card.addNotes({
