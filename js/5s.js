@@ -4265,91 +4265,79 @@ Card.addAll([
      2400, 320, 1825, 1760, 1412, 1620,
      [Skill.ds, Skill.ddef20, Skill.slash3, Skill.bg, Skill.revival],
      [Skill.ds, Skill.bg, Skill.revival],
-     [Skill.ds, Skill.bg, Skill.revival]]/*,
-     // True ifrit #
-    ["?????", "True Ifrit", "To be updated",
+     [Skill.ds, Skill.bg, Skill.revival]],
+    ["41044", "True Ifrit", "To be updated",
      Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.giant, Attribute.fire,
      1620, 1080, 1220, 1260, 1346, 1660,
      [Skill.wis25, Skill.fire4, Skill.ds],
      [Skill.wis25, Skill.fire4, Skill.ds],
-     [Skill.wis25, Skill.fire4, Skill.ds]],     
-     // True Lightning Lord #
-    ["?????", "True Lightning Lord", "To be updated",
+     [Skill.wis25, Skill.fire4, Skill.ds]],
+    ["41045", "True Lightning Lord", "To be updated",
      Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.humanoid, Attribute.lightning,
      1600, 730, 1240, 1240, 1344, 1640,
      [Skill.sap, Skill.datk20, Skill.ddef20, Skill.lightning3, Skill.lightning4, Skill.mvs],
      [Skill.sap, Skill.lightning4, Skill.mvs],
-     [Skill.sap, Skill.lightning4, Skill.mvs]],        
-     // True Morrighan #
-    ["?????", "True Morrigan", "To be updated",
+     [Skill.sap, Skill.lightning4, Skill.mvs]],
+    ["41046", "True Morrigan", "To be updated",
      Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.female, Attribute.death,
      1700, 936, 1620, 1240, 1354, 1340,
      [Skill.ls, Skill.gs, Skill.qs],
      [Skill.ls, Skill.gs, Skill.qs],
-     [Skill.ls, Skill.gs, Skill.qs]],      
-     // True Behemoth #
-    ["?????", "True Behemoth", "To be updated",
+     [Skill.ls, Skill.gs, Skill.qs]],
+    ["41047", "True Behemoth", "To be updated",
      Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.beast, Attribute.earth,
      1720, 1178, 1660, 1400, 1320, 1120,
      [Skill.divineshield, Skill.dp, Skill.ls],
      [Skill.divineshield, Skill.dp, Skill.ls],
-     [Skill.divineshield, Skill.dp, Skill.ls]],      
-     // True Nike #
-    ["?????", "True Nike", "To be updated",
+     [Skill.divineshield, Skill.dp, Skill.ls]],
+    ["41048", "True Nike", "To be updated",
      Event.none, Border.none, 5, Place.aedengard, 0, null, Shape.circular, Attribute.wind,
      1580, 1108, 1200, 1200, 1348, 1640,
      [Skill.banish, Skill.dwis20, Skill.dagi20, Skill.agi20, Skill.revival, Skill.resistant],
      [Skill.banish, Skill.revival, Skill.resistant],
-     [Skill.banish, Skill.revival, Skill.resistant]],      
-     // Izanagi #
-    ["?????", "Izanagi", "To be updated",
+     [Skill.banish, Skill.revival, Skill.resistant]],
+    ["41049", "Izanagi", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.humanoid, Attribute.light,
      2280, 1220, 1760, 1660, 1404, 1660,
      [Skill.soultaker, Skill.blastmeteor, Skill.resistant],
      [Skill.soultaker, Skill.blastmeteor, Skill.resistant],
-     [Skill.soultaker, Skill.blastmeteor, Skill.resistant]],      
-     // Executioner Scylla #
-    ["?????", "Executioner Scylla", "To be updated",
+     [Skill.soultaker, Skill.blastmeteor, Skill.resistant]],
+    ["41050", "Executioner Scylla", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.giant, Attribute.darkness,
      2340, 1380, 1740, 1800, 1396, 1600,
      [Skill.divineshield, Skill.slash3, Skill.atk20, Skill.physical4, Skill.gs, Skill.qp],
      [Skill.divineshield, Skill.atk20, Skill.gs],
-     [Skill.divineshield, Skill.gs, Skill.qp]],      
-     // Rhodante #
-    ["?????", "Rhodante", "To be updated",
+     [Skill.divineshield, Skill.gs, Skill.qp]],
+    ["41051", "Almighty Princess Kushinada", "A divine princess whose sisters have been taken by a vile serpent, while she herself was saved by the gods.",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.earth,
+     2340, 1560, 1820, 1710, 1404, 1660,
+     [Skill.qs, Skill.vd, Skill.ll],
+     [Skill.qs, Skill.vd, Skill.ll],
+     [Skill.qs, Skill.vd, Skill.ll]],
+    ["41052", "Rhodante", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.circular, Attribute.wind,
      2270, 1300, 1500, 1600, 1412, 1880,
      [Skill.revival, Skill.wind3, Skill.dwis20, Skill.wind4, Skill.np, Skill.banish],
      [Skill.revival, Skill.np, Skill.banish],
-     [Skill.revival, Skill.np, Skill.banish]],      
-     // Grandes Jorasses #
-    ["?????", "Grandes Jorasses", "To be updated",
+     [Skill.revival, Skill.np, Skill.banish]],
+    ["41053", "Grandes Jorasses", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.beast, Attribute.earth,
      2360, 3560, 1760, 1800, 1386, 1620,
      [Skill.dr, Skill.dagi20, Skill.slash4, Skill.def10, Skill.blastmeteor, Skill.ssd],
      [Skill.dr, Skill.blastmeteor, Skill.ssd],
      [Skill.dr, Skill.blastmeteor, Skill.ssd]],
-    ["?????", "Noel", "One of the Seven Heroes of Romancing Saga 2. The always calm and chivalrous older brother of Rockbouquet",
+    ["41054", "Noel", "One of the Seven Heroes of Romancing Saga 2. The always calm and chivalrous older brother of Rockbouquet",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.humanoid, Attribute.darkness,
      2300, 1520, 1760, 1680, 1412, 1620,
      [Skill.revival, Skill.sgs, Skill.resistant],
      [Skill.revival, Skill.sgs, Skill.resistant],
      [Skill.revival, Skill.sgs, Skill.resistant]],
-    ["?????", "Souvie", "One of the Seven Heroes of Romancing Saga 2. Cousin to Wagnus whose name means 'King of the Sea'",
+    ["41055", "Souvie", "One of the Seven Heroes of Romancing Saga 2. Cousin to Wagnus whose name means 'King of the Sea'",
      Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.water,
      1600, 1040, 1480, 1380, 1344, 1540,
      [Skill.nj, Skill.water4, Skill.qs],
      [Skill.nj, Skill.water4, Skill.qs],
-     [Skill.nj, Skill.water4, Skill.qs]],     
-     // almighty Princess Kushinada #?????
-    ["?????", "Almighty Princess Kushinada", "A divine princess whose sisters have been taken by a vile serpent, while she herself was saved by the gods.",
-     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.earth,
-     2340, 1560, 1820, 1710, 1404, 1660,
-     [Skill.qs, Skill.vd, Skill.ll],
-     [Skill.qs, Skill.vd, Skill.ll],
-     [Skill.qs, Skill.vd, Skill.ll]]         
-     */  
-
+     [Skill.nj, Skill.water4, Skill.qs]]
 ]);
 
 Card.addLimitedTypes({
@@ -4402,7 +4390,7 @@ Card.addLimitedTypes({
     "40996": [Type.cool, Type.coolr],    // Nehushtan
     "40997": [Type.cool, Type.coolr],    // Otohime
     "41009": [Type.cool, Type.coolr],    // Alm Banshee
-    "41013": [Type.cool, Type.coolr]    // Alm Culebre   
+    "41013": [Type.cool, Type.coolr]    // Alm Culebre
 });
 
 Card.addNotes({
