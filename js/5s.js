@@ -4320,7 +4320,7 @@ Card.addAll([
      [Skill.revival, Skill.wind3, Skill.dwis20, Skill.wind4, Skill.np, Skill.banish],
      [Skill.revival, Skill.wind4, Skill.np],
      [Skill.revival, Skill.np, Skill.banish]],      
-    ["42008", "Grandes Jorasses", "To be updated",
+    ["41053", "Grandes Jorasses", "To be updated",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.beast, Attribute.earth,
      2360, 3560, 1760, 1800, 1386, 1620,
      [Skill.dr, Skill.dagi20, Skill.slash4, Skill.def10, Skill.blastmeteor, Skill.ssd],
