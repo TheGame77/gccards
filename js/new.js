@@ -10,6 +10,10 @@ WhatIsNew.get = function() {
             "New Card: " + Card.mklnk(?????) + "."
         ],*/ 
         /*'2015/8/??': [
+            "41st Skyborne Coliseum Reward: " + Card.mklnk(?????) + ".",
+            "Event New Cards: " + Card.mklnk(?????) + ", " + Card.mklnk(?????) + ", " + Card.mklnk(?????) + "."            
+        ], */
+        /*'2015/8/??': [
             "Romancing Saga 2: " + Card.mklnk(42012) + "."
         ], */
         '2015/8/26': [
