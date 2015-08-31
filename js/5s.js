@@ -4338,6 +4338,12 @@ Card.addAll([
      [Skill.nj, Skill.water4, Skill.qs],
      [Skill.nj, Skill.water4, Skill.qs],
      [Skill.nj, Skill.water4, Skill.qs]]/*,
+    ["????", "Wagnus", "The androgynous leader of the seven heroes of the romancing saga 2 who incinerates foes with deadly fire magic",
+     Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.bird, Attribute.fire,
+     2280, 1360, 1580, 1682, 1402, 1860,
+     [Skill.sap, Skill.fire5s, Skill.ep],
+     [Skill.sap, Skill.fire5s, Skill.ep],
+     [Skill.sap, Skill.fire5s, Skill.ep]],
     ["????", "Almighty Rockbouquet", "One of the Seven Heroes of Romancing Saga 2. Man cannot resist the charms of this sole female hero",
      Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.lightning,
      2300, 1640, 1680, 1640, 1412, 1920,
@@ -4361,7 +4367,7 @@ Card.addAll([
      2300, 1600, 1740, 1560, 1414, 1840,
      [Skill.smr, Skill.datk20, Skill.poison3, Skill.dwis20, Skill.gs, Skill.divineshield],
      [Skill.smr, Skill.dwis20, Skill.gs],
-     [Skill.smr, Skill.gs, Skill.divineshield]]*/
+     [Skill.smr, Skill.gs, Skill.divineshield]]     */
 ]);
 
 Card.addLimitedTypes({
