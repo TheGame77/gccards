@@ -3854,7 +3854,7 @@ Card.addAll([
      [Skill.ls, Skill.dr, Skill.fb]],
     ["40897", "Almighty Eidolon Golem", "A defense-oriented Eidolon that truly shines against powerful opponents.",
      Event.none, Border.almighty, 5, Place.coliseum, 20, "40896", Shape.none, Attribute.earth,
-     2400, 1800, 1330, 640, 1800, 1360,
+     2400, 640, 1800, 1800, 1330, 1360,
      [Skill.ls, Skill.def20, Skill.ddef20, Skill.dr, Skill.fb],
      [Skill.ls, Skill.dr, Skill.fb],
      [Skill.ls, Skill.dr, Skill.fb]],
