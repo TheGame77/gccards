@@ -10,11 +10,14 @@ WhatIsNew.get = function() {
             "New Card: " + Card.mklnk(?????) + "."
         ],*/ 
         /*'2015/8/??': [
+            Aura Enfield/Bahamut damage rate updated         
+        ], */
+        /*'2015/8/??': [
             "41st Skyborne Coliseum Reward: " + Card.mklnk(?????) + ".",
             "Event New Cards: " + Card.mklnk(?????) + ", " + Card.mklnk(?????) + ", " + Card.mklnk(?????) + "."            
         ], */
         /*'2015/8/??': [
-            "Romancing Saga 2: " + Card.mklnk(42012) + "."
+            "Romancing Saga 2: " + Card.mklnk(42000) + "."
         ], */
         '2015/8/26': [
             "Romancing Saga 2: " + Card.mklnk(41054) + ", " + Card.mklnk(41055) + ".",
