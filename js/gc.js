@@ -157,7 +157,8 @@ var Place = (function() {
         [26, 13,  ["perditionkeep"]],      // Perdition Keep
         [27, 113, ["gsexchange"]],         // Guardian Soul Exchange
         [28, 14,  ["sanctum"]],             // The Sanctum
-        [29, 15,  ["arcadiel"]]             // Arcadiel
+        [29, 15,  ["arcadiel"]],             // Arcadiel
+        [30, 16,  ["aedengard_night"]]       // Aedengard Night
     ];
 
     var places = {
@@ -735,7 +736,8 @@ var Skill = (function() {
         [125, SKILL_ATTACK, "blastmeteor",         new Cost(0,    1300), stone_no,  nbuff({}),                Attribute.none, 0], // Blast Meteor (Ignore defense)
         [126, SKILL_ATTACK, "novameteor",          new Cost(0,    1300), stone_no,  nbuff({}),                Attribute.none, 0], // Nova Meteor (Ignore wisdom)
         [127, SKILL_OTHER, "healinglight",         new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0], // Healing Light
-        [128, SKILL_ATTACK, "fire5s",              new Cost(0,    1500), stone_no,  nbuff({}),                Attribute.fire, 6] // Firestrom (Fire 5+S)             
+        [128, SKILL_ATTACK, "fire5s",              new Cost(0,    1500), stone_no,  nbuff({}),                Attribute.fire, 6], // Firestrom (Fire 5+S)             
+        [129, SKILL_ATTACK, "laevateinn",          new Cost(0,    1400), stone_no,  nbuff({}),                Attribute.user, 4] // laevateinn            
     ];
 
     var skills = {

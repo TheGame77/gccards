@@ -43,7 +43,8 @@ var Locale = function(l) {
                 "Perdition Keep",
                 "Guardian Soul Exchange",
                 "The Sanctum",
-                "Arcadiel"
+                "Arcadiel",
+                "Aedengard Night"
             ),
             events: new Array(
                 "None",
@@ -324,7 +325,8 @@ var Locale = function(l) {
                 new Array("Blast Meteor",      "Ignore defense"),
                 new Array("Nova Meteor",       "Ignore wisdom"),
                 new Array("Healing Light",     "Regenerate"),
-                new Array("Firestrom",           "Fire5+S")
+                new Array("Firestrom",         "Fire5+S"),
+                new Array("Laevateinn",        "HP & MP damage")
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",
@@ -478,7 +480,8 @@ var Locale = function(l) {
                 "魔宮殿", // Perdition Keep
                 "ガーディアンソウル", // Guardian Soul
                 "サンクチュアリ", // Sanctum
-                "Arcadiel"
+                "Arcadiel",
+                "Aedengard Night"
             ),
             events: new Array(
                 "なし",
@@ -759,7 +762,8 @@ var Locale = function(l) {
                 new Array("Blast Meteor",      "Ignore defense"),
                 new Array("Nova Meteor",       "Ignore wisdom"),
                 new Array("Healing Light",     "Regenerate"),
-                new Array("Firestrom",           "Fire5+S")                              
+                new Array("Firestrom",           "Fire5+S"),
+                new Array("Laevateinn",        "HP & MP damage")                              
             ),
             exskills: new Array(
                 "火属性ガーディアンの全ステータスを10%アップ",

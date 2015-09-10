@@ -9,11 +9,16 @@ WhatIsNew.get = function() {
 /*        'For Test Usage': [
             "New Card: " + Card.mklnk(?????) + "."
         ],*/ 
+/*        '2015/?/??': [
+            "11th Invitation: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",
+            "42nd Skyborne Coliseum Reward: " + Card.mklnk(00000) + ".",
+            "Aedengard Night: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ", "+ Card.mklnk(00000) + ", " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + "."
+        ],*/
         '2015/9/9': [
             "Aura Enfield/Bahamut damage rate updated.",
-            "41st Skyborne Coliseum Reward: " + Card.mklnk("41060") + ".",
-            "Event New Cards: " + Card.mklnk("41063") + ", " + Card.mklnk("41064") + ", " + Card.mklnk("41065") + ".",
-            "Romancing Saga 2: " + Card.mklnk("41061") + "."
+            "41st Skyborne Coliseum Reward: " + Card.mklnk(41060) + ".",
+            "Event New Cards: " + Card.mklnk(41063) + ", " + Card.mklnk(41064) + ", " + Card.mklnk(41065) + ".",
+            "Romancing Saga 2: " + Card.mklnk(41061) + "."
         ],
         '2015/8/26': [
             "Romancing Saga 2: " + Card.mklnk(41054) + ", " + Card.mklnk(41055) + ".",

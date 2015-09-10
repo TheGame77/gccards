@@ -4350,7 +4350,12 @@ Card.addAll([
      [Skill.sap, Skill.fire5s, Skill.ep],
      [Skill.sap, Skill.fire5s, Skill.ep],
      [Skill.sap, Skill.fire5s, Skill.ep]],
-     // Almighty ichi 41062
+    ["41062", "Almighty Ichikishimahime", "This princess descended from the heavens to lead all souls who ply their trade on the seas from storm to safety.",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.water,
+     2300, 1500, 1600, 1600, 1412, 1920,
+     [Skill.banish, Skill.datk20, Skill.dwis20, Skill.wis25, Skill.revival],
+     [Skill.banish, Skill.wis25, Skill.revival],
+     [Skill.banish, Skill.wis25, Skill.revival]],     
     ["41063", "Tropic of Ashtoreth", "This demon princess with the look of an angel ventures out of the Abyss onto the hot sands to tempt the foolish.",
      Event.none, Border.none, 5, Place.arcadiel, 0, null, Shape.circular, Attribute.poison,
      2280, 1540, 1580, 1580, 1406, 1860,
@@ -4368,7 +4373,49 @@ Card.addAll([
      1660, 1060, 1220, 1280, 1348, 1660,
      [Skill.mr, Skill.bequeath, Skill.banish],
      [Skill.mr, Skill.bequeath, Skill.banish],
-     [Skill.mr, Skill.bequeath, Skill.banish]]
+     [Skill.mr, Skill.bequeath, Skill.banish]]/*,
+    ["00000", "Princess Arthur", "A young girl who holds the secret of the holy sword of legend. She fights alongside a great one-horned beast",
+     Event.none, Border.none, 5, Place.aedengard_night, 0, null, Shape.canine, Attribute.lightning,
+     2270, 1460, 1840, 1600, 1430, 1620,
+     [Skill.qs, Skill.dp, Skill.soultaker],
+     [Skill.qs, Skill.dp, Skill.soultaker],
+     [Skill.qs, Skill.dp, Skill.soultaker]],
+    ["00000", "Aglona", "Goddess of the river named 'Massacre' in the ancient tongue. Her bloodlust is not easilty sated.",
+     Event.none, Border.none, 5, Place.aedengard_night, 0, null, Shape.female, Attribute.water,
+     2380, 1820, 1800, 1720, 1430, 1660,
+     [Skill.resistant, Skill.laevateinn, Skill.healinglight],
+     [Skill.resistant, Skill.laevateinn, Skill.healinglight],
+     [Skill.resistant, Skill.laevateinn, Skill.healinglight]],
+    ["00000", "Vulcan", "The body of this god of fire is made of molten rock, and is honed through constant destruction and tempering.",
+     Event.none, Border.none, 5, Place.aedengard_night, 0, null, Shape.giant, Attribute.fire,
+     2220, 3560, 1750, 1780, 1400, 1640,
+     [Skill.divineshield, Skill.gs, Skill.ssd],
+     [Skill.divineshield, Skill.gs, Skill.ssd],
+     [Skill.divineshield, Skill.gs, Skill.ssd]],
+    ["00000", "Archmage Arcana", "A legendary hermit sage who is said to hold the twenty-two secrets that guide the fate of man.",
+     Event.none, Border.none, 5, Place.aedengard_night, 0, null, Shape.none, Attribute.wind,
+     2300, 1430, 1520, 1670, 1402, 1860,
+     [Skill.sap, Skill.novameteor, Skill.sds],
+     [Skill.sap, Skill.novameteor, Skill.sds],
+     [Skill.sap, Skill.novameteor, Skill.sds]],
+    ["00000", "Virsago", "A Prince of Hell who can find hidden truths in the dark secrets of the past, present, and future.",
+     Event.none, Border.none, 5, Place.aedengard_night, 0, null, Shape.none, Attribute.earth,
+     2260, 1480, 1760, 1840, 1402, 1600,
+     [Skill.deadlypoison, Skill.ll, Skill.revival],
+     [Skill.deadlypoison, Skill.ll, Skill.revival],
+     [Skill.deadlypoison, Skill.ll, Skill.revival]],
+    ["00000", "Assault Juggernaut", "An autonomous siege engine developed by an ancient civilization. It does not stop until its objective is completed.",
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.mecha,
+     2020, 2600, 1700, 1580, 1376, 1400,
+     [Skill.qs, Skill.dp, Skill.rendburst],
+     [Skill.qs, Skill.dp, Skill.rendburst],
+     [Skill.qs, Skill.dp, Skill.rendburst]],
+    ["00000", "Titan the Tremendous", "One of the old gods who vanished after the Great War, a battle for control of the heavens",
+     Event.none, Border.none, 5, Place.invitation, 0, null, Shape.none, Attribute.earth,
+     2120, 1140, 1680, 1600, 1370, 1460,
+     [Skill.ls, Skill.gs, Skill.ds],
+     [Skill.ls, Skill.gs, Skill.ds],
+     [Skill.ls, Skill.gs, Skill.ds]] */   
 ]);
 
 Card.addLimitedTypes({
@@ -4421,7 +4468,9 @@ Card.addLimitedTypes({
     "40996": [Type.cool, Type.coolr],    // Nehushtan
     "40997": [Type.cool, Type.coolr],    // Otohime
     "41009": [Type.cool, Type.coolr],    // Alm Banshee
-    "41013": [Type.cool, Type.coolr]    // Alm Culebre
+    "41013": [Type.cool, Type.coolr]/*,    // Alm Culebre
+    "00000": [Type.cool, Type.coolr],    // Assault Juggernaut
+    "00000": [Type.cool, Type.coolr]    // Titan the Tremendous   */
 });
 
 Card.addNotes({
@@ -4817,6 +4866,6 @@ ExCard.addAll([
      Event.none, ExType.blue, 5, Place.fp, 0, Shape.none, Attribute.wind,
      [ExSkill.suc_ds10, ExSkill.suc_ds15, ExSkill.suc_ds20]],
     ["45017", " Trismegistus", "A legendary thaumaturge that has lived for 50,000 years through the power of alchemic reincarnation.",
-     Event.none, ExType.blue, 5, Place.gsexchange, 0, Shape.none, Attribute.poison,
+     Event.none, ExType.red, 5, Place.gsexchange, 0, Shape.none, Attribute.poison,
      []] // TODO: Implement
 ]);
