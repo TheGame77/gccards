@@ -9,16 +9,12 @@ WhatIsNew.get = function() {
 /*        'For Test Usage': [
             "New Card: " + Card.mklnk(?????) + "."
         ],*/ 
-        /*'2015/8/??': [
-            Aura Enfield/Bahamut damage rate updated         
-        ], */
-        /*'2015/8/??': [
-            "41st Skyborne Coliseum Reward: " + Card.mklnk(?????) + ".",
-            "Event New Cards: " + Card.mklnk(?????) + ", " + Card.mklnk(?????) + ", " + Card.mklnk(?????) + "."            
-        ], */
-        /*'2015/8/??': [
-            "Romancing Saga 2: " + Card.mklnk(42000) + "."
-        ], */
+        '2015/9/9': [
+            "Aura Enfield/Bahamut damage rate updated.",
+            "41st Skyborne Coliseum Reward: " + Card.mklnk("41060") + ".",
+            "Event New Cards: " + Card.mklnk("41063") + ", " + Card.mklnk("41064") + ", " + Card.mklnk("41065") + ".",
+            "Romancing Saga 2: " + Card.mklnk("41061") + "."
+        ],
         '2015/8/26': [
             "Romancing Saga 2: " + Card.mklnk(41054) + ", " + Card.mklnk(41055) + ".",
             "Arcadiel: " + Card.mklnk(41052) + ", " + Card.mklnk(41053) + ".",
