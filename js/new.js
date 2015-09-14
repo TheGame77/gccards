@@ -8,7 +8,11 @@ WhatIsNew.get = function() {
         ],
 /*        'For Test Usage': [
             "New Card: " + Card.mklnk(?????) + "."
-        ],*/ 
+        ],*/
+/*        '2015/?/??': [
+            "42nd Skyborne Coliseum Reward: " + Card.mklnk(00000) + ".",
+            "Rite of Descent: " + Card.mklnk(00000) + "."
+        ],*/        
 /*        '2015/?/??': [
             "11th Invitation: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",
             "42nd Skyborne Coliseum Reward: " + Card.mklnk(00000) + ".",
