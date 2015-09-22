@@ -9,7 +9,10 @@ WhatIsNew.get = function() {
 /*        'For Test Usage': [
             "New Card: " + Card.mklnk(?????) + "."
         ],*/
-/*        '2015/9/21': [
+/*        '2015/?/??': [
+            "43rd Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ],*/
+/*        '2015/?/??': [
             "The Black Gatekeeper: " + Card.mklnk(00000) + ".",
             "Moonlight in the Darkness: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",
             "True Cards: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + "."

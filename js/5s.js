@@ -4475,7 +4475,13 @@ Card.addAll([
      1620, 1100, 1620, 1340, 1354, 1360,
      [Skill.revival, Skill.qs, Skill.ll],
      [Skill.revival, Skill.qs, Skill.ll],
-     [Skill.revival, Skill.qs, Skill.ll]]  */  
+     [Skill.revival, Skill.qs, Skill.ll]] ,
+    ["00000", "Almighty Spenta Mainyu", "",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.earth,
+     2320, 1430, 1760, 1700, 1410, 1600,
+     [Skill.divineshield, Skill.ddef20, Skill.slash4, Skill.gs, Skill.revival],
+     [Skill.divineshield, Skill.gs, Skill.revival],
+     [Skill.divineshield, Skill.gs, Skill.revival]]  */   
 ]);
 
 Card.addLimitedTypes({
