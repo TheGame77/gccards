@@ -326,7 +326,8 @@ var Locale = function(l) {
                 new Array("Nova Meteor",       "Ignore wisdom"),
                 new Array("Healing Light",     "Regenerate"),
                 new Array("Firestrom",         "Fire5+S"),
-                new Array("Laevateinn",        "HP & MP damage")
+                new Array("Laevateinn",        "HP & MP damage"),
+                new Array("Entrust",           "MP damage & pass on stats")                                              
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",
@@ -762,8 +763,9 @@ var Locale = function(l) {
                 new Array("Blast Meteor",      "Ignore defense"),
                 new Array("Nova Meteor",       "Ignore wisdom"),
                 new Array("Healing Light",     "Regenerate"),
-                new Array("Firestrom",           "Fire5+S"),
-                new Array("Laevateinn",        "HP & MP damage")                              
+                new Array("Firestrom",         "Fire5+S"),
+                new Array("Laevateinn",        "HP & MP damage"),                              
+                new Array("Entrust",           "MP damage & pass on stats")                              
             ),
             exskills: new Array(
                 "火属性ガーディアンの全ステータスを10%アップ",
