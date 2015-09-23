@@ -4475,7 +4475,19 @@ Card.addAll([
      2320, 1430, 1760, 1700, 1410, 1600,
      [Skill.divineshield, Skill.ddef20, Skill.slash4, Skill.gs, Skill.revival],
      [Skill.divineshield, Skill.gs, Skill.revival],
-     [Skill.divineshield, Skill.gs, Skill.revival]]  */   
+     [Skill.divineshield, Skill.gs, Skill.revival]],   
+    ["00000", "Alsiel", "A dark god of Gehenna and patron to the impious souls who have turned their backs on the Heavens",
+     Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.darkness,
+     2280, 1460, 1600, 1560, 1422, 1900,
+     [Skill.divineshield, Skill.death4, Skill.resistant],
+     [Skill.divineshield, Skill.death4, Skill.resistant],
+     [Skill.divineshield, Skill.death4, Skill.resistant]] ,   
+    ["00000", "Crusher Rhino", "An armored beast whose only instincts are to charge and destroy. its power has been harnessed for use in war.",
+     Event.none, Border.none, 5, Place.aedengard_night, 0, null, Shape.beast, Attribute.earth,
+     2300, 1260, 1780, 1720, 1430, 1580,
+     [Skill.qs, Skill.blastmeteor, Skill.soultaker],
+     [Skill.qs, Skill.blastmeteor, Skill.soultaker],
+     [Skill.qs, Skill.blastmeteor, Skill.soultaker]]   */  
 ]);
 
 Card.addLimitedTypes({
