@@ -19,13 +19,13 @@ WhatIsNew.get = function() {
         ],*/
 /*        '2015/?/??': [
             "42nd Skyborne Coliseum Reward: " + Card.mklnk(00000) + ".",
-            "Rite of Descent: " + Card.mklnk(00000) + "."
+            "Rite of Descent: " + Card.mklnk(00000) + "." Kagura
         ],*/        
-/*        '2015/?/??': [
-            "11th Invitation: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",
-            "42nd Skyborne Coliseum Reward: " + Card.mklnk(00000) + ".",
-            "Aedengard Night: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ", "+ Card.mklnk(00000) + ", " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + "."
-        ],*/
+        '2015/9/22': [
+            "11th Invitation: " + Card.mklnk(41073) + ", " + Card.mklnk(41074) + ".",
+            "42nd Skyborne Coliseum Reward: " + Card.mklnk(41075) + ".",
+            "Aedengard Night: " + Card.mklnk(41068) + ", " + Card.mklnk(41069) + ", "+ Card.mklnk(41070) + ", " + Card.mklnk(41071) + ", " + Card.mklnk(41072) + "."
+        ],
         '2015/9/9': [
             "Aura Enfield/Bahamut damage rate updated.",
             "41st Skyborne Coliseum Reward: " + Card.mklnk(41060) + ".",
