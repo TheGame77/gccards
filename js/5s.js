@@ -4487,7 +4487,19 @@ Card.addAll([
      2300, 1260, 1780, 1720, 1430, 1580,
      [Skill.qs, Skill.blastmeteor, Skill.soultaker],
      [Skill.qs, Skill.blastmeteor, Skill.soultaker],
-     [Skill.qs, Skill.blastmeteor, Skill.soultaker]]   */  
+     [Skill.qs, Skill.blastmeteor, Skill.soultaker]],
+    ["00000", "Almighty Princess Ashtoreth", "This duchess of Hell was once worshippedas a fertility goddessin the Promised Land",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.poison,
+     2340, 1362, 1640, 1600, 1418, 1940,
+     [Skill.qp, Skill.novameteor, Skill.mindcrash],
+     [Skill.qp, Skill.novameteor, Skill.mindcrash],
+     [Skill.qp, Skill.novameteor, Skill.mindcrash]],   
+    ["00000", "Krusegionn", "A dragon made of man, whose name is rarely spoken. Its black scales are said to protect it from all foes-even go.",
+     Event.none, Border.none, 5, Place.quests, 0, null, Shape.wolf, Attribute.none,
+     3540, 1160, 2050, 1940, 1414, 1700,
+     [Skill.dr, Skill.blastmeteor, Skill.resistant],
+     [Skill.dr, Skill.blastmeteor, Skill.resistant],
+     [Skill.dr, Skill.blastmeteor, Skill.resistant]]   */ 
 ]);
 
 Card.addLimitedTypes({

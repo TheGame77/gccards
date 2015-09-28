@@ -10,6 +10,10 @@ WhatIsNew.get = function() {
             "New Card: " + Card.mklnk(?????) + "."
         ],*/
 /*        '2015/?/??': [
+            "Name of the Cross: " + Card.mklnk(00000) + ".", //  Krusegionn
+            "44th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ], */
+/*        '2015/?/??': [
             "Searing Sun in the Night: " + Card.mklnk(00000) + ".", //  Alsiel
             "Barbarians in the Night: " + Card.mklnk(00000) + "."   //  Crusher Rhino
         ], */
