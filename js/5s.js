@@ -4499,7 +4499,31 @@ Card.addAll([
      3540, 1160, 2050, 1940, 1414, 1700,
      [Skill.dr, Skill.blastmeteor, Skill.resistant],
      [Skill.dr, Skill.blastmeteor, Skill.resistant],
-     [Skill.dr, Skill.blastmeteor, Skill.resistant]]   */ 
+     [Skill.dr, Skill.blastmeteor, Skill.resistant]] ,
+    ["00000", "Almighty Zeus", "",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.lightning,
+     2340, 1690, 1800, 1620, 1422, 1680,
+     [Skill.divineshield, Skill.blastmeteor, Skill.vd],
+     [Skill.divineshield, Skill.blastmeteor, Skill.vd],
+     [Skill.divineshield, Skill.blastmeteor, Skill.vd]],   
+    ["00000", "Nefarran", "This black-winged dragon lord's destructivepower has led people to refer to it as 'The Wings of Death'",
+     Event.none, Border.none, 5, Place.aedengard_night, 0, null, Shape.bird, Attribute.fire,
+     2330, 1460, 1800, 1640, 1430, 1700,
+     [Skill.resistant, Skill.blastmeteor, Skill.entrust],
+     [Skill.resistant, Skill.blastmeteor, Skill.entrust],
+     [Skill.resistant, Skill.blastmeteor, Skill.entrust]]  ,   
+    ["00000", "Ancient Fang", "An ancient lord of the Underworld who siphons the power of the stars for use in battle.",
+     Event.none, Border.none, 5, Place.aedengard_night, 0, null, Shape.humanoid, Attribute.earth,
+     2400, 1650, 1660, 1880, 1414, 1920,
+     [Skill.healinglight, Skill.aroundight, Skill.revival],
+     [Skill.healinglight, Skill.aroundight, Skill.revival],
+     [Skill.healinglight, Skill.aroundight, Skill.revival]]  ,   
+    ["00000", "True Phalanx", "A war machine designed for close-quarters combat. Its projecting lance can rip through any armor.",
+     Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.mecha,
+     1780, 1100, 1660, 1440, 1350, 1320,
+     [Skill.mr, Skill.bg, Skill.ls],
+     [Skill.mr, Skill.bg, Skill.ls],
+     [Skill.mr, Skill.bg, Skill.ls]]   */      
 ]);
 
 Card.addLimitedTypes({
