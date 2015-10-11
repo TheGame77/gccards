@@ -2813,6 +2813,15 @@ var Calculator = (function() {
                         var sk = (options.gs_critical || skill == Skill.sgs) ? 1 : -0.5;
                         var dmg = this.getDamage(status1.atk, sk, atk1, 1, status2.def, -1);
                         damage = Math.max(damage, dmg);
+                    } else if (skill == Skill.blastmeteor && status1.mp >= skill.cost.mp) {
+                        /* Attack by Blast Meteor. */
+                        var dmg = this.getDamage(status1.atk, 0.3, atk1, 1, status2.def, -1);
+                        damage = Math.max(damage, dmg);
+                    } else if (skill == Skill.novameteor && status1.mp >= skill.cost.mp) {
+                        /* Attack by Nova Meteor. */
+                        var attr = hasSkill(skills2, Skill.fb) ? 0.85 : (g1.attribute.isCriticalTo(g2.attribute) ? 1.15 : (g1.attribute.isBlockedBy(g2.attribute) ? 0.85 : 1));
+                        var dmg = this.getDamage(status1.wis, 0.3, wis1, attr, status2.wis, -1);
+                        damage = Math.max(damage, dmg);
                     } else if (skill == Skill.cd && status1.mp >= skill.cost.mp) {
                         /* Attack by Crash Drain/Life Leech. */
                         var dmg = this.getDamage(status1.atk, this.skill_mult[skill.level - 1], atk1, 1, status2.def, def2);
