@@ -4457,12 +4457,12 @@ Card.addAll([
      1800, 940, 1680, 1440, 1360, 1380,
      [Skill.qs, Skill.bg, Skill.ls],
      [Skill.qs, Skill.bg, Skill.ls],
-     [Skill.qs, Skill.bg, Skill.ls]],   
+     [Skill.qs, Skill.bg, Skill.ls]], 
     ["00000", "True Orion", "With no mortal match, this huntress's prowess is so great, even gods know her name and the arrows she lets fly.",
      Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.water,
      1640, 1360, 1600, 1220, 1352, 1360,
-     [Skill.qs, Skill.laevateinn, Skill.ds],
-     [Skill.qs, Skill.laevateinn, Skill.ds],
+     [Skill.qs, Skill.atkagi10, Skill.slash3, Skill.slash4, Skill.laevateinn, Skill.ds],
+     [Skill.qs, Skill.atkagi10, Skill.laevateinn],
      [Skill.qs, Skill.laevateinn, Skill.ds]],   
     ["00000", "True Obsidian Knight", "This ominous sentinel guards the sacred chalice with a spear said to cause grievous, untreatable wounds.",
      Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.poison,
@@ -4523,7 +4523,13 @@ Card.addAll([
      1780, 1100, 1660, 1440, 1350, 1320,
      [Skill.mr, Skill.bg, Skill.ls],
      [Skill.mr, Skill.bg, Skill.ls],
-     [Skill.mr, Skill.bg, Skill.ls]]   */      
+     [Skill.mr, Skill.bg, Skill.ls]]   ,
+    ["00000", "Almighty Clotho of Calamities", "The eldest of the Fates, the strings of destiny she weaves out lead to certain death.",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.mecha,
+     2070, 3700, 1600, 1500, 1422, 1960,
+     [Skill.ssd, Skill.ds, Skill.death4],
+     [Skill.ssd, Skill.ds, Skill.death4],
+     [Skill.ssd, Skill.ds, Skill.death4]]  */        
 ]);
 
 Card.addLimitedTypes({

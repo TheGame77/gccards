@@ -10,6 +10,10 @@ WhatIsNew.get = function() {
             "New Card: " + Card.mklnk(?????) + "."
         ],*/
 /*        '2015/??/??': [
+            "Implementing Blast/Nova Meteor" + ".", 
+            "46th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ], */
+/*        '2015/??/??': [
             "The Steel Annihilator: " + Card.mklnk(00000) + ".", //   True Phalanx
             "Fanged Guardians of the Night: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".", // Ancient Fang & Nefarran          
             "45th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
