@@ -10,6 +10,7 @@ WhatIsNew.get = function() {
             "New Card: " + Card.mklnk(?????) + "."
         ],*/
 /*        '2015/??/??': [
+            "The Centaur's Judgement: " + Card.mklnk(00000) + ".",   //Zeno Centaur
             "Implementing Blast/Nova Meteor" + ".", 
             "46th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
         ], */

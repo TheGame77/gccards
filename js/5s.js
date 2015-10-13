@@ -4529,7 +4529,13 @@ Card.addAll([
      2070, 3700, 1600, 1500, 1422, 1960,
      [Skill.ssd, Skill.ds, Skill.death4],
      [Skill.ssd, Skill.ds, Skill.death4],
-     [Skill.ssd, Skill.ds, Skill.death4]]  */        
+     [Skill.ssd, Skill.ds, Skill.death4]],
+    ["00000", "Zeno Centaur", "Imbued with artificial intelligence, this war machine autonomously discerns and punishes humans for their crimes",
+     Event.none, Border.none, 5, Place.aedengard_night, 0, null, Shape.wolf, Attribute.fire,
+     2290, 1640, 1660, 1800, 1418, 1915,
+     [Skill.qp, Skill.aroundight, Skill.mindcrash],
+     [Skill.qp, Skill.aroundight, Skill.mindcrash],
+     [Skill.qp, Skill.aroundight, Skill.mindcrash]] */
 ]);
 
 Card.addLimitedTypes({
