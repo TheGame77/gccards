@@ -4535,7 +4535,31 @@ Card.addAll([
      2290, 1640, 1660, 1800, 1418, 1915,
      [Skill.qp, Skill.aroundight, Skill.mindcrash],
      [Skill.qp, Skill.aroundight, Skill.mindcrash],
-     [Skill.qp, Skill.aroundight, Skill.mindcrash]] */
+     [Skill.qp, Skill.aroundight, Skill.mindcrash]] ,
+    ["00000", "Almighty Moloch", "A demon lord whose bloodstained temple continually resonates with the screams of human sacrifices.",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.fire,
+     2420, 1440, 1600, 1680, 1416, 1960,
+     [Skill.dr, Skill.revival, Skill.death4],
+     [Skill.dr, Skill.revival, Skill.death4],
+     [Skill.dr, Skill.revival, Skill.death4]],
+    ["00000", "Basara Fujin", "This tamer of tempests unleashes the winds of freedom to rouse humans to revolution",
+     Event.none, Border.none, 5, Place.aedengard_night, 0, null, Shape.giant, Attribute.wind,
+     2330, 1530, 1600, 1660, 1430, 1890,
+     [Skill.revival, Skill.novameteor, Skill.resistant],
+     [Skill.revival, Skill.novameteor, Skill.resistant],
+     [Skill.revival, Skill.novameteor, Skill.resistant]],   
+    ["00000", "Kabuki Raijin", "A symbol of unruliness, this wild deity wields control over both the turbulent thunder and lethal lightning.",
+     Event.none, Border.none, 5, Place.aedengard_night, 0, null, Shape.giant, Attribute.lightning,
+     2300, 1460, 1760, 1700, 1440, 1700,
+     [Skill.qs, Skill.gs, Skill.entrust],
+     [Skill.qs, Skill.gs, Skill.entrust],
+     [Skill.qs, Skill.gs, Skill.entrust]],   
+    ["00000", "Arctic Scheherazade", "During the telling of tales over 1,001 nights, this queen would light a cold flame when recounting stories of winter.",
+     Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.water,
+     2080, 1350, 1620, 1560, 1396, 1840,
+     [Skill.sap, Skill.aroundight, Skill.mindcrash],
+     [Skill.sap, Skill.aroundight, Skill.mindcrash],
+     [Skill.sap, Skill.aroundight, Skill.mindcrash]]  */    
 ]);
 
 Card.addLimitedTypes({
