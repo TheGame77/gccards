@@ -9,7 +9,12 @@ WhatIsNew.get = function() {
 /*        'For Test Usage': [
             "New Card: " + Card.mklnk(?????) + "."
         ],*/
-/*        '2015/10/19': [
+/*        '2015/??/??': [
+            "Dark Festivities: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",
+            "Sweet Deceptions: " + Card.mklnk(00000) + ".",   
+            "48th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ], */ 
+/*        '2015/??/??': [
             "Raging Wind, Roaring Thunder: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",
             "Search in Sub-Zero: " + Card.mklnk(00000) + ".",   
             "47th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."

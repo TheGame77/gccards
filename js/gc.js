@@ -738,7 +738,8 @@ var Skill = (function() {
         [127, SKILL_OTHER, "healinglight",         new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0], // Healing Light
         [128, SKILL_ATTACK, "fire5s",              new Cost(0,    1500), stone_no,  nbuff({}),                Attribute.fire, 6], // Firestrom (Fire 5+S)             
         [129, SKILL_ATTACK, "laevateinn",          new Cost(0,    1400), stone_no,  nbuff({}),                Attribute.none, 4], // laevateinn            
-        [130, SKILL_OTHER, "entrust",              new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0] // Entrust 
+        [130, SKILL_OTHER, "entrust",              new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0], // Entrust 
+        [131, SKILL_ATTACK, "soulstrike",                new Cost(1000, 0), stone_no,  nbuff({}),             Attribute.none, 6] // Soul Strike         
     ];
 
     var skills = {
