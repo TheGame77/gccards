@@ -4581,9 +4581,9 @@ Card.addAll([
     ["00000", "Lachesis of Nightmares", "The determiner of destiny, this fate manipulates her threads to draw mortals into a nightmarish future.",
      Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.death,
      2300, 1680, 1540, 1640, 1428, 1930,
-     [Skill.hshift, Skill.death4, Skill.divineshield],
-     [Skill.hshift, Skill.death4, Skill.divineshield],
-     [Skill.hshift, Skill.death4, Skill.divineshield]]  */
+     [Skill.svd, Skill.death4, Skill.divineshield],
+     [Skill.svd, Skill.death4, Skill.divineshield],
+     [Skill.svd, Skill.death4, Skill.divineshield]]  */
 ]);
 
 Card.addLimitedTypes({
