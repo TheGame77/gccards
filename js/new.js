@@ -10,6 +10,13 @@ WhatIsNew.get = function() {
             "New Card: " + Card.mklnk(?????) + "."
         ],*/
 /*        '2015/??/??': [
+            "Morning Light: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",
+            "Defender of the Depths: " + Card.mklnk(00000) + ".",   
+            "True Cards: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ", " +
+            Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",
+            "50th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ], */
+/*        '2015/??/??': [
             "Dark Festivities: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",
             "Sweet Deceptions: " + Card.mklnk(00000) + ".",   
             "49th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
