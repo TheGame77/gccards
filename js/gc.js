@@ -2866,7 +2866,7 @@ var Calculator = (function() {
             damage += qsnj;
 
             /* Toxic Blast */
-            if (options.tb && hasSkill(skills1, Skill.tb) && !hasSkill(skills2, Skill.resistant))
+            if (options.tb && (hasSkill(skills1, Skill.tb) || hasSkill(skills1, Skill.deadlypoison)) && !hasSkill(skills2, Skill.resistant))
                 damage += Math.floor(0.4 * status2.hp);
 
             return damage >= status2.hp;
@@ -3008,7 +3008,7 @@ var Calculator = (function() {
 
             
             /* Toxic Blast */
-            if (options.tb && hasSkill(skills2, Skill.tb) && !hasSkill(skills1, Skill.resistant))
+            if (options.tb && (hasSkill(skills2, Skill.tb) || hasSkill(skills2, Skill.deadlypoison)) && !hasSkill(skills1, Skill.resistant))
                 hp1 = Math.floor(0.6 * hp1);
 
             /* Add the damage by QS/NJ. */
