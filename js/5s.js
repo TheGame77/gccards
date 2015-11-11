@@ -4637,7 +4637,19 @@ Card.addAll([
      1780, 1180, 1680, 1480, 1340, 1300,
      [Skill.revival, Skill.ll, Skill.np],
      [Skill.revival, Skill.ll, Skill.np],
-     [Skill.revival, Skill.ll, Skill.np]]  */
+     [Skill.revival, Skill.ll, Skill.np]],
+    ["00000", "Almighty Raphael", "The angel whose very name means \"healing\" shows no mercy toward those that oppose the divine word.",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.light,
+     2380, 1560, 1840, 1880, 1430, 1660,
+     [Skill.qs, Skill.cd, Skill.revival],
+     [Skill.qs, Skill.cd, Skill.revival],
+     [Skill.qs, Skill.cd, Skill.revival]],
+    ["00000", "Prototype", "This eerie life form wanders aimlessly, given no purpose by the heretical scholar who created it.",
+     Event.none, Border.none, 5, Place.aedengard_night, 0, null, Shape.dragon, Attribute.none,
+     363, 2600, 2700, 1500, 1460, 1500,
+     [Skill.qp, Skill.dp, Skill.soultaker],
+     [Skill.qp, Skill.dp, Skill.soultaker],
+     [Skill.qp, Skill.dp, Skill.soultaker]]   */
      
 ]);
 
