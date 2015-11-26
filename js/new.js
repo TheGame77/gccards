@@ -9,9 +9,20 @@ WhatIsNew.get = function() {
 /*        'For Test Usage': [
             "New Card: " + Card.mklnk(?????) + "."
         ],*/
+ /*        '2015/??/??': [
+            "The Platinum Hunt: " + Card.mklnk(00000) + ".",   
+            "53rd Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ], */
+ /*        '2015/??/??': [
+            "The Threefold Hunt: " + Card.mklnk(00000) + "."   
+        ], */
+ /*        '2015/??/??': [
+            "Spirit of The Forge: " + Card.mklnk(00000) + ".",   
+            "52nd Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ], */
 /*        '2015/??/??': [
             "Empirical Entity: " + Card.mklnk(00000) + ".",   
-            "50th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+            "51st Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
         ], */
 /*        '2015/??/??': [
             "Morning Light: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",
