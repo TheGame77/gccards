@@ -4679,9 +4679,37 @@ Card.addAll([
      2380, 1800, 1690, 1680, 1410, 1920,
      [Skill.smr, Skill.aroundight, Skill.divineshield, Skill.qp, Skill.death4, Skill.resistant],
      [Skill.smr, Skill.divineshield, Skill.death4],
-     [Skill.qp, Skill.death4, Skill.resistant]]    */  
-          
-     
+     [Skill.qp, Skill.death4, Skill.resistant]] ,
+    ["00000", "Almighty Princess Arthur",  "Daugther of nobility, she justly rules the land. Together with the wolf king, she ushers in a new age of legend.",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.lightning,
+     2320, 1460, 2000, 1620, 1442, 1640,
+     [Skill.qs, Skill.dp, Skill.soultaker],
+     [Skill.qs, Skill.dp, Skill.soultaker],
+     [Skill.qs, Skill.dp, Skill.soultaker]],  
+    ["00000", "Aria", "One of the protagonists of RISE of MANA. An angel from the nation of Lumenis",
+     Event.none, Border.none, 5, Place.quests, 0, null, Shape.none, Attribute.light,
+     2220, 1380, 1780, 1600, 1460, 1640,
+     [Skill.resistant, Skill.gs, Skill.assaultstrike],
+     [Skill.resistant, Skill.gs, Skill.assaultstrike],
+     [Skill.resistant, Skill.gs, Skill.assaultstrike]], 
+    ["00000", "Abyssmala", "She watches over victims of age and disease in the land of dead, waiting for the end in her boat of corpses.",
+     Event.none, Border.none, 5, Place.perditionkeep_night, 0, null, Shape.circular, Attribute.death,
+     2340, 1700, 1380, 1520, 1450, 1960,
+     [Skill.mindcrash, Skill.banish, Skill.flux],
+     [Skill.mindcrash, Skill.banish, Skill.flux],
+     [Skill.mindcrash, Skill.banish, Skill.flux]],             
+     ["00000", "Ceridwen", "This witch of the underworld concocts a magic brew that bestows knowledge and inspiration upon the drinker",
+     Event.none, Border.none, 5, Place.perditionkeep_night, 0, null, Shape.female, Attribute.poison,
+     2320, 1640, 1620, 1540, 1412, 1940,
+     [Skill.divineshield, Skill.sds, Skill.variableslash],
+     [Skill.divineshield, Skill.sds, Skill.variableslash],
+     [Skill.divineshield, Skill.sds, Skill.variableslash]],        
+    ["00000", "Coeurlion", "A man with the soul of a lion. In ancient times, the warrior cast aside his human form in order to defeat his enemy.",
+     Event.none, Border.none, 5, Place.perditionkeep_night, 0, null, Shape.wolf, Attribute.wind,
+     2480, 1300, 1800, 1920, 1430, 1720,
+     [Skill.dr, Skill.gs, Skill.persevere],
+     [Skill.dr, Skill.gs, Skill.persevere],
+     [Skill.dr, Skill.gs, Skill.persevere]]  */      
 ]);
 
 Card.addLimitedTypes({

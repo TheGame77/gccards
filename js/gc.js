@@ -158,7 +158,8 @@ var Place = (function() {
         [27, 113, ["gsexchange"]],         // Guardian Soul Exchange
         [28, 14,  ["sanctum"]],             // The Sanctum
         [29, 15,  ["arcadiel"]],             // Arcadiel
-        [30, 16,  ["aedengard_night"]]       // Aedengard Night
+        [30, 16,  ["aedengard_night"]],       // Aedengard Night
+        [31, 17,  ["perditionkeep_night"]]       // Perdition Keep Night
     ];
 
     var places = {
@@ -740,7 +741,11 @@ var Skill = (function() {
         [129, SKILL_ATTACK, "laevateinn",          new Cost(0,    1400), stone_no,  nbuff({}),                Attribute.none, 4], // laevateinn            
         [130, SKILL_OTHER, "entrust",              new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0], // Entrust 
         [131, SKILL_ATTACK, "soulstrike",          new Cost(1000, 0), stone_no,  nbuff({}),                   Attribute.none, 6], // Soul Strike  
-        [132, SKILL_OTHER, "svd",                  new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0] // Shadow Veil             
+        [132, SKILL_OTHER, "svd",                  new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Veil             
+        [133, SKILL_BUFF, "flux",                  new Cost(0, 900), stone_no,  nbuff({dwis: -0.4, dagi: -0.4, datk: -0.4, ddef: -0.4, wis: 0.2, agi: 0.2, atk: 0.2, def: 0.2}),         Attribute.none, 0], // Stats+20%, foe stats-40% 
+        [134, SKILL_OTHER, "persevere",            new Cost(0,    1), stone_no,  nbuff({}),                   Attribute.none, 0], // Endures one attack
+        [135, SKILL_ATTACK, "variableslash",       new Cost(0,  1400), stone_no,  nbuff({}),                  Attribute.user, 6], // Consumes HP or MP
+        [136, SKILL_OTHER, "assaultstrike",        new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0] //  First Strike +S
     ];
 
     var skills = {
@@ -1612,6 +1617,8 @@ var ExSkill = (function() {
     var bg = function(s) { return s == Skill.bg; };
     var curse = function(s) { return s == Skill.curse; };
     var revival = function(s) { return s == Skill.revival; };
+    var assaultstrike = function(s) { return s == Skill.assaultstrike; }; 
+    var persevere = function(s) { return s == Skill.persevere; };    
     var data = [
         [0,   ExType.red,  ["fire10"],          as(Attribute.fire),      0.10, 0.10, 0.10, 0.10, 0.10, 0.10, none, 0, none, 0, none, 0, 0],
         [1,   ExType.red,  ["fire12"],          as(Attribute.fire),      0.12, 0.12, 0.12, 0.12, 0.12, 0.12, none, 0, none, 0, none, 0, 0],
@@ -2071,6 +2078,10 @@ var Selector = (function() {
                                 t = Skill.sd.id;
                             else if (t == "qs")
                                 t = Skill.qs.id;
+                            else if (t == "assaultstrike")
+                                t = Skill.assaultstrike.id;
+                            else if (t == "persevere")
+                                t = Skill.persevere.id;
                             else if (t == "ep")
                                 t = Skill.ep.id;
                             else if (t == "ds")
@@ -2745,6 +2756,12 @@ var Calculator = (function() {
                     qsnj += Math.max(dmg, 1);
                     status1.mp -= Skill.nj.cost.mp;
                 }
+                if (hasSkill(skills1, Skill.assaultstrike) && status1.mp >= Skill.assaultstrike.cost.mp) {
+                    var buff1 = atk1 + (options.ex1s.ex2 == null ? 0 : options.ex1s.ex2.getPowUp(Skill.assaultstrike));
+                    var dmg = this.getDamage(status1.atk, 1.6, buff1, 1, status2.def, def2);
+                    qsnj += Math.max(dmg, 1);
+                    status1.mp -= Skill.assaultstrike.cost.mp;
+                }                
             }
 
             if (options.mode == MODE_QSNJKO)
@@ -3003,6 +3020,13 @@ var Calculator = (function() {
                 qsnj += Math.max(dmg, 1);
                 status2.mp -= Skill.qs.cost.mp;
             }
+
+            if (hasSkill(skills2, Skill.assaultstrike) && status2.mp >= Skill.assaultstrike.cost.mp) {
+                var dmg = this.getDamage(status2.atk, 1.6, atk2, 1, status1.def, def1);
+                qsnj += Math.max(dmg, 1);
+                status2.mp -= Skill.assaultstrike.cost.mp;
+            }
+                        
 
             res['qsnj'] = qsnj >= hp1;
 

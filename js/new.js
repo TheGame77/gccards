@@ -10,6 +10,12 @@ WhatIsNew.get = function() {
             "New Card: " + Card.mklnk(?????) + "."
         ],*/
  /*        '2015/??/??': [
+            "Opposing Souls of Light: " + Card.mklnk(00000) + ".",
+            "Perdition Keep Night: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + "."          
+            "54th Skyborne Coliseum Reward: " + Card.mklnk(00000) + ".",
+            "New skills All Shift, Quick S, variableslash implemented in the damage calculator but not in battle simulator."                                                                    
+        ], */
+ /*        '2015/??/??': [
             "The Platinum Hunt: " + Card.mklnk(00000) + ".",   
             "53rd Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
         ], */

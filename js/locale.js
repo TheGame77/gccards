@@ -44,7 +44,8 @@ var Locale = function(l) {
                 "Guardian Soul Exchange",
                 "The Sanctum",
                 "Arcadiel",
-                "Aedengard Night"
+                "Aedengard Night",
+                "Perdition Keep Night"
             ),
             events: new Array(
                 "None",
@@ -329,7 +330,11 @@ var Locale = function(l) {
                 new Array("Laevateinn",        "HP & MP damage"),
                 new Array("Entrust",           "MP damage & pass on stats"),
                 new Array("Soul Strike",       "HP consuming attack +S"),
-                new Array("Shadow Veil",       "Attribute Evasion")                                                                                                                                        
+                new Array("Shadow Veil",       "Attribute Evasion"),                                                                                                                                        
+                new Array("Flux",              "Stats+20%, foe stats-40%"),                                                                                                                                        
+                new Array("Persevere",         "Endures one attack"),                                                                                                                                        
+                new Array("Variable Slash",    "Consumes HP or MP"),                                                                                                                                        
+                new Array("Assault Strike",    "Quick Strike +S")                                                                                                                                        
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",
@@ -484,7 +489,8 @@ var Locale = function(l) {
                 "ガーディアンソウル", // Guardian Soul
                 "サンクチュアリ", // Sanctum
                 "Arcadiel",
-                "Aedengard Night"
+                "Aedengard Night",
+                "Perdition Keep Night"
             ),
             events: new Array(
                 "なし",
@@ -769,7 +775,11 @@ var Locale = function(l) {
                 new Array("Laevateinn",        "HP & MP damage"),                              
                 new Array("Entrust",           "MP damage & pass on stats"),
                 new Array("Soul Strike",       "HP consuming attack +S"),
-                new Array("Shadow Veil",       "Attribute Evasion")                                                                                                                                                                      
+                new Array("Shadow Veil",       "Attribute Evasion"),                                                                                                                                        
+                new Array("Flux",              "Stats+20%, foe stats-40%"),                                                                                                                                        
+                new Array("Persevere",         "Endures one attack"),                                                                                                                                        
+                new Array("Variable Slash",    "Consumes HP or MP"),                                                                                                                                        
+                new Array("Assault Strike",    "Quick Strike +S")                                                                                                                                                                      
             ),
             exskills: new Array(
                 "火属性ガーディアンの全ステータスを10%アップ",
