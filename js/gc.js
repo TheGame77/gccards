@@ -745,7 +745,8 @@ var Skill = (function() {
         [133, SKILL_BUFF, "flux",                  new Cost(0, 900), stone_no,  nbuff({dwis: -0.4, dagi: -0.4, datk: -0.4, ddef: -0.4, wis: 0.2, agi: 0.2, atk: 0.2, def: 0.2}),         Attribute.none, 0], // Stats+20%, foe stats-40% 
         [134, SKILL_OTHER, "persevere",            new Cost(0,    1), stone_no,  nbuff({}),                   Attribute.none, 0], // Endures one attack
         [135, SKILL_ATTACK, "variableslash",       new Cost(0,  1400), stone_no,  nbuff({}),                  Attribute.user, 6], // Consumes HP or MP
-        [136, SKILL_OTHER, "assaultstrike",        new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0] //  First Strike +S
+        [136, SKILL_OTHER, "assaultstrike",        new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], //  First Strike +S
+        [137, SKILL_ATTACK, "fatalrequiem",        new Cost(0,  1300), stone_no,  nbuff({}),                   Attribute.death, 5] //  Death +4↑
     ];
 
     var skills = {

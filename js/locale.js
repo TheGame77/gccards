@@ -334,7 +334,8 @@ var Locale = function(l) {
                 new Array("Flux",              "Stats+20%, foe stats-40%"),                                                                                                                                        
                 new Array("Persevere",         "Endures one attack"),                                                                                                                                        
                 new Array("Variable Slash",    "Consumes HP or MP"),                                                                                                                                        
-                new Array("Assault Strike",    "Quick Strike +S")                                                                                                                                        
+                new Array("Assault Strike",    "Quick Strike +S"),                                                                                                                                        
+                new Array("Fatal Requiem",    "Death +4↑")                                                                                                                                        
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",
@@ -779,7 +780,8 @@ var Locale = function(l) {
                 new Array("Flux",              "Stats+20%, foe stats-40%"),                                                                                                                                        
                 new Array("Persevere",         "Endures one attack"),                                                                                                                                        
                 new Array("Variable Slash",    "Consumes HP or MP"),                                                                                                                                        
-                new Array("Assault Strike",    "Quick Strike +S")                                                                                                                                                                      
+                new Array("Assault Strike",    "Quick Strike +S"),
+                new Array("Fatal Requiem",    "Death +4↑")                                                                                                                                                                      
             ),
             exskills: new Array(
                 "火属性ガーディアンの全ステータスを10%アップ",
