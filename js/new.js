@@ -10,8 +10,18 @@ WhatIsNew.get = function() {
             "New Card: " + Card.mklnk(?????) + "."
         ],*/
  /*        '2015/??/??': [
+            "A Resplendent Gift: " + Card.mklnk(00000) + ".",
+            "Eve of Silver Snowflakes: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",          
+            "57th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ], */
+ /*        '2015/??/??': [
+            "Wyvern Special Training: " + Card.mklnk(00000) + ".",
+            "Lone Piercing Fang: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",          
+            "56th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ], */ 
+ /*        '2015/??/??': [
             "Fragment of Hope: " + Card.mklnk(00000) + ".",
-            "Perdition Keep Night: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + "."          
+            "Perdition Keep Night: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",          
             "55th Skyborne Coliseum Reward: " + Card.mklnk(00000) + ".",
             "New skills Fatal Requiem implemented in the damage calculator but not in battle simulator."                                                                    
         ], */

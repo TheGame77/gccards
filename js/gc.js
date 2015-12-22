@@ -746,7 +746,10 @@ var Skill = (function() {
         [134, SKILL_OTHER, "persevere",            new Cost(0,    1), stone_no,  nbuff({}),                   Attribute.none, 0], // Endures one attack
         [135, SKILL_ATTACK, "variableslash",       new Cost(0,  1400), stone_no,  nbuff({}),                  Attribute.user, 6], // Consumes HP or MP
         [136, SKILL_OTHER, "assaultstrike",        new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], //  First Strike +S
-        [137, SKILL_ATTACK, "fatalrequiem",        new Cost(0,  1300), stone_no,  nbuff({}),                   Attribute.death, 5] //  Death +4↑
+        [137, SKILL_ATTACK, "fatalrequiem",        new Cost(0,  1300), stone_no,  nbuff({}),                   Attribute.death, 5], //  Death +4↑
+        [138, SKILL_OTHER, "hrevival",             new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0] // Holy Revival
+
+        
     ];
 
     var skills = {
