@@ -4781,7 +4781,13 @@ Card.addAll([
      2380, 1580, 1620, 1600, 1440, 2000,
      [Skill.smr, Skill.poison3, Skill.wis10, Skill.banish, Skill.aroundight, Skill.ep],
      [Skill.smr, Skill.wis10, Skill.aroundight],
-     [Skill.smr, Skill.aroundight, Skill.ep]]   */        
+     [Skill.smr, Skill.aroundight, Skill.ep]]   */,
+    ["00000", "Almighty Grandes Jorasses Tree",  "Once every few hundred years, the gigantic tree monster roam the land, sparing only the pure of heart",
+     Event.none, Border.almighty, 5, Place.coliseum, 0, null, Shape.none, Attribute.earth,
+     2540, 4000, 2100, 1980, 1422, 1780,
+     [Skill.resistant, Skill.blastmeteor, Skill.ssd],
+     [Skill.resistant, Skill.blastmeteor, Skill.ssd],
+     [Skill.resistant, Skill.blastmeteor, Skill.ssd]]
 ]);
 
 Card.addLimitedTypes({

@@ -10,6 +10,9 @@ WhatIsNew.get = function() {
             "New Card: " + Card.mklnk(?????) + "."
         ],*/
  /*        '2015/??/??': [
+            "58th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ], */
+ /*        '2015/??/??': [
             "A Resplendent Gift: " + Card.mklnk(00000) + ".",
             "Eve of Silver Snowflakes: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",          
             "57th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
