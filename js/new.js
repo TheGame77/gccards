@@ -9,6 +9,30 @@ WhatIsNew.get = function() {
 /*        'For Test Usage': [
             "New Card: " + Card.mklnk(?????) + "."
         ],*/
+/*        '2015/??/??': [
+            "A mechanical Ryujin: " + Card.mklnk(00000) + ".",          
+            "63rd Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ], */
+ /*        '2015/??/??': [
+            "Poisoned Peace: " + Card.mklnk(00000) + ".",          
+            "A Bridal Burden: " + Card.mklnk(00000) + ".",          
+            "62nd Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ], */
+ /*        '2015/??/??': [
+            "Soul Sanctuary Front: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",          
+            "61st Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ], */
+ /*        '2015/??/??': [
+            "Word Crafter: " + Card.mklnk(00000) + ".",
+            "Wyvern Special Training: " + Card.mklnk(00000) + ".",
+            "60th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ], */
+ /*        '2015/??/??': [
+            "Heroic Spark: " + Card.mklnk(00000) + ".",
+            "New Year Event: " + Card.mklnk(00000) + ".",
+            "Perdition Keep Night: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",          
+            "59th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ], */
  /*        '2015/??/??': [
             "58th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
         ], */
