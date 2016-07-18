@@ -159,7 +159,9 @@ var Place = (function() {
         [28, 14,  ["sanctum"]],             // The Sanctum
         [29, 15,  ["arcadiel"]],             // Arcadiel
         [30, 16,  ["aedengard_night"]],       // Aedengard Night
-        [31, 17,  ["perditionkeep_night"]]       // Perdition Keep Night
+        [31, 17,  ["perditionkeep_night"]],       // Perdition Keep Night
+        [32, 18,  ["arcadiel_night"]],       // Arcadiel Night
+        [33, 19,  ["sanctum_night"]]       // Sanctum Night
     ];
 
     var places = {
@@ -735,7 +737,7 @@ var Skill = (function() {
         [123, SKILL_OTHER, "mindcrash",            new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0], // Mind Crash (Magic strike)
         [124, SKILL_OTHER, "soultaker",            new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0], // Soul Taker (Physical strike)
         [125, SKILL_ATTACK, "blastmeteor",         new Cost(0,    1300), stone_no,  nbuff({}),                Attribute.none, 0], // Blast Meteor (Ignore defense)
-        [126, SKILL_ATTACK, "novameteor",          new Cost(0,    1300), stone_no,  nbuff({}),                Attribute.none, 0], // Nova Meteor (Ignore wisdom)
+        [126, SKILL_ATTACK, "novameteor",          new Cost(0,    1300), stone_no,  nbuff({}),                Attribute.user, 0], // Nova Meteor (Ignore wisdom)
         [127, SKILL_OTHER, "healinglight",         new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0], // Healing Light
         [128, SKILL_ATTACK, "fire5s",              new Cost(0,    1500), stone_no,  nbuff({}),                Attribute.fire, 6], // Firestrom (Fire 5+S)             
         [129, SKILL_ATTACK, "laevateinn",          new Cost(0,    1400), stone_no,  nbuff({}),                Attribute.none, 4], // laevateinn            
@@ -747,9 +749,28 @@ var Skill = (function() {
         [135, SKILL_ATTACK, "variableslash",       new Cost(0,  1400), stone_no,  nbuff({}),                  Attribute.user, 6], // Consumes HP or MP
         [136, SKILL_OTHER, "assaultstrike",        new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.none, 0], //  First Strike +S
         [137, SKILL_ATTACK, "fatalrequiem",        new Cost(0,  1300), stone_no,  nbuff({}),                   Attribute.death, 5], //  Death +4↑
-        [138, SKILL_OTHER, "hrevival",             new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0] // Holy Revival
+        [138, SKILL_OTHER, "hrevival",             new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Holy Revival
+        [139, SKILL_ATTACK, "glam",                new Cost(0, 1500), stone_no,  nbuff({}),                   Attribute.user, 5], // Glam (Attribute HP/MP damage↑)
+        [140, SKILL_ATTACK, "souldrain",           new Cost(0, 1600), stone_no,  nbuff({}),                   Attribute.none, 6], // Soul Drain (Absorb enemy HP + S) 
+        [141, SKILL_ATTACK, "snovameteor",         new Cost(0, 1500), stone_no,  nbuff({}),                   Attribute.user, 0], // Shadow Nova Meteor (Ignore wisdom↑) 
+        [142, SKILL_OTHER, "mightyresist",         new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.user, 0], // Mighty Resist (First attack & weak resist)
+        [143, SKILL_ATTACK, "sblastmeteor",        new Cost(0, 1400), stone_no,  nbuff({}),                   Attribute.none, 0], // Shadow Blast Meteor (Ignore defense↑)
+        [144, SKILL_OTHER, "reblossom",            new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Reblossom (Free revive) 
+        [145, SKILL_OTHER, "blossomfrenzy",        new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Blossom Frenzy (Foe attacks self) 
+        [146, SKILL_OTHER, "wiseassault",          new Cost(0,  300), stone_no,  nbuff({}),                   Attribute.user, 0], // Wise Assault (Attribute first attack + S)
+        [147, SKILL_ATTACK, "balmung",             new Cost(0,  1500), stone_no,  nbuff({}),                  Attribute.none, 5], // Balmung (Physical HP/MP damage↑)             
+        [148, SKILL_OTHER, "jinxjig",              new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Jinx Jig (Evade & MP damage)
+        [149, SKILL_ATTACK, "deathmage",           new Cost(0,  1500), stone_no,  nbuff({}),                  Attribute.death, 6], //  Death Mage (Death +S)
+        [150, SKILL_ATTACK, "hurricane",           new Cost(0,  1500), stone_no,  nbuff({}),                  Attribute.wind, 6], //  Hurricane (Wind +S)
+        [151, SKILL_OTHER, "rebirthday",           new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Rebirth Day(Free revive) 
+        [152, SKILL_OTHER, "gunsalute",            new Cost(0,    300), stone_no,  nbuff({}),                 Attribute.none, 0], // Gun Salute(Physical strike +S)
+        [153, SKILL_OTHER, "spiritedsmite",        new Cost(0,    0), stone_no,  nbuff({}),                   Attribute.none, 0], // Spirited Smite(Free magic strike)
+        [154, SKILL_OTHER, "feastdance",           new Cost(0,  600), stone_no,  nbuff({}),                   Attribute.none, 0], // Feast Dance(Evade & MP damage↑) 
+        [155, SKILL_ATTACK, "festivefarewell",     new Cost(0, 1600), stone_no,  nbuff({}),                   Attribute.user, 6], // Festive Farewell(Banish defeated foe +S)
+        [156, SKILL_ATTACK, "spiritattack",        new Cost(0,  1300), stone_no,  nbuff({}),                  Attribute.user, 6], // Spirit Attack(Sap MP attack)
+        [157, SKILL_ATTACK, "terrasmash",          new Cost(0, 1500), stone_no,  nbuff({}),                   Attribute.none, 0], // Terra Smash(Big bash + barrier)
+        [158, SKILL_OTHER, "godlyscripture",       new Cost(0,    1), stone_no,  nbuff({}),                   Attribute.none, 0] // Godly Scripture(HP/MP recover)
 
-        
     ];
 
     var skills = {
@@ -1048,7 +1069,7 @@ CardClass.prototype.getLearntSkillSize = function() {
     else if (this.stars == 3)
         return 5;
     else if (this.stars == 4 || this.stars == 5)
-        return this.type.isRebirthType() && !this.isLimited() ? 6 : 5;
+        return this.type.isRebirthType() && !this.isLimited() ? 6 : 6;
 };
 CardClass.prototype.getRecommends = function() {
     var cname = locale.getLanguage() + ".recommends." + this.id + "." + this.type.id;
@@ -1617,10 +1638,13 @@ var ExSkill = (function() {
     var sd = function(s) { return s == Skill.sd; };
     var qs = function(s) { return s == Skill.qs; };
     var gs = function(s) { return s == Skill.gs; };
+    var terrasmash = function(s) { return s == Skill.terrasmash; };    
     var ds = function(s) { return s == Skill.ds; };
     var bg = function(s) { return s == Skill.bg; };
     var curse = function(s) { return s == Skill.curse; };
     var revival = function(s) { return s == Skill.revival; };
+    var godlyscripture = function(s) { return s == Skill.godlyscripture; };    
+    var reblossom = function(s) { return s == Skill.reblossom; };
     var assaultstrike = function(s) { return s == Skill.assaultstrike; }; 
     var persevere = function(s) { return s == Skill.persevere; };    
     var data = [
@@ -1731,7 +1755,29 @@ var ExSkill = (function() {
         [104, ExType.blue, ["suc_revival9"],    all,                        0,    0,    0,    0,    0,    0, revival, 0.09, none, 0, none, 0, 0],
         [105, ExType.blue, ["suc_ds10"],        all,                        0,    0,    0,    0,    0,    0, ds, 0.10, none, 0, none, 0, 0],
         [106, ExType.blue, ["suc_ds15"],        all,                        0,    0,    0,    0,    0,    0, ds, 0.15, none, 0, none, 0, 0],
-        [107, ExType.blue, ["suc_ds20"],        all,                        0,    0,    0,    0,    0,    0, ds, 0.20, none, 0, none, 0, 0]
+        [107, ExType.blue, ["suc_ds20"],        all,                        0,    0,    0,    0,    0,    0, ds, 0.20, none, 0, none, 0, 0],
+        [108,  ExType.red,  ["wind10"],         as(Attribute.wind),     0.10, 0.10, 0.10, 0.10, 0.10, 0.10, none, 0, none, 0, none, 0, 0],
+        [109,  ExType.red,  ["wind12"],         as(Attribute.wind),     0.12, 0.12, 0.12, 0.12, 0.12, 0.12, none, 0, none, 0, none, 0, 0],
+        [110,  ExType.red,  ["wind15"],         as(Attribute.wind),     0.15, 0.15, 0.15, 0.15, 0.15, 0.15, none, 0, none, 0, none, 0, 0],
+        [111,  ExType.red,  ["water10"],         as(Attribute.water),     0.10, 0.10, 0.10, 0.10, 0.10, 0.10, none, 0, none, 0, none, 0, 0],
+        [112,  ExType.red,  ["water12"],         as(Attribute.water),     0.12, 0.12, 0.12, 0.12, 0.12, 0.12, none, 0, none, 0, none, 0, 0],
+        [113,  ExType.red,  ["water15"],         as(Attribute.water),     0.15, 0.15, 0.15, 0.15, 0.15, 0.15, none, 0, none, 0, none, 0, 0],
+        [114,  ExType.red,  ["earth10"],         as(Attribute.earth),     0.10, 0.10, 0.10, 0.10, 0.10, 0.10, none, 0, none, 0, none, 0, 0],
+        [115,  ExType.red,  ["earth12"],         as(Attribute.earth),     0.12, 0.12, 0.12, 0.12, 0.12, 0.12, none, 0, none, 0, none, 0, 0],
+        [116,  ExType.red,  ["earth15"],         as(Attribute.earth),     0.15, 0.15, 0.15, 0.15, 0.15, 0.15, none, 0, none, 0, none, 0, 0],
+        [117,  ExType.red,  ["mecha10"],         as(Attribute.mecha),     0.10, 0.10, 0.10, 0.10, 0.10, 0.10, none, 0, none, 0, none, 0, 0],
+        [118,  ExType.red,  ["mecha12"],         as(Attribute.mecha),     0.12, 0.12, 0.12, 0.12, 0.12, 0.12, none, 0, none, 0, none, 0, 0],
+        [119,  ExType.red,  ["mecha15"],         as(Attribute.mecha),     0.15, 0.15, 0.15, 0.15, 0.15, 0.15, none, 0, none, 0, none, 0, 0],
+        [120,  ExType.red,  ["dark10"],         as(Attribute.darkness),     0.10, 0.10, 0.10, 0.10, 0.10, 0.10, none, 0, none, 0, none, 0, 0],
+        [121,  ExType.red,  ["dark12"],         as(Attribute.darkness),     0.12, 0.12, 0.12, 0.12, 0.12, 0.12, none, 0, none, 0, none, 0, 0],
+        [122,  ExType.red,  ["dark15"],         as(Attribute.darkness),     0.15, 0.15, 0.15, 0.15, 0.15, 0.15, none, 0, none, 0, none, 0, 0],
+        [123,  ExType.red,  ["death10"],         as(Attribute.death),     0.10, 0.10, 0.10, 0.10, 0.10, 0.10, none, 0, none, 0, none, 0, 0],
+        [124,  ExType.red,  ["death12"],         as(Attribute.death),     0.12, 0.12, 0.12, 0.12, 0.12, 0.12, none, 0, none, 0, none, 0, 0],
+        [125,  ExType.red,  ["death15"],         as(Attribute.death),     0.15, 0.15, 0.15, 0.15, 0.15, 0.15, none, 0, none, 0, none, 0, 0],
+        [126,  ExType.red,  ["all10"],          all,     0.10, 0.10, 0.10, 0.10, 0.10, 0.10, none, 0, none, 0, none, 0, 0],
+        [127,  ExType.red,  ["all12"],          all,     0.12, 0.12, 0.12, 0.12, 0.12, 0.12, none, 0, none, 0, none, 0, 0],
+        [128,  ExType.red,  ["all15"],          all,     0.15, 0.15, 0.15, 0.15, 0.15, 0.15, none, 0, none, 0, none, 0, 0]
+               
     ];
 
     var skills = {
@@ -2092,6 +2138,8 @@ var Selector = (function() {
                                 t = Skill.ds.id;
                             else if (t == "gs")
                                 t = Skill.gs.id;
+                            else if (t == "terrasmash")
+                                t = Skill.terrasmash.id;                            
                             else if (t == "dr")
                                 t = Skill.dr.id;
                             else if (t == "fb")
@@ -2753,6 +2801,13 @@ var Calculator = (function() {
                     qsnj += Math.max(dmg, 1);
                     status1.mp -= Skill.qs.cost.mp;
                 }
+                if(hasSkill(skills1, Skill.mightyresist) && status1.mp >= Skill.mightyresist.cost.mp) {
+                    var buff1 = wis1;
+                    var attr = hasSkill(skills2, Skill.fb) ? 0.85 : (g1.attribute.isCriticalTo(g2.attribute) ? 1.15 : (g1.attribute.isBlockedBy(g2.attribute) ? 0.85 : 1));
+                    var dmg = this.getDamage(status1.wis, -0.05, buff1, attr, status2.wis, wis2);
+                    qsnj += Math.max(dmg, 1);
+                    status1.mp -= Skill.mightyresist.cost.mp;
+                }                
                 if(hasSkill(skills1, Skill.nj) && status1.mp >= Skill.nj.cost.mp) {
                     var buff1 = wis1;
                     var attr = hasSkill(skills2, Skill.fb) ? 0.85 : (g1.attribute.isCriticalTo(g2.attribute) ? 1.15 : (g1.attribute.isBlockedBy(g2.attribute) ? 0.85 : 1));
@@ -2760,6 +2815,13 @@ var Calculator = (function() {
                     qsnj += Math.max(dmg, 1);
                     status1.mp -= Skill.nj.cost.mp;
                 }
+                if(hasSkill(skills1, Skill.wiseassault) && status1.mp >= Skill.wiseassault.cost.mp) {
+                    var buff1 = wis1;
+                    var attr = hasSkill(skills2, Skill.fb) ? 0.85 : (g1.attribute.isCriticalTo(g2.attribute) ? 1.15 : (g1.attribute.isBlockedBy(g2.attribute) ? 0.85 : 1));
+                    var dmg = this.getDamage(status1.wis, 1.7, buff1, attr, status2.wis, wis2);
+                    qsnj += Math.max(dmg, 1);
+                    status1.mp -= Skill.wiseassault.cost.mp;
+                }                
                 if (hasSkill(skills1, Skill.assaultstrike) && status1.mp >= Skill.assaultstrike.cost.mp) {
                     var buff1 = atk1 + (options.ex1s.ex2 == null ? 0 : options.ex1s.ex2.getPowUp(Skill.assaultstrike));
                     var dmg = this.getDamage(status1.atk, 1.6, buff1, 1, status2.def, def2);
@@ -2831,19 +2893,28 @@ var Calculator = (function() {
                 ) && !hasSkill(skills1, Skill.resistant) )) {
                 for (var i = 0; i < skills1.length; i++) {
                     var skill = skills1[i];
-                    if ((skill == Skill.gs || skill == Skill.sgs) && status1.mp >= skill.cost.mp) {
+                    if ((skill == Skill.gs || skill == Skill.sgs || skill == Skill.terrasmash) && status1.mp >= skill.cost.mp) {
                         /* Attack by Gigant Smash. */
-                        var sk = (options.gs_critical || skill == Skill.sgs) ? 1 : -0.5;
+                        var sk = (options.gs_critical || skill == Skill.sgs || skill == Skill.terrasmash) ? 1 : -0.5;
                         var dmg = this.getDamage(status1.atk, sk, atk1, 1, status2.def, -1);
                         damage = Math.max(damage, dmg);
                     } else if (skill == Skill.blastmeteor && status1.mp >= skill.cost.mp) {
                         /* Attack by Blast Meteor. */
                         var dmg = this.getDamage(status1.atk, 0.3, atk1, 1, status2.def, -1);
                         damage = Math.max(damage, dmg);
+                    }else if (skill == Skill.sblastmeteor && status1.mp >= skill.cost.mp) {
+                        /* Attack by Blast Meteor. */
+                        var dmg = this.getDamage(status1.atk, 0.5, atk1, 1, status2.def, -1);
+                        damage = Math.max(damage, dmg);
                     } else if (skill == Skill.novameteor && status1.mp >= skill.cost.mp) {
                         /* Attack by Nova Meteor. */
                         var attr = hasSkill(skills2, Skill.fb) ? 0.85 : (g1.attribute.isCriticalTo(g2.attribute) ? 1.15 : (g1.attribute.isBlockedBy(g2.attribute) ? 0.85 : 1));
                         var dmg = this.getDamage(status1.wis, 0.3, wis1, attr, status2.wis, -1);
+                        damage = Math.max(damage, dmg);
+                    }else if (skill == Skill.snovameteor && status1.mp >= skill.cost.mp) {
+                        /* Attack by Shadow Nova Meteor. */
+                        var attr = hasSkill(skills2, Skill.fb) ? 0.85 : (g1.attribute.isCriticalTo(g2.attribute) ? 1.15 : (g1.attribute.isBlockedBy(g2.attribute) ? 0.85 : 1));
+                        var dmg = this.getDamage(status1.wis, 0.5, wis1, attr, status2.wis, -1);
                         damage = Math.max(damage, dmg);
                     } else if (skill == Skill.cd && status1.mp >= skill.cost.mp) {
                         /* Attack by Crash Drain/Life Leech. */
@@ -3097,7 +3168,8 @@ var Calculator = (function() {
                                     hasSkill(skills1, Skill.ssap) ||
                                     hasSkill(skills1, Skill.hsap)) && !hasSkill(skills2, Skill.resistant))) {
                 if ((hasSkill(skills2, Skill.gs) && status2.mp >= Skill.gs.cost.mp) ||
-                    (hasSkill(skills2, Skill.sgs) && status2.mp >= Skill.sgs.cost.mp)) {
+                    (hasSkill(skills2, Skill.sgs) && status2.mp >= Skill.sgs.cost.mp) ||
+                    (hasSkill(skills2, Skill.terrasmash) && status2.mp >= Skill.terrasmash.cost.mp)) {
                     /* Attack by Gigant Smash. */
                     var sk = (hasSkill(skills2, Skill.sgs) || options.gs_critical) ? 1 : -0.5;
                     damage = this.getDamage(status2.atk, sk, atk2, 1, status1.def, -1);

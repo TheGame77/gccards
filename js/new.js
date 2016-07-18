@@ -9,11 +9,133 @@ WhatIsNew.get = function() {
 /*        'For Test Usage': [
             "New Card: " + Card.mklnk(?????) + "."
         ],*/
-/*        '2015/??/??': [
+        '2016/??/??': [
+            "V3.8 Sanctum Night: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",          
+            "Braving the Waves: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",          
+            "Fiery Summer Scion: " + Card.mklnk(00000) + ".",          
+            "88th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ],
+        '2016/??/??': [
+            "Raging Earth: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",          
+            "Heavenly Blessings: " + Card.mklnk(00000) + ".",          
+            "Wyvern Special Training: " + Card.mklnk(00000) + ".",          
+            "87th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ],
+        '2016/??/??': [
+            "Traveler in Space: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".", 
+            "Crimson Lightning: " + Card.mklnk(00000) + ".",                      
+            "86th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ],
+        '2016/??/??': [
+            "Cosmic Calamity: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".", 
+            "Blade in the Shadows: " + Card.mklnk(00000) + ".",                      
+            "Smashing Mecha: " + Card.mklnk(00000) + ".",                      
+            "Price of Evolutio: " + Card.mklnk(00000) + ".",                      
+            "85th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ],
+        '2016/??/??': [
+            "A Hymn of Happiness: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + "," + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".", 
+            "84th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ],
+        '2016/??/??': [
+            "The 4th anniversary Threefold Hunt: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + "," + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".", 
+            "Monsters Rejoice: " + Card.mklnk(00000) + ".", 
+            "83rd Skyborne Coliseum Reward: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + "."
+        ],
+        '2016/??/??': [
+            "Ruler of Godly Realms: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".", 
+            "Herald of the Abyss: " + Card.mklnk(00000) + ".", 
+            "82nd Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ],
+        '2016/??/??': [
+            "Chaos Three Ways: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".", 
+            "81st Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ],
+        '2016/??/??': [
+            "Limited New Cards: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".", 
+            "Wyvern Special Training: " + Card.mklnk(00000) + ".",                      
+            "78th Skyborne Coliseum Reward: " + Card.mklnk(00000) + ".",
+            "79th Skyborne Coliseum Reward: " + Card.mklnk(00000) + ".",
+            "80th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ],
+        '2016/??/??': [
+            "Lightning Strike: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",          
+            "Adventuring Friends: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",       
+            "77th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ],
+        '2016/??/??': [
+            "The Platinum Hunt: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",          
+            "76th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ],
+         '2016/??/??': [
+            "Legend Hunter: " + Card.mklnk(00000) + ".",          
+            "Dark Duke: " + Card.mklnk(00000) + ".",          
+            "75th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ],       
+        '2016/??/??': [
+            "Silent Will: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",          
+            "Wyvern Special Training: " + Card.mklnk(00000) + ".",          
+            "74th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ],
+        
+        '2016/04/07': [
+            "April's Fool: " + Card.mklnk(00000) + ".",          
+            "Blossom in Bloom: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",          
+            "73rd Skyborne Coliseum Reward: " + Card.mklnk(00000) + ".",
+            "72nd Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ],
+        '2016/03/22': [
+            "Presage from the Abyss: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",          
+            "71st Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ],
+/*        
+        '2016/??/??': [
+            "Ruler of Dark Seas: " + Card.mklnk(00000) + ".",          
+            "Arcadiel (Night): " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",          
+            "Wyvern Special Training: " + Card.mklnk(00000) + ".",          
+            "70th Skyborne Coliseum Reward: " + Card.mklnk(00000) + ".",
+            "Added 2 new skills and implemented all guardians stats boost by 10% ,12% and 15% on Damage Calculator: " + "."    
+        ],
+        */
+/*        '2016/??/??': [
+            "69th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ], */
+/*        '2016/??/??': [
+            "Haughty Guardians: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",          
+            "Ravenous Devil : " + Card.mklnk(00000) + ".",          
+            "68th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ], */
+/*        '2016/??/??': [
+            "Added Aura Mecha, Wind, Darkness, Water, Earth and Death aura"
+        ], */
+/*        '2016/??/??': [
+            "Lightless Nightmare: "  + Card.mklnk(00000) + ".",           
+            "Mighty Hand: " + Card.mklnk(00000) + ".",          
+            "Heavenly Jupiter Chocola+: " + Card.mklnk(00000) + ".",          
+            "67th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ], */
+/*        '2016/??/??': [
+            "Ancient Rhythms: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",          
+            "The Green-Eyed Captain: " + Card.mklnk(00000) + ".",          
+            "66th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ], */
+/*        '2016/??/??': [
+            "Devil's Mad Flames: " + Card.mklnk(00000) + ".",          
+            "Frozen Maiden: " + Card.mklnk(00000) + ".",          
+            "Wyvern Special Training: " + Card.mklnk(00000) + ".",          
+            "65th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ], */
+/*        '2016/??/??': [
+            "Marble Valentine: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",          
+            "Sweet Devil: " + Card.mklnk(00000) + ".",          
+            "Fortune's Love: " + Card.mklnk(00000) + ".",          
+            "64th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
+        ], */
+/*        '2016/??/??': [
             "A mechanical Ryujin: " + Card.mklnk(00000) + ".",          
             "63rd Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
         ], */
- /*        '2015/??/??': [
+ /*        '2016/??/??': [
             "Poisoned Peace: " + Card.mklnk(00000) + ".",          
             "A Bridal Burden: " + Card.mklnk(00000) + ".",          
             "62nd Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."

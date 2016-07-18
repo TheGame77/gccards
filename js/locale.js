@@ -45,7 +45,9 @@ var Locale = function(l) {
                 "The Sanctum",
                 "Arcadiel",
                 "Aedengard Night",
-                "Perdition Keep Night"
+                "Perdition Keep Night",
+                "Arcadiel Night",
+                "The Sanctum Night"                
             ),
             events: new Array(
                 "None",
@@ -336,7 +338,27 @@ var Locale = function(l) {
                 new Array("Variable Slash",    "Consumes HP or MP"),                                                                                                                                        
                 new Array("Assault Strike",    "Quick Strike +S"),                                                                                                                                        
                 new Array("Fatal Requiem",     "Death +4↑"),
-                new Array("Holy Revival",      "Revive")                              
+                new Array("Holy Revival",      "Revive"),                              
+                new Array("Glam",              "Attribute HP/MP damage↑"),                              
+                new Array("Soul Drain",        "Absorb enemy HP + S"),
+                new Array("Shadow Nova Meteor","Ignore wisdom↑"),
+                new Array("Mighty Resist",      "First attack & weak resist"),
+                new Array("Shadow Blast Meteor", "Ignore defense↑"),
+                new Array("Reblossom",          "Free revive"),                              
+                new Array("Blossom Frenzy",     "Foe attacks self"),                               
+                new Array("Wise Assault", "Attribute first attack + S"),                              
+                new Array("Balmung", "Physical HP/MP damage↑"),                              
+                new Array("Jinx Jig", "Evade & MP damage"),                              
+                new Array("Death Mage", "Death +S"),                              
+                new Array("Hurricane", "Wind +S"), 
+                new Array("Rebirth Day", "Free revive"),
+                new Array("Gun Salute", "Physical strike +S"),                                  
+                new Array("Spirited Smite", "Free magic strike"),
+                new Array("Feast Dance", "Evade & MP damage↑"),                              
+                new Array("Festive Farewell", "Banish defeated foe +S"),
+                new Array("Spirit Attack", "Sap MP attack"), 
+                new Array("Terra Smash", "Big bash + barrier"), 
+                new Array("Godly Scripture", "HP/MP recover")                               
             ),
             exskills: new Array(
                 "All stats of Fire Guardians increased by 10%.",
@@ -446,7 +468,28 @@ var Locale = function(l) {
                 "Revival success rate increased by 9%.",
                 "Deft Step success rate increased by 10%.",
                 "Deft Step success rate increased by 15%.",
-                "Deft Step success rate increased by 20%."
+                "Deft Step success rate increased by 20%.",
+                "All stats of Wind Guardians increased by 10%.",
+                "All stats of Wind Guardians increased by 12%.",
+                "All stats of Wind Guardians increased by 15%.",
+                "All stats of Water Guardians increased by 10%.",
+                "All stats of Water Guardians increased by 12%.",
+                "All stats of Water Guardians increased by 15%.",
+                "All stats of Earth Guardians increased by 10%.",
+                "All stats of Earth Guardians increased by 12%.",
+                "All stats of Earth Guardians increased by 15%.",
+                "All stats of Mecha Guardians increased by 10%.",
+                "All stats of Mecha Guardians increased by 12%.",
+                "All stats of Mecha Guardians increased by 15%.",
+                "All stats of Darkness Guardians increased by 10%.",
+                "All stats of Darkness Guardians increased by 12%.",
+                "All stats of Darkness Guardians increased by 15%.",
+                "All stats of Death Guardians increased by 10%.",
+                "All stats of Death Guardians increased by 12%.",
+                "All stats of Death Guardians increased by 15%.",                
+                "All stats of All Guardians increased by 10%.",                
+                "All stats of All Guardians increased by 12%.",                
+                "All stats of All Guardians increased by 15%."                
             )
         };
     } else if (l == LANG_JP) {
@@ -492,7 +535,9 @@ var Locale = function(l) {
                 "サンクチュアリ", // Sanctum
                 "Arcadiel",
                 "Aedengard Night",
-                "Perdition Keep Night"
+                "Perdition Keep Night",
+                "Arcadiel Night",
+                "The Sanctum Night"                                
             ),
             events: new Array(
                 "なし",
@@ -783,7 +828,27 @@ var Locale = function(l) {
                 new Array("Variable Slash",    "Consumes HP or MP"),                                                                                                                                        
                 new Array("Assault Strike",    "Quick Strike +S"),
                 new Array("Fatal Requiem",    "Death +4↑"),
-                new Array("Holy Revival",      "Revive")                                                            
+                new Array("Holy Revival",      "Revive"),                              
+                new Array("Glam",              "Attribute HP/MP damage↑"),                              
+                new Array("Soul Drain",        "Absorb enemy HP + S"),
+                new Array("Shadow Nova Meteor","Ignore wisdom↑"),
+                new Array("Mighty Resist",      "First attack & weak resist"),
+                new Array("Shadow Blast Meteor", "Ignore defense↑"),
+                new Array("Reblossom",          "Free revive"),                              
+                new Array("Blossom Frenzy",     "Foe attacks self"),                               
+                new Array("Wise Assault",       "Attribute first attack + S"),
+                new Array("Balmung", "Physical HP/MP damage↑"),
+                new Array("Jinx Jig", "Evade & MP damage"),                              
+                new Array("Death Mage", "Death +S"),
+                new Array("Hurricane", "Wind +S"), 
+                new Array("Rebirth Day", "Free revive"),
+                new Array("Gun Salute", "Physical strike +S"),                                  
+                new Array("Spirited Smite", "Free magic strike"),
+                new Array("Feast Dance", "Evade & MP damage↑"),
+                new Array("Festive Farewell", "Banish defeated foe +S"),
+                new Array("Spirit Attack", "Sap MP attack"), 
+                new Array("Terra Smash", "Big bash + barrier"), 
+                new Array("Godly Scripture", "HP/MP recover")                               
             ),
             exskills: new Array(
                 "火属性ガーディアンの全ステータスを10%アップ",
