@@ -10,7 +10,7 @@ WhatIsNew.get = function() {
             "New Card: " + Card.mklnk(?????) + "."
         ],*/
          '2016/??/??': [
-            "Finale Platinum Hunt: " + Card.mklnk(00000) + ", " + Card.mklnk(00000) + ".",          
+            ": " + Card.mklnk(00000) + ".",          
             "111th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "." ,
             "110th Skyborne Coliseum Reward: " + Card.mklnk(00000) + "."
         ],

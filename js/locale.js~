@@ -368,8 +368,8 @@ var Locale = function(l) {
                 new Array("Spirit Rift",        "Sap MP attack"),                                                                                          
                 new Array("Dark Scripture",        "HP/MP recover"),                                                                                          
                 new Array("Banish Portal",        "Banish defeated foe +S"),                                                                                          
-                new Array("Dark Terra",        "Big bash + barrier"),                                                                                          
-                new Array("Shadow Mind Crash",        "Magic strike +S")
+                new Array("Dark Terra",        "Big bash + barrier")                                                                                          
+
                 
             ),
             exskills: new Array(
@@ -870,8 +870,7 @@ var Locale = function(l) {
                 new Array("Spirit Rift",        "Sap MP attack"),                                                                                          
                 new Array("Dark Scripture",        "HP/MP recover"),                                                                                          
                 new Array("Banish Portal",        "Banish defeated foe +S"),                                                                                          
-                new Array("Dark Terra",        "Big bash + barrier"),                                                                                          
-                new Array("Shadow Mind Crash",        "Magic strike +S")                                                                                          
+                new Array("Dark Terra",        "Big bash + barrier")                                                                                          
             ),
             exskills: new Array(
                 "火属性ガーディアンの全ステータスを10%アップ",
